@@ -91,10 +91,8 @@ class TestReddit:
             instance.get.return_value = r
             items = c.fetch()
 
-        # No score info in feed → both pass (score defaults to 0, but min_score filter applied)
-        # Actually with no <media:star_rating> or similar, score stays 0
-        # Both should be filtered out since 0 < 50
-        assert len(items) == 0
+        # No score info in feed → both pass (min_score only applies when score is present)
+        assert len(items) == 2
 
     def test_fetch_tries_multiple_mirrors(self):
         from collectors.reddit import RedditCollector

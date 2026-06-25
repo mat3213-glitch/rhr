@@ -77,7 +77,7 @@ class RedditCollector(Collector):
                 except (TypeError, ValueError):
                     pass
 
-            if score < min_score:
+            if entry.get("score") is not None and score < min_score:
                 continue
 
             author = entry.get("author", "")

@@ -19,7 +19,7 @@ import subprocess
 import sys
 
 DEFAULT_TOP_N = 5
-MIN_SCORE_TO_TRACK = 0.15   # don't pollute the kanban with micro-scores
+MIN_SCORE_TO_TRACK = 0.001   # show all scored candidates for now
 
 
 def track(conn: sqlite3.Connection, *, top_n: int = DEFAULT_TOP_N, dry_run: bool = False) -> dict:

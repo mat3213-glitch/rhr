@@ -38,14 +38,9 @@ jobs:
       - name: Scan Telegram channels
         run: python run.py scan telegram
 
-      - name: Commit DB snapshot
-        run: |
-          git config user.name "rhr-bot"
-          git config user.email "actions@github.com"
-          git add data/rhr.db || true
-          if git diff --cached --quiet; then
-            echo "no DB changes to commit"
-          else
-            git commit -m "data: telegram scan $(date -u +%FT%TZ)"
-            git push
-          fi
+      - name: Save DB as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: rhr-db-${{ github.run_id }}
+          path: data/rhr.db
+          retention-days: 90

@@ -1,0 +1,53 @@
+# RHR scoring weights — YOUR hand on the pipe.
+#
+# The composite candidate score is:
+#
+#   score = passive_fit^w_passive *
+#           roi_potential^w_roi *
+#           (1 - risk)^w_risk *
+#           speed_to_setup^w_speed *
+#           vibe_codability^w_vibe *
+#           trend_velocity^w_trend
+#
+# Each component is normalised to 0..1 (see scoring/model.py). Exponents let
+# you sharpen or flatten a factor without breaking the 0..1 range.
+#
+# Tweak freely and re-run `python run.py score`. Defaults bias toward
+# vibe-codable opportunities (your pivot), with a healthy risk penalty.
+
+exponents:
+  passive_fit:     1.0
+  roi_potential:   1.2
+  risk:            1.5      # penalty — higher exponent = risk-averse
+  speed_to_setup:  0.8
+  vibe_codability: 1.6      # your pivot — keep this high
+  trend_velocity:  0.9
+
+# ─── band → 0..1 scalar maps (used by scoring/model.py) ─────────────────────
+# These translate the classifier's labels into normalised components.
+
+passive_level:
+  hands_off:     1.0
+  semi_passive:  0.6
+  flip:          0.3
+
+est_roi_band:
+  very_low:  0.1
+  low:       0.3
+  medium:    0.55
+  high:      0.8
+  very_high: 1.0
+
+risk_band:
+  very_low:  0.05
+  low:       0.2
+  medium:    0.45
+  high:      0.75
+  very_high: 0.95
+
+time_to_setup:
+  hours:   1.0
+  day:     0.85
+  weekend: 0.65
+  week:    0.4
+  month:   0.2

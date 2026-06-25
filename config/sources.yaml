@@ -1,0 +1,118 @@
+# RHR source registry.
+# Each collector reads the relevant entries here. Add/remove freely.
+# `enabled: false` keeps a source defined but skips it.
+
+sources:
+
+  # ───────────────────────────── CLEAN / PUBLIC (Phase 1) ─────────────────────────────
+  hackernews:
+    enabled: true
+    type: hackernews
+    schedule: "*/30 * * * *"        # every 30 min — front + show + ask + best
+    params:
+      endpoints: [topstories, showstories, askstories, beststories]
+      max_items_per_endpoint: 60
+      min_points: 15                # drop zero-traction noise; tune per source
+
+  rss:
+    enabled: true
+    type: rss
+    schedule: "0 */4 * * *"         # every 4h
+    params:
+      feeds:
+        - https://www.indiehackers.com/feed.rss            # IndieHackers
+        - https://news.ycombinator.com/rss                 # HN front (mirror, redundant but cheap)
+        - https://feeds.feedburner.com/_psfk               # trend hunting
+        - https://substack.com/feed/note/c/o5a5f         # placeholder Substack discover
+      max_items_per_feed: 50
+
+  # ───────────────────────────── AGGREGATORS (Phase 2) ─────────────────────────────
+  defillama:
+    enabled: true
+    type: defillama
+    schedule: "0 */6 * * *"
+    params:
+      chains: [Ethereum, Solana, Base, Arbitrum]
+      min_tvl_usd: 1000000
+      yield_min_apr: 8.0
+
+  producthunt:
+    enabled: true
+    type: producthunt
+    schedule: "0 8 * * *"           # daily, when PH resets
+    params:
+      max_items: 30
+
+  youtube:
+    enabled: true
+    type: youtube
+    schedule: "0 */8 * * *"
+    params:
+      search_terms:
+        - "passive income"
+        - "make money online"
+        - "micro saas"
+        - "ai wrapper"
+      max_results_per_term: 10
+
+  gumroad:
+    enabled: true
+    type: gumroad
+    schedule: "0 */6 * * *"
+    params:
+      max_items: 30
+
+  # ───────────────────────────── DEEP / SENSITIVE (Phase 3, self-hosted runner) ────
+  reddit:
+    enabled: true
+    type: reddit
+    schedule: "*/30 * * * *"
+    params:
+      # use redlib/libreddit mirror instances, rotate if blocked
+      mirrors:
+        - https://redlib.catsarch.com
+        - https://l.redlib.private.coffee
+      subreddits:
+        - Entrepreneur
+        - beermoney
+        - SideProject
+        - passive_income
+        - SaaS
+        - DeFi
+        - Arbitrage
+      max_items_per_sub: 25
+      min_score: 10
+
+  telegram:
+    enabled: true
+    type: telegram
+    schedule: "*/30 * * * *"
+    params:
+      channels:
+        # Passive income / Side hustles
+        - passiveincome
+        - sidehustle
+        - makemoneyonline
+        - freelancing
+        # SaaS / Micro-SaaS
+        - saas
+        - indiehackers_ru
+        - microsaas
+        # AI / Automation
+        - ai_tools
+        - automation
+        - gpt_prompts
+        # DeFi / Crypto
+        - defi
+        - crypto_signals
+        - airdrops
+        # E-commerce / Arbitrage
+        - dropshipping
+        - arbitrage
+        - ecommerce
+        # Niche
+        - nocode
+        - affiliatemarketing
+      max_messages_per_channel: 50
+
+

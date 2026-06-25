@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RHR — Pipeline Dashboard</title>
+<style>
+  :root {
+    --bg: #0d1117; --surface: #161b22; --border: #30363d;
+    --text: #e6edf3; --muted: #8b949e; --accent: #58a6ff;
+    --green: #3fb950; --yellow: #d29922; --red: #f85149; --purple: #bc8cff;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: var(--bg); color: var(--text); font-family: -apple-system, system-ui, sans-serif; font-size: 14px; padding: 24px; }
+  h1 { font-size: 22px; margin-bottom: 4px; }
+  h1 span { color: var(--muted); font-weight: 400; font-size: 14px; }
+  .subtitle { color: var(--muted); margin-bottom: 24px; font-size: 13px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; margin-bottom: 24px; }
+  .card { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 16px; }
+  .card h3 { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 8px; }
+  .card .big { font-size: 32px; font-weight: 700; }
+  .card .sub { color: var(--muted); font-size: 12px; margin-top: 4px; }
+  .charts { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 16px; margin-bottom: 24px; }
+  .chart-card { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 16px; }
+  .chart-card h3 { color: var(--muted); font-size: 12px; text-transform: uppercase; margin-bottom: 12px; }
+  canvas { max-height: 220px; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th { text-align: left; color: var(--muted); font-size: 11px; text-transform: uppercase; padding: 8px 10px; border-bottom: 1px solid var(--border); }
+  td { padding: 7px 10px; border-bottom: 1px solid var(--border); }
+  tr:hover { background: rgba(88,166,255,0.05); }
+  .score { font-weight: 700; color: var(--green); font-variant-numeric: tabular-nums; }
+  .badge { padding: 2px 8px; border-radius: 10px; font-size: 11px; font-weight: 600; }
+  .cat-crypto_defi { background: #1f3a2f; color: #3fb950; }
+  .cat-digital_asset { background: #1a2744; color: #58a6ff; }
+  .cat-arbitrage { background: #3b2e1a; color: #d29922; }
+  .cat-algo { background: #2d1f3d; color: #bc8cff; }
+  .cat-other { background: #21262d; color: #8b949e; }
+  .status { padding: 2px 8px; border-radius: 10px; font-size: 11px; font-weight: 600; }
+  .status.ok { background: #1f3a2f; color: #3fb950; }
+  .status.err { background: #3d1f1f; color: #f85149; }
+  .ts { color: var(--muted); font-size: 12px; }
+  .msg { color: var(--muted); font-size: 12px; max-width: 200px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .section { margin-bottom: 24px; }
+  .section h2 { font-size: 16px; margin-bottom: 12px; }
+  .empty { text-align: center; padding: 80px 20px; color: var(--muted); }
+  .empty h2 { font-size: 20px; margin-bottom: 8px; color: var(--text); }
+  .filter-bar { display: flex; gap: 12px; align-items: center; margin-bottom: 16px; flex-wrap: wrap; }
+  .filter-bar label { color: var(--muted); font-size: 12px; text-transform: uppercase; }
+  .filter-bar input[type="date"] { background: var(--surface); border: 1px solid var(--border); color: var(--text); padding: 6px 10px; border-radius: 6px; font-size: 13px; }
+  .filter-bar input[type="date"]::-webkit-calendar-picker-indicator { filter: invert(0.7); }
+  .filter-bar .btn { background: var(--border); color: var(--text); border: none; padding: 6px 14px; border-radius: 6px; cursor: pointer; font-size: 13px; }
+  .filter-bar .btn:hover { background: #484f58; }
+  .filter-bar .count { color: var(--muted); font-size: 12px; margin-left: 8px; }
+</style>
+</head>
+<body>
+<h1>Rabbit Hole Radar <span>/ pipeline dashboard</span></h1>
+<p class="subtitle">Auto-generated from <code>data/rhr.db</code> &middot; GitHub Actions deploys this page on every pipeline run</p>
+
+
+<div class="filter-bar">
+  <label>From</label>
+  <input type="date" id="dateFrom">
+  <label>To</label>
+  <input type="date" id="dateTo">
+  <button class="btn" onclick="applyFilter()">Filter</button>
+  <button class="btn" onclick="clearFilter()">Clear</button>
+  <span class="count" id="filterCount"></span>
+</div>
+
+<div class="grid">
+  <div class="card"><h3>Total signals</h3><div class="big">43</div><div class="sub">kept 26 · dup 17 · low_quality 0</div></div>
+  <div class="card"><h3>Candidates</h3><div class="big">26</div><div class="sub">4 funnel stages</div></div>
+</div>
+
+<div class="section">
+  <h2>Funnel stages</h2>
+  <div class="grid"><div class="card"><h3>L2-scored</h3><div class="big">23</div></div><div class="card"><h3>L3-demand-check</h3><div class="big">1</div></div><div class="card"><h3>L5-prod</h3><div class="big">1</div></div><div class="card"><h3>archived</h3><div class="big">1</div></div></div>
+</div>
+
+<div class="charts">
+  <div class="chart-card"><h3>Signals by source</h3><canvas id="srcChart"></canvas></div>
+  <div class="chart-card"><h3>Candidates by category</h3><canvas id="catChart"></canvas></div>
+  <div class="chart-card"><h3>Candidates by method</h3><canvas id="methodChart"></canvas></div>
+  <div class="chart-card"><h3>Score distribution</h3><canvas id="scoreChart"></canvas></div>
+</div>
+
+<div class="section">
+  <h2>Top candidates</h2>
+  <div class="card" style="overflow-x:auto">
+    <table>
+      <thead><tr><th>#</th><th>Score</th><th>Title</th><th>Category</th><th>Method</th><th>Passive</th><th>Stage</th><th>Issue</th></tr></thead>
+      <tbody><tr data-date="2026-06-23">
+            <td>22</td>
+            <td class="score">0.060</td>
+            <td>Show HN: Selector Forge – browser extension for AI-generated resilient selectors</td>
+            <td><span class="badge cat-algo">algo</span></td>
+            <td>automation</td>
+            <td>semi_passive</td>
+            <td>L5-prod</td>
+            <td></td>
+        </tr><tr data-date="2026-06-21">
+            <td>6</td>
+            <td class="score">0.060</td>
+            <td>Show HN: Talos – Open-source WASM interpreter for Lean</td>
+            <td><span class="badge cat-digital_asset">digital_asset</span></td>
+            <td>bot</td>
+            <td>semi_passive</td>
+            <td>archived</td>
+            <td></td>
+        </tr><tr data-date="2026-06-21">
+            <td>2</td>
+            <td class="score">0.057</td>
+            <td>Show HN: We post-trained a model that pen tests instead of refusing</td>
+            <td><span class="badge cat-digital_asset">digital_asset</span></td>
+            <td>bot</td>
+            <td>semi_passive</td>
+            <td>L3-demand-check</td>
+            <td></td>
+        </tr><tr data-date="2026-06-21">
+            <td>1</td>
+            <td class="score">0.055</td>
+            <td>Show HN: StartupWiki – A Free Alternative to Crunchbase</td>
+            <td><span class="badge cat-digital_asset">digital_asset</span></td>
+            <td>micro_saas</td>
+            <td>semi_passive</td>
+            <td>L2-scored</td>
+            <td></td>
+        </tr><tr data-date="2026-06-21">
+            <td>3</td>
+            <td class="score">0.055</td>
+            <td>Show HN: My Windows XP portfolio with working Game Boy and iPod</td>
+            <td><span class="badge cat-digital_asset">digital_asset</span></td>
+            <td>bot</td>
+            <td>semi_passive</td>
+            <td>L2-scored</td>
+            <td></td>
+        </tr><tr data-date="2026-06-23">
+            <td>26</td>
+            <td class="score">0.037</td>
+            <td>Show HN: Duckle a drag-and-drop visual pipeline designer</td>
+            <td><span class="badge cat-algo">algo</span></td>
+            <td>automation</td>
+            <td>semi_passive</td>
+            <td>L2-scored</td>
+            <td></td>
+        </tr><tr data-date="2026-06-21">
+            <td>17</td>
+            <td class="score">0.031</td>
+            <td>Show HN: SEO Audit and Backlink Monitoring. All-in-One Platform</td>
+            <td><span class="badge cat-algo">algo</span></td>
+            <td>automation</td>
+            <td>semi_passive</td>
+            <td>L2-scored</td>
+            <td></td>
+        </tr><tr data-date="2026-06-23">
+            <td>18</td>
+            <td class="score">0.026</td>
+            <td>Show HN: Shumai – open-source Frame.io alternative for creative work</td>
+            <td><span class="badge cat-digital_asset">digital_asset</span></td>
+            <td>micro_saas</td>
+            <td>semi_passive</td>
+            <td>L2-scored</td>
+            <td></td>
+        </tr><tr data-date="2026-06-21">
+            <td>7</td>
+            <td class="score">0.026</td>
+            <td>Show HN: Rocannon – Any Ansible module to MCP Tool, record sessions as playbooks</td>
+            <td><span class="badge cat-algo">algo</span></td>
+            <td>automation</td>
+            <td>semi_passive</td>
+            <td>L2-scored</td>
+            <td></td>
+        </tr><tr data-date="2026-06-23">
+            <td>19</td>
+            <td class="score">0.021</td>
+            <td>Help I accidentally a wigglegram</td>
+            <td><span class="badge cat-crypto_defi">crypto_defi</span></td>
+            <td>other</td>
+            <td>semi_passive</td>
+            <td>L2-scored</td>
+            <td></td>
+        </tr><tr data-date="2026-06-23">
+            <td>23</td>
+            <td class="score">0.020</td>
+            <td>Show HN: SaaS Pegasus – the original Django boilerplate, now MIT-licensed</td>
+            <td><span class="badge cat-digital_asset">digital_asset</span></td>
+            <td>micro_saas</td>
+            <td>semi_passive</td>
+            <td>L2-scored</td>
+            <td></td>
+        </tr><tr data-date="2026-06-21">
+            <td>15</td>
+            <td class="score">0.014</td>
+            <td>Show HN: BlitzGraph – Supabase for graphs, built for LLM agents</td>
+            <td><span class="badge cat-crypto_defi">crypto_defi</span></td>
+            <td>other</td>
+            <td>semi_passive</td>
+            <td>L2-scored</td>
+            <td></td>
+        </tr><tr data-date="2026-06-21">
+            <td>12</td>
+            <td class="score">0.014</td>
+            <td>Show HN: Make every bug perfectly reproducible</td>
+            <td><span class="badge cat-crypto_defi">crypto_defi</span></td>
+            <td>other</td>
+            <td>semi_passive</td>
+            <td>L2-scored</td>
+            <td></td>
+        </tr><tr data-date="2026-06-23">
+            <td>20</td>
+            <td class="score">0.013</td>
+            <td>Flock-Powered Police Chiefs Stalking Women Shows Why Warrants Are Needed</td>
+            <td><span class="badge cat-other">other</span></td>
+            <td>other</td>
+            <td>semi_passive</td>
+            <td>L2-scored</td>
+            <td></td>
+        </tr><tr data-date="2026-06-21">
+            <td>10</td>
+            <td class="score">0.013</td>
+            <td>Show HN: Persona.js – a vanilla-JS agent UI library with native WebMCP (MIT)</td>
+            <td><span class="badge cat-crypto_defi">crypto_defi</span></td>
+            <td>other</td>
+            <td>semi_passive</td>
+            <td>L2-scored</td>
+            <td></td>
+        </tr><tr data-date="2026-06-21">
+            <td>5</td>
+            <td class="score">0.012</td>
+            <td>Show HN: TLA+ Process Studio</td>
+            <td><span class="badge cat-crypto_defi">crypto_defi</span></td>
+            <td>other</td>
+            <td>semi_passive</td>
+            <td>L2-scored</td>
+            <td></td>
+        </tr><tr data-date="2026-06-21">
+            <td>14</td>
+            <td class="score">0.010</td>
+            <td>Show HN: Jumpjet – a WASM runtime for game developers</td>
+            <td><span class="badge cat-crypto_defi">crypto_defi</span></td>
+            <td>other</td>
+            <td>semi_passive</td>
+            <td>L2-scored</td>
+            <td></td>
+        </tr><tr data-date="2026-06-21">
+            <td>9</td>
+            <td class="score">0.009</td>
+            <td>Show HN: MiniPCs.zip (charting the pareto frontier of MiniPCs)</td>
+            <td><span class="badge cat-crypto_defi">crypto_defi</span></td>
+            <td>other</td>
+            <td>semi_passive</td>
+            <td>L2-scored</td>
+            <td></td>
+        </tr><tr data-date="2026-06-21">
+            <td>13</td>
+            <td class="score">0.009</td>
+            <td>Show HN: AlphaVibe – AI that reads your DeFi wallet live via DeBank</td>
+            <td><span class="badge cat-crypto_defi">crypto_defi</span></td>
+            <td>other</td>
+            <td>semi_passive</td>
+            <td>L2-scored</td>
+            <td></td>
+        </tr><tr data-date="2026-06-23">
+            <td>21</td>
+            <td class="score">0.009</td>
+            <td>Show HN: Aharness – Enforce coding-agent workflows as state machines on Codex</td>
+            <td><span class="badge cat-crypto_defi">crypto_defi</span></td>
+            <td>other</td>
+            <td>semi_passive</td>
+            <td>L2-scored</td>
+            <td></td>
+        </tr></tbody>
+    </table>
+  </div>
+</div>
+
+<div class="section">
+  <h2>Recent runs</h2>
+  <div class="card" style="overflow-x:auto">
+    <table>
+      <thead><tr><th>Status</th><th>Command</th><th>Source</th><th>Inserted</th><th>Time</th><th>Message</th></tr></thead>
+      <tbody><tr data-date="2026-06-23">
+            <td><span class="status ok">ok</span></td>
+            <td>scan:hackernews</td>
+            <td>hackernews</td>
+            <td>0</td>
+            <td class="ts">2026-06-23T12:11:51Z</td>
+            <td class="msg">fetched=182 dropped_l0=154</td>
+        </tr><tr data-date="2026-06-23">
+            <td><span class="status ok">ok</span></td>
+            <td>scan:hackernews</td>
+            <td>hackernews</td>
+            <td>15</td>
+            <td class="ts">2026-06-23T12:09:45Z</td>
+            <td class="msg">fetched=182 dropped_l0=154</td>
+        </tr><tr data-date="2026-06-21">
+            <td><span class="status ok">ok</span></td>
+            <td>scan:hackernews</td>
+            <td>hackernews</td>
+            <td>28</td>
+            <td class="ts">2026-06-21T08:49:01Z</td>
+            <td class="msg">fetched=185 dropped_l0=157</td>
+        </tr></tbody>
+    </table>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
+<script>
+(function() {
+  var C = function(id) { return document.getElementById(id).getContext('2d'); };
+  var opts = { responsive: true, plugins: { legend: { display: false } } };
+  var colors = ['#58a6ff','#3fb950','#d29922','#bc8cff','#f85149','#79c0ff','#56d364','#e3b341'];
+
+  new Chart(C('srcChart'), { type:'doughnut', data:{ labels:["hackernews"], datasets:[{ data:[43], backgroundColor:colors }] }, options:opts });
+  new Chart(C('catChart'), { type:'doughnut', data:{ labels:["crypto_defi", "digital_asset", "other", "algo"], datasets:[{ data:[11, 6, 5, 4], backgroundColor:colors }] }, options:opts });
+  new Chart(C('methodChart'), { type:'bar', data:{ labels:["other", "automation", "micro_saas", "bot"], datasets:[{ data:[16, 4, 3, 3], backgroundColor:'#58a6ff' }] }, options:{ ...opts, indexAxis:'y' } });
+  new Chart(C('scoreChart'), { type:'bar', data:{ labels:["0.0-0.2"], datasets:[{ data:[26], backgroundColor:'#3fb950' }] }, options:opts });
+
+  window.applyFilter = function() {
+    var from = document.getElementById('dateFrom').value;
+    var to = document.getElementById('dateTo').value;
+    var rows = document.querySelectorAll('tr[data-date]');
+    var shown = 0;
+    rows.forEach(function(r) {
+      var d = r.getAttribute('data-date');
+      if (!d) { r.style.display = ''; shown++; return; }
+      var show = true;
+      if (from && d < from) show = false;
+      if (to && d > to) show = false;
+      r.style.display = show ? '' : 'none';
+      if (show) shown++;
+    });
+    document.getElementById('filterCount').textContent = shown + ' rows shown';
+  };
+
+  window.clearFilter = function() {
+    document.getElementById('dateFrom').value = '';
+    document.getElementById('dateTo').value = '';
+    document.querySelectorAll('tr[data-date]').forEach(function(r) { r.style.display = ''; });
+    document.getElementById('filterCount').textContent = '';
+  };
+})();
+</script>
+</body>
+</html>

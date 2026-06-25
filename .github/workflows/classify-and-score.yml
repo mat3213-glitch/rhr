@@ -1,0 +1,60 @@
+name: classify-and-score
+
+# Runs the L1→L2 pipeline (dedup + classify + score) and creates GitHub issues
+# for the top candidates. Triggered after each scan, plus a daily safety net
+# so nothing sits unprocessed for long.
+
+on:
+  schedule:
+    - cron: "0 * * * *"        # hourly safety net
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: classify
+  cancel-in-progress: false
+
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      - name: Install deps
+        run: pip install -r requirements.txt
+
+      - name: Init DB (if missing)
+        run: python run.py init
+
+      - name: Run pipeline (dedup + classify + score)
+        run: python run.py pipeline
+
+      - name: Create issues for top candidates
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python run.py track --top 5
+
+      - name: Commit DB + status snapshot
+        run: |
+          git config user.name "rhr-bot"
+          git config user.email "actions@github.com"
+          git add data/rhr.db || true
+          if git diff --cached --quiet; then
+            echo "no DB changes to commit"
+          else
+            git commit -m "data: classify snapshot $(date -u +%FT%TZ)"
+            git push
+          fi
+
+      - name: Status
+        run: python run.py status

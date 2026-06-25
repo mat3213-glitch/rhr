@@ -1,0 +1,54 @@
+name: grok-x-search
+
+# Daily Grok-powered X/Twitter search for business opportunities.
+# Grok has native X access — searches for passive income, micro SaaS,
+# AI wrappers, DeFi yield, automation bots signals.
+# Results are ingested into the RHR pipeline.
+
+on:
+  schedule:
+    - cron: "0 9 * * *"   # daily at 09:00 UTC
+  workflow_dispatch:       # manual trigger
+
+permissions:
+  contents: write
+
+concurrency:
+  group: grok-search
+  cancel-in-progress: false
+
+jobs:
+  search:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      - name: Install deps
+        run: pip install -r requirements.txt
+
+      - name: Init DB (if missing)
+        run: python run.py init
+
+      - name: Run Grok X search
+        env:
+          XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
+        run: python scripts/grok_search.py | python run.py ingest-stdin
+
+      - name: Commit DB snapshot
+        run: |
+          git config user.name "rhr-bot"
+          git config user.email "actions@github.com"
+          git add data/rhr.db || true
+          if git diff --cached --quiet; then
+            echo "no DB changes to commit"
+          else
+            git commit -m "data: grok x-search $(date -u +%FT%TZ)"
+            git push
+          fi

@@ -1,0 +1,15 @@
+# RHR runtime dependencies (First Slice / Phase 1).
+# Keep the surface small; add per-collector deps only when that collector ships.
+
+httpx>=0.27          # HN Firebase API + future API collectors
+feedparser>=6.0      # RSS/Atom
+selectolax>=0.3      # fast HTML parsing (for aggregators later)
+pydantic>=2.6        # data models
+PyYAML>=6.0          # config loading
+# Phase 3 additions (kept commented so Phase 1 stays lean):
+# telethon>=1.34      # Telegram
+# praw>=7.7           # Reddit official API (if you ever pay for it)
+
+# Testing
+pytest>=8.0
+respx>=0.21           # httpx mocking

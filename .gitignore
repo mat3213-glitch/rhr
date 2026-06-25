@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+
+# Data — never commit the live DB or signal dumps, only the schema
+data/*.db
+data/*.db-journal
+data/*.db-wal
+data/*.db-shm
+data/signals/
+data/candidates/
+data/raw/
+
+# Secrets / local config overrides
+.env
+.env.*
+config/local.*
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Self-hosted runner sessions / credentials (Telegram etc.)
+sessions/
+*.session
+*.session-journal
+credentials/
+data/logs/
+data/landing_*.html

@@ -1,0 +1,103 @@
+# Trigger phrases for the L0 keyword pre-filter.
+# A raw item passes L0 if it matches any trigger. Tunable — this is your net's mesh size.
+# Keep it broad: the LLM classifier at L1 is what actually decides signal quality.
+
+# ── Money-making intent ─────────────────────────────────────────────────────────────
+money_making:
+  - passive income
+  - make money online
+  - side project
+  - side hustle
+  - "mrr"
+  - "arr"
+  - revenue
+  - "first $"
+  - "making $"
+  - "earning $"
+  - monetize
+  - monetisation
+  - monetization
+  - "$/month"
+  - "$/mo"
+  - "k/mo"
+  - "k/month"
+  - flip
+  - flipping
+  - arbitrage
+  - dropship
+  - drop servicing
+  - affiliate
+
+# ── Build / ship intent (vibe-codable signal) ───────────────────────────────────────
+build_intent:
+  - micro saas
+  - micro-saas
+  - saas
+  - "ai wrapper"
+  - ai-wrapper
+  - "gpt wrapper"
+  - "no-code"
+  - vibe coding
+  - vibe-coded
+  - "built in a weekend"
+  - "shipped"
+  - "launched"
+  - "indie hacker"
+  - "indiehackers"
+  - "solopreneur"
+  - "solo founder"
+  - "mvp"
+  - "side project"
+
+# ── Crypto / DeFi passive ───────────────────────────────────────────────────────────
+crypto_defi:
+  - defi
+  - staking
+  - yield
+  - liquidity pool
+  - "lp"
+  - airdrop
+  - airdrop farming
+  - restaking
+  - mev
+  - arbitrage bot
+  - trading bot
+  - "apy"
+  - "apr"
+  - points farming
+  - liquid staking
+
+# ── Demand / complaint signal ("I want X but Y") — pure product gap gold ────────────
+demand_gap:
+  - "i wish there was"
+  - "i wish i had"
+  - "why is there no"
+  - "why isn't there"
+  - "is there a tool"
+  - "is there an app"
+  - "looking for a tool"
+  - "looking for an app"
+  - "need a bot"
+  - "need a tool"
+  - "someone should build"
+  - "someone make"
+  - "anyone know a tool"
+  - "alternative to"
+  - "alternative for"
+  - "cheaper than"
+  - "open source alternative"
+
+# ── Automation / algo (passive-ish) ─────────────────────────────────────────────────
+automation:
+  - automation
+  - automated
+  - scraper
+  - scraping
+  - "as a service"
+  - bot
+  - telegram bot
+  - discord bot
+  - cron
+  - pipeline
+  - "set and forget"
+  - hands off

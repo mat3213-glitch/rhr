@@ -1,8 +1,7 @@
-name: scan-telegram
+name: rhr-telegram
 
-# Fetches signals from Telegram channels via t.me/s/ public preview.
-# Runs on GitHub Actions (outside Russia) — t.me is accessible.
-# Schedule: every 30 min, matching sources.yaml.
+# Full pipeline: scan Telegram → classify → score → create GitHub Issues.
+# Runs twice daily. One workflow = one complete cycle.
 
 on:
   schedule:
@@ -12,15 +11,16 @@ on:
 
 permissions:
   contents: write
+  issues: write
 
 concurrency:
-  group: scan-telegram
+  group: rhr-telegram
   cancel-in-progress: false
 
 jobs:
-  scan-telegram:
+  pipeline:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
 
@@ -33,15 +33,19 @@ jobs:
       - name: Install deps
         run: pip install -r requirements.txt
 
-      - name: Init DB (if missing)
+      - name: Init DB
         run: python run.py init
 
       - name: Scan Telegram channels
         run: python run.py scan telegram
 
-      - name: Save DB as artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: rhr-db-${{ github.run_id }}
-          path: data/rhr.db
-          retention-days: 90
+      - name: Classify + Score
+        run: python run.py pipeline
+
+      - name: Create Issues for top candidates
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python run.py track --top 10
+
+      - name: Show status
+        run: python run.py status

@@ -86,7 +86,7 @@ sources:
   telegram:
     enabled: true
     type: telegram
-    schedule: "*/30 * * * *"
+    schedule: "17 7,19 * * *"
     params:
       channels:
         # Passive income / Side hustles

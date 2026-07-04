@@ -20,28 +20,25 @@ class TestDeFiLlama:
         from collectors.defillama import DeFiLlamaCollector
 
         c = DeFiLlamaCollector({"chains": ["Ethereum"], "min_tvl_usd": 10_000_000})
-        mock_protocols = [
-            {"slug": "lido", "name": "Lido", "category": "Liquid Staking",
-             "tvl": 15_000_000_000, "chains": ["Ethereum"], "change_1d": 2.5, "change_7d": 5.0},
-            {"slug": "small-proto", "name": "Small", "category": "Other",
-             "tvl": 500_000, "chains": ["Solana"], "change_1d": 0, "change_7d": 0},
-            {"slug": "other-chain", "name": "Other", "category": "Lending",
-             "tvl": 50_000_000, "chains": ["BSC"], "change_1d": 1.0, "change_7d": 2.0},
+        mock_chains = [
+            {"name": "Ethereum", "tvl": 50_000_000_000},
+            {"name": "Solana", "tvl": 8_000_000_000},
+            {"name": "BSC", "tvl": 5_000_000_000},
         ]
 
         with patch("collectors.defillama.httpx.Client") as MockClient:
             instance = MockClient.return_value.__enter__.return_value
             r = MagicMock()
-            r.json.return_value = mock_protocols
+            r.json.return_value = mock_chains
             r.raise_for_status = MagicMock()
             instance.get.return_value = r
 
             items = c.fetch()
 
-        # Only Lido passes: chain=Ethereum, TVL>10M
+        # Only Ethereum passes: chain=Ethereum, TVL>10M
         assert len(items) == 1
         assert items[0].source == "defillama"
-        assert "Lido" in items[0].title
+        assert "Ethereum" in items[0].title
 
     def test_fetch_empty_on_error(self):
         from collectors.defillama import DeFiLlamaCollector
@@ -57,33 +54,31 @@ class TestDeFiLlama:
         from collectors.defillama import DeFiLlamaCollector
 
         c = DeFiLlamaCollector({"chains": [], "min_tvl_usd": 0})
-        mock_protocols = [
-            {"slug": "a", "name": "A", "category": "Lending",
-             "tvl": 50_000_000, "chains": ["Ethereum"], "change_1d": 1, "change_7d": 2},
+        mock_chains = [
+            {"name": "Ethereum", "tvl": 50_000_000_000},
         ]
         with patch("collectors.defillama.httpx.Client") as MockClient:
             instance = MockClient.return_value.__enter__.return_value
             r = MagicMock()
-            r.json.return_value = mock_protocols
+            r.json.return_value = mock_chains
             r.raise_for_status = MagicMock()
             instance.get.return_value = r
             items = c.fetch()
 
         assert len(items) == 1
-        assert items[0].points == 5000  # 50M / 10000
+        assert items[0].points == 5_000_000  # 50B / 10000
 
     def test_all_chains_when_empty_filter(self):
         from collectors.defillama import DeFiLlamaCollector
 
         c = DeFiLlamaCollector({"chains": [], "min_tvl_usd": 1_000_000})
-        mock_protocols = [
-            {"slug": "x", "name": "X", "category": "Other",
-             "tvl": 2_000_000, "chains": ["BSC"], "change_1d": 0, "change_7d": 0},
+        mock_chains = [
+            {"name": "Solana", "tvl": 8_000_000_000},
         ]
         with patch("collectors.defillama.httpx.Client") as MockClient:
             instance = MockClient.return_value.__enter__.return_value
             r = MagicMock()
-            r.json.return_value = mock_protocols
+            r.json.return_value = mock_chains
             r.raise_for_status = MagicMock()
             instance.get.return_value = r
             items = c.fetch()
@@ -323,7 +318,7 @@ class TestGumroad:
         from collectors.gumroad import GumroadCollector
 
         c = GumroadCollector({"max_items": 10})
-        fake_html = 'href="/l/some-product/product/my-ebook-guide" href="/l/other-product/product/another-tool"'
+        fake_html = 'gumroad.com/l/my-ebook some other text gumroad.com/l/another-tool'
         with patch("collectors.gumroad.httpx.Client") as MockClient:
             instance = MockClient.return_value.__enter__.return_value
             r = MagicMock()
@@ -350,7 +345,7 @@ class TestGumroad:
         from collectors.gumroad import GumroadCollector
 
         c = GumroadCollector({"max_items": 10})
-        html = 'some text "url": "https://gumroad.com/l/my-ebook" more text'
+        html = 'some text gumroad.com/l/my-ebook more text'
         with patch("collectors.gumroad.httpx.Client") as MockClient:
             instance = MockClient.return_value.__enter__.return_value
             r = MagicMock()
@@ -366,7 +361,7 @@ class TestGumroad:
         from collectors.gumroad import GumroadCollector
 
         c = GumroadCollector({"max_items": 10})
-        html = 'href="/l/same-product/product/same-product"'
+        html = 'gumroad.com/l/same-product some text'
         with patch("collectors.gumroad.httpx.Client") as MockClient:
             instance = MockClient.return_value.__enter__.return_value
             r = MagicMock()

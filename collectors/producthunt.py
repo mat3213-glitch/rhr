@@ -1,11 +1,12 @@
-"""Product Hunt collector — RSS feed + optional GraphQL API.
+"""Product Hunt collector — GraphQL API (requires token) + RSS fallback.
 
-Primary: Atom feed at https://www.producthunt.com/feed (no auth, reliable).
-Fallback: GraphQL API if PRODUCTHUNT_API_TOKEN is set.
+Primary: GraphQL API with PRODUCTHUNT_API_TOKEN.
+Fallback: Atom feed (may be blocked by Cloudflare).
 """
 from __future__ import annotations
 
 import hashlib
+import logging
 import os
 
 import feedparser
@@ -39,6 +40,8 @@ query {
 }
 """
 
+logger = logging.getLogger(__name__)
+
 
 @register
 class ProductHuntCollector(Collector):
@@ -50,12 +53,24 @@ class ProductHuntCollector(Collector):
             items = self._fetch_gql(token)
             if items:
                 return items
-        return self._fetch_rss()
+
+        items = self._fetch_rss()
+        if not items:
+            logger.warning(
+                "producthunt: RSS blocked by Cloudflare and no API token set. "
+                "Set PRODUCTHUNT_API_TOKEN env var for reliable access."
+            )
+        return items
 
     def _fetch_rss(self) -> list[RawItem]:
         try:
-            with httpx.Client(timeout=30, follow_redirects=True) as client:
-                r = client.get(FEED_URL, headers={"User-Agent": "Mozilla/5.0 (compatible; RHR/1.0)"})
+            with httpx.Client(timeout=20, follow_redirects=True) as client:
+                r = client.get(
+                    FEED_URL,
+                    headers={
+                        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                    },
+                )
                 r.raise_for_status()
                 feed_text = r.text
         except Exception:

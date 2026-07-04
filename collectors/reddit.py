@@ -1,11 +1,12 @@
-"""Reddit collector — redlib/libreddit mirror RSS feeds.
+"""Reddit collector — old.reddit.com RSS feeds.
 
-Uses public mirror instances to fetch subreddit RSS without API keys.
-Rotates mirrors if one is blocked. Filters by min_score.
+Uses old.reddit.com Atom feeds (no API key needed).
+Rate-limited with delays between requests to avoid 429s.
 """
 from __future__ import annotations
 
 import hashlib
+import time
 
 import feedparser
 import httpx
@@ -13,10 +14,7 @@ import httpx
 from collectors.base import Collector, register
 from models import RawItem, strip_html, utcnow_iso
 
-DEFAULT_MIRRORS = [
-    "https://redlib.catsarch.com",
-    "https://l.redlib.private.coffee",
-]
+REDDIT_UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 
 
 @register
@@ -24,44 +22,33 @@ class RedditCollector(Collector):
     type = "reddit"
 
     def fetch(self) -> list[RawItem]:
-        mirrors = self.params.get("mirrors", DEFAULT_MIRRORS)
         subreddits = self.params.get("subreddits", [])
         max_per_sub = int(self.params.get("max_items_per_sub", 25))
         min_score = int(self.params.get("min_score", 0))
 
         items: list[RawItem] = []
-        for sub in subreddits:
-            sub_items = self._fetch_subreddit(mirrors, sub, max_per_sub, min_score)
+        for i, sub in enumerate(subreddits):
+            if i > 0:
+                time.sleep(2)
+            sub_items = self._fetch_subreddit(sub, max_per_sub, min_score)
             items.extend(sub_items)
         return items
 
     def _fetch_subreddit(
-        self, mirrors: list[str], subreddit: str, max_items: int, min_score: int
+        self, subreddit: str, max_items: int, min_score: int
     ) -> list[RawItem]:
-        for mirror in mirrors:
-            items = self._try_mirror(mirror, subreddit, max_items, min_score)
-            if items is not None:
-                return items
-        return []
-
-    def _try_mirror(
-        self, mirror: str, subreddit: str, max_items: int, min_score: int
-    ) -> list[RawItem] | None:
-        rss_url = f"{mirror}/r/{subreddit}/new.rss"
+        rss_url = f"https://old.reddit.com/r/{subreddit}/new/.rss"
         try:
-            with httpx.Client(timeout=20, follow_redirects=True) as client:
-                r = client.get(
-                    rss_url,
-                    headers={"User-Agent": "Mozilla/5.0 (compatible; RHR/1.0)"},
-                )
+            with httpx.Client(timeout=15, follow_redirects=True) as client:
+                r = client.get(rss_url, headers={"User-Agent": REDDIT_UA})
                 r.raise_for_status()
                 feed_text = r.text
         except Exception:
-            return None
+            return []
 
         parsed = feedparser.parse(feed_text)
         if not parsed.entries:
-            return None
+            return []
 
         items: list[RawItem] = []
         for entry in parsed.entries[:max_items]:

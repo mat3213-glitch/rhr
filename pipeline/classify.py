@@ -125,15 +125,29 @@ def llm_backend(inp: ClassifyInput) -> ClassifyOutput | None:
 
 
 def _call_llm(inp: ClassifyInput) -> ClassifyOutput | None:
-    """Call DeepSeek V4 Flash via OpenModel API and parse response into ClassifyOutput."""
+    """Call LLM via OpenAI-compatible API and parse response into ClassifyOutput."""
     import httpx
+    import subprocess
 
     base_url = os.environ.get("RHR_LLM_BASE_URL", "").rstrip("/")
     api_key = os.environ.get("RHR_LLM_API_KEY", "")
-    model = os.environ.get("RHR_LLM_MODEL", "deepseek-v4-flash")
+    model = os.environ.get("RHR_LLM_MODEL", "gpt-4o-mini")
 
-    if not base_url or not api_key:
-        return None  # caller will fall through to rule_backend
+    if not base_url:
+        return None
+
+    if not api_key:
+        try:
+            result = subprocess.run(
+                ["gh", "auth", "token"],
+                capture_output=True, text=True, timeout=5,
+            )
+            api_key = result.stdout.strip()
+        except Exception:
+            return None
+
+    if not api_key:
+        return None
 
     system_prompt = """You are a classifier for passive-income opportunities found online.
 Given a signal (title, body snippet, source, engagement points, matched keyword groups),

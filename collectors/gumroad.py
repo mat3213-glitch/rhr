@@ -1,17 +1,16 @@
 """Gumroad discover scraper — no official chart API.
 
 Scrapes the Gumroad discover/explore pages for trending products.
-Falls back to RSS if available.
 """
 from __future__ import annotations
 
-import hashlib
+import html as _html
 import re
 
 import httpx
 
 from collectors.base import Collector, register
-from models import RawItem, strip_html, utcnow_iso
+from models import RawItem, utcnow_iso
 
 DISCOVER_URLS = [
     "https://gumroad.com/discover",
@@ -31,7 +30,6 @@ class GumroadCollector(Collector):
         for url in DISCOVER_URLS:
             items.extend(self._scrape_page(url, max_items))
 
-        # Deduplicate
         seen: set[str] = set()
         unique: list[RawItem] = []
         for item in items:
@@ -42,28 +40,39 @@ class GumroadCollector(Collector):
 
     def _scrape_page(self, url: str, max_items: int) -> list[RawItem]:
         try:
-            with httpx.Client(
-                timeout=20, follow_redirects=True
-            ) as client:
+            with httpx.Client(timeout=20, follow_redirects=True) as client:
                 r = client.get(
                     url,
-                    headers={"User-Agent": "Mozilla/5.0 (compatible; RHR/1.0)"},
+                    headers={
+                        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                    },
                 )
                 r.raise_for_status()
-                html = r.text
+                raw_html = r.text
         except Exception:
             return []
 
+        decoded = _html.unescape(raw_html)
         items: list[RawItem] = []
 
-        # Extract product links — /product/<slug>
         for match in re.finditer(
-            r'href="(/[^"]*?/product/[^"]+)"', html
+            r"gumroad\.com/l/([a-zA-Z0-9_-]+)", decoded
         ):
-            path = match.group(1)
-            slug = path.rstrip("/").split("/")[-1]
+            slug = match.group(1)
             product_url = f"https://gumroad.com/l/{slug}"
-            title = slug.replace("-", " ").title()
+
+            start = max(0, match.start() - 500)
+            chunk = decoded[start : match.end() + 200]
+
+            name_match = re.search(r'"name"\s*:\s*"([^"]+)"', chunk)
+            title = name_match.group(1) if name_match else slug.replace("-", " ").title()
+
+            desc_match = re.search(r'"description"\s*:\s*"([^"]{0,300})', chunk)
+            description = desc_match.group(1) if desc_match else ""
+
+            price_match = re.search(r'"price"\s*:\s*(\d+)', chunk)
+            price_cents = int(price_match.group(1)) if price_match else 0
+            price_str = f"${price_cents / 100:.2f}" if price_cents else "free"
 
             items.append(
                 RawItem(
@@ -71,26 +80,9 @@ class GumroadCollector(Collector):
                     source_item_id=f"gumroad:{slug}",
                     url=product_url,
                     title=title,
-                    body_text=f"Gumroad product: {title}",
+                    body_text=f"Gumroad product: {title}. Price: {price_str}. {description[:300]}",
                     fetched_at=utcnow_iso(),
-                )
-            )
-
-        # Also try data-* attributes and JSON-LD
-        for match in re.finditer(
-            r'"url"\s*:\s*"(https://[^"]*gumroad\.com/l/[^"]+)"', html
-        ):
-            product_url = match.group(1)
-            slug = product_url.rstrip("/").split("/")[-1]
-            title = slug.replace("-", " ").title()
-            items.append(
-                RawItem(
-                    source="gumroad",
-                    source_item_id=f"gumroad:{slug}",
-                    url=product_url,
-                    title=title,
-                    body_text=f"Gumroad product: {title}",
-                    fetched_at=utcnow_iso(),
+                    points=price_cents // 100 if price_cents else 0,
                 )
             )
 

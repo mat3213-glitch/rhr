@@ -68,10 +68,6 @@ sources:
     type: reddit
     schedule: "*/30 * * * *"
     params:
-      # use redlib/libreddit mirror instances, rotate if blocked
-      mirrors:
-        - https://redlib.catsarch.com
-        - https://l.redlib.private.coffee
       subreddits:
         - Entrepreneur
         - beermoney

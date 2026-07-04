@@ -1,7 +1,7 @@
 """DeFiLlama collector — free public API, no auth.
 
-Uses the /protocols endpoint for protocol TVL data.
-The /pools endpoint is too large (~50MB) for reliable fetching.
+Uses the /v2/chains endpoint for chain TVL data.
+The /protocols endpoint is too large (~50MB+) and times out.
 
 Filters: chains, min TVL.
 """
@@ -12,7 +12,7 @@ import httpx
 from collectors.base import Collector, register
 from models import RawItem, utcnow_iso
 
-PROTOCOLS_API = "https://api.llama.fi"
+CHAINS_API = "https://api.llama.fi/v2/chains"
 
 
 @register
@@ -25,15 +25,15 @@ class DeFiLlamaCollector(Collector):
 
         items: list[RawItem] = []
 
-        protos = self._fetch_protocols(chains, min_tvl)
+        protos = self._fetch_chains(chains, min_tvl)
         items.extend(protos)
 
         return items
 
-    def _fetch_protocols(self, chains: list[str], min_tvl: float) -> list[RawItem]:
+    def _fetch_chains(self, chains: list[str], min_tvl: float) -> list[RawItem]:
         try:
-            with httpx.Client(timeout=60) as client:
-                r = client.get(f"{PROTOCOLS_API}/protocols")
+            with httpx.Client(timeout=30) as client:
+                r = client.get(CHAINS_API)
                 r.raise_for_status()
                 data = r.json()
         except Exception:
@@ -41,34 +41,30 @@ class DeFiLlamaCollector(Collector):
 
         chain_set = {c.lower() for c in chains} if chains else None
         items: list[RawItem] = []
-        for proto in data:
-            tvl = proto.get("tvl") or 0
+        for chain in data:
+            tvl = chain.get("tvl") or 0
             if tvl < min_tvl:
                 continue
 
-            proto_chains = proto.get("chains", [])
-            if chain_set and not any(c.lower() in chain_set for c in proto_chains):
+            name = chain.get("name", "?")
+            chain_name = chain.get("name", "").lower()
+
+            if chain_set and chain_name not in chain_set:
                 continue
 
-            slug = proto.get("slug", "")
-            name = proto.get("name", "?")
-            category = proto.get("category", "?")
-            url = f"https://defillama.com/protocol/{slug}" if slug else ""
-            change_1d = proto.get("change_1d")
-            change_7d = proto.get("change_7d")
+            slug = chain.get("name", "").lower().replace(" ", "-")
+            url = f"https://defillama.com/chain/{slug}"
 
             body = (
-                f"Category: {category}. TVL: ${tvl:,.0f}. "
-                f"1d change: {change_1d or 0:.1f}%. 7d change: {change_7d or 0:.1f}%. "
-                f"Chains: {', '.join(proto_chains[:5])}. "
+                f"Chain: {name}. TVL: ${tvl:,.0f}. "
             )
 
             items.append(
                 RawItem(
                     source="defillama",
-                    source_item_id=f"proto:{slug}",
+                    source_item_id=f"chain:{slug}",
                     url=url,
-                    title=f"{name} — {category} (${tvl:,.0f} TVL)",
+                    title=f"{name} chain (${tvl:,.0f} TVL)",
                     body_text=body,
                     author=name,
                     fetched_at=utcnow_iso(),

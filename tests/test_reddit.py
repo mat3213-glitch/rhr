@@ -12,7 +12,6 @@ from models import RawItem
 class TestReddit:
     def test_register(self):
         c = get_collector("reddit", {
-            "mirrors": [],
             "subreddits": [],
             "max_items_per_sub": 10,
             "min_score": 0,
@@ -23,7 +22,6 @@ class TestReddit:
         from collectors.reddit import RedditCollector
 
         c = RedditCollector({
-            "mirrors": ["https://fake.mirror"],
             "subreddits": ["Entrepreneur"],
             "max_items_per_sub": 10,
             "min_score": 0,
@@ -63,7 +61,6 @@ class TestReddit:
         from collectors.reddit import RedditCollector
 
         c = RedditCollector({
-            "mirrors": ["https://fake.mirror"],
             "subreddits": ["SaaS"],
             "max_items_per_sub": 10,
             "min_score": 50,
@@ -94,44 +91,10 @@ class TestReddit:
         # No score info in feed → both pass (min_score only applies when score is present)
         assert len(items) == 2
 
-    def test_fetch_tries_multiple_mirrors(self):
+    def test_fetch_returns_empty_on_error(self):
         from collectors.reddit import RedditCollector
 
         c = RedditCollector({
-            "mirrors": ["https://mirror1", "https://mirror2"],
-            "subreddits": ["test"],
-            "max_items_per_sub": 5,
-            "min_score": 0,
-        })
-        fake_rss = """<?xml version="1.0" encoding="UTF-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-  <entry>
-    <id>id1</id>
-    <title>Mirror2 Post</title>
-    <link href="https://example.com/1"/>
-    <summary>Works on mirror2</summary>
-  </entry>
-</feed>"""
-        with patch("collectors.reddit.httpx.Client") as MockClient:
-            instance = MockClient.return_value.__enter__.return_value
-            r_fail = MagicMock()
-            r_fail.raise_for_status.side_effect = Exception("blocked")
-            r_ok = MagicMock()
-            r_ok.text = fake_rss
-            r_ok.raise_for_status = MagicMock()
-
-            # First call (mirror1) fails, second (mirror2) succeeds
-            instance.get.side_effect = [r_fail, r_ok]
-            items = c.fetch()
-
-        assert len(items) == 1
-        assert "Mirror2" in items[0].title
-
-    def test_fetch_empty_on_all_mirrors_fail(self):
-        from collectors.reddit import RedditCollector
-
-        c = RedditCollector({
-            "mirrors": ["https://bad1", "https://bad2"],
             "subreddits": ["test"],
             "max_items_per_sub": 5,
             "min_score": 0,
@@ -147,7 +110,6 @@ class TestReddit:
         from collectors.reddit import RedditCollector
 
         c = RedditCollector({
-            "mirrors": ["https://mirror"],
             "subreddits": ["Entrepreneur", "SaaS"],
             "max_items_per_sub": 5,
             "min_score": 0,
@@ -189,7 +151,6 @@ class TestReddit:
         from collectors.reddit import RedditCollector
 
         c = RedditCollector({
-            "mirrors": ["https://mirror"],
             "subreddits": ["test"],
             "max_items_per_sub": 5,
             "min_score": 0,

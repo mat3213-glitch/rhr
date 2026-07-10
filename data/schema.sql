@@ -48,7 +48,7 @@ CREATE TABLE IF NOT EXISTS candidates (
   title                 TEXT    NOT NULL,                 -- short, human-readable: "Telegram bot that does X"
   summary               TEXT,                             -- 1-3 sentence what/why
   category              TEXT    CHECK (category IN ('crypto_defi','digital_asset','arbitrage','algo','other')),
-  method_type           TEXT    CHECK (method_type IN ('staking','micro_saas','ai_wrapper','bot','content','automation','other')),
+  method_type           TEXT    CHECK (method_type IN ('staking','yield','airdrop','micro_saas','ai_wrapper','bot','trading_bot','content','scraper','affiliate','automation','other')),
   passive_level         TEXT    CHECK (passive_level IN ('hands_off','semi_passive','flip')),
   est_roi_band          TEXT    CHECK (est_roi_band IN ('very_low','low','medium','high','very_high')),
   risk_band             TEXT    CHECK (risk_band IN ('very_low','low','medium','high','very_high')),

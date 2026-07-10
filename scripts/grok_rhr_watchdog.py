@@ -1,7 +1,7 @@
 """
 Grok RHR Watchdog: проверяет наличие signals/incoming/grok_<YYYY-MM-DD>.json (UTC-дата).
 Если файла нет — шлёт пинок в Telegram.
-Дедлайн Grok: 18:00 НСК (=11:00 UTC); крон стража 13:00 UTC (буфер ~2ч).
+Дедлайн Grok: 21:00 НСК (=14:00 UTC); крон стража 22:00 НСК (=15:00 UTC, буфер 1ч).
 """
 import os
 from datetime import datetime, timezone

@@ -5,7 +5,7 @@ name: grok-rhr-ingest
 
 on:
   schedule:
-    - cron: "30 13 * * *"   # 13:30 UTC = 20:30 НСК (30 min after watchdog)
+    - cron: "30 15 * * *"   # 15:30 UTC = 22:30 НСК (30 мин после watchdog)
   workflow_dispatch:
   push:
     paths:

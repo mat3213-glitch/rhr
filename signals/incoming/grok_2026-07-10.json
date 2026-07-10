@@ -1,0 +1,52 @@
+[
+  {
+    "type": "revenue_report",
+    "what": "SaaS product hit $10k MRR in 6 months ($120k ARR), aiming for $20k soon. Organic growth focus.",
+    "why_us": "Concrete validation of quick SaaS ramp-up timelines; signals demand for tools that help indie founders hit early MRR milestones or automate similar launches.",
+    "revenue": "$10k MRR / $120k ARR",
+    "source_link": "https://x.com/DrSerunjogiEmma/status/2075274648393023961",
+    "source_platform": "x",
+    "engagement": "73 likes",
+    "score": 72
+  },
+  {
+    "type": "revenue_report",
+    "what": "SaaS launched 8 months ago with no audience/ad budget, now $11.18k total revenue / $2.789k MRR via organic growth and user listening.",
+    "why_us": "Strong example of bootstrapped organic SaaS success; highlights pain of customer acquisition without paid ads and value in iteration based on feedback.",
+    "revenue": "$2.8k MRR",
+    "source_link": "https://x.com/anupamrjp/status/2073586559170019708",
+    "source_platform": "x",
+    "engagement": "100 likes",
+    "score": 78
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "Indie hacker with niche AI tools (insurance claims, vet notes, dev tools) generating $2k/mo total across 3 products with minimal marketing (1 follower on IH).",
+    "why_us": "Demonstrates viability of hyper-niche AI wrappers solving boring industry pains; low-competition, expertise-driven opportunities for quick builds.",
+    "revenue": "$2k/mo",
+    "source_link": "https://x.com/hsaffiliate2025/status/2074114247291027670",
+    "source_platform": "x",
+    "engagement": "Low (self-reported on IH)",
+    "score": 65
+  },
+  {
+    "type": "demand_gap",
+    "what": "Users complaining about lack of notification features in art communities (e.g., ArtFight reload obsession) and specialized matching/proposal tools for commissioners.",
+    "why_us": "Clear UX pain in creative marketplaces; opportunity for AI-enhanced notification/matching bots or apps.",
+    "revenue": "N/A (high engagement demand signal)",
+    "source_link": "https://x.com/fullmoonfig/status/2072442801854328949",
+    "source_platform": "x",
+    "engagement": "6.5k likes",
+    "score": 85
+  },
+  {
+    "type": "automation",
+    "what": "Demand for advanced Telegram bots with real revenue share, trading utilities, and multi-use features in crypto/Web3 communities.",
+    "why_us": "Recurring interest in monetized bots for trading/onboarding; aligns with automation category and easy AI integration.",
+    "revenue": "Variable (fees/revenue share examples)",
+    "source_link": "https://x.com/s0lverr_/status/2068762085966897402",
+    "source_platform": "x",
+    "engagement": "45 likes",
+    "score": 62
+  }
+]

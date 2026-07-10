@@ -48,6 +48,9 @@ jobs:
 
       - name: Scan all enabled clean sources
         run: python run.py scan
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          PRODUCTHUNT_API_TOKEN: ${{ secrets.PRODUCTHUNT_API_TOKEN }}
 
       - name: Commit DB snapshot
         run: |

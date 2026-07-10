@@ -26,7 +26,7 @@ class TestDeFiLlama:
             {"name": "BSC", "tvl": 5_000_000_000},
         ]
 
-        with patch("collectors.defillama.httpx.Client") as MockClient:
+        with patch("collectors.defillama.http_client") as MockClient:
             instance = MockClient.return_value.__enter__.return_value
             r = MagicMock()
             r.json.return_value = mock_chains
@@ -44,7 +44,7 @@ class TestDeFiLlama:
         from collectors.defillama import DeFiLlamaCollector
 
         c = DeFiLlamaCollector({"chains": [], "min_tvl_usd": 0, "yield_min_apr": 0})
-        with patch("collectors.defillama.httpx.Client") as MockClient:
+        with patch("collectors.defillama.http_client") as MockClient:
             instance = MockClient.return_value.__enter__.return_value
             instance.get.side_effect = Exception("timeout")
             items = c.fetch()
@@ -57,7 +57,7 @@ class TestDeFiLlama:
         mock_chains = [
             {"name": "Ethereum", "tvl": 50_000_000_000},
         ]
-        with patch("collectors.defillama.httpx.Client") as MockClient:
+        with patch("collectors.defillama.http_client") as MockClient:
             instance = MockClient.return_value.__enter__.return_value
             r = MagicMock()
             r.json.return_value = mock_chains
@@ -75,7 +75,7 @@ class TestDeFiLlama:
         mock_chains = [
             {"name": "Solana", "tvl": 8_000_000_000},
         ]
-        with patch("collectors.defillama.httpx.Client") as MockClient:
+        with patch("collectors.defillama.http_client") as MockClient:
             instance = MockClient.return_value.__enter__.return_value
             r = MagicMock()
             r.json.return_value = mock_chains
@@ -111,7 +111,7 @@ class TestProductHunt:
     <summary>Another useful tool</summary>
   </entry>
 </feed>"""
-        with patch("collectors.producthunt.httpx.Client") as MockClient:
+        with patch("collectors.producthunt.http_client") as MockClient:
             instance = MockClient.return_value.__enter__.return_value
             r = MagicMock()
             r.text = fake_rss
@@ -128,7 +128,7 @@ class TestProductHunt:
         from collectors.producthunt import ProductHuntCollector
 
         c = ProductHuntCollector({"max_items": 5})
-        with patch("collectors.producthunt.httpx.Client") as MockClient:
+        with patch("collectors.producthunt.http_client") as MockClient:
             instance = MockClient.return_value.__enter__.return_value
             instance.get.side_effect = Exception("fail")
             items = c.fetch()
@@ -162,7 +162,7 @@ class TestProductHunt:
             }
         }
         with patch.dict("os.environ", {"PRODUCTHUNT_API_TOKEN": "tok123"}):
-            with patch("collectors.producthunt.httpx.Client") as MockClient:
+            with patch("collectors.producthunt.http_client") as MockClient:
                 instance = MockClient.return_value.__enter__.return_value
                 r = MagicMock()
                 r.json.return_value = gql_response
@@ -190,7 +190,7 @@ class TestProductHunt:
   </entry>
 </feed>"""
         with patch.dict("os.environ", {"PRODUCTHUNT_API_TOKEN": "tok123"}):
-            with patch("collectors.producthunt.httpx.Client") as MockClient:
+            with patch("collectors.producthunt.http_client") as MockClient:
                 instance = MockClient.return_value.__enter__.return_value
                 gql_r = MagicMock()
                 gql_r.json.return_value = empty_gql
@@ -249,7 +249,7 @@ class TestYouTube:
             ]
         }
         with patch.dict("os.environ", {"YOUTUBE_API_KEY": "fake_key"}):
-            with patch("collectors.youtube_search.httpx.Client") as MockClient:
+            with patch("collectors.youtube_search.http_client") as MockClient:
                 instance = MockClient.return_value.__enter__.return_value
                 r = MagicMock()
                 r.json.return_value = fake_response
@@ -275,7 +275,7 @@ class TestYouTube:
             ]
         }
         with patch.dict("os.environ", {"YOUTUBE_API_KEY": "fake_key"}):
-            with patch("collectors.youtube_search.httpx.Client") as MockClient:
+            with patch("collectors.youtube_search.http_client") as MockClient:
                 instance = MockClient.return_value.__enter__.return_value
                 r = MagicMock()
                 r.json.return_value = fake_response
@@ -296,7 +296,7 @@ class TestYouTube:
             ]
         }
         with patch.dict("os.environ", {"YOUTUBE_API_KEY": "fake_key"}):
-            with patch("collectors.youtube_search.httpx.Client") as MockClient:
+            with patch("collectors.youtube_search.http_client") as MockClient:
                 instance = MockClient.return_value.__enter__.return_value
                 r = MagicMock()
                 r.json.return_value = fake_response
@@ -319,7 +319,7 @@ class TestGumroad:
 
         c = GumroadCollector({"max_items": 10})
         fake_html = 'gumroad.com/l/my-ebook some other text gumroad.com/l/another-tool'
-        with patch("collectors.gumroad.httpx.Client") as MockClient:
+        with patch("collectors.gumroad.http_client") as MockClient:
             instance = MockClient.return_value.__enter__.return_value
             r = MagicMock()
             r.text = fake_html
@@ -335,7 +335,7 @@ class TestGumroad:
         from collectors.gumroad import GumroadCollector
 
         c = GumroadCollector({"max_items": 10})
-        with patch("collectors.gumroad.httpx.Client") as MockClient:
+        with patch("collectors.gumroad.http_client") as MockClient:
             instance = MockClient.return_value.__enter__.return_value
             instance.get.side_effect = Exception("fail")
             items = c.fetch()
@@ -346,7 +346,7 @@ class TestGumroad:
 
         c = GumroadCollector({"max_items": 10})
         html = 'some text gumroad.com/l/my-ebook more text'
-        with patch("collectors.gumroad.httpx.Client") as MockClient:
+        with patch("collectors.gumroad.http_client") as MockClient:
             instance = MockClient.return_value.__enter__.return_value
             r = MagicMock()
             r.text = html
@@ -362,7 +362,7 @@ class TestGumroad:
 
         c = GumroadCollector({"max_items": 10})
         html = 'gumroad.com/l/same-product some text'
-        with patch("collectors.gumroad.httpx.Client") as MockClient:
+        with patch("collectors.gumroad.http_client") as MockClient:
             instance = MockClient.return_value.__enter__.return_value
             r = MagicMock()
             r.text = html

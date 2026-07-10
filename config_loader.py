@@ -28,6 +28,10 @@ def db() -> sqlite3.Connection:
     conn = sqlite3.connect(DB_PATH)
     conn.row_factory = sqlite3.Row
     conn.execute("PRAGMA foreign_keys = ON")
+    conn.execute("PRAGMA busy_timeout = 30000")
+    conn.execute("PRAGMA synchronous = NORMAL")
+    conn.execute("PRAGMA cache_size = -64000")
+    conn.execute("PRAGMA temp_store = MEMORY")
     return conn
 
 
@@ -38,6 +42,10 @@ def load_yaml(name: str) -> dict:
         return {}
     with p.open(encoding="utf-8") as f:
         return yaml.safe_load(f) or {}
+
+
+def clear_yaml_cache():
+    load_yaml.cache_clear()
 
 
 def load_sources() -> dict:

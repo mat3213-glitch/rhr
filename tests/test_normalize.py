@@ -93,7 +93,7 @@ class TestNormalizeAndStore:
         normalize_and_store(db, [item])
         row = db.execute("SELECT dedup_key FROM signals").fetchone()
         assert row["dedup_key"] is not None
-        assert len(row["dedup_key"]) == 32  # md5 hex
+        assert len(row["dedup_key"]) == 16  # sha256 truncated
 
     def test_stores_matched_groups_as_json(self, db):
         item = self._make_item(title="passive income ideas")

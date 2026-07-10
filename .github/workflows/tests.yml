@@ -1,8 +1,28 @@
 name: tests
-on: [push, pull_request]
+on:
+  push:
+    paths-ignore:
+      - 'data/*.db'
+      - 'data/*.db-wal'
+      - 'data/*.db-shm'
+      - 'data/landing_*.html'
+      - '*.md'
+  pull_request:
+    paths-ignore:
+      - 'data/*.db'
+      - 'data/*.db-wal'
+      - 'data/*.db-shm'
+      - 'data/landing_*.html'
+      - '*.md'
+
+concurrency:
+  group: tests-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   pytest:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5

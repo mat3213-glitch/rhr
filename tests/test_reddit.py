@@ -43,7 +43,7 @@ class TestReddit:
     <author><name>/u/hustler</name></author>
   </entry>
 </feed>"""
-        with patch("collectors.reddit.httpx.Client") as MockClient:
+        with patch("collectors.reddit.http_client") as MockClient:
             instance = MockClient.return_value.__enter__.return_value
             r = MagicMock()
             r.text = fake_rss
@@ -80,7 +80,7 @@ class TestReddit:
     <summary>Very popular</summary>
   </entry>
 </feed>"""
-        with patch("collectors.reddit.httpx.Client") as MockClient:
+        with patch("collectors.reddit.http_client") as MockClient:
             instance = MockClient.return_value.__enter__.return_value
             r = MagicMock()
             r.text = fake_rss
@@ -99,7 +99,7 @@ class TestReddit:
             "max_items_per_sub": 5,
             "min_score": 0,
         })
-        with patch("collectors.reddit.httpx.Client") as MockClient:
+        with patch("collectors.reddit.http_client") as MockClient:
             instance = MockClient.return_value.__enter__.return_value
             instance.get.side_effect = Exception("all fail")
             items = c.fetch()
@@ -132,7 +132,7 @@ class TestReddit:
     <summary>From SaaS</summary>
   </entry>
 </feed>"""
-        with patch("collectors.reddit.httpx.Client") as MockClient:
+        with patch("collectors.reddit.http_client") as MockClient:
             instance = MockClient.return_value.__enter__.return_value
             r1 = MagicMock()
             r1.text = rss_ent
@@ -165,7 +165,7 @@ class TestReddit:
     <author><name>/u/someone</name></author>
   </entry>
 </feed>"""
-        with patch("collectors.reddit.httpx.Client") as MockClient:
+        with patch("collectors.reddit.http_client") as MockClient:
             instance = MockClient.return_value.__enter__.return_value
             r = MagicMock()
             r.text = fake_rss

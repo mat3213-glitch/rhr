@@ -72,8 +72,9 @@ class TestLogger:
         log = Logger(log_dir=tmp_path)
         log.start_run("test")
         log.log_metric("signal_count", 42, source="hackernews")
-        log.end_run()
-        # Should not raise
+        run = log.end_run()
+        assert run is not None
+        assert run.rows_inserted == 0
 
     def test_end_without_start_raises(self, tmp_path):
         import pytest

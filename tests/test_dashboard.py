@@ -44,14 +44,20 @@ class TestRender:
 
 
 class TestBuild:
-    def test_builds_with_real_db(self):
-        if not DB_PATH.exists():
-            # Apply schema to a temp DB for testing
-            import tempfile, os
-            # We can't easily test with the real DB path, so just test the render path
-            html = _render(empty=True)
-            assert "<!DOCTYPE html>" in html
-            return
-        html = build()
+    def test_builds_with_real_db(self, tmp_path):
+        import sqlite3
+        from pathlib import Path
+        schema_path = Path(__file__).parent.parent / "data" / "schema.sql"
+        db_path = tmp_path / "test.db"
+        conn = sqlite3.connect(db_path)
+        conn.executescript(schema_path.read_text())
+        conn.execute(
+            "INSERT INTO candidates (title, category, method_type, passive_level, "
+            "est_roi_band, risk_band, time_to_setup, score, funnel_stage) "
+            "VALUES ('Test Bot', 'algo', 'ai_wrapper', 'hands_off', 'medium', 'low', 'day', 0.75, 'L2-scored')"
+        )
+        conn.commit()
+        conn.close()
+        html = build(db_path=db_path)
         assert "<!DOCTYPE html>" in html
         assert "Rabbit Hole Radar" in html

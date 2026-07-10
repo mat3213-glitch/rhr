@@ -39,6 +39,14 @@ def track(conn: sqlite3.Connection, *, top_n: int = DEFAULT_TOP_N, dry_run: bool
 
     created = 0
     for r in rows:
+        cur = conn.execute(
+            """UPDATE candidates
+               SET github_issue_number=-1, updated_at=strftime('%Y-%m-%dT%H:%M:%SZ','now')
+               WHERE id=? AND github_issue_number IS NULL""",
+            (r["id"],),
+        )
+        if cur.rowcount == 0:
+            continue
         signals = _source_signals(conn, r["id"])
         title = f"[CANDIDATE] {r['title']}"
         body = _render_body(r, signals)
@@ -47,6 +55,10 @@ def track(conn: sqlite3.Connection, *, top_n: int = DEFAULT_TOP_N, dry_run: bool
                   f"(score {r['score']:.3f}) ---")
             print(f"TITLE: {title}")
             print(body)
+            conn.execute(
+                "UPDATE candidates SET github_issue_number=NULL WHERE id=?",
+                (r["id"],),
+            )
             created += 1
             continue
         issue_number = _create_issue(title, body, labels=["L2-scored"])
@@ -58,6 +70,11 @@ def track(conn: sqlite3.Connection, *, top_n: int = DEFAULT_TOP_N, dry_run: bool
                 (issue_number, r["id"]),
             )
             created += 1
+        else:
+            conn.execute(
+                "UPDATE candidates SET github_issue_number=NULL WHERE id=?",
+                (r["id"],),
+            )
     conn.commit()
     return {"tracked": created, "considered": len(rows)}
 

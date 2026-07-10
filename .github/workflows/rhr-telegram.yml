@@ -14,8 +14,8 @@ permissions:
   issues: write
 
 concurrency:
-  group: rhr-telegram
-  cancel-in-progress: false
+  group: db-write
+  cancel-in-progress: true
 
 jobs:
   pipeline:

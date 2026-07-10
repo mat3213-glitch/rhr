@@ -7,11 +7,12 @@ from __future__ import annotations
 
 import sqlite3
 
-from scoring.model import score_candidate
+from scoring.model import score_candidate, clear_weights_cache
 
 
 def score_pending(conn: sqlite3.Connection, *, rescore: bool = False) -> int:
     if rescore:
+        clear_weights_cache()
         conn.execute("UPDATE candidates SET score = NULL")
 
     rows = conn.execute(

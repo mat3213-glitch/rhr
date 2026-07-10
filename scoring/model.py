@@ -29,6 +29,10 @@ def _weights() -> dict:
         return yaml.safe_load(f)
 
 
+def clear_weights_cache():
+    _weights.cache_clear()
+
+
 def score_candidate(
     *,
     passive_level: str,
@@ -42,10 +46,10 @@ def score_candidate(
     w = _weights()
     exp = w["exponents"]
 
-    passive_fit = _scalar("passive_level", passive_level, default=0.5)
-    roi_potential = _scalar("est_roi_band", est_roi_band, default=0.4)
-    risk = _scalar("risk_band", risk_band, default=0.5)
-    speed = _scalar("time_to_setup", time_to_setup, default=0.4)
+    passive_fit = _scalar("passive_level", passive_level, default=1.0)
+    roi_potential = _scalar("est_roi_band", est_roi_band, default=1.0)
+    risk = _scalar("risk_band", risk_band, default=0.0)
+    speed = _scalar("time_to_setup", time_to_setup, default=1.0)
     vibe = _clamp(vibe_codability_score)
     velocity = _clamp(trend_velocity)
 
@@ -78,8 +82,11 @@ def _scalar(map_name: str, label: str, default: float) -> float:
 
 
 def _clamp(x: float, lo: float = 0.0, hi: float = 1.0) -> float:
+    import math
     try:
         x = float(x)
     except (TypeError, ValueError):
+        return 0.0
+    if math.isnan(x) or math.isinf(x):
         return 0.0
     return max(lo, min(hi, x))

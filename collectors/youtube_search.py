@@ -12,6 +12,7 @@ from urllib.parse import urlencode
 import httpx
 
 from collectors.base import Collector, register
+from collectors.http_util import client as http_client
 from models import RawItem, utcnow_iso
 
 API = "https://www.googleapis.com/youtube/v3"
@@ -32,9 +33,9 @@ class YouTubeCollector(Collector):
         items: list[RawItem] = []
         seen: set[str] = set()
 
-        with httpx.Client(timeout=20) as client:
+        with http_client(timeout=20) as cl:
             for term in search_terms:
-                vids = self._search(client, api_key, term, max_per)
+                vids = self._search(cl, api_key, term, max_per)
                 for v in vids:
                     if v.source_item_id not in seen:
                         seen.add(v.source_item_id)
@@ -58,6 +59,11 @@ class YouTubeCollector(Collector):
             r.raise_for_status()
             data = r.json()
         except Exception:
+            return []
+
+        error = data.get("error", {})
+        if error.get("code") == 403 and "quotaExceeded" in error.get("message", ""):
+            print(f"  [youtube] Quota exceeded for term '{term}'")
             return []
 
         items: list[RawItem] = []

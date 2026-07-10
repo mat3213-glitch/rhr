@@ -1,0 +1,30 @@
+name: Grok RHR Watchdog — пинок если нет дневного файла
+
+on:
+  schedule:
+    # 13:00 UTC = 20:00 НСК — буфер ~2ч после ожидаемых 11:00 UTC (18:00 НСК)
+    - cron: "0 13 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install requests
+
+      - name: Check if Grok delivered today's file
+        run: python scripts/grok_rhr_watchdog.py
+        env:
+          CLOUDFLARE_WORKER: ${{ secrets.CLOUDFLARE_WORKER }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          SCOUT_CHAT_ID: ${{ secrets.SCOUT_CHAT_ID }}

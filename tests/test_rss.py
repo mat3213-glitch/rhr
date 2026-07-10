@@ -90,11 +90,10 @@ class TestStableGuid:
         g2 = _stable_guid("site2", "guid1")
         assert g1 != g2
 
-    def test_is_md5(self):
+    def test_is_sha256(self):
         g = _stable_guid("site", "guid")
-        assert len(g) == 32
-        # Verify it's actually md5
-        expected = hashlib.md5("site|guid".encode()).hexdigest()
+        assert len(g) == 16
+        expected = hashlib.sha256("site|guid".encode()).hexdigest()[:16]
         assert g == expected
 
 

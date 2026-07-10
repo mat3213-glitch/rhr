@@ -26,6 +26,7 @@ data/raw/
 # Secrets / local config overrides
 .env
 .env.*
+!.env.example
 config/local.*
 
 # OS / editor

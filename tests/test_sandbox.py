@@ -185,7 +185,7 @@ class TestGenerateMvp:
             """INSERT INTO candidates (id, title, category, method_type, passive_level,
                est_roi_band, risk_band, time_to_setup, vibe_codability_score,
                trend_velocity, score, funnel_stage)
-               VALUES (1, 'Test', 'other', 'unknown_type', 'semi_passive',
+               VALUES (1, 'Test', 'other', 'other', 'semi_passive',
                'medium', 'low', 'weekend', 0.8, 0.5, 0.5, 'L3-demand-check')"""
         )
         db.commit()
@@ -286,3 +286,41 @@ class TestKillCandidate:
         assert cand["archive_reason"] == "No demand after landing test"
         fb = db.execute("SELECT outcome FROM scoring_feedback WHERE candidate_id=1").fetchone()
         assert fb["outcome"] == "killed_demand"
+
+
+class TestUpdateMetrics:
+    def test_updates_metrics(self, db):
+        db.execute(
+            """INSERT INTO candidates (id, title, category, method_type, passive_level,
+               est_roi_band, risk_band, time_to_setup, vibe_codability_score,
+               trend_velocity, score, funnel_stage)
+               VALUES (1, 'Test', 'other', 'bot', 'semi_passive',
+               'medium', 'low', 'weekend', 0.8, 0.5, 0.5, 'L4-mvp')"""
+        )
+        db.execute(
+            """INSERT INTO sandbox_runs (candidate_id, stage, verdict)
+               VALUES (1, 'micro_mvp', 'pending')"""
+        )
+        db.commit()
+        update_metrics(db, 1, {"visits": 100, "signups": 5})
+        row = db.execute("SELECT metrics_json FROM sandbox_runs WHERE id=1").fetchone()
+        assert "100" in row["metrics_json"]
+
+
+class TestListMvps:
+    def test_lists_mvps(self, db):
+        db.execute(
+            """INSERT INTO candidates (id, title, category, method_type, passive_level,
+               est_roi_band, risk_band, time_to_setup, vibe_codability_score,
+               trend_velocity, score, funnel_stage)
+               VALUES (1, 'Test MVP', 'other', 'bot', 'semi_passive',
+               'medium', 'low', 'weekend', 0.8, 0.5, 0.5, 'L4-mvp')"""
+        )
+        db.execute(
+            """INSERT INTO sandbox_runs (candidate_id, stage, verdict)
+               VALUES (1, 'micro_mvp', 'go')"""
+        )
+        db.commit()
+        mvps = list_mvps(db)
+        assert len(mvps) == 1
+        assert mvps[0]["title"] == "Test MVP"

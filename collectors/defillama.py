@@ -7,9 +7,8 @@ Filters: chains, min TVL.
 """
 from __future__ import annotations
 
-import httpx
-
 from collectors.base import Collector, register
+from collectors.http_util import client as http_client
 from models import RawItem, utcnow_iso
 
 CHAINS_API = "https://api.llama.fi/v2/chains"
@@ -32,8 +31,8 @@ class DeFiLlamaCollector(Collector):
 
     def _fetch_chains(self, chains: list[str], min_tvl: float) -> list[RawItem]:
         try:
-            with httpx.Client(timeout=30) as client:
-                r = client.get(CHAINS_API)
+            with http_client(timeout=30) as cl:
+                r = cl.get(CHAINS_API)
                 r.raise_for_status()
                 data = r.json()
         except Exception:

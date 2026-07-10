@@ -20,10 +20,10 @@ sources:
     schedule: "0 */4 * * *"         # every 4h
     params:
       feeds:
-        - https://www.indiehackers.com/feed.rss            # IndieHackers
-        - https://news.ycombinator.com/rss                 # HN front (mirror, redundant but cheap)
-        - https://feeds.feedburner.com/_psfk               # trend hunting
-        - https://substack.com/feed/note/c/o5a5f         # placeholder Substack discover
+        - https://www.indiehackers.com/feed            # IndieHackers (fixed URL)
+        - https://hnrss.org/frontpage                   # HN front via RSS bridge
+        - https://www.producthunt.com/feed              # Product Hunt
+        - https://news.ycombinator.com/rss             # HN direct
       max_items_per_feed: 50
 
   # ───────────────────────────── AGGREGATORS (Phase 2) ─────────────────────────────
@@ -46,7 +46,7 @@ sources:
   youtube:
     enabled: true
     type: youtube
-    schedule: "0 */8 * * *"
+    schedule: "0 */12 * * *"        # 2x/day: 2 × 4 terms × 10 = 8000 units (limit 10k)
     params:
       search_terms:
         - "passive income"

@@ -47,7 +47,7 @@ def test_telegram_fetch_empty_channels():
     assert items == []
 
 
-@patch("collectors.telegram.httpx.Client")
+@patch("collectors.telegram.http_client")
 def test_telegram_fetch_single_channel(mock_client):
     mock_response = MagicMock()
     mock_response.text = SAMPLE_HTML
@@ -65,7 +65,7 @@ def test_telegram_fetch_single_channel(mock_client):
         assert item.source_item_id.startswith("telegram:passiveincome:")
 
 
-@patch("collectors.telegram.httpx.Client")
+@patch("collectors.telegram.http_client")
 def test_telegram_fetch_multiple_channels(mock_client):
     mock_response = MagicMock()
     mock_response.text = SAMPLE_HTML
@@ -86,7 +86,7 @@ def test_telegram_fetch_multiple_channels(mock_client):
     assert "defi" in sources
 
 
-@patch("collectors.telegram.httpx.Client")
+@patch("collectors.telegram.http_client")
 def test_telegram_max_messages_per_channel(mock_client):
     mock_response = MagicMock()
     mock_response.text = SAMPLE_HTML
@@ -104,7 +104,7 @@ def test_telegram_max_messages_per_channel(mock_client):
     assert len(items) <= 1
 
 
-@patch("collectors.telegram.httpx.Client")
+@patch("collectors.telegram.http_client")
 def test_telegram_handles_network_error(mock_client):
     mock_client.return_value.__enter__ = MagicMock(return_value=mock_client.return_value)
     mock_client.return_value.__exit__ = MagicMock(return_value=False)
@@ -119,7 +119,7 @@ def test_telegram_handles_network_error(mock_client):
 def test_telegram_strips_at_sign():
     coll = TelegramCollector({"channels": ["@passiveincome"]})
     items = []
-    with patch("collectors.telegram.httpx.Client") as mock_client:
+    with patch("collectors.telegram.http_client") as mock_client:
         mock_response = MagicMock()
         mock_response.text = SAMPLE_HTML
         mock_response.raise_for_status = MagicMock()

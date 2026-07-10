@@ -9,9 +9,9 @@ import hashlib
 import time
 
 import feedparser
-import httpx
 
 from collectors.base import Collector, register
+from collectors.http_util import client as http_client
 from models import RawItem, strip_html, utcnow_iso
 
 REDDIT_UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
@@ -39,8 +39,8 @@ class RedditCollector(Collector):
     ) -> list[RawItem]:
         rss_url = f"https://old.reddit.com/r/{subreddit}/new/.rss"
         try:
-            with httpx.Client(timeout=15, follow_redirects=True) as client:
-                r = client.get(rss_url, headers={"User-Agent": REDDIT_UA})
+            with http_client(timeout=15) as cl:
+                r = cl.get(rss_url, headers={"User-Agent": REDDIT_UA})
                 r.raise_for_status()
                 feed_text = r.text
         except Exception:
@@ -81,7 +81,7 @@ class RedditCollector(Collector):
                 except (TypeError, ValueError):
                     pass
 
-            source_id = hashlib.md5(guid.encode()).hexdigest()[:12]
+            source_id = hashlib.sha256(guid.encode()).hexdigest()[:12]
             items.append(
                 RawItem(
                     source="reddit",

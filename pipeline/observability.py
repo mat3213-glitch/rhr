@@ -102,7 +102,7 @@ class Logger:
         """Log an error, attaching to current run if active."""
         if self._current_run:
             self._current_run.errors.append(error)
-        self._log("error", errorerror=error, context=context or {})
+        self._log("error", error=error, context=context or {})
 
     def inc(self, field: str, amount: int = 1) -> None:
         """Increment a counter on the current run."""

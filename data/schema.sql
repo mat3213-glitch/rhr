@@ -47,20 +47,21 @@ CREATE TABLE IF NOT EXISTS candidates (
   id                    INTEGER PRIMARY KEY AUTOINCREMENT,
   title                 TEXT    NOT NULL,                 -- short, human-readable: "Telegram bot that does X"
   summary               TEXT,                             -- 1-3 sentence what/why
-  category              TEXT,                             -- crypto_defi | digital_asset | arbitrage | algo | other
-  method_type           TEXT,                             -- staking | micro_saas | ai_wrapper | bot | content | ...
-  passive_level         TEXT,                             -- hands_off | semi_passive | flip
-  est_roi_band          TEXT,                             -- very_low | low | medium | high | very_high
-  risk_band             TEXT,                             -- very_low | low | medium | high | very_high
-  time_to_setup         TEXT,                             -- hours | day | weekend | week | month
+  category              TEXT    CHECK (category IN ('crypto_defi','digital_asset','arbitrage','algo','other')),
+  method_type           TEXT    CHECK (method_type IN ('staking','micro_saas','ai_wrapper','bot','content','automation','other')),
+  passive_level         TEXT    CHECK (passive_level IN ('hands_off','semi_passive','flip')),
+  est_roi_band          TEXT    CHECK (est_roi_band IN ('very_low','low','medium','high','very_high')),
+  risk_band             TEXT    CHECK (risk_band IN ('very_low','low','medium','high','very_high')),
+  time_to_setup         TEXT    CHECK (time_to_setup IN ('hours','day','weekend','week','month')),
   vibe_codability_score REAL    NOT NULL DEFAULT 0.5,     -- 0..1 how vibe-codable into a fast digital product
-  trend_velocity        REAL    NOT NULL DEFAULT 0.0,     -- 0..1 momentum from source volume/recency
+  trend_velocity        REAL    NOT NULL DEFAULT 0.5,     -- 0..1 momentum from source volume/recency
   passive_fit           REAL,                             -- 0..1 set by classifier from passive_level
   roi_potential         REAL,                             -- 0..1 set by classifier from est_roi_band
   risk                  REAL,                             -- 0..1 set by classifier from risk_band
   speed_to_setup        REAL,                             -- 0..1 set by classifier from time_to_setup
   score                 REAL,                             -- final composite score (see scoring/model.py)
-  funnel_stage          TEXT    NOT NULL DEFAULT 'L2-scored', -- L2-scored | L3-demand-check | L4-mvp | L5-prod | archived
+  funnel_stage          TEXT    NOT NULL DEFAULT 'L2-scored'
+                           CHECK (funnel_stage IN ('L2-scored','L3-demand-check','L4-mvp','L5-prod','archived')),
   archive_reason        TEXT,                             -- why it was killed (enriches scoring later)
   github_issue_number   INTEGER,                          -- issue created by track.py
   first_seen_at         TEXT    NOT NULL DEFAULT (strftime('%Y-%m-%dT%H:%M:%SZ','now')),
@@ -83,11 +84,11 @@ CREATE INDEX IF NOT EXISTS idx_cs_signal ON candidate_signals(signal_id);
 CREATE TABLE IF NOT EXISTS sandbox_runs (
   id              INTEGER PRIMARY KEY AUTOINCREMENT,
   candidate_id    INTEGER NOT NULL REFERENCES candidates(id) ON DELETE CASCADE,
-  stage           TEXT    NOT NULL,                  -- demand_check | micro_mvp
+  stage           TEXT    NOT NULL CHECK (stage IN ('demand_check','micro_mvp')),
   url             TEXT,                              -- deployed landing/app URL
   deployed_at     TEXT,
   metrics_json    TEXT,                              -- freeform JSON: visits, signups, conv, revenue...
-  verdict         TEXT,                              -- go | no_go | pending
+  verdict         TEXT    CHECK (verdict IN ('go','no_go','pending')),
   verdict_reason  TEXT,
   created_at      TEXT    NOT NULL DEFAULT (strftime('%Y-%m-%dT%H:%M:%SZ','now'))
 );
@@ -105,6 +106,7 @@ CREATE TABLE IF NOT EXISTS scoring_feedback (
   note            TEXT,
   created_at      TEXT    NOT NULL DEFAULT (strftime('%Y-%m-%dT%H:%M:%SZ','now'))
 );
+CREATE INDEX IF NOT EXISTS idx_sf_candidate ON scoring_feedback(candidate_id);
 
 -- ───────────────────────────── run log ─────────────────────────────
 -- Cheap observability: what ran when, how many rows produced/changed.
@@ -119,3 +121,4 @@ CREATE TABLE IF NOT EXISTS run_log (
   rows_updated  INTEGER DEFAULT 0,
   message       TEXT
 );
+CREATE INDEX IF NOT EXISTS idx_runlog_cmd_time ON run_log(command, started_at);

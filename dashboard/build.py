@@ -28,11 +28,13 @@ def query_val(conn: sqlite3.Connection, sql: str, params=()):
     return conn.execute(sql, params).fetchone()[0]
 
 
-def build() -> str:
-    if not DB_PATH.exists():
+def build(db_path=None) -> str:
+    if db_path is None:
+        db_path = DB_PATH
+    if not db_path.exists():
         return _render(empty=True)
 
-    conn = sqlite3.connect(str(DB_PATH))
+    conn = sqlite3.connect(str(db_path))
     conn.row_factory = sqlite3.Row
 
     # ── funnel counts ──
@@ -118,16 +120,19 @@ def _render(**ctx) -> str:
     runs = ctx.get("runs", [])
     score_dist = ctx.get("score_dist", {})
 
-    stage_labels = json.dumps(list(stages.keys()))
-    stage_values = json.dumps(list(stages.values()))
-    cat_labels = json.dumps(list(categories.keys()))
-    cat_values = json.dumps(list(categories.values()))
-    method_labels = json.dumps(list(methods.keys()))
-    method_values = json.dumps(list(methods.values()))
-    source_labels = json.dumps(list(sources.keys()))
-    source_values = json.dumps(list(sources.values()))
-    score_labels = json.dumps(list(score_dist.keys()))
-    score_values = json.dumps(list(score_dist.values()))
+    def _safe_json(obj):
+        return json.dumps(obj, ensure_ascii=False).replace("</", "<\\/")
+
+    stage_labels = _safe_json(list(stages.keys()))
+    stage_values = _safe_json(list(stages.values()))
+    cat_labels = _safe_json(list(categories.keys()))
+    cat_values = _safe_json(list(categories.values()))
+    method_labels = _safe_json(list(methods.keys()))
+    method_values = _safe_json(list(methods.values()))
+    source_labels = _safe_json(list(sources.keys()))
+    source_values = _safe_json(list(sources.values()))
+    score_labels = _safe_json(list(score_dist.keys()))
+    score_values = _safe_json(list(score_dist.values()))
 
     top_rows = ""
     for t in top:
@@ -242,7 +247,7 @@ def _content(signals_total, signals_kept, signals_dup, signals_lq,
              method_labels, method_values, source_labels, source_values,
              score_labels, score_values) -> str:
     stage_bars = "".join(
-        f'<div class="card"><h3>{s}</h3><div class="big">{c}</div></div>'
+        f'<div class="card"><h3>{_esc(s)}</h3><div class="big">{c}</div></div>'
         for s, c in stages.items()
     )
     return f"""

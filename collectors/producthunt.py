@@ -10,9 +10,9 @@ import logging
 import os
 
 import feedparser
-import httpx
 
 from collectors.base import Collector, register
+from collectors.http_util import client as http_client
 from models import RawItem, strip_html, utcnow_iso
 
 FEED_URL = "https://www.producthunt.com/feed"
@@ -64,8 +64,8 @@ class ProductHuntCollector(Collector):
 
     def _fetch_rss(self) -> list[RawItem]:
         try:
-            with httpx.Client(timeout=20, follow_redirects=True) as client:
-                r = client.get(
+            with http_client(timeout=20) as cl:
+                r = cl.get(
                     FEED_URL,
                     headers={
                         "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
@@ -97,7 +97,7 @@ class ProductHuntCollector(Collector):
             items.append(
                 RawItem(
                     source="producthunt",
-                    source_item_id=f"ph:{hashlib.md5(guid.encode()).hexdigest()[:12]}",
+                    source_item_id=f"ph:{hashlib.sha256(guid.encode()).hexdigest()[:12]}",
                     url=link,
                     title=title,
                     body_text=summary[:500] if summary else title,
@@ -118,8 +118,8 @@ class ProductHuntCollector(Collector):
         headers = {"Authorization": f"Bearer {token}", "Content-Type": "application/json"}
 
         try:
-            with httpx.Client(timeout=30) as client:
-                r = client.post(GQL_URL, json={"query": query}, headers=headers)
+            with http_client(timeout=30) as cl:
+                r = cl.post(GQL_URL, json={"query": query}, headers=headers)
                 r.raise_for_status()
                 edges = r.json().get("data", {}).get("posts", {}).get("edges", [])
         except Exception:

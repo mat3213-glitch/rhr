@@ -119,13 +119,16 @@ def _estimate_competition(category: str, risk_band: str) -> str:
 
 def _generate_landing(title: str, summary: str | None, method_type: str) -> str:
     """Generate minimal landing page HTML with email capture."""
-    desc = summary or f"A new {method_type} opportunity"
+    import html as _html
+    safe_title = _html.escape(str(title)[:120])
+    safe_desc = _html.escape(str(summary or f"A new {method_type} opportunity")[:500])
+    safe_method = _html.escape(str(method_type)[:50])
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{title}</title>
+<title>{safe_title}</title>
 <style>
   body {{ font-family: -apple-system, system-ui, sans-serif; max-width: 600px; margin: 60px auto; padding: 20px; color: #1a1a1a; }}
   h1 {{ font-size: 28px; margin-bottom: 12px; }}
@@ -138,8 +141,8 @@ def _generate_landing(title: str, summary: str | None, method_type: str) -> str:
 </style>
 </head>
 <body>
-<h1>{title}</h1>
-<p>{desc}</p>
+<h1>{safe_title}</h1>
+<p>{safe_desc}</p>
 <p><strong>Interested?</strong> Leave your email and we'll notify you when it's ready.</p>
 <div class="email-form">
   <input type="email" placeholder="your@email.com" id="email">

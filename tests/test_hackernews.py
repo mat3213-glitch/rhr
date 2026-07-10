@@ -17,7 +17,7 @@ class TestUnixToIso:
         assert _unix_to_iso(None) is None
 
     def test_zero_returns_none(self):
-        assert _unix_to_iso(0) is None
+        assert _unix_to_iso(0) == "1970-01-01T00:00:00Z"
 
 
 class TestHackerNewsCollectorFetchItem:

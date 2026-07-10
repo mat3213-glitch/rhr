@@ -53,7 +53,7 @@ class TestDedupKeyFor:
         item = RawItem(source="rss", source_item_id="1", url="https://example.com/post")
         key = dedup_key_for(item)
         assert isinstance(key, str)
-        assert len(key) == 32  # md5 hex
+        assert len(key) == 16  # sha256 truncated
 
     def test_same_url_same_key(self):
         item1 = RawItem(source="rss", source_item_id="1", url="https://example.com/post")
@@ -69,7 +69,7 @@ class TestDedupKeyFor:
         item = RawItem(source="rss", source_item_id="1", title="Same Story")
         key = dedup_key_for(item)
         assert isinstance(key, str)
-        assert len(key) == 32
+        assert len(key) == 16
 
     def test_same_title_same_key(self):
         item1 = RawItem(source="rss", source_item_id="1", title="Same Story")
@@ -80,7 +80,7 @@ class TestDedupKeyFor:
         item = RawItem(source="rss", source_item_id="1", body_text="Some body text")
         key = dedup_key_for(item)
         assert isinstance(key, str)
-        assert len(key) == 32
+        assert len(key) == 16
 
     def test_url_takes_precedence(self):
         item = RawItem(

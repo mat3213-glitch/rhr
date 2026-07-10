@@ -33,7 +33,9 @@ if os.path.isfile(_env_path):
             if "=" not in _line:
                 continue
             _key, _, _value = _line.partition("=")
-            os.environ.setdefault(_key.strip(), _value.strip())
+            _key = _key.strip()
+            _value = _value.strip().strip("\"'")
+            os.environ.setdefault(_key, _value)
 
 # Make sibling packages importable when running as `python run.py` from repo root.
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -140,11 +142,17 @@ def cmd_pipeline(_: argparse.Namespace) -> int:
         print(f"[pipeline] score: scored {n} candidates")
 
         run = logger.end_run("ok")
-        _print_top(conn)
+        try:
+            _print_top(conn)
+        except Exception:
+            pass
         return 0
     except Exception as e:
         logger.log_error(str(e))
-        logger.end_run("error")
+        try:
+            logger.end_run("error")
+        except RuntimeError:
+            pass
         raise
 
 
@@ -240,7 +248,10 @@ def cmd_verdict(args: argparse.Namespace) -> int:
     set_verdict(conn, args.run_id, args.verdict, args.reason)
     print(f"[verdict] run #{args.run_id} → {args.verdict}")
     if args.verdict == "go" and args.graduate:
-        graduate_candidate(conn, args.candidate_id or 0)
+        if not args.candidate_id:
+            print("[verdict] --graduate requires --candidate ID", file=sys.stderr)
+            return 1
+        graduate_candidate(conn, args.candidate_id)
         print(f"  graduated candidate #{args.candidate_id} to L5-prod")
     if args.verdict == "no_go" and args.reason:
         if args.candidate_id:

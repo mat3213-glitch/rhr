@@ -11,6 +11,7 @@ from urllib.parse import urlparse
 import feedparser
 
 from collectors.base import Collector, register
+from collectors.http_util import client as http_client
 from models import RawItem, strip_html, utcnow_iso
 
 
@@ -27,8 +28,14 @@ class RSSCollector(Collector):
         return out
 
     def _fetch_one(self, feed_url: str, max_per: int) -> list[RawItem]:
-        # feedparser handles http itself; no httpx needed here.
-        parsed = feedparser.parse(feed_url)
+        try:
+            with http_client(timeout=15) as cl:
+                r = cl.get(feed_url)
+                r.raise_for_status()
+                content = r.text
+        except Exception:
+            return []
+        parsed = feedparser.parse(content)
         site = self._site_name(parsed, feed_url)
         items: list[RawItem] = []
         for entry in parsed.entries[:max_per]:
@@ -99,7 +106,7 @@ def _to_iso(time_tuple) -> str | None:
 
 def _stable_guid(site: str, guid: str) -> str:
     """Stable per-item id within source 'rss': md5(site + guid)."""
-    return hashlib.md5(f"{site}|{guid}".encode()).hexdigest()
+    return hashlib.sha256(f"{site}|{guid}".encode()).hexdigest()[:16]
 
 
 import re

@@ -18,8 +18,8 @@ permissions:
   issues: write               # the classify job creates issues
 
 concurrency:
-  group: scan
-  cancel-in-progress: false
+  group: db-write
+  cancel-in-progress: true
 
 jobs:
   scan:
@@ -51,6 +51,7 @@ jobs:
 
       - name: Commit DB snapshot
         run: |
+          python -c "import sqlite3; sqlite3.connect('data/rhr.db').execute('PRAGMA wal_checkpoint(TRUNCATE)')"
           git config user.name "rhr-bot"
           git config user.email "actions@github.com"
           git add data/rhr.db || true

@@ -4,19 +4,19 @@ Endpoint: https://hacker-news.firebaseio.com/v0/<list>.json  → list of ids
 Item:     https://hacker-news.firebaseio.com/v0/item/<id>.json
 
 This is the cleanest possible source for the First Slice: free, documented,
-rate-limit-friendly. We pull the story lists, fetch each item, and return
-RawItems. Keyword filtering happens upstream in normalize.py / pipeline, so the
-collector stays dumb and just hands back raw material.
+rate-limit-friendly. We pull the story lists, fetch each item concurrently,
+and return RawItems. Keyword filtering happens upstream in normalize.py / pipeline.
 """
 from __future__ import annotations
 
 import httpx
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 from collectors.base import Collector, register
+from collectors.http_util import client as http_client
 from models import RawItem, strip_html, utcnow_iso
 
 API = "https://hacker-news.firebaseio.com/v0"
-# Maps our config endpoint names to the API list names.
 LIST_PATHS = {
     "topstories": "topstories",
     "newstories": "newstories",
@@ -25,8 +25,8 @@ LIST_PATHS = {
     "showstories": "showstories",
     "jobstories": "jobstories",
 }
-# Job stories are rarely money-making signals; default-exclude unless asked.
 DEFAULT_ENDPOINTS = ["topstories", "beststories", "showstories", "askstories"]
+MAX_WORKERS = 10
 
 
 @register
@@ -39,10 +39,10 @@ class HackerNewsCollector(Collector):
 
         ids: list[int] = []
         seen: set[int] = set()
-        with httpx.Client(timeout=20) as client:
+        with http_client(timeout=20) as cl:
             for ep in endpoints:
                 path = LIST_PATHS.get(ep, ep)
-                r = client.get(f"{API}/{path}.json")
+                r = cl.get(f"{API}/{path}.json")
                 r.raise_for_status()
                 for item_id in r.json()[:max_per]:
                     if item_id not in seen:
@@ -50,10 +50,16 @@ class HackerNewsCollector(Collector):
                         ids.append(item_id)
 
             items: list[RawItem] = []
-            for item_id in ids:
-                item = self._fetch_item(client, item_id)
-                if item is not None:
-                    items.append(item)
+
+            def _fetch_one(item_id: int) -> RawItem | None:
+                return self._fetch_item(cl, item_id)
+
+            with ThreadPoolExecutor(max_workers=MAX_WORKERS) as pool:
+                futures = {pool.submit(_fetch_one, iid): iid for iid in ids}
+                for future in as_completed(futures):
+                    item = future.result()
+                    if item is not None:
+                        items.append(item)
         return items
 
     @staticmethod
@@ -83,7 +89,7 @@ class HackerNewsCollector(Collector):
 
 
 def _unix_to_iso(ts: int | None) -> str | None:
-    if not ts:
+    if ts is None:
         return None
     import datetime as _dt
 

@@ -33,8 +33,8 @@ def dedup_key_for(item: RawItem) -> str:
     if not key:
         # Last resort: the raw body hash, so we at least don't collide on None.
         body = (item.body_text or "")[:500]
-        key = "b:" + hashlib.md5(body.encode()).hexdigest()
-    return hashlib.md5(key.encode()).hexdigest()
+        key = "b:" + hashlib.sha256(body.encode()).hexdigest()[:16]
+    return hashlib.sha256(key.encode()).hexdigest()[:16]
 
 
 def _url_key(url: str) -> str | None:
@@ -65,26 +65,25 @@ def dedup_signals(conn: sqlite3.Connection) -> int:
     """Mark duplicate signals. Returns count of newly-flagged duplicates.
 
     Keeps the earliest-fetched signal per dedup_key as canonical.
+    Uses single UPDATE with subquery to avoid loading all rows into memory.
     """
-    rows = conn.execute(
-        """SELECT id, dedup_key, fetched_at FROM signals
-           WHERE l1_status = 'kept'
-           ORDER BY dedup_key, fetched_at ASC"""
-    ).fetchall()
-
-    marked = 0
-    seen: dict[str, int] = {}  # dedup_key -> canonical id
-    for r in rows:
-        key = r["dedup_key"]
-        if key in seen:
-            conn.execute(
-                """UPDATE signals
-                   SET l1_status = 'duplicate', is_duplicate_of = ?
-                   WHERE id = ?""",
-                (seen[key], r["id"]),
-            )
-            marked += 1
-        else:
-            seen[key] = r["id"]
-    conn.commit()
-    return marked
+    cur = conn.execute(
+        """UPDATE signals
+              SET l1_status = 'duplicate',
+                  is_duplicate_of = (
+                    SELECT s2.id FROM signals s2
+                     WHERE s2.dedup_key = signals.dedup_key AND s2.id != signals.id
+                     ORDER BY s2.fetched_at ASC
+                     LIMIT 1
+                  )
+            WHERE l1_status = 'kept'
+              AND id NOT IN (
+                SELECT s3.id FROM signals s3
+                 WHERE s3.l1_status = 'kept'
+                   AND s3.fetched_at = (
+                     SELECT MIN(s4.fetched_at) FROM signals s4
+                      WHERE s4.dedup_key = s3.dedup_key AND s4.l1_status = 'kept'
+                   )
+              )"""
+    )
+    return cur.rowcount

@@ -10,6 +10,7 @@ import re
 import httpx
 
 from collectors.base import Collector, register
+from collectors.http_util import client as http_client
 from models import RawItem, utcnow_iso
 
 DISCOVER_URLS = [
@@ -40,8 +41,8 @@ class GumroadCollector(Collector):
 
     def _scrape_page(self, url: str, max_items: int) -> list[RawItem]:
         try:
-            with httpx.Client(timeout=20, follow_redirects=True) as client:
-                r = client.get(
+            with http_client(timeout=20) as cl:
+                r = cl.get(
                     url,
                     headers={
                         "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"

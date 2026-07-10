@@ -1,26 +1,28 @@
-name: grok-x-search
+name: grok-rhr-ingest
 
-# Daily Grok-powered X/Twitter search for business opportunities.
-# Grok has native X access — searches for passive income, micro SaaS,
-# AI wrappers, DeFi yield, automation bots signals.
-# Results are ingested into the RHR pipeline.
+# Ingests Grok signals from signals/incoming/grok_*.json into RHR pipeline.
+# Runs after grok-watchdog or manually.
 
 on:
   schedule:
-    - cron: "0 9 * * *"   # daily at 09:00 UTC
-  workflow_dispatch:       # manual trigger
+    - cron: "30 13 * * *"   # 13:30 UTC = 20:30 НСК (30 min after watchdog)
+  workflow_dispatch:
+  push:
+    paths:
+      - "signals/incoming/grok_*.json"
 
 permissions:
   contents: write
+  issues: write
 
 concurrency:
   group: db-write
   cancel-in-progress: true
 
 jobs:
-  search:
+  ingest:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
 
@@ -36,10 +38,11 @@ jobs:
       - name: Init DB (if missing)
         run: python run.py init
 
-      - name: Run Grok X search
-        env:
-          XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
-        run: bash -o pipefail -c "python scripts/grok_search.py | python run.py ingest-stdin"
+      - name: Ingest Grok signals into pipeline
+        run: python scripts/grok_ingest.py | python run.py ingest-stdin
+
+      - name: Run pipeline (dedup → classify → score)
+        run: python run.py pipeline
 
       - name: Commit DB snapshot
         run: |
@@ -50,7 +53,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "no DB changes to commit"
           else
-            git commit -m "data: grok x-search $(date -u +%FT%TZ)"
+            git commit -m "data: grok rhr ingest $(date -u +%FT%TZ)"
             git pull --rebase --autostash origin main
             git push
           fi

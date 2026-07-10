@@ -14,8 +14,7 @@ env/
 dist/
 build/
 
-# Data — never commit the live DB or signal dumps, only the schema
-data/*.db
+# Data — only the live DB is committed (repo-as-database pattern)
 data/*.db-journal
 data/*.db-wal
 data/*.db-shm

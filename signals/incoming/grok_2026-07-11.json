@@ -1,0 +1,52 @@
+[
+  {
+    "type": "revenue_report",
+    "what": "SuperX (X/Twitter growth tool for SaaS/dev agencies): Hit $23k MRR in 6 months post-launch (from $1k day 1), ~650 customers at $39/mo, 20-25% MoM growth. Founder reversed viral X posts into product after agency pivot.",
+    "why_us": "Proves demand for Twitter-centric growth tools in indie/SaaS space; shows fast path to meaningful revenue for X-leveraged products. Opportunity to build complementary automation or AI features.",
+    "revenue": "$23k MRR",
+    "source_link": "https://www.indiehackers.com/post/tech/hitting-23k-mrr-in-six-months-after-five-failures-4d64o9ev4AXXhX9ogHQQ",
+    "source_platform": "indiehackers",
+    "engagement": "High discussion in IH community",
+    "score": 85
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "AI orchestration platform (Meerkats.ai) reached $3k+ MRR in 4 weeks in crowded market. AI design tool hit $10k MRR in 6 weeks with no marketing spend.",
+    "why_us": "Validates quick traction for focused AI wrappers/orchestrators. Signals opportunity in niche AI automation for specific workflows (e.g., design, ops) where context/integration is key pain.",
+    "revenue": "$3k-$10k MRR",
+    "source_link": "https://www.indiehackers.com/post/tech/growing-an-ai-orchestration-platform-to-3k-mrr-in-4-weeks-gK3zYDqQjXYG9ANwmxzA",
+    "source_platform": "indiehackers",
+    "engagement": "Community validation",
+    "score": 78
+  },
+  {
+    "type": "demand_gap",
+    "what": "Frustrations with SaaS alternatives, pricing, and missing features (e.g., Trustpilot alts, resume/CV tools vs ChatGPT, booking/niche tools). Common wishes for cheaper, simpler, or more integrated options. X posts on 'I wish there was' and building for specific niches (salons/gyms).",
+    "why_us": "Recurring pain in reviews/forums around cost, bloat, and integration. High potential for micro-SaaS filling gaps (e.g., niche booking, review collection, context-heavy AI).",
+    "revenue": "N/A (demand signal)",
+    "source_link": "https://www.indiehackers.com/post/looking-for-3-5-business-owners-to-try-my-trustpilot-alternative-free-want-your-honest-feedback-f9c284f545",
+    "source_platform": "indiehackers",
+    "engagement": "Multiple threads + X likes 50-200+",
+    "score": 72
+  },
+  {
+    "type": "automation",
+    "what": "Indie builders sharing quick wins: Booking demo for local businesses (salons etc.) → $300-$2.5k one-time + $100-500/mo retainers. AI wrappers and outreach automation pains (stitching tools). Calls for reliable single-prompt workflows.",
+    "why_us": "Concrete monetization path for automation bots/tools targeting SMBs. Low competition in hyper-niche verticals; repeatable playbook.",
+    "revenue": "$4k-$8k/mo potential (conservative)",
+    "source_link": "https://x.com/rimtoln/status/2075928073300570483",
+    "source_platform": "x",
+    "engagement": "50+ likes, practical discussion",
+    "score": 68
+  },
+  {
+    "type": "revenue_report",
+    "what": "Habit tracking app (consumer): $0 to $1k MRR in 8 months, bootstrapped solo. Strong seasonal spikes (New Year). Other examples: $300 MRR in 7 days post-launch, $2.8k MRR accounting service seeking tech partner.",
+    "why_us": "Shows viability of consumer + B2B micro-SaaS with persistence/launch tactics. Highlights co-founder needs and retention focus.",
+    "revenue": "$1k-$2.8k MRR",
+    "source_link": "https://www.indiehackers.com/post/from-0-to-1k-mrr-in-8-months-bootstrapping-habit-pixel-as-a-solo-dev-53d8687d15",
+    "source_platform": "indiehackers",
+    "engagement": "Community engagement",
+    "score": 65
+  }
+]

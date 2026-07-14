@@ -1,0 +1,82 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "Accounting/reconciliation lag for on-chain payments (USDC/Solana instant transfers but manual invoice updates for merchants/creators/SaaS)",
+    "why_us": "Clear pain in crypto payments flow; opportunity for automation/bot that reconciles on-chain txs with accounting/invoices. High payment willingness from businesses accepting crypto.",
+    "revenue": "N/A (idea post)",
+    "source_link": "https://x.com/_Unicornglows_/status/2076923443430215740",
+    "source_platform": "x",
+    "engagement": "63 likes + discussion",
+    "score": 72
+  },
+  {
+    "type": "revenue_report",
+    "what": "Solo founder hit $125k MRR (~$1.5M ARR run rate) by doubling down on specific segment in polling/SaaS tool (Zigpoll)",
+    "why_us": "Proof of solo bootstrapped scaling in niche SaaS; validates focused execution and segment targeting. Shows sustainable revenue paths.",
+    "revenue": "$125k MRR",
+    "source_link": "https://www.indiehackers.com/post/tech/hitting-125k-mrr-as-a-solo-founder-by-doubling-down-on-the-right-segment-c4o2Tfs6mjdpip5yZhaO",
+    "source_platform": "indiehackers",
+    "engagement": "High discussion on IH",
+    "score": 85
+  },
+  {
+    "type": "revenue_report",
+    "what": "Habit tracker app (Habit Pixel) reached $1k MRR in 8 months as solo dev bootstrap; strong seasonal spikes (New Year resolutions)",
+    "why_us": "Consumer app revenue validation with clear growth levers (features, localization). Shows persistence pays in B2C with recurring needs.",
+    "revenue": "$1k MRR (target $5k)",
+    "source_link": "https://www.indiehackers.com/post/from-0-to-1k-mrr-in-8-months-bootstrapping-habit-pixel-as-a-solo-dev-53d8687d15",
+    "source_platform": "indiehackers",
+    "engagement": "Community validation",
+    "score": 68
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "Goose Ads: AI agents for on-brand Meta ad creatives (research + generation + performance analysis) launched on PH",
+    "why_us": "Fast AI wrapper/automation for ads; demonstrates agentic loops with multiple models. Monetization via subscriptions/discounts. Relevant for marketing automation.",
+    "revenue": "Early launch (50% off promo)",
+    "source_link": "https://x.com/shivsakhuja/status/2076952229618012521",
+    "source_platform": "x",
+    "engagement": "80+ likes",
+    "score": 75
+  },
+  {
+    "type": "revenue_report",
+    "what": "Maxed AI hit $1k MRR milestone (after 14k+ downloads); consumer AI tool focus",
+    "why_us": "Clear progression from downloads to revenue; indie AI product validation with room for wrappers/automation layers.",
+    "revenue": "$1k MRR",
+    "source_link": "https://x.com/MaxHirsch13/status/2073266454821003739",
+    "source_platform": "x",
+    "engagement": "226 likes",
+    "score": 70
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "Simple AI wrapper in auto-mode: $220 MRR after 8 months ($4k lifetime revenue, 25k traffic)",
+    "why_us": "Real numbers on low-complexity AI wrappers scaling to revenue; highlights traffic-to-paid conversion and auto features as key.",
+    "revenue": "$220 MRR",
+    "source_link": "https://www.indiehackers.com/post/simple-ai-wrapper-in-auto-mode-8-months-4k-in-revenue-220-in-mrr-6d418c5a8e",
+    "source_platform": "indiehackers",
+    "engagement": "Targeted discussion",
+    "score": 65
+  },
+  {
+    "type": "demand_gap",
+    "what": "Frustrations with customer pain point discovery (companies unaware of real complaints/requests in reviews/Reddit/forums)",
+    "why_us": "Built AI agent example for mining pains; direct overlap with RHR scouting. High value for product teams/SaaS iteration.",
+    "revenue": "N/A (tool demo)",
+    "source_link": "https://x.com/viipin8/status/2067581022779343223",
+    "source_platform": "x",
+    "engagement": "134 likes",
+    "score": 78
+  },
+  {
+    "type": "revenue_report",
+    "what": "BlogToPin at ~$15k MRR + Sequenzy at $1k MRR (after years of failures); email/SaaS tools",
+    "why_us": "Long-term indie persistence leading to multiple revenue streams; validates niching down.",
+    "revenue": "$16k MRR combined",
+    "source_link": "https://www.indiehackers.com/post/tech/hitting-16k-mrr-after-years-of-failed-products-h5lM0xJmVrRZM0B23MT6",
+    "source_platform": "indiehackers",
+    "engagement": "IH community",
+    "score": 80
+  }
+]

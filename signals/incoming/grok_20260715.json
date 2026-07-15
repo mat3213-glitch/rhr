@@ -1,0 +1,52 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "People seeking affordable or open-source alternatives to paid tools like CapCut, Substance3DDesigner, Eagle app, Photoshop, etc., for video editing, material authoring, visual inspiration collection.",
+    "why_us": "High engagement on alternatives posts indicates strong demand for cheaper/free/local options in creative tools space. RHR could identify gaps for new micro-SaaS.",
+    "revenue": "N/A",
+    "source_link": "https://x.com/oliviscusAI/status/2076356010403623147",
+    "source_platform": "x",
+    "engagement": "151 likes",
+    "score": 75
+  },
+  {
+    "type": "revenue_report",
+    "what": "Indie founder crossed $11k total revenue / $2.8k MRR with organic growth for SaaS launched 8 months ago.",
+    "why_us": "Shows viability of consistent building without ads; benchmark for RHR users or potential ideas.",
+    "revenue": "$2,789 MRR",
+    "source_link": "https://x.com/anupamrjp/status/2073586559170019708",
+    "source_platform": "x",
+    "engagement": "101 likes",
+    "score": 80
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "Open-source alternatives and AI-powered tools like MaterialMaker, personal AI note-taking, agents for building SaaS.",
+    "why_us": "Trend towards local/AI wrappers replacing expensive SaaS; opportunities for RHR in AI automation.",
+    "revenue": "N/A but high interest",
+    "source_link": "https://x.com/theCGchannel/status/2076983843655909663",
+    "source_platform": "x",
+    "engagement": "167 likes",
+    "score": 70
+  },
+  {
+    "type": "automation",
+    "what": "Telegram bots for trading, reminders, community management with engagement.",
+    "why_us": "Easy monetization potential via bots; people building and using them for specific pains.",
+    "revenue": "N/A",
+    "source_link": "https://x.com/prathamgrv/status/2077076197666935094",
+    "source_platform": "x",
+    "engagement": "255 likes",
+    "score": 65
+  },
+  {
+    "type": "demand_gap",
+    "what": "SaaS founders struggling with sales, validation, client acquisition; pain points in marketing and PMF.",
+    "why_us": "Recurring complaints on Reddit/elsewhere; RHR can target tools for indie hackers.",
+    "revenue": "N/A",
+    "source_link": "https://www.reddit.com/r/SaaS/comments/1ovlbuv/after_8_years_in_saas_im_convinced_find_a_pain/",
+    "source_platform": "reddit",
+    "engagement": "High discussion",
+    "score": 68
+  }
+]

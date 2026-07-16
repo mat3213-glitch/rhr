@@ -1,0 +1,32 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "Frustration with manual client reporting for agencies, pulling data from ad platforms and formatting updates",
+    "why_us": "Opportunity for AI-automated reporting tool that saves time for small agencies",
+    "revenue": "Potential $20-100/mo per user",
+    "source_link": "https://www.reddit.com/r/SaaS/comments/1mvgx0c/validating_a_pain_point_client_reporting_for/",
+    "source_platform": "reddit",
+    "engagement": "Discussion in SaaS community",
+    "score": 65
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "AI companion for trading with real-time market data on Robinhood",
+    "why_us": "Shows demand for specialized AI tools in finance/crypto",
+    "revenue": "Unknown but shipped product",
+    "source_link": "https://x.com/DopaMintLabs/status/2077708554673475597",
+    "source_platform": "x",
+    "engagement": "59 likes",
+    "score": 55
+  },
+  {
+    "type": "revenue_report",
+    "what": "SaaS at $15k MRR built with AI tools",
+    "why_us": "Validation of quick AI-built SaaS potential and engineering needs",
+    "revenue": "$15k MRR",
+    "source_link": "https://x.com/TosinOlugbenga/status/2075824957032956003",
+    "source_platform": "x",
+    "engagement": "71 likes",
+    "score": 70
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "type": "ai_wrapper",
+    "what": "AI wrapper mobile app crossed 50k downloads and surpassed previous salary in revenue",
+    "why_us": "Shows demand for simple AI wrappers that solve user problems quickly; potential for RHR to build similar monetizable tools",
+    "revenue": "Profitable, exceeded salary",
+    "source_link": "https://x.com/wojakcodes/status/2078368825150763164",
+    "source_platform": "x",
+    "engagement": "848 likes",
+    "score": 75
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "Kling AI wrapper generated nearly $7,000 in revenue over a few months",
+    "why_us": "Concrete revenue from AI video wrapper; highlights opportunity in AI tool wrappers for creative tasks",
+    "revenue": "$7k total",
+    "source_link": "https://x.com/athcanft/status/2077702849148997755",
+    "source_platform": "x",
+    "engagement": "86 likes",
+    "score": 65
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "AI therapist app (GPT wrapper) reached $100k MRR, marketed via TikTok",
+    "why_us": "High revenue example of personalized AI app; pain in traditional therapy pricing creates demand gap",
+    "revenue": "$100k MRR",
+    "source_link": "https://x.com/tadasgedgaudas/status/2077668118139183575",
+    "source_platform": "x",
+    "engagement": "109 likes",
+    "score": 85
+  },
+  {
+    "type": "revenue_report",
+    "what": "Habit Pixel habit tracker app reached $1k MRR in 8 months as solo dev",
+    "why_us": "Realistic bootstrapped revenue journey; insights into user acquisition and retention for consumer apps",
+    "revenue": "$1k MRR",
+    "source_link": "https://www.indiehackers.com/post/from-0-to-1k-mrr-in-8-months-bootstrapping-habit-pixel-as-a-solo-dev-53d8687d15",
+    "source_platform": "indiehackers",
+    "engagement": "N/A",
+    "score": 70
+  },
+  {
+    "type": "demand_gap",
+    "what": "Complaints about building alternatives to big SaaS, pain in integrations and plumbing after AI MVP",
+    "why_us": "Identifies friction points post-AI coding; opportunity for RHR automation tools",
+    "revenue": "N/A",
+    "source_link": "https://www.reddit.com/r/SaaS/comments/1fcorop/is_it_a_waste_of_time_to_build_an_alternative_to/",
+    "source_platform": "reddit",
+    "engagement": "Discussions",
+    "score": 60
+  },
+  {
+    "type": "automation",
+    "what": "AI agents for enterprise custom workflows solving specific pains better than generic SaaS",
+    "why_us": "Shift from generic to custom agents; aligns with bot/automation category",
+    "revenue": "Millions saved",
+    "source_link": "https://x.com/vasuman/status/1979264758487663101",
+    "source_platform": "x",
+    "engagement": "831 likes",
+    "score": 80
+  }
+]

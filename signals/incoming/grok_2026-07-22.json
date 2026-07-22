@@ -1,0 +1,52 @@
+[
+  {
+    "type": "revenue_report",
+    "what": "SaaS launched 8 months ago reached $2,789 MRR through organic growth",
+    "why_us": "Shows viability of bootstrapped SaaS with consistent building and user listening. Potential for RHR to analyze similar launches.",
+    "revenue": "$2,789 MRR",
+    "source_link": "https://x.com/anupamrjp/status/2073586559170019708",
+    "source_platform": "x",
+    "engagement": "101 likes",
+    "score": 75
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "AI Kling wrapper generated nearly $7,000 revenue",
+    "why_us": "Demonstrates monetization potential of AI wrappers, relevant for automation and micro-SaaS ideas.",
+    "revenue": "$7k total",
+    "source_link": "https://x.com/athcanft/status/2077702849148997755",
+    "source_platform": "x",
+    "engagement": "87 likes",
+    "score": 70
+  },
+  {
+    "type": "demand_gap",
+    "what": "Wish for eKasj app as alternative to mobile money services in Rwanda to reduce fees",
+    "why_us": "Pain point in fintech/mobile payments, high engagement on payment frustrations.",
+    "revenue": "N/A",
+    "source_link": "https://x.com/Rutambii/status/2076916599705981358",
+    "source_platform": "x",
+    "engagement": "154 likes",
+    "score": 65
+  },
+  {
+    "type": "revenue_report",
+    "what": "SaaS founder hit $60K MRR in 2 months via 2000 customer calls",
+    "why_us": "Highlights importance of customer discovery for fast growth, actionable for RHR insights.",
+    "revenue": "$60k MRR",
+    "source_link": "https://x.com/thepatwalls/status/2060107881123573833",
+    "source_platform": "x",
+    "engagement": "149 likes",
+    "score": 80
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "OpenCut: free open-source alternative to CapCut with AI features",
+    "why_us": "Demand for affordable video editing tools without subscriptions, AI integration opportunity.",
+    "revenue": "N/A but free tool gaining traction",
+    "source_link": "https://x.com/oliviscusAI/status/2076356010403623147",
+    "source_platform": "x",
+    "engagement": "153 likes",
+    "score": 68
+  }
+]

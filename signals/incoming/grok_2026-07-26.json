@@ -1,0 +1,62 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "App that lets startup employees spend illiquid equity instantly (rent, flights, groceries) directly from cap table",
+    "why_us": "Clear pain of locked equity for years; high engagement discussion on feasibility; potential fintech/SaaS opportunity for secondary markets or advance against equity",
+    "revenue": "N/A",
+    "source_link": "https://x.com/iamnotstatic/status/2081017285829861502",
+    "source_platform": "x",
+    "engagement": "83 likes, 23 replies, 26 bookmarks, 11k views",
+    "score": 72
+  },
+  {
+    "type": "demand_gap",
+    "what": "OneKYC - single KYC verification that grants instant access to multiple neobanks, trading platforms, CEXs without repeating ID scans",
+    "why_us": "Massive repeated friction in onboarding; platforms want lower friction for higher conversion; recurring pain in crypto/fintech",
+    "revenue": "N/A",
+    "source_link": "https://x.com/defyneric/status/2056261242809934147",
+    "source_platform": "x",
+    "engagement": "141 likes, 85 replies, 66 bookmarks, 24k views",
+    "score": 68
+  },
+  {
+    "type": "revenue_report",
+    "what": "CMEM.ai (AI memory agent) launched and hit $160 MRR within hours, bootstrapped via token community fees",
+    "why_us": "Concrete early traction for AI agent/memory product; shows demand for persistent AI memory across sessions",
+    "revenue": "$160 MRR",
+    "source_link": "https://x.com/Claude_Memory/status/2080968814221746641",
+    "source_platform": "x",
+    "engagement": "6 likes, 5 replies",
+    "score": 62
+  },
+  {
+    "type": "revenue_report",
+    "what": "B2B product at $60k MRR; team of 5; one pillar feature built in 1 week with Claude (would take 2 months without AI)",
+    "why_us": "Shows AI accelerating feature velocity in established SaaS; concrete MRR and team size",
+    "revenue": "$60k MRR",
+    "source_link": "https://x.com/milosandric01/status/2081307876631482497",
+    "source_platform": "x",
+    "engagement": "1 like",
+    "score": 65
+  },
+  {
+    "type": "demand_gap",
+    "what": "Simple weather app that just says 'it's too hot, stay inside' instead of complex humidity/dew point data",
+    "why_us": "Anti-bloat demand; users overwhelmed by data; easy micro-SaaS or feature for existing apps",
+    "revenue": "N/A",
+    "source_link": "https://x.com/Demo4fhs/status/2079294599013540038",
+    "source_platform": "x",
+    "engagement": "87 likes, 28 reposts",
+    "score": 61
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "Hit $10k MRR by connecting own API keys on Ideavo AI platform and shipping; no platform fees or token markup",
+    "why_us": "Example of AI tooling enabling pure building and monetization without middleman costs",
+    "revenue": "$10k MRR",
+    "source_link": "https://x.com/toebow8/status/2081364748306874817",
+    "source_platform": "x",
+    "engagement": "2 likes",
+    "score": 60
+  }
+]

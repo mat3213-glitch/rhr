@@ -1,7 +1,6 @@
 """Tests for collectors/http_util.py — SSRF protection, retry, safe client."""
 from __future__ import annotations
 
-import math
 from unittest.mock import MagicMock, patch
 
 import httpx
@@ -9,10 +8,12 @@ import pytest
 
 from collectors.http_util import (
     _is_blocked_host,
+    _is_blocked_ip,
     client,
     retry,
     SafeRedirectTransport,
 )
+import ipaddress
 
 
 class TestIsBlockedHost:
@@ -40,17 +41,73 @@ class TestIsBlockedHost:
     def test_ipv6_loopback(self):
         assert _is_blocked_host("::1") is True
 
+    def test_ipv6_ula(self):
+        assert _is_blocked_host("fd12:3456:789a::1") is True
+
+    def test_unspecified(self):
+        assert _is_blocked_host("0.0.0.0") is True
+        assert _is_blocked_host("::") is True
+
+    def test_multicast(self):
+        assert _is_blocked_host("224.0.0.1") is True
+
     def test_metadata_google(self):
         assert _is_blocked_host("metadata.google.internal") is True
 
-    def test_public_host(self):
-        assert _is_blocked_host("api.github.com") is False
-        assert _is_blocked_host("example.com") is False
+    def test_public_literal_ip(self):
         assert _is_blocked_host("1.1.1.1") is False
+        assert _is_blocked_host("8.8.8.8") is False
+
+    def test_public_host_with_public_dns(self):
+        # Mock resolver so we don't depend on live DNS in CI.
+        assert _is_blocked_host(
+            "api.github.com",
+            resolver=lambda h: ["140.82.112.3"],
+        ) is False
+        assert _is_blocked_host(
+            "example.com",
+            resolver=lambda h: ["93.184.216.34"],
+        ) is False
 
     def test_private_out_of_range(self):
         assert _is_blocked_host("11.0.0.1") is False
         assert _is_blocked_host("172.32.0.1") is False
+
+    def test_hostname_resolves_to_private_ip(self):
+        """SSRF via DNS: public-looking name → private address must be blocked."""
+        assert _is_blocked_host(
+            "evil.internal",
+            resolver=lambda h: ["127.0.0.1"],
+        ) is True
+        assert _is_blocked_host(
+            "corp.local",
+            resolver=lambda h: ["10.0.0.5"],
+        ) is True
+        assert _is_blocked_host(
+            "meta.example",
+            resolver=lambda h: ["169.254.169.254"],
+        ) is True
+
+    def test_hostname_resolves_to_mixed_ips_blocks_if_any_private(self):
+        assert _is_blocked_host(
+            "dual.example",
+            resolver=lambda h: ["1.1.1.1", "192.168.0.1"],
+        ) is True
+
+    def test_hostname_unresolvable_not_preemptively_blocked(self):
+        # Let the connection fail naturally; we only refuse proven-unsafe targets.
+        assert _is_blocked_host("no-such-host.invalid", resolver=lambda h: []) is False
+
+    def test_bracketed_ipv6_loopback(self):
+        assert _is_blocked_host("[::1]") is True
+
+
+class TestIsBlockedIp:
+    def test_flags_cover_cgnat(self):
+        assert _is_blocked_ip(ipaddress.ip_address("100.64.0.1")) is True
+
+    def test_ipv4_mapped_loopback(self):
+        assert _is_blocked_ip(ipaddress.ip_address("::ffff:127.0.0.1")) is True
 
 
 class TestSafeRedirectTransport:
@@ -62,22 +119,51 @@ class TestSafeRedirectTransport:
             transport.handle_request(req)
         inner.handle_request.assert_not_called()
 
+    def test_blocks_hostname_resolving_private(self):
+        inner = MagicMock()
+        transport = SafeRedirectTransport(
+            inner, resolver=lambda h: ["10.1.2.3"]
+        )
+        req = httpx.Request("GET", "https://looks-public.example/x")
+        with pytest.raises(httpx.ConnectError, match="Blocked SSRF"):
+            transport.handle_request(req)
+        inner.handle_request.assert_not_called()
+
     def test_allows_public_host(self):
         inner = MagicMock()
         inner.handle_response.return_value = httpx.Response(200)
-        transport = SafeRedirectTransport(inner)
+        transport = SafeRedirectTransport(
+            inner, resolver=lambda h: ["140.82.112.3"]
+        )
         req = httpx.Request("GET", "https://api.github.com/data")
         transport.handle_request(req)
         inner.handle_request.assert_called_once()
 
+    def test_redirect_hop_rechecked(self):
+        """Each hop goes through handle_request — private redirect target blocked."""
+        inner = MagicMock()
+        transport = SafeRedirectTransport(
+            inner,
+            resolver=lambda h: (
+                ["1.1.1.1"] if h == "public.example" else ["127.0.0.1"]
+            ),
+        )
+        # First hop OK
+        transport.handle_request(httpx.Request("GET", "https://public.example/a"))
+        # Redirect hop to internal — blocked
+        with pytest.raises(httpx.ConnectError, match="Blocked SSRF"):
+            transport.handle_request(
+                httpx.Request("GET", "https://internal.example/b")
+            )
+
 
 class TestClient:
     def test_returns_httpx_client(self):
-        with client(timeout=10) as cl:
+        with client(timeout=10, resolver=lambda h: ["1.1.1.1"]) as cl:
             assert isinstance(cl, httpx.Client)
 
     def test_timeout_applied(self):
-        with client(timeout=15, connect_timeout=3) as cl:
+        with client(timeout=15, connect_timeout=3, resolver=lambda h: ["1.1.1.1"]) as cl:
             assert cl.timeout.connect == 3.0
             assert cl.timeout.read == 15.0
 

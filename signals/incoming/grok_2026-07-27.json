@@ -1,0 +1,82 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "App that lets startup employees spend locked equity instantly (rent, flights, groceries) from their cap table",
+    "why_us": "Clear demand gap for liquidity of illiquid equity; high willingness to solve real financial pain for tech workers",
+    "revenue": "Potential $10-50/mo subscription or transaction fees",
+    "source_link": "https://x.com/iamnotstatic/status/2081017285829861502",
+    "source_platform": "x",
+    "engagement": "85 likes, 23 replies, 27 bookmarks",
+    "score": 72
+  },
+  {
+    "type": "revenue_report",
+    "what": "Distribb hit $20K MRR",
+    "why_us": "Concrete indie SaaS growth signal with founder AMA",
+    "revenue": "$20k MRR",
+    "source_link": "https://x.com/floriandarroman/status/2080186183548891164",
+    "source_platform": "x",
+    "engagement": "246 likes, 92 replies, 48 bookmarks",
+    "score": 85
+  },
+  {
+    "type": "revenue_report",
+    "what": "Indie app reached $6.2k/month with $200/day ad spend, $10 CPA, 2x+ ROAS",
+    "why_us": "Transparent scaling metrics from solo founder",
+    "revenue": "$6.2k/mo",
+    "source_link": "https://x.com/_frederickjames/status/2079519725814431954",
+    "source_platform": "x",
+    "engagement": "297 likes, 57 replies, 115 bookmarks",
+    "score": 82
+  },
+  {
+    "type": "revenue_report",
+    "what": "Postiz (agentic social media scheduler) at $165k MRR, growing ~$1k/day",
+    "why_us": "Strong proof of AI-agent SaaS monetization and adaptation to BigAI shift",
+    "revenue": "$165k MRR",
+    "source_link": "https://x.com/wickedguro/status/2081582808041210156",
+    "source_platform": "x",
+    "engagement": "283 likes, 39 replies, 226 bookmarks",
+    "score": 90
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "AI UGC app hit 1.9M views in 4 days and $30k MRR",
+    "why_us": "Validates AI content generation for creators with rapid revenue",
+    "revenue": "$30k MRR",
+    "source_link": "https://x.com/tylerrwayne/status/2080988138558955878",
+    "source_platform": "x",
+    "engagement": "30 likes (quoted higher engagement post)",
+    "score": 75
+  },
+  {
+    "type": "automation",
+    "what": "Telegram bot for long/short any token with up to 5x leverage on Solana/Robinhood Chain: $1.5M volume, 15k+ trades, 850+ users, $34k+ revenue",
+    "why_us": "Real usage-driven revenue from trading automation bot",
+    "revenue": "$34k+ revenue",
+    "source_link": "https://x.com/raven_rwas/status/2080338761632866559",
+    "source_platform": "x",
+    "engagement": "25 likes",
+    "score": 68
+  },
+  {
+    "type": "defi_yield",
+    "what": "TermMaxFi fixed 2.5% APR for USDC borrowing against syrupUSDC on Base, locked through maturity + non-liquidatable Alpha positions",
+    "why_us": "Stable fixed-rate DeFi product addressing floating rate volatility pain",
+    "revenue": "2.5% fixed APR",
+    "source_link": "https://x.com/zxc68984008/status/2081552199373721637",
+    "source_platform": "x",
+    "engagement": "140 likes, 128 replies",
+    "score": 70
+  },
+  {
+    "type": "demand_gap",
+    "what": "SaaS sprawl: average SMB uses 87 apps, 34% unused, $156/user/mo spend; need for consolidation/review tools",
+    "why_us": "Widespread budget pain in small businesses with clear opportunity for management/audit SaaS",
+    "revenue": "Potential $50-200/mo per company",
+    "source_link": "https://mewayz.com/blog/the-state-of-small-business-software-in-2026-annual-report",
+    "source_platform": "other",
+    "engagement": "Industry report 2026",
+    "score": 78
+  }
+]

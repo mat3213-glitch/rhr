@@ -1,12 +1,22 @@
 # RHR source registry.
 # Each collector reads the relevant entries here. Add/remove freely.
 # `enabled: false` keeps a source defined but skips it.
+#
+# schedule — 5-field cron (min hour dom month dow). Consumed by
+#   `python run.py scan --due` (see schedule_util.py). The public GH workflow
+#   runs every ~30 min and only executes sources whose schedule is due.
+#   Do not leave schedule as decoration: the dispatcher uses it.
+#
+# tier — `public` (clean, safe on github-hosted runners) or `deep`
+#   (sensitive / ToS-grey / needs self-hosted). Public workflow uses
+#   `--tier public`; deep sources have dedicated workflows (e.g. rhr-telegram).
 
 sources:
 
   # ───────────────────────────── CLEAN / PUBLIC (Phase 1) ─────────────────────────────
   hackernews:
     enabled: true
+    tier: public
     type: hackernews
     schedule: "*/30 * * * *"        # every 30 min — front + show + ask + best
     params:
@@ -16,6 +26,7 @@ sources:
 
   rss:
     enabled: true
+    tier: public
     type: rss
     schedule: "0 */4 * * *"         # every 4h
     params:
@@ -29,6 +40,7 @@ sources:
   # ───────────────────────────── AGGREGATORS (Phase 2) ─────────────────────────────
   defillama:
     enabled: true
+    tier: public
     type: defillama
     schedule: "0 */6 * * *"
     params:
@@ -38,6 +50,7 @@ sources:
 
   producthunt:
     enabled: true
+    tier: public
     type: producthunt
     schedule: "0 8 * * *"           # daily, when PH resets
     params:
@@ -45,6 +58,7 @@ sources:
 
   youtube:
     enabled: true
+    tier: public
     type: youtube
     schedule: "0 */12 * * *"        # 2x/day: 2 × 4 terms × 10 = 8000 units (limit 10k)
     params:
@@ -57,14 +71,17 @@ sources:
 
   gumroad:
     enabled: true
+    tier: public
     type: gumroad
     schedule: "0 */6 * * *"
     params:
       max_items: 30
 
-  # ───────────────────────────── DEEP / SENSITIVE (Phase 3, self-hosted runner) ────
+  # ───────────────────────────── DEEP / SENSITIVE (Phase 3, self-hosted / dedicated WF) ────
+  # Not scanned by .github/workflows/scan-forums.yml (--tier public).
   reddit:
     enabled: true
+    tier: deep
     type: reddit
     schedule: "*/30 * * * *"
     params:
@@ -81,8 +98,9 @@ sources:
 
   telegram:
     enabled: true
+    tier: deep
     type: telegram
-    schedule: "17 7,19 * * *"
+    schedule: "17 7,19 * * *"       # mirrored by rhr-telegram.yml crons
     params:
       channels:
         # Passive income / Side hustles
@@ -110,5 +128,3 @@ sources:
         - nocode
         - affiliatemarketing
       max_messages_per_channel: 50
-
-

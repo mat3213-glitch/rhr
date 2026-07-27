@@ -1,16 +1,20 @@
 name: scan
 
-# Fetches raw signals from enabled "clean" sources on a cron.
-# Runs on the public-friendly sources (HN, RSS, public aggregators).
-# Sensitive sources (Telegram, X via Grok, proxy-scraping) live in scan-deep.yml
-# and require a self-hosted runner.
+# Fetches raw signals from enabled public/clean sources whose schedule is due.
+# The workflow ticks every ~30 min; per-source cadence lives in
+# config/sources.yaml (`schedule` + `tier: public`) and is enforced by
+# `python run.py scan --due --tier public` (see schedule_util.py).
+#
+# Deep/sensitive sources (Telegram, Reddit, …) are tier: deep and must NOT
+# run here — they have dedicated workflows (rhr-telegram.yml) or self-hosted
+# runners.
 #
 # Note on cron: GitHub Actions cron has ~5-15 min jitter and doesn't guarantee
 # exact timing. We schedule conservatively; correctness does not depend on it.
 
 on:
   schedule:
-    - cron: "*/30 * * * *"   # every 30 min
+    - cron: "*/30 * * * *"   # dispatcher tick; individual sources use their own schedule
   workflow_dispatch:          # manual trigger from the Actions tab
 
 permissions:
@@ -46,8 +50,10 @@ jobs:
           # If you prefer artifacts instead, download the latest DB artifact here.
           if [ ! -f data/rhr.db ]; then python run.py init; fi
 
-      - name: Scan all enabled clean sources
-        run: python run.py scan
+      - name: Scan due public sources
+        # Honours config/sources.yaml schedule + tier. Skips youtube/rss/etc.
+        # when their cron is not due; never runs tier: deep (telegram/reddit).
+        run: python run.py scan --due --tier public
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
           PRODUCTHUNT_API_TOKEN: ${{ secrets.PRODUCTHUNT_API_TOKEN }}

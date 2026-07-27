@@ -3,8 +3,10 @@
 
 Commands:
   init              Apply data/schema.sql (creates/updates the SQLite DB)
-  scan [SOURCE]     Run collectors. With no arg: all enabled sources.
-                    With a name (e.g. hackernews, rss): just that one.
+  scan [SOURCE...]  Run collectors. With no arg: all enabled sources.
+                    With names (e.g. hackernews rss): just those.
+                    --due --tier public: only public sources whose schedule
+                    is due (used by the GH Actions dispatcher).
   pipeline          normalize (already done at scan time) → dedup → classify → score
   score [--rescore] Re-score candidates (use after editing scoring/weights.yaml)
   track [--dry-run] [--top N]  Create GitHub issues for top candidates
@@ -60,6 +62,7 @@ from sandbox.metrics import (  # noqa: E402
     collect_metrics, set_verdict, graduate_candidate, kill_candidate,
 )
 from pipeline.observability import logger, aggregate_logs  # noqa: E402
+from schedule_util import last_success_from_db, sources_due  # noqa: E402
 
 
 def cmd_init(_: argparse.Namespace) -> int:
@@ -73,12 +76,52 @@ def cmd_init(_: argparse.Namespace) -> int:
     return 0
 
 
+def _resolve_scan_names(args: argparse.Namespace, sources_cfg: dict, conn) -> list[str]:
+    """Pick which sources to scan from CLI flags + schedule/tier."""
+    explicit = list(getattr(args, "sources", None) or [])
+    # Back-compat: older tests set args.source (singular).
+    if not explicit and getattr(args, "source", None):
+        explicit = [args.source]
+
+    tier = getattr(args, "tier", None) or "all"
+    due = bool(getattr(args, "due", False))
+
+    if explicit:
+        return explicit
+
+    if due:
+        last = last_success_from_db(conn)
+        names = sources_due(
+            sources_cfg,
+            tier=tier,
+            last_success=last,
+            respect_schedule=True,
+        )
+        print(
+            f"[scan] --due tier={tier}: {len(names)} source(s) due: "
+            f"{', '.join(names) or '(none)'}"
+        )
+        return names
+
+    # All enabled, optionally filtered by tier (no schedule gate).
+    names = sources_due(
+        sources_cfg,
+        tier=tier,
+        respect_schedule=False,
+    )
+    return names
+
+
 def cmd_scan(args: argparse.Namespace) -> int:
     sources_cfg = load_sources().get("sources", {})
-    names = [args.source] if args.source else list(sources_cfg.keys())
     conn = db()
+    names = _resolve_scan_names(args, sources_cfg, conn)
     run = logger.start_run("scan", sources=names)
     total_in = total_kept = 0
+    if not names:
+        print("[scan] nothing to do (no sources selected / none due)")
+        logger.end_run("ok")
+        return 0
     for name in names:
         cfg = sources_cfg.get(name)
         if not cfg:
@@ -350,8 +393,26 @@ def main() -> int:
 
     sub.add_parser("init", help="apply SQLite schema")
 
-    sp = sub.add_parser("scan", help="run collectors")
-    sp.add_argument("source", nargs="?", help="source name (default: all enabled)")
+    sp = sub.add_parser(
+        "scan",
+        help="run collectors (optional: names, --due, --tier)",
+    )
+    sp.add_argument(
+        "sources",
+        nargs="*",
+        help="source name(s); default: all enabled (or due, with --due)",
+    )
+    sp.add_argument(
+        "--due",
+        action="store_true",
+        help="only sources whose cron schedule is due (uses run_log last success)",
+    )
+    sp.add_argument(
+        "--tier",
+        choices=["public", "deep", "all"],
+        default="all",
+        help="filter by sources.yaml tier (default: all; GH public scan uses public)",
+    )
 
     sub.add_parser("pipeline", help="dedup + classify + score")
 

@@ -50,7 +50,10 @@ class TestCmdScan:
         monkeypatch.setattr("run.load_sources", lambda: {"sources": {}})
         import run
         args = MagicMock()
-        args.source = "nonexistent"
+        args.sources = ["nonexistent"]
+        args.source = None
+        args.due = False
+        args.tier = "all"
         rc = run.cmd_scan(args)
         assert rc == 0
 
@@ -60,9 +63,44 @@ class TestCmdScan:
         })
         import run
         args = MagicMock()
-        args.source = "test"
+        args.sources = ["test"]
+        args.source = None
+        args.due = False
+        args.tier = "all"
         rc = run.cmd_scan(args)
         assert rc == 0
+
+    def test_scan_due_public_skips_deep(self, fresh_db, monkeypatch, capsys):
+        """--due --tier public must not select telegram/reddit."""
+        monkeypatch.setattr("run.load_sources", lambda: {
+            "sources": {
+                "hackernews": {
+                    "enabled": True, "tier": "public", "type": "hackernews",
+                    "schedule": "*/30 * * * *", "params": {},
+                },
+                "telegram": {
+                    "enabled": True, "tier": "deep", "type": "telegram",
+                    "schedule": "*/30 * * * *", "params": {},
+                },
+            }
+        })
+        # Avoid real network: empty fetch
+        class _Fake:
+            def fetch(self):
+                return []
+        monkeypatch.setattr("run.get_collector", lambda *a, **k: _Fake())
+        import run
+        args = MagicMock()
+        args.sources = []
+        args.source = None
+        args.due = True
+        args.tier = "public"
+        rc = run.cmd_scan(args)
+        assert rc == 0
+        out = capsys.readouterr().out
+        assert "telegram" not in out or "tier=public" in out
+        # Explicit: deep source name must not appear as a fetch line
+        assert "[scan] telegram: fetching" not in out
 
 
 class TestCmdPipeline:

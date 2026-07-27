@@ -151,3 +151,56 @@ class TestDedupSignals:
         )
         db.commit()
         assert dedup_signals(db) == 0
+
+    def test_same_fetched_at_picks_lowest_id(self, db):
+        """Two kept rows, identical fetched_at → exactly one canonical (min id)."""
+        ts = "2026-01-01T12:00:00Z"
+        db.execute(
+            "INSERT INTO signals (source, source_item_id, fetched_at, dedup_key, l1_status) "
+            "VALUES ('rss', 'a', ?, 'samekey', 'kept')",
+            (ts,),
+        )
+        db.execute(
+            "INSERT INTO signals (source, source_item_id, fetched_at, dedup_key, l1_status) "
+            "VALUES ('rss', 'b', ?, 'samekey', 'kept')",
+            (ts,),
+        )
+        db.commit()
+        marked = dedup_signals(db)
+        assert marked == 1
+        rows = {
+            r["id"]: r
+            for r in db.execute(
+                "SELECT id, l1_status, is_duplicate_of FROM signals ORDER BY id"
+            )
+        }
+        assert rows[1]["l1_status"] == "kept"
+        assert rows[1]["is_duplicate_of"] is None
+        assert rows[2]["l1_status"] == "duplicate"
+        assert rows[2]["is_duplicate_of"] == 1
+
+    def test_subsequent_run_marks_new_duplicate(self, db):
+        """After a canonical exists, a later insert with the same key is flagged."""
+        db.execute(
+            "INSERT INTO signals (source, source_item_id, fetched_at, dedup_key, l1_status) "
+            "VALUES ('rss', '1', '2026-01-01T00:00:00Z', 'keyX', 'kept')"
+        )
+        db.commit()
+        assert dedup_signals(db) == 0
+
+        db.execute(
+            "INSERT INTO signals (source, source_item_id, fetched_at, dedup_key, l1_status) "
+            "VALUES ('hn', '99', '2026-01-05T00:00:00Z', 'keyX', 'kept')"
+        )
+        db.commit()
+        marked = dedup_signals(db)
+        assert marked == 1
+        row = db.execute(
+            "SELECT l1_status, is_duplicate_of FROM signals WHERE source_item_id='99'"
+        ).fetchone()
+        assert row["l1_status"] == "duplicate"
+        assert row["is_duplicate_of"] == 1
+        canon = db.execute(
+            "SELECT l1_status FROM signals WHERE source_item_id='1'"
+        ).fetchone()
+        assert canon["l1_status"] == "kept"

@@ -6,6 +6,9 @@ Two layers:
 2. ``dedup_signals`` (called after a scan): within the DB, mark later signals
    that share a dedup_key with an earlier one as duplicates
    (l1_status='duplicate', is_duplicate_of=canonical).
+
+Canonical selection is stable: minimum ``(fetched_at, id)`` among kept rows
+sharing a dedup_key. Ties on the same second still collapse to one survivor.
 """
 from __future__ import annotations
 
@@ -64,26 +67,34 @@ def _norm_text(text: str) -> str:
 def dedup_signals(conn: sqlite3.Connection) -> int:
     """Mark duplicate signals. Returns count of newly-flagged duplicates.
 
-    Keeps the earliest-fetched signal per dedup_key as canonical.
-    Uses single UPDATE with subquery to avoid loading all rows into memory.
+    Keeps the earliest signal per dedup_key as canonical, breaking ties by
+    lowest ``id`` so two rows with the same second-resolution ``fetched_at``
+    still collapse to exactly one ``kept`` row.
     """
+    # A kept row is a duplicate iff another kept row with the same key is
+    # strictly earlier by (fetched_at, id). The survivor is min(fetched_at, id).
     cur = conn.execute(
         """UPDATE signals
               SET l1_status = 'duplicate',
                   is_duplicate_of = (
                     SELECT s2.id FROM signals s2
-                     WHERE s2.dedup_key = signals.dedup_key AND s2.id != signals.id
-                     ORDER BY s2.fetched_at ASC
+                     WHERE s2.dedup_key = signals.dedup_key
+                       AND s2.l1_status = 'kept'
+                     ORDER BY s2.fetched_at ASC, s2.id ASC
                      LIMIT 1
                   )
             WHERE l1_status = 'kept'
-              AND id NOT IN (
-                SELECT s3.id FROM signals s3
-                 WHERE s3.l1_status = 'kept'
-                   AND s3.fetched_at = (
-                     SELECT MIN(s4.fetched_at) FROM signals s4
-                      WHERE s4.dedup_key = s3.dedup_key AND s4.l1_status = 'kept'
+              AND EXISTS (
+                SELECT 1 FROM signals s2
+                 WHERE s2.dedup_key = signals.dedup_key
+                   AND s2.l1_status = 'kept'
+                   AND (
+                     s2.fetched_at < signals.fetched_at
+                     OR (s2.fetched_at = signals.fetched_at AND s2.id < signals.id)
                    )
               )"""
     )
+    # Callers (scan/pipeline) own the outer transaction; mirror prior behaviour
+    # and rely on subsequent log_run/pipeline commits. Explicit commit here would
+    # be fine too, but tests often assert mid-transaction state.
     return cur.rowcount

@@ -1,7 +1,10 @@
 name: rhr-telegram
 
 # Full pipeline: scan Telegram → classify → score → create GitHub Issues.
-# Runs twice daily. One workflow = one complete cycle.
+# Runs twice daily (aligned with sources.yaml telegram.schedule).
+# One workflow = one complete cycle. Persists data/rhr.db back to git
+# (repo-as-database) so re-runs do not re-create Issues for tracked candidates
+# (track.py only selects rows with github_issue_number IS NULL).
 
 on:
   schedule:
@@ -46,6 +49,23 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python run.py track --top 10
+
+      - name: Commit DB snapshot
+        # Same pattern as grok-rhr-ingest.yml: checkpoint WAL, commit, rebase, push.
+        # Persists signals, candidates, and github_issue_number so the next run
+        # skips already-tracked candidates (no duplicate Issues).
+        run: |
+          python -c "import sqlite3; sqlite3.connect('data/rhr.db').execute('PRAGMA wal_checkpoint(TRUNCATE)')"
+          git config user.name "rhr-bot"
+          git config user.email "actions@github.com"
+          git add data/rhr.db || true
+          if git diff --cached --quiet; then
+            echo "no DB changes to commit"
+          else
+            git commit -m "data: telegram pipeline $(date -u +%FT%TZ)"
+            git pull --rebase --autostash origin main
+            git push
+          fi
 
       - name: Show status
         run: python run.py status

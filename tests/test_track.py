@@ -129,3 +129,32 @@ class TestTrack:
         db.commit()
         result = track(db, top_n=5, dry_run=True)
         assert result["considered"] == 0
+
+    def test_rerun_does_not_recreate_issues(self, db):
+        """Simulate telegram workflow re-run after DB was persisted with issue #s.
+
+        track.py only selects github_issue_number IS NULL, so a second pipeline
+        pass must not consider already-tracked candidates (no duplicate Issues).
+        """
+        self._insert_candidate(db, 1, score=0.9)
+        self._insert_candidate(db, 2, score=0.8)
+
+        with patch("pipeline.track._create_issue", side_effect=[101, 102]) as mock_create:
+            first = track(db, top_n=10, dry_run=False)
+        assert first["tracked"] == 2
+        assert mock_create.call_count == 2
+
+        row1 = db.execute(
+            "SELECT github_issue_number FROM candidates WHERE id=1"
+        ).fetchone()
+        row2 = db.execute(
+            "SELECT github_issue_number FROM candidates WHERE id=2"
+        ).fetchone()
+        assert row1["github_issue_number"] == 101
+        assert row2["github_issue_number"] == 102
+
+        with patch("pipeline.track._create_issue") as mock_create2:
+            second = track(db, top_n=10, dry_run=False)
+        assert second["considered"] == 0
+        assert second["tracked"] == 0
+        mock_create2.assert_not_called()

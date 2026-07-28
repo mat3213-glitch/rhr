@@ -1,0 +1,72 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "SaaS that helps with marketing for indie makers / SaaS founders — people on X say 'that's what most people here would pay for'",
+    "why_us": "High engagement (93 likes + 121 replies) from target audience of builders; clear willingness to pay for marketing tools tailored to bootstrappers",
+    "revenue": "N/A (demand signal)",
+    "source_link": "https://x.com/solopribuilds/status/2081898586753671227",
+    "source_platform": "x",
+    "engagement": "93 likes, 121 replies, 10k+ views",
+    "score": 78
+  },
+  {
+    "type": "demand_gap",
+    "what": "App that lets startup employees spend illiquid equity instantly (rent, flights, groceries) from their cap table",
+    "why_us": "Clear pain of locked equity; 85 likes + discussion; potential high-ticket B2B or fintech play",
+    "revenue": "N/A (demand signal)",
+    "source_link": "https://x.com/iamnotstatic/status/2081017285829861502",
+    "source_platform": "x",
+    "engagement": "85 likes, 23 replies, 12k views",
+    "score": 72
+  },
+  {
+    "type": "revenue_report",
+    "what": "Launch Fast — Chrome extension + dashboard for Amazon FBA product research, keyword gaps, supplier sourcing. Built in 48h, hit $30k/mo",
+    "why_us": "Extreme speed-to-revenue example in e-commerce tools; concrete numbers and distribution via existing community",
+    "revenue": "$30,000/mo",
+    "source_link": "https://buildr.news/hasaam-bhatti-launch-fast-30k-mrr",
+    "source_platform": "other",
+    "engagement": "IndieHackers / BUILDR coverage",
+    "score": 85
+  },
+  {
+    "type": "revenue_report",
+    "what": "Military Calisthenics Women app — niche fitness app doing ~$100K/month after 6 months",
+    "why_us": "Proof that ultra-niche can convert; demand validated via Trends + Sensor Tower before building",
+    "revenue": "~$100,000/mo",
+    "source_link": "https://x.com/AIAdsApps/status/2079935421459366178",
+    "source_platform": "x",
+    "engagement": "Viral thread on demand-first validation",
+    "score": 82
+  },
+  {
+    "type": "revenue_report",
+    "what": "ErnestoSOFTWARE apps at $150k–$200k MRR; reminder that most SaaS stay under $1k, patience + iteration wins",
+    "why_us": "Real bootstrapped B2C numbers + distribution lessons",
+    "revenue": "$150,000–$200,000/mo",
+    "source_link": "https://x.com/ErnestoSOFTWARE/status/2081780999730475107",
+    "source_platform": "x",
+    "engagement": "347 likes, 59 replies",
+    "score": 80
+  },
+  {
+    "type": "demand_gap",
+    "what": "Micro-SaaS for boring industries (construction field service, payroll admin, inspection forms) — analysis of 39k software complaints shows high severity + low competition",
+    "why_us": "Data-backed gaps; field managers recover $1.5k/mo in time, willing to pay $149/mo",
+    "revenue": "$49–149/mo potential",
+    "source_link": "https://www.indiehackers.com/post/i-analyzed-39-000-software-complaints-the-best-micro-saas-gaps-are-all-in-boring-industries-801c41685b",
+    "source_platform": "other",
+    "engagement": "IndieHackers post",
+    "score": 88
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "Multiple AI tools hitting high MRR: Cursor ~$16.7M/mo, Bolt.new $3.3M/mo, various UGC/ad tools $100k–$700k/mo",
+    "why_us": "Shows still-viable wrapper economics when distribution or vertical focus is strong",
+    "revenue": "$100k–$16M/mo range",
+    "source_link": "https://mktclarity.com/blogs/news/ai-tools-top",
+    "source_platform": "other",
+    "engagement": "Market analysis",
+    "score": 70
+  }
+]

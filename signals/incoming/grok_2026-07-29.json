@@ -1,0 +1,62 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "App that lets startup employees spend illiquid equity/RSUs instantly on rent, flights, groceries — direct from cap table",
+    "why_us": "Billions locked in equity for a decade; clear demand from startup workers who need liquidity without selling or waiting for IPO/liquidity events",
+    "revenue": "High willingness to pay (fees on advances or subscription)",
+    "source_link": "https://x.com/iamnotstatic/status/2081017285829861502",
+    "source_platform": "x",
+    "engagement": "86 likes, 23 replies, 29 bookmarks",
+    "score": 72
+  },
+  {
+    "type": "revenue_report",
+    "what": "17-year-old and 18-year-old cofounders hit $17k MRR and $22k in last 30 days with mobile app (from $0 a few months ago)",
+    "why_us": "Proof that very young founders can scale consumer/mobile apps fast in 2026; validates low-barrier distribution",
+    "revenue": "$17k MRR",
+    "source_link": "https://x.com/rsalimx/status/2082228514707636496",
+    "source_platform": "x",
+    "engagement": "220 likes, 51 replies, 89 bookmarks",
+    "score": 85
+  },
+  {
+    "type": "revenue_report",
+    "what": "Postiz (agentic social media scheduler) at $165k MRR, growing ~$1k/day; pivoted messaging to agents",
+    "why_us": "Shows how AI-native positioning and continuous innovation can drive strong B2B growth while generic tools decline",
+    "revenue": "$165k MRR",
+    "source_link": "https://x.com/wickedguro/status/2081582808041210156",
+    "source_platform": "x",
+    "engagement": "377 likes, 61 replies, 353 bookmarks",
+    "score": 90
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "AI therapist app (personalized GPT-wrapper style) reached $100k MRR via TikTok creator spam; launched ~2 years ago",
+    "why_us": "Health/therapy niche still converts well for simple AI wrappers with strong distribution; $20/mo vs $200 sessions",
+    "revenue": "$100k MRR",
+    "source_link": "https://x.com/tadasgedgaudas/status/2077668118139183575",
+    "source_platform": "x",
+    "engagement": "110 likes, 139 bookmarks",
+    "score": 78
+  },
+  {
+    "type": "demand_gap",
+    "what": "OneKYC: KYC once, reuse identity across neobanks, CEXs, trading platforms — eliminate repeated 30-min verifications",
+    "why_us": "Massive friction for users and conversion loss for platforms; both sides would pay for portable verified identity",
+    "revenue": "B2B SaaS or usage fees from platforms",
+    "source_link": "https://x.com/defyneric/status/2056261242809934147",
+    "source_platform": "x",
+    "engagement": "141 likes, 85 replies, 66 bookmarks",
+    "score": 68
+  },
+  {
+    "type": "revenue_report",
+    "what": "B2B startups show 2.8-3.2x better economics than B2C (median MRR $750 vs $264, higher ARPU, faster to $1k)",
+    "why_us": "Data-backed confirmation that boring B2B tools outperform consumer apps for sustainable indie revenue",
+    "revenue": "Median B2B $750 MRR vs B2C $264",
+    "source_link": "https://x.com/marclou/status/2082433685677388098",
+    "source_platform": "x",
+    "engagement": "122 likes + quoted post 1000 likes",
+    "score": 82
+  }
+]

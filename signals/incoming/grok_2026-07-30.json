@@ -1,0 +1,82 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "App that lets startup employees spend/liquidate illiquid equity instantly (rent, flights, groceries) directly from cap table",
+    "why_us": "Clear pain for high-income but cash-poor employees sitting on billions in locked equity; high willingness to pay for liquidity solutions",
+    "revenue": "Potential high ARPU (fintech fees on transactions)",
+    "source_link": "https://x.com/iamnotstatic/status/2081017285829861502",
+    "source_platform": "x",
+    "engagement": "86 likes, 23 replies, 29 bookmarks, 13k views",
+    "score": 72
+  },
+  {
+    "type": "demand_gap",
+    "what": "Clean all-in-one platform for agencies/freelancers: project tracking + client comms + docs/images + invoicing/payments (instead of Trello+Notion+Slack+invoicing mess)",
+    "why_us": "Explicit 'I'd throw money at it' signal from designer; high repeatability for client-management niche; PMF-ready request",
+    "revenue": "$29-99/mo expected",
+    "source_link": "https://x.com/rakshaa_t/status/1900187659831828743",
+    "source_platform": "x",
+    "engagement": "2565 likes, 629 replies, 3521 bookmarks, 5M+ views",
+    "score": 92
+  },
+  {
+    "type": "revenue_report",
+    "what": "levelsio portfolio: multiple products generating $89k + $44k + $27k + $17k + $11k /mo; discussion of BigAI cannibalizing indie apps and declining traffic/revenue trend",
+    "why_us": "Real revenue numbers + insight into market shift (personal AI tools replacing SaaS); validates need for defensible distribution/brand",
+    "revenue": "$89k/mo + others",
+    "source_link": "https://x.com/levelsio/status/2081372113307402730",
+    "source_platform": "x",
+    "engagement": "2670 likes, 291 quotes, 1375 bookmarks, 2M views",
+    "score": 88
+  },
+  {
+    "type": "demand_gap",
+    "what": "Tool for Twitter/X notes about account holders (private notes on profiles)",
+    "why_us": "Practical power-user need with engagement; simple micro-SaaS or extension",
+    "revenue": "$5-15/mo",
+    "source_link": "https://x.com/Coldie/status/2082352747924595168",
+    "source_platform": "x",
+    "engagement": "79 likes, 24 replies",
+    "score": 65
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "Trend of vibe-coding personal micro-apps instead of paying for SaaS; AI making execution cheap so people clone tools for themselves",
+    "why_us": "Confirms shift from micro-SaaS to personal software / outcome-based services; opportunity in vertical outcome-selling (dentists, contractors etc.)",
+    "revenue": "N/A (market signal)",
+    "source_link": "https://x.com/levelsio/status/2079542570435178694",
+    "source_platform": "x",
+    "engagement": "1989 likes, 1445 bookmarks",
+    "score": 85
+  },
+  {
+    "type": "demand_gap",
+    "what": "Selling outcomes (not dashboards) to operators: missed-call follow-up, quotes from photos/WhatsApp, invoice reconciliation, tenant qualification — $500-1k/mo service powered by Claude + human",
+    "why_us": "Strong thesis on micro-services replacing micro-SaaS; high ARPU verticals with clear willingness to pay for results",
+    "revenue": "$500-1000/mo per client",
+    "source_link": "https://x.com/aporia9n/status/2082107303998681482",
+    "source_platform": "x",
+    "engagement": "265 likes, 271 bookmarks",
+    "score": 78
+  },
+  {
+    "type": "revenue_report",
+    "what": "German-learning platform hit 10,000 € MRR; full stack (Next.js, Stripe, Supabase) built and run by one person",
+    "why_us": "Concrete recent revenue milestone for language SaaS; shows solo-founder path still works",
+    "revenue": "€10k MRR",
+    "source_link": "https://x.com/saadat_ali_/status/2082815162034290817",
+    "source_platform": "x",
+    "engagement": "Low (new post)",
+    "score": 68
+  },
+  {
+    "type": "demand_gap",
+    "what": "Offline-first / privacy-focused / local-only productivity tools; subscription fatigue driving demand for non-cloud alternatives",
+    "why_us": "Repeated across analyses of 9k+ 'I wish there was an app' posts; high willingness-to-pay in education & self-improvement niches",
+    "revenue": "$5-20/mo or one-time",
+    "source_link": "https://bigideasdb.com/guides/what-apps-do-people-wish-existed-2026",
+    "source_platform": "other",
+    "engagement": "Data from 9,363 opportunities",
+    "score": 80
+  }
+]

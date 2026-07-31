@@ -1,0 +1,72 @@
+[
+  {
+    "type": "revenue_report",
+    "what": "17-year-old founder and 18yo cofounder hit $17k MRR ($22k last 30 days) with iOS app design tool, from $0 a few months ago",
+    "why_us": "Strong indie success signal for mobile AI/design tools; high engagement shows interest in young founder revenue stories",
+    "revenue": "$17k MRR",
+    "source_link": "https://x.com/rsalimx/status/2082228514707636496",
+    "source_platform": "x",
+    "engagement": "321 likes, 63 replies, 131 bookmarks",
+    "score": 85
+  },
+  {
+    "type": "revenue_report",
+    "what": "Distribb hit $20k MRR",
+    "why_us": "Concrete revenue milestone for distribution/SaaS tool with high engagement AMA",
+    "revenue": "$20k MRR",
+    "source_link": "https://x.com/floriandarroman/status/2080186183548891164",
+    "source_platform": "x",
+    "engagement": "247 likes, 93 replies",
+    "score": 80
+  },
+  {
+    "type": "revenue_report",
+    "what": "Tax Planner Pro crossed $6k MRR ($72k ARR) in under 3 months after May 1 launch (slow tax season)",
+    "why_us": "Fast growth in niche tax planning SaaS shows demand for specialized professional tools",
+    "revenue": "$6k MRR",
+    "source_link": "https://x.com/ChrisGRagainCPA/status/2083189759187272009",
+    "source_platform": "x",
+    "engagement": "fresh post",
+    "score": 72
+  },
+  {
+    "type": "demand_gap",
+    "what": "Startup employees sitting on billions in illiquid equity; someone should build app to spend equity instantly on rent/flights/groceries from cap table",
+    "why_us": "Clear pain around employee equity liquidity with solid engagement; fintech opportunity",
+    "revenue": "potential high",
+    "source_link": "https://x.com/iamnotstatic/status/2081017285829861502",
+    "source_platform": "x",
+    "engagement": "86 likes, 23 replies, 28 bookmarks",
+    "score": 68
+  },
+  {
+    "type": "demand_gap",
+    "what": "Developers would pay $29/mo for tool that extracts line items from SaaS invoice PDFs via email, categorizes by tax, pushes to Xero/Quickbooks",
+    "why_us": "Explicit willingness-to-pay for automation of painful accounting workflow; repeated manual pain",
+    "revenue": "$29/mo willingness",
+    "source_link": "https://dev.to/the_nortern_dev/the-i-would-pay-50month-to-never-do-this-again-list-3kfb",
+    "source_platform": "other",
+    "engagement": "DEV Community post",
+    "score": 70
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "Widespread complaints about overpriced AI wrappers (copywriters $99/mo, meeting summarizers $50, etc.) that are thin OpenAI/Anthropic layers; users switching to direct ChatGPT/Claude",
+    "why_us": "Market signal that pure wrappers are losing; opportunity for deeper vertical AI or cheaper alternatives",
+    "revenue": "existing tools $50-200/mo being cancelled",
+    "source_link": "https://toolrelief.com/overpriced-saas-tools-ai-wrapper-scam/",
+    "source_platform": "other",
+    "engagement": "audit article 2026",
+    "score": 65
+  },
+  {
+    "type": "demand_gap",
+    "what": "I wish there was a tool on Twitter/X that lets me take notes about account holders",
+    "why_us": "Simple CRM-like note tool for social; low competition niche",
+    "revenue": "unknown",
+    "source_link": "https://x.com/Coldie/status/2082352747924595168",
+    "source_platform": "x",
+    "engagement": "79 likes, 24 replies",
+    "score": 62
+  }
+]

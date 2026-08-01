@@ -1,0 +1,82 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "App that lets startup employees spend locked equity instantly on rent, flights, groceries straight from cap table",
+    "why_us": "Billions in illiquid equity; high demand from startup workers tired of 10-year vesting locks",
+    "revenue": "Potential high-ticket fintech fees on liquidity events",
+    "source_link": "https://x.com/iamnotstatic/status/2081017285829861502",
+    "source_platform": "x",
+    "engagement": "86 likes, 28 bookmarks, 23 replies",
+    "score": 72
+  },
+  {
+    "type": "demand_gap",
+    "what": "OneKYC — KYC once and get instant access to neobanks, trading platforms, CEXs",
+    "why_us": "Everyone tired of repeated 30-min KYC; platforms want lower friction and higher conversion",
+    "revenue": "B2B SaaS + consumer freemium possible",
+    "source_link": "https://x.com/defyneric/status/2056261242809934147",
+    "source_platform": "x",
+    "engagement": "141 likes, 66 bookmarks, 85 replies",
+    "score": 78
+  },
+  {
+    "type": "demand_gap",
+    "what": "Tool on Twitter/X that lets users take private notes about account holders",
+    "why_us": "Useful for networkers, recruiters, researchers who need to track context on profiles",
+    "revenue": "$5-15/mo micro-SaaS",
+    "source_link": "https://x.com/Coldie/status/2082352747924595168",
+    "source_platform": "x",
+    "engagement": "79 likes, 24 replies",
+    "score": 65
+  },
+  {
+    "type": "revenue_report",
+    "what": "Solo founder AI tools company: 10,000 paying customers, on track for $10M revenue this year with 1 employee",
+    "why_us": "Shows extreme leverage of AI-native products; validates solo AI SaaS model",
+    "revenue": "$10M ARR projected",
+    "source_link": "https://x.com/WSJ/status/2083524647270990288",
+    "source_platform": "x",
+    "engagement": "32 likes, WSJ article",
+    "score": 82
+  },
+  {
+    "type": "demand_gap",
+    "what": "Simple app to combine all AI CLIs into one window",
+    "why_us": "Developers frustrated with multiple terminal windows for different AI tools",
+    "revenue": "Developer tool, possible $10-20/mo",
+    "source_link": "https://x.com/simpelyfe/status/2080270278177800525",
+    "source_platform": "x",
+    "engagement": "24 likes",
+    "score": 58
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "Graphify — one-command knowledge graph from any folder (code, PDFs, images) for Claude Code, 71.5x token efficiency",
+    "why_us": "Direct response to Karpathy request; massive efficiency gain for AI agents over large codebases",
+    "revenue": "Open source free, potential hosted version",
+    "source_link": "https://x.com/TechAI_X/status/2057035798239985896",
+    "source_platform": "x",
+    "engagement": "188 likes, 277 bookmarks",
+    "score": 75
+  },
+  {
+    "type": "revenue_report",
+    "what": "Indie SaaS founder on churn math: 5% churn at $3k MRR = $150, at $20k = $1k; plateau often onboarding not acquisition",
+    "why_us": "Concrete math on why retention beats growth at early stage; actionable insight",
+    "revenue": "$3k-$20k MRR range discussion",
+    "source_link": "https://www.indiehackers.com/post/5-churn-at-3k-mrr-is-150-at-20k-its-1-000-nothing-about-the-product-changed-50e17575a2",
+    "source_platform": "forum",
+    "engagement": "19 comments",
+    "score": 68
+  },
+  {
+    "type": "demand_gap",
+    "what": "SaaS tools too expensive / hidden costs 40-60% higher than advertised; companies replacing with custom/AI builds or OSS",
+    "why_us": "Widespread pain on pricing, lock-in, unused licenses (46% unused); opportunity for cheaper focused tools",
+    "revenue": "Cost savings $8k-18k/year per solo builder reported",
+    "source_link": "https://match-vs.com/en/blog/hidden-costs-saas-software",
+    "source_platform": "other",
+    "engagement": "Industry analysis 2026",
+    "score": 70
+  }
+]

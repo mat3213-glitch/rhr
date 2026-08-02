@@ -1,0 +1,72 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "SaaS that helps with marketing for indie builders / founders. 'Why is nobody building a SaaS that helps with marketing? that’s what most people here would pay for.'",
+    "why_us": "Clear willingness to pay expressed by indie community; high engagement shows repeated pain around distribution vs building.",
+    "revenue": "Willingness to pay (not quantified)",
+    "source_link": "https://x.com/solopribuilds/status/2081898586753671227",
+    "source_platform": "x",
+    "engagement": "243 likes, 237 replies, 119 bookmarks",
+    "score": 78
+  },
+  {
+    "type": "demand_gap",
+    "what": "App that lets startup employees spend locked equity instantly (rent, flights, groceries) from their cap table. 'someone should build an app that lets you spend it instantly... tell me why this wouldn't work'",
+    "why_us": "Specific, high-value pain for tech workers with illiquid equity; liquidity products are proven (e.g. secondary markets) but consumer-facing instant spend is underserved.",
+    "revenue": "Potential high ARPU (fintech)",
+    "source_link": "https://x.com/iamnotstatic/status/2081017285829861502",
+    "source_platform": "x",
+    "engagement": "86 likes, 28 bookmarks",
+    "score": 68
+  },
+  {
+    "type": "revenue_report",
+    "what": "Sonar (app store listing optimizer) reached $2,706 in June 2026 / ~$1.4k MRR, growing +94.8% MoM. Focus now on activation and churn instead of new features.",
+    "why_us": "Concrete solo/indie growth trajectory with real numbers; shows what works in App Store optimization niche.",
+    "revenue": "$1.4k MRR",
+    "source_link": "https://x.com/PeterSutarik/status/2083452313721573546",
+    "source_platform": "x",
+    "engagement": "16 likes",
+    "score": 65
+  },
+  {
+    "type": "revenue_report",
+    "what": "Hit $10k MRR (briefly $11k) in July for iOS app; aiming $15k+ MRR and $25k total rev in August via UGC + Meta ads.",
+    "why_us": "Real solo iOS app scaling with ads + UGC; shows path from ~$10k to higher with distribution focus.",
+    "revenue": "$10k-$11k MRR",
+    "source_link": "https://x.com/petersapps/status/2083314971530666258",
+    "source_platform": "x",
+    "engagement": "16 likes",
+    "score": 62
+  },
+  {
+    "type": "revenue_report",
+    "what": "Lancer (AI agent for scaling on Upwork) hit $10k MRR within 60 days of launch, now at $20k MRR with 2-person team. Built after validating own agency itch.",
+    "why_us": "Fast PMF + revenue for AI agent in freelancer lead-gen niche; clear validation from personal pain.",
+    "revenue": "$20k MRR",
+    "source_link": "https://www.indiehackers.com/post/tech/exiting-his-agency-and-hitting-10k-mrr-within-60-days-of-launching-his-saas-sTo5m9qfhxXbruvhBIyH",
+    "source_platform": "other",
+    "engagement": "IndieHackers post",
+    "score": 75
+  },
+  {
+    "type": "demand_gap",
+    "what": "Simple app to combine all AI CLIs into one window. 'Someone should build a simple app to combine all the AI CLI’s into one window. OCD triggered having too many windows open…'",
+    "why_us": "Developer productivity pain; multiple AI terminals is common friction as agents proliferate.",
+    "revenue": "Potential micro-SaaS / one-time",
+    "source_link": "https://x.com/simpelyfe/status/2080270278177800525",
+    "source_platform": "x",
+    "engagement": "24 likes",
+    "score": 55
+  },
+  {
+    "type": "demand_gap",
+    "what": "Tool on X/Twitter that lets you take notes about account holders. 'I wish there was a tool on Twitter that let me take notes about account holders. Would be so useful.'",
+    "why_us": "CRM-like note-taking for social research / networking; lightweight browser extension or side-panel opportunity.",
+    "revenue": "Potential freemium",
+    "source_link": "https://x.com/Coldie/status/2082352747924595168",
+    "source_platform": "x",
+    "engagement": "80 likes",
+    "score": 60
+  }
+]

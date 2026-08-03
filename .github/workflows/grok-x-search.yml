@@ -5,9 +5,16 @@ name: grok-x-search
 # AI wrappers, DeFi yield, automation bots signals.
 # Results are ingested into the RHR pipeline.
 
+# 🔴 РАСПИСАНИЕ СНЯТО 2026-08-03 (решение yaromat). Причина: XAI_API_KEY в секретах нет,
+# воркфлоу падал ежедневно за 15 секунд («[grok] XAI_API_KEY not set») минимум с 29.07 и
+# красил репо. Он ДУБЛИРУЕТ живой бесплатный канал: веб-задача Grok по scripts/grok_task_prompt.md
+# каждый день кладёт signals/incoming/grok_<дата>.json, а grok-rhr-ingest его съедает.
+# Поиск НОВИНОК инструментов это не трогает — он идёт другими каналами (repo_scout → тред 468,
+# grok bridge → auto_analyst → тред 1653).
+# Вернуть в строй: положить XAI_API_KEY в секреты и раскомментировать schedule.
 on:
-  schedule:
-    - cron: "0 9 * * *"   # daily at 09:00 UTC
+  # schedule:
+  #   - cron: "0 9 * * *"   # daily at 09:00 UTC
   workflow_dispatch:       # manual trigger
 
 permissions:

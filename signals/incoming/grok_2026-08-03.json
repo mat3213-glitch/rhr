@@ -1,0 +1,82 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "Tool to align all subscriptions (ChatGPT, Claude, Netflix, X etc.) to a single billing day of the month",
+    "why_us": "Subscription fatigue and scattered billing dates cause missed payments and budget chaos; recurring complaint pattern",
+    "revenue": "$5-15/mo",
+    "source_link": "https://x.com/durjanbhai/status/2084193881512718736",
+    "source_platform": "x",
+    "engagement": "0 likes (fresh)",
+    "score": 62
+  },
+  {
+    "type": "demand_gap",
+    "what": "Pokemon-Go style AR app but for plants (identify, collect, location-based discovery)",
+    "why_us": "Niche outdoor hobby with gamification potential; clear 'I wish there was' signal",
+    "revenue": "$5-10/mo or freemium",
+    "source_link": "https://x.com/wafflerrol/status/2084146834277290306",
+    "source_platform": "x",
+    "engagement": "3 likes",
+    "score": 65
+  },
+  {
+    "type": "demand_gap",
+    "what": "Focused micro-SaaS for construction/field service mobile inspection forms and reports (instead of paper or $500+/mo enterprise)",
+    "why_us": "Analysis of 39k+ complaints shows severe repeated pain in boring industries with no dominant cheap tool",
+    "revenue": "$49-149/mo",
+    "source_link": "https://www.indiehackers.com/post/i-analyzed-39-000-software-complaints-the-best-micro-saas-gaps-are-all-in-boring-industries-801c41685b",
+    "source_platform": "forum",
+    "engagement": "Recent IH post",
+    "score": 82
+  },
+  {
+    "type": "demand_gap",
+    "what": "Simple flat-price automation tool for specific vertical workflows (e.g. Calendly booking → Wave invoice) instead of per-task Zapier pricing",
+    "why_us": "Zapier and similar become expensive at volume; opportunity for $9/mo focused alternatives solo devs can build",
+    "revenue": "$9-29/mo",
+    "source_link": "https://www.microgaps.com/blog/overpriced-saas-tools-solo-devs-can-replace",
+    "source_platform": "other",
+    "engagement": "Article highlighting market signal",
+    "score": 75
+  },
+  {
+    "type": "demand_gap",
+    "what": "Dead-simple customer messaging + ticket inbox + basic onboarding sequences for indie SaaS (live chat without Intercom complexity/price)",
+    "why_us": "Intercom and similar overpriced for solo/indie; Crisp/Chatwoot exist but gap for ultra-simple $19/mo tool",
+    "revenue": "$19/mo flat",
+    "source_link": "https://www.microgaps.com/blog/overpriced-saas-tools-solo-devs-can-replace",
+    "source_platform": "other",
+    "engagement": "Market gap analysis",
+    "score": 73
+  },
+  {
+    "type": "revenue_report",
+    "what": "AI receptionist narrowed to HVAC/plumbing service businesses reached eight figures and doubled revenue in 90 days after focusing",
+    "why_us": "Shows power of niche vertical AI wrappers over broad SMB; concrete growth numbers",
+    "revenue": "Eight figures ARR, doubled in 90 days",
+    "source_link": "https://x.com/bouhmad/status/2084124348898775080",
+    "source_platform": "x",
+    "engagement": "3 likes, 3557 views",
+    "score": 78
+  },
+  {
+    "type": "demand_gap",
+    "what": "Offline-first / privacy-focused / local-only versions of productivity tools (notes, sync, organization)",
+    "why_us": "7%+ of 'I wish there was an app' requests; strong subscription fatigue and data control demand",
+    "revenue": "$5-20/mo or one-time",
+    "source_link": "https://medium.com/write-a-catalyst/i-analyzed-9-300-i-wish-there-was-an-app-for-this-posts-here-is-what-people-actually-want-6a447bbabcd3",
+    "source_platform": "other",
+    "engagement": "Analysis of 9300+ posts",
+    "score": 80
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "AI tools people wish existed: specialized agents, workout coach with personal data, theme generators, etc. (28 ideas from AI tool founder)",
+    "why_us": "Direct from AI product builder; list of concrete missing AI micro-tools",
+    "revenue": "Varies $10-50/mo",
+    "source_link": "https://gigazine.net/gsc_news/en/20251003-ai-tool-wish-existed/",
+    "source_platform": "other",
+    "engagement": "Curated list",
+    "score": 70
+  }
+]

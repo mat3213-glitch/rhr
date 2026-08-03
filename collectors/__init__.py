@@ -9,6 +9,7 @@ from collectors import (  # noqa: F401
     defillama,
     producthunt,
     youtube_search,
+    youtube_ytdlp,
     gumroad,
     reddit,
     telegram,

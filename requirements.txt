@@ -6,6 +6,7 @@ feedparser>=6.0,<7     # RSS/Atom
 selectolax>=0.3,<1     # fast HTML parsing (for aggregators later)
 pydantic>=2.6.4,<3     # data models (CVE-2024-3772 fixed in 2.6.4)
 PyYAML>=6.0,<7         # config loading
+yt-dlp>=2026.7.4       # youtube_ytdlp collector: key-free YouTube search (no Google quota)
 # Phase 3 additions (kept commented so Phase 1 stays lean):
 # telethon>=1.34      # Telegram
 # praw>=7.7           # Reddit official API (if you ever pay for it)

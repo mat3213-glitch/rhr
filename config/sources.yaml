@@ -69,6 +69,26 @@ sources:
         - "ai wrapper"
       max_results_per_term: 10
 
+  # Бесключевой близнец youtube: тот же поиск через бинарь yt-dlp, вне квоты Google.
+  # Проверено на US-раннере 2026-08-03: ПОИСК работает без ключа и кук (субтитры — нет).
+  # Работает чаще квотного собрата и берёт шире по терминам; дедуп общий, пересечение
+  # с `youtube` гасится на уровне pipeline/dedup по URL.
+  youtube_ytdlp:
+    enabled: true
+    tier: public
+    type: youtube_ytdlp
+    schedule: "0 */6 * * *"        # 4x/day — квоты нет, ограничение только по вежливости
+    params:
+      search_terms:
+        - "passive income"
+        - "make money online"
+        - "micro saas"
+        - "ai wrapper"
+        - "indie hacker revenue"
+        - "automation bot side project"
+      max_results_per_term: 10
+      timeout: 120
+
   gumroad:
     enabled: true
     tier: public

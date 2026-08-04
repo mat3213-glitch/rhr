@@ -1,0 +1,102 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "AI blocker / filter that stops AI-generated content or bots from flooding feeds and interactions. User explicitly says they'd pay without second thought.",
+    "why_us": "Massive anti-AI fatigue signal. High engagement (149 likes). Clear willingness to pay. Repeatable across platforms as AI content explodes.",
+    "revenue": "Potential $5-20/mo subscription",
+    "source_link": "https://x.com/omgsidewalks/status/2084136784120742232",
+    "source_platform": "x",
+    "engagement": "149 likes, 33 reposts",
+    "score": 78
+  },
+  {
+    "type": "demand_gap",
+    "what": "App that lets startup employees spend locked equity (cap table) instantly on rent, flights, groceries etc.",
+    "why_us": "Clear pain of illiquid equity. Founder-level discussion. High bookmarks (28). Solves real liquidity problem for tech workers.",
+    "revenue": "Transaction fees or financing model",
+    "source_link": "https://x.com/iamnotstatic/status/2081017285829861502",
+    "source_platform": "x",
+    "engagement": "86 likes, 28 bookmarks, 23 replies",
+    "score": 72
+  },
+  {
+    "type": "revenue_report",
+    "what": "Postiz (Agentic Social Media Scheduler) hit $171k MRR / $2M ARR. Going all-in on marketing.",
+    "why_us": "Concrete high revenue numbers from solo/small team SaaS. Shows agentic tools and social scheduling still print money. Distribution edge mentioned.",
+    "revenue": "$171k MRR / $2M ARR",
+    "source_link": "https://x.com/wickedguro/status/2084249797418996000",
+    "source_platform": "x",
+    "engagement": "427 likes, 533 bookmarks",
+    "score": 92
+  },
+  {
+    "type": "revenue_report",
+    "what": "Intelligence AI / DesignArena parent company grew from $5M to $60M ARR in 6 months, profitably, team of 10. 5.5M users.",
+    "why_us": "Extreme growth signal in AI evaluation/proving grounds space. Index Ventures backed. Real-world AI proving demand.",
+    "revenue": "$60M ARR",
+    "source_link": "https://x.com/IndexVentures/status/2084363597082419247",
+    "source_platform": "x",
+    "engagement": "73 likes, 33 bookmarks",
+    "score": 88
+  },
+  {
+    "type": "revenue_report",
+    "what": "SuperX at $22k MRR, progressing to $100k MRR. Another product hit $9k/mo in 4 days.",
+    "why_us": "Transparent indie growth tracking. Multiple products. Shows consistent shipping + monetization works.",
+    "revenue": "$22k MRR (main), $9k/mo new",
+    "source_link": "https://x.com/robj3d3/status/2084359998961009088",
+    "source_platform": "x",
+    "engagement": "104 likes, 31 bookmarks",
+    "score": 80
+  },
+  {
+    "type": "revenue_report",
+    "what": "Alarm app Wayk making $200k/mo. Clones reaching $10k MRR in months. Cloning validated apps still works.",
+    "why_us": "Proven category with high revenue. Easy replication signal for micro-SaaS. High engagement on cloning discussion.",
+    "revenue": "$200k/mo original, clones $10k MRR",
+    "source_link": "https://x.com/jacobrodri_/status/2084272779986182366",
+    "source_platform": "x",
+    "engagement": "100 likes, 138 bookmarks",
+    "score": 85
+  },
+  {
+    "type": "revenue_report",
+    "what": "TikTok script-display app (shows script while filming) making $300k MRR. Video hit 5M views.",
+    "why_us": "Viral content + high MRR. Daily-use utility app with low churn potential. Clear clone opportunity.",
+    "revenue": "$300k MRR",
+    "source_link": "https://x.com/k2_build/status/2084107684354134470",
+    "source_platform": "x",
+    "engagement": "85 likes, 112 bookmarks",
+    "score": 87
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "Lovable AI app builder hit $100M revenue in 8 months, later $500M ARR. Small team (20-25 eng) using ClickHouse for observability.",
+    "why_us": "Massive AI wrapper/builder success. Shows natural language + code gen still hyper-growth. Infra lessons included.",
+    "revenue": "$500M ARR",
+    "source_link": "https://x.com/ClickHouseDB/status/2083855542020149393",
+    "source_platform": "x",
+    "engagement": "56 likes",
+    "score": 90
+  },
+  {
+    "type": "revenue_report",
+    "what": "Solo founder Ben Broca: AI tools for entrepreneurs, 10k paying customers, on track $10M revenue this year, zero employees.",
+    "why_us": "Classic one-person AI company. Validates lean AI product model. WSJ coverage adds credibility.",
+    "revenue": "$10M projected annual",
+    "source_link": "https://x.com/WSJ/status/2083524647270990288",
+    "source_platform": "x",
+    "engagement": "70 likes, 41 bookmarks",
+    "score": 82
+  },
+  {
+    "type": "demand_gap",
+    "what": "Overpriced automation (Zapier-style) and customer messaging tools. Opportunity for focused vertical automation at flat $9-19/mo and simple indie-SaaS chat+tickets at $19/mo.",
+    "why_us": "Clear pricing pain + feature gaps identified in analysis. Solo-dev replaceable tools. High willingness for cheaper focused alternatives.",
+    "revenue": "$9-19/mo flat pricing models",
+    "source_link": "https://www.microgaps.com/blog/overpriced-saas-tools-solo-devs-can-replace",
+    "source_platform": "other",
+    "engagement": "Analysis post, strong signal",
+    "score": 75
+  }
+]

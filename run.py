@@ -323,6 +323,36 @@ def cmd_metrics(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_ask(args: argparse.Namespace) -> int:
+    """Спросить прямо сейчас, а не ждать крона.
+
+    Плановый скан отвечает на «что вообще происходит» по терминам из sources.yaml;
+    эта команда отвечает на конкретный вопрос момента и по умолчанию НИЧЕГО не пишет
+    в базу — воронка не должна засоряться разовыми поисками.
+    """
+    from pipeline.ask import ask, render
+
+    query = " ".join(args.query).strip()
+    if not query:
+        print("[ask] пустой запрос")
+        return 2
+    sources = [s.strip() for s in (args.sources or "").split(",") if s.strip()] or None
+    result = ask(query, sources=sources, limit=args.limit, recent=args.recent,
+                 per_source=args.per_source)
+    text = render(result, query)
+    print(text)
+
+    if args.out:
+        with open(args.out, "w", encoding="utf-8") as fh:
+            fh.write(text + "\n")
+        print(f"\n[ask] → {args.out}")
+    if args.store and result.items:
+        conn = db()
+        stats = normalize_and_store(conn, result.items)
+        print(f"[ask] в базу: kept={stats['inserted']} dropped_l0={stats['dropped_l0']}")
+    return 0 if result.items or not result.errors else 1
+
+
 def cmd_ingest_stdin(_: argparse.Namespace) -> int:
     """Read JSON lines from stdin and insert as signals."""
     import json as _json
@@ -447,6 +477,15 @@ def main() -> int:
     sp = sub.add_parser("metrics", help="show aggregated run metrics")
     sp.add_argument("--days", type=int, default=7, help="look back N days (default: 7)")
 
+    sp = sub.add_parser("ask", help="ad-hoc поиск по вопросу момента (не по расписанию)")
+    sp.add_argument("query", nargs="+", help="сам вопрос, как есть")
+    sp.add_argument("--sources", default="", help="через запятую: hn,youtube (по умолчанию оба)")
+    sp.add_argument("--limit", type=int, default=20, help="сколько показать (default: 20)")
+    sp.add_argument("--per-source", type=int, default=30, help="сколько тянуть с источника")
+    sp.add_argument("--recent", action="store_true", help="свежее вместо релевантного (HN by date)")
+    sp.add_argument("--store", action="store_true", help="записать найденное в базу сигналов")
+    sp.add_argument("--out", help="сохранить ответ в файл (markdown)")
+
     sub.add_parser("ingest-stdin", help="ingest JSON lines from stdin as signals")
 
     args = p.parse_args()
@@ -463,6 +502,7 @@ def main() -> int:
         "sandbox-status": cmd_sandbox_status,
         "verdict": cmd_verdict,
         "metrics": cmd_metrics,
+        "ask": cmd_ask,
         "ingest-stdin": cmd_ingest_stdin,
     }
     return handlers[args.cmd](args)

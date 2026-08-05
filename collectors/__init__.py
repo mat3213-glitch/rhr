@@ -5,6 +5,7 @@ is available via collectors.base.get_collector(...).
 """
 from collectors import (  # noqa: F401
     hackernews,
+    hn_search,
     rss_generic,
     defillama,
     producthunt,

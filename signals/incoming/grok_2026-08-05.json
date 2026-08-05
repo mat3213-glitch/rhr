@@ -1,0 +1,52 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "App that lets startup employees spend illiquid equity instantly on rent, flights, groceries from their cap table",
+    "why_us": "Clear pain for startup employees locked into equity for years; secondary markets exist but complex; high willingness from tech workers",
+    "revenue": "Potential $10-50/mo per user or transaction fees on advances",
+    "source_link": "https://x.com/iamnotstatic/status/2081017285829861502",
+    "source_platform": "x",
+    "engagement": "86 likes, 23 replies, 28 bookmarks, 13k views",
+    "score": 72
+  },
+  {
+    "type": "demand_gap",
+    "what": "Tool for sales teams to detect tech stack of any website for better pitches (better/cheaper than BuiltWith/Wappalyzer)",
+    "why_us": "Sales intelligence gap; existing tools expensive or limited; micro-SaaS potential $10k-25k MRR",
+    "revenue": "$10K-25K MRR potential",
+    "source_link": "https://microsaashq.com/saas-ideas/tech-stack-detector-602",
+    "source_platform": "other",
+    "engagement": "170 monthly searches, low competition",
+    "score": 65
+  },
+  {
+    "type": "demand_gap",
+    "what": "PDF-to-CSV / invoice extraction tool that forwards email, extracts line items with LLM, categorizes tax, pushes to Xero/Quickbooks",
+    "why_us": "Common manual pain for freelancers/SMBs; willingness to pay $29/mo explicitly stated",
+    "revenue": "$29/mo",
+    "source_link": "https://dev.to/the_nortern_dev/the-i-would-pay-50month-to-never-do-this-again-list-3kfb",
+    "source_platform": "forum",
+    "engagement": "DEV Community post on common pains",
+    "score": 68
+  },
+  {
+    "type": "demand_gap",
+    "what": "AI SDR / outbound agents that find qualified leads and send personalized cold emails without babysitting (better than Clay/Apollo/Instantly)",
+    "why_us": "Repeated demand from small business owners; high willingness $200/mo; under-served vs builder interest",
+    "revenue": "$200/mo",
+    "source_link": "https://dev.to/jimrusk/what-ai-agent-builders-want-to-build-vs-what-people-actually-want-5gp6",
+    "source_platform": "forum",
+    "engagement": "Cited r/SaaS May 2026 demand",
+    "score": 75
+  },
+  {
+    "type": "demand_gap",
+    "what": "Simple combined AI CLI window / multi-AI CLI in one interface to avoid multiple terminal windows",
+    "why_us": "Developer productivity pain; OCD-triggering multi-window issue; low-hanging micro-tool",
+    "revenue": "Unknown, likely low $5-15/mo or one-time",
+    "source_link": "https://x.com/simpelyfe/status/2080270278177800525",
+    "source_platform": "x",
+    "engagement": "24 likes",
+    "score": 55
+  }
+]

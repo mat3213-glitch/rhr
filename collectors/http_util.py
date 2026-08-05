@@ -22,6 +22,7 @@ from functools import wraps
 from typing import Callable, Sequence, TypeVar
 
 import httpx
+import httpcore
 
 # Explicit nets as documentation + belt-and-suspenders alongside ipaddress flags.
 _BLOCKED_NETS = [
@@ -156,6 +157,75 @@ def _is_blocked_host(host: str, *, resolver: ResolveFn | None = None) -> bool:
     return False
 
 
+def _public_ips(host: str, resolver: ResolveFn | None = None) -> list[str]:
+    """Resolve ``host`` and return only validated, connectable public IPs.
+
+    The returned values are used directly by the network backend.  This is
+    deliberately separate from the preflight check: connecting to the verified
+    address prevents DNS rebinding between validation and the TCP handshake.
+    """
+    host = _normalize_host(host)
+    if not host or host in _BLOCKED_HOSTNAMES:
+        raise httpcore.ConnectError(f"Blocked SSRF: {host}")
+
+    try:
+        ip = ipaddress.ip_address(host)
+    except ValueError:
+        resolve = resolver or _resolve_ips
+        addresses = list(resolve(host))
+    else:
+        addresses = [str(ip)]
+
+    if not addresses:
+        raise httpcore.ConnectError(f"Could not resolve host: {host}")
+
+    public: list[str] = []
+    for address in addresses:
+        try:
+            ip = ipaddress.ip_address(address)
+        except ValueError:
+            raise httpcore.ConnectError(f"Resolver returned invalid address: {address}")
+        if _is_blocked_ip(ip):
+            raise httpcore.ConnectError(f"Blocked SSRF: {host}")
+        public.append(str(ip))
+    return public
+
+
+class PinnedNetworkBackend(httpcore.SyncBackend):
+    """Connect to the IP validated for this request, never re-resolve its host."""
+
+    def __init__(self, *, resolver: ResolveFn | None = None):
+        super().__init__()
+        self._resolver = resolver
+
+    def connect_tcp(
+        self,
+        host: str,
+        port: int,
+        timeout: float | None = None,
+        local_address: str | None = None,
+        socket_options=None,
+    ):
+        address = _public_ips(host, self._resolver)[0]
+        return super().connect_tcp(
+            address,
+            port,
+            timeout=timeout,
+            local_address=local_address,
+            socket_options=socket_options,
+        )
+
+
+class PinnedHTTPTransport(httpx.HTTPTransport):
+    """HTTP transport whose TCP backend pins every hostname to a checked IP."""
+
+    def __init__(self, *, resolver: ResolveFn | None = None):
+        super().__init__()
+        # httpx exposes no network_backend constructor option, but its default
+        # non-proxy transport is a ConnectionPool with this stable httpcore hook.
+        self._pool._network_backend = PinnedNetworkBackend(resolver=resolver)
+
+
 class SafeRedirectTransport(httpx.BaseTransport):
     """Wrap an inner transport; re-check host (DNS-aware) on every hop."""
 
@@ -178,7 +248,7 @@ def client(
     max_redirects: int = 10,
     resolver: ResolveFn | None = None,
 ) -> httpx.Client:
-    transport = SafeRedirectTransport(httpx.HTTPTransport(), resolver=resolver)
+    transport = SafeRedirectTransport(PinnedHTTPTransport(resolver=resolver), resolver=resolver)
     return httpx.Client(
         transport=transport,
         timeout=httpx.Timeout(timeout, connect=connect_timeout),

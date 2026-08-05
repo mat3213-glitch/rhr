@@ -10,6 +10,7 @@ from collectors.http_util import (
     _is_blocked_host,
     _is_blocked_ip,
     client,
+    PinnedNetworkBackend,
     retry,
     SafeRedirectTransport,
 )
@@ -155,6 +156,27 @@ class TestSafeRedirectTransport:
             transport.handle_request(
                 httpx.Request("GET", "https://internal.example/b")
             )
+
+
+class TestPinnedNetworkBackend:
+    def test_connects_to_validated_ip_not_hostname(self, monkeypatch):
+        """The TCP socket must use the checked IP, closing DNS rebinding."""
+        stream = MagicMock()
+        connect_tcp = MagicMock(return_value=stream)
+        monkeypatch.setattr("httpcore.SyncBackend.connect_tcp", connect_tcp)
+
+        backend = PinnedNetworkBackend(resolver=lambda h: ["93.184.216.34"])
+        assert backend.connect_tcp("rebind.example", 443) is stream
+        assert connect_tcp.call_args.args[:2] == ("93.184.216.34", 443)
+
+    def test_never_connects_when_dns_changes_to_private_ip(self, monkeypatch):
+        connect_tcp = MagicMock()
+        monkeypatch.setattr("httpcore.SyncBackend.connect_tcp", connect_tcp)
+
+        backend = PinnedNetworkBackend(resolver=lambda h: ["127.0.0.1"])
+        with pytest.raises(Exception, match="Blocked SSRF"):
+            backend.connect_tcp("rebind.example", 443)
+        connect_tcp.assert_not_called()
 
 
 class TestClient:

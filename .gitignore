@@ -42,3 +42,7 @@ sessions/
 credentials/
 data/logs/
 data/landing_*.html
+
+# Local agent memory (not for repo)
+MIMO.md
+memory/MEMORY.md

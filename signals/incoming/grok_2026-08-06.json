@@ -1,0 +1,62 @@
+[
+  {
+    "type": "revenue_report",
+    "what": "AI search visibility tool (AIPeekaboo) tracking how brands appear in ChatGPT, Gemini, Claude, Perplexity, Google AI almost hit $50k MRR after ~1 year.",
+    "why_us": "Emerging category of AI brand monitoring/search visibility; high willingness to pay from companies as AI answers replace Google. Concrete public revenue proof.",
+    "revenue": "~$50k MRR",
+    "source_link": "https://x.com/hello_code_/status/2085036974465778169",
+    "source_platform": "x",
+    "engagement": "355 likes, 96 replies, 89 bookmarks, 875k views",
+    "score": 88
+  },
+  {
+    "type": "revenue_report",
+    "what": "Solo founder Marc Lou portfolio (TrustMRR, DataFast, Ship or Die, CodeFast, ShipFast etc.) made $98,417 in July 2026 with ~85% margins.",
+    "why_us": "Proven micro-SaaS portfolio model by one person; multiple products hitting high revenue. Shows viability of small tools + boilerplate + analytics niche.",
+    "revenue": "$98k/mo (portfolio)",
+    "source_link": "https://x.com/marclou/status/2083111675490947495",
+    "source_platform": "x",
+    "engagement": "2940 likes, 324 replies, 1136 bookmarks",
+    "score": 92
+  },
+  {
+    "type": "revenue_report",
+    "what": "New recipe app hit 100K downloads and $100K MRR only 50 days after launch.",
+    "why_us": "Extreme velocity in consumer app monetization; recipe/food niche still prints money with right UX and paywall. High signal for fast validation apps.",
+    "revenue": "$100k MRR in 50 days",
+    "source_link": "https://x.com/appstoretracker/status/2085331155528855913",
+    "source_platform": "x",
+    "engagement": "17 likes, 25 bookmarks",
+    "score": 78
+  },
+  {
+    "type": "revenue_report",
+    "what": "Alarm app reached $200K/month MRR in just 6 months; uses commitment screen before paywall.",
+    "why_us": "Consumer subscription app with strong onboarding conversion tactics. Alarm/habit niche continues to monetize extremely well.",
+    "revenue": "$200k/mo MRR",
+    "source_link": "https://x.com/jacobrodri_/status/2085031375485215180",
+    "source_platform": "x",
+    "engagement": "168 likes, 265 bookmarks",
+    "score": 85
+  },
+  {
+    "type": "demand_gap",
+    "what": "Wish for Pinterest-like app without AI integration: pure digital visual journal with date-wise boards, tags, daily inspiration, open profiles for art/design/academia.",
+    "why_us": "Growing fatigue with AI-forced features in creative tools. Demand for clean, non-AI visual curation and personal journaling apps.",
+    "revenue": "N/A",
+    "source_link": "https://x.com/missbananasart/status/2085284081529766355",
+    "source_platform": "x",
+    "engagement": "14 likes",
+    "score": 62
+  },
+  {
+    "type": "defi_yield",
+    "what": "Apyx Yield Vault offering 51.33% APR on digital credit / yield strategies across chains, alongside other Pendle and native ~15% options.",
+    "why_us": "High advertised yields in digital credit / RWA-adjacent DeFi. Shows ongoing demand for higher-than-stablecoin APYs with structured products.",
+    "revenue": "51.33% APR",
+    "source_link": "https://x.com/apyx_fi/status/2082865053217501306",
+    "source_platform": "x",
+    "engagement": "30 likes",
+    "score": 65
+  }
+]

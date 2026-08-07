@@ -1,0 +1,82 @@
+[
+  {
+    "type": "revenue_report",
+    "what": "Marc Lou's TrustMRR marketplace hit $44k/month in July 2026, 90% margin, 100% solo, with 210K unique visitors and 23 founders acquired.",
+    "why_us": "Strong verified revenue signal for marketplace of startup revenues; shows demand for trust/verified MRR tools in indie SaaS space.",
+    "revenue": "$44k/mo",
+    "source_link": "https://x.com/marclou/status/2083482624690139252",
+    "source_platform": "x",
+    "engagement": "527 likes, 103 replies",
+    "score": 85
+  },
+  {
+    "type": "revenue_report",
+    "what": "AI search tracking SaaS almost hit $50k MRR; companies pay to track how ChatGPT/Gemini/Claude talk about their brand.",
+    "why_us": "High-growth niche in AI visibility; concrete numbers and emerging category with willingness to pay.",
+    "revenue": "~$50k MRR",
+    "source_link": "https://x.com/hello_code_/status/2085189387911106671",
+    "source_platform": "x",
+    "engagement": "386 likes",
+    "score": 82
+  },
+  {
+    "type": "revenue_report",
+    "what": "Matt Graham's new business hit $56,951 in July (from $0 in March), projecting ~$700k ARR; built with AI internal systems in hacker houses.",
+    "why_us": "Rapid growth from zero with public numbers; validates fast MVP + AI-assisted building for indie projects.",
+    "revenue": "$57k collected in July",
+    "source_link": "https://x.com/Matt_Graham_/status/2085718687072276564",
+    "source_platform": "x",
+    "engagement": "High engagement thread",
+    "score": 80
+  },
+  {
+    "type": "demand_gap",
+    "what": "Analysis of 9,300+ 'I wish there was an app' Reddit posts: strong demand for offline-first/privacy tools (7%/640+), finance has highest pay signals, productivity highest volume.",
+    "why_us": "Large dataset of validated pain points; anti-cloud and finance niches show high willingness to pay.",
+    "revenue": "N/A (pay signals in finance)",
+    "source_link": "https://www.reddit.com/r/SaaS/comments/1q5lfur/i_analyzed_9300_i_wish_there_was_an_app_for_this/",
+    "source_platform": "other",
+    "engagement": "632 upvotes",
+    "score": 90
+  },
+  {
+    "type": "demand_gap",
+    "what": "PDF to CSV/invoice extraction tool: forward email, LLM extracts line items + VAT, categorizes, pushes to Xero/Quickbooks. People hate manual monthly work.",
+    "why_us": "Concrete painful workflow for freelancers/accountants; high willingness to pay $ for automation of tedious accounting.",
+    "revenue": "$10-50/mo potential",
+    "source_link": "https://dev.to/the_nortern_dev/the-i-would-pay-50month-to-never-do-this-again-list-3kfb",
+    "source_platform": "other",
+    "engagement": "DEV Community post",
+    "score": 75
+  },
+  {
+    "type": "demand_gap",
+    "what": "Tool that monitors SaaS subscriptions and alerts before free trials convert to paid; many threads of people getting charged unexpectedly.",
+    "why_us": "Repeated frustration across 40+ threads; subscription fatigue is real, easy micro-SaaS.",
+    "revenue": "$5-15/mo",
+    "source_link": "https://www.reddit.com/r/AppIdeas/comments/1shg3y2/7_app_ideas_from_this_week_that_real_people_are_begging_for/",
+    "source_platform": "other",
+    "engagement": "53 upvotes",
+    "score": 70
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "TerseAI: tool to strip 60% of AI bills and improve agent response speed; just hit 100 paying customers.",
+    "why_us": "Practical AI cost optimization micro-SaaS with early traction.",
+    "revenue": "$547 MRR (bio)",
+    "source_link": "https://x.com/DeveloperL92487/status/2085655627586769312",
+    "source_platform": "x",
+    "engagement": "8 likes",
+    "score": 65
+  },
+  {
+    "type": "demand_gap",
+    "what": "Pinterest alternative without AI: pure visual journal with date-wise boards, tags, open profiles for art/design inspiration.",
+    "why_us": "Anti-AI fatigue signal; specific feature requests for creative users.",
+    "revenue": "N/A",
+    "source_link": "https://x.com/missbananasart/status/2085284081529766355",
+    "source_platform": "x",
+    "engagement": "20 likes",
+    "score": 60
+  }
+]

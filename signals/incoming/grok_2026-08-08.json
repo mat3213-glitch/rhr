@@ -1,0 +1,102 @@
+[
+  {
+    "type": "revenue_report",
+    "what": "AI search visibility / brand tracking across ChatGPT, Gemini, Claude, Perplexity, Google AI — almost hit $50k MRR",
+    "why_us": "Emerging category with clear demand as AI search grows; high engagement and real paying companies",
+    "revenue": "~$50k MRR",
+    "source_link": "https://x.com/hello_code_/status/2085036974465778169",
+    "source_platform": "x",
+    "engagement": "385 likes, 112 replies, 100 bookmarks",
+    "score": 88
+  },
+  {
+    "type": "revenue_report",
+    "what": "22yo launched B2C iOS app in early June, already at $10K MRR / $25K total revenue",
+    "why_us": "Fast traction proof for simple consumer apps; founder seeking more experience but product works",
+    "revenue": "$10k MRR",
+    "source_link": "https://x.com/petersapps/status/2085158029964554525",
+    "source_platform": "x",
+    "engagement": "616 likes, 114 replies, 282 bookmarks",
+    "score": 85
+  },
+  {
+    "type": "revenue_report",
+    "what": "Recipe app hit 100K downloads & $100K MRR just 50 days after launch",
+    "why_us": "Extreme speed to high revenue in consumer vertical; validates fast distribution in App Store",
+    "revenue": "$100k MRR",
+    "source_link": "https://x.com/appstoretracker/status/2085331155528855913",
+    "source_platform": "x",
+    "engagement": "166 likes, 188 bookmarks",
+    "score": 82
+  },
+  {
+    "type": "revenue_report",
+    "what": "Marc Lou portfolio: TrustMRR $44k, DataFast $26k, Ship or Die $13k etc. — $98k in July 2026 total",
+    "why_us": "Multiple indie products compounding; shows power of shipping many small SaaS",
+    "revenue": "$98k/mo combined",
+    "source_link": "https://x.com/marclou/status/2083111675490947495",
+    "source_platform": "x",
+    "engagement": "2944 likes, 324 replies, 1137 bookmarks",
+    "score": 90
+  },
+  {
+    "type": "revenue_report",
+    "what": "New business from zero to $56.9k cash in July (run rate ~$700k ARR), bootstrapped with AI internal systems",
+    "why_us": "Extreme growth from agency founder; public numbers and new goal of $6M ARR",
+    "revenue": "$57k/mo cash / ~$700k ARR run rate",
+    "source_link": "https://x.com/Matt_Graham_/status/2085718687072276564",
+    "source_platform": "x",
+    "engagement": "High (thread context)",
+    "score": 80
+  },
+  {
+    "type": "demand_gap",
+    "what": "Voice-first calorie tracker that logs via natural speech (no manual search/typing); current apps have terrible retention due to friction",
+    "why_us": "$1.75B market, 70% quit in 30 days because logging is painful; AI speech parsing solves core retention problem",
+    "revenue": "Potential $9.99/mo, 10k subs = $1M ARR",
+    "source_link": "https://x.com/gethalfbaked/status/2083094784898408691",
+    "source_platform": "x",
+    "engagement": "14 likes (idea post)",
+    "score": 72
+  },
+  {
+    "type": "demand_gap",
+    "what": "AI mold detection app: photo triage of mold type/urgency + lab kit + vetted remediation pros",
+    "why_us": "Affects 70%+ US households, high anxiety + landlord/insurance use case; current solution is panic-Googling",
+    "revenue": "Subscription + kit + lead gen",
+    "source_link": "https://x.com/gethalfbaked/status/2083094784898408691",
+    "source_platform": "x",
+    "engagement": "14 likes (idea post)",
+    "score": 68
+  },
+  {
+    "type": "revenue_report",
+    "what": "Context.dev (web-to-structured-data API for AI agents) launched on YC, first 6-figure ARR deal in first week",
+    "why_us": "Infrastructure for agents; strong early traction and customer validation",
+    "revenue": "6-figure ARR deal closed",
+    "source_link": "https://x.com/mynameisyahia/status/2085837151749747032",
+    "source_platform": "x",
+    "engagement": "207 likes, 28 replies",
+    "score": 78
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "Overpriced SaaS gaps: Zapier/Intercom/Hotjar-style tools charge $200+/mo for features solo dev can rebuild cheaper for indies",
+    "why_us": "Clear demand for simpler, cheaper alternatives aimed at small teams/indie SaaS",
+    "revenue": "Target $19–29/mo flat",
+    "source_link": "https://www.microgaps.com/blog/overpriced-saas-tools-solo-devs-can-replace",
+    "source_platform": "other",
+    "engagement": "Article signal",
+    "score": 65
+  },
+  {
+    "type": "demand_gap",
+    "what": "Boring utility apps with proven downloads/revenue (10k–200k downloads, real money) that can be packaged better",
+    "why_us": "Filter for existing demand instead of inventing; Sensor Tower + localization works",
+    "revenue": "$40k–$200k revenue examples",
+    "source_link": "https://x.com/shipwithjay/status/2082746980422373505",
+    "source_platform": "x",
+    "engagement": "148 likes on related",
+    "score": 70
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "App that lets startup employees spend/unlock equity instantly for rent, flights, groceries from their cap table instead of waiting years for liquidity",
+    "why_us": "Clear demand from startup employees sitting on illiquid equity; high willingness to pay for liquidity tools; recurring pain in tech/startup ecosystem",
+    "revenue": "Potential $10-50/mo per user or transaction fees",
+    "source_link": "https://x.com/iamnotstatic/status/2081017285829861502",
+    "source_platform": "x",
+    "engagement": "86 likes, 23 replies, 13k views",
+    "score": 72
+  },
+  {
+    "type": "revenue_report",
+    "what": "AI search visibility / brand monitoring tool for how ChatGPT, Gemini, Claude, Perplexity talk about brands almost hit $50k MRR",
+    "why_us": "Strong validation of emerging AI SEO / LLM brand visibility category with real paying customers and rapid growth",
+    "revenue": "$50,000 MRR",
+    "source_link": "https://x.com/hello_code_/status/2085036974465778169",
+    "source_platform": "x",
+    "engagement": "385 likes, 113 replies, 887k views",
+    "score": 88
+  },
+  {
+    "type": "demand_gap",
+    "what": "TurboTax-quality tax filing service specifically for American expats with US investments living abroad (esp. Europe) who need to file both US and residence country taxes and handle investment income",
+    "why_us": "Explicit willingness to pay $1-2k/year; complex niche with high pain and few good self-service tools; CPA alternatives often fail",
+    "revenue": "$1,000-2,000/year per user",
+    "source_link": "https://news.ycombinator.com/item?id=45500937",
+    "source_platform": "hn",
+    "engagement": "13 points, multiple detailed comments",
+    "score": 75
+  },
+  {
+    "type": "demand_gap",
+    "what": "Creator/KOL portfolio tool that auto-pulls live X analytics (reach, engagement, top posts, audience growth) into a clean shareable portfolio for brands/agencies, not screenshots or manual exports",
+    "why_us": "Obvious gap for creators and ambassadors; recurring need in Web3/creator economy for verified metrics",
+    "revenue": "$9-29/mo",
+    "source_link": "https://x.com/alyonitaa/status/2013254430943007077",
+    "source_platform": "x",
+    "engagement": "63 likes, 32 replies",
+    "score": 65
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "Graphify - one-command knowledge graph builder from any folder (code, PDFs, images) producing navigable graph, Obsidian vault, wiki and Q&A, built 48h after Karpathy request; 71.5x token efficiency",
+    "why_us": "Fast response to high-profile demand; demonstrates AI tooling speed and open-source micro-SaaS potential around LLM knowledge bases",
+    "revenue": "Free/open-source for now, potential paid hosting",
+    "source_link": "https://x.com/Trisha_Techie/status/2050075930593534340",
+    "source_platform": "x",
+    "engagement": "97 likes, 99 bookmarks",
+    "score": 70
+  }
+]

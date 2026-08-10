@@ -1,0 +1,62 @@
+[
+  {
+    "type": "revenue_report",
+    "what": "Profit AI — profit analytics + marketing automation for Shopify. Launched Dec 2025, reached $30k MRR on app + ~$40k services in ~5 months, total $147k revenue.",
+    "why_us": "Clear vertical AI/SaaS success in e-commerce analytics with fast growth and services upsell; strong signal for Shopify-adjacent tools.",
+    "revenue": "$30k MRR app + ~$40k services",
+    "source_link": "https://x.com/starter_story/status/2082845527859974436",
+    "source_platform": "x",
+    "engagement": "Starter Story post with discussion",
+    "score": 82
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "Lancer — AI agent that automates Upwork client acquisition for freelancers. Weekend MVP → $10k MRR in 60 days, now ~$20k MRR with 2-person team.",
+    "why_us": "Classic AI agent/automation play solving real freelancers' sales pain; rapid monetization validates demand for vertical outreach agents.",
+    "revenue": "$10k–$20k MRR",
+    "source_link": "https://www.aprilzz.com/indie/lancer-upwork-ai-agent-10k-mrr/",
+    "source_platform": "other",
+    "engagement": "Indie Hackers case study coverage",
+    "score": 85
+  },
+  {
+    "type": "revenue_report",
+    "what": "Pingo AI — language learning / social AI app. Cleared $7M revenue, currently ~$600k months with small team focused on marketing + product.",
+    "why_us": "Shows saturated niches still work if UX/fun is better; high absolute revenue for consumer AI.",
+    "revenue": "~$600k/mo",
+    "source_link": "https://x.com/nika_apt/status/2086802998961872898",
+    "source_platform": "x",
+    "engagement": "3 likes, recent",
+    "score": 70
+  },
+  {
+    "type": "demand_gap",
+    "what": "Strong recurring demand for simple subscription audit / cancellation tools and offline-first / privacy-first local apps. Multiple analyses of thousands of ‘I wish there was an app’ posts highlight subscription fatigue and local-first needs.",
+    "why_us": "SaaS sprawl and price increases create ongoing pain; micro-tools that list/cancel unused subs or offer local alternatives have clear willingness to pay.",
+    "revenue": "Potential $10–50/mo per user",
+    "source_link": "https://bigideasdb.com/guides/what-apps-do-people-wish-existed-2026",
+    "source_platform": "other",
+    "engagement": "Data from 9k+ opportunity posts",
+    "score": 78
+  },
+  {
+    "type": "demand_gap",
+    "what": "Job search app that searches along public transport routes instead of radius distance. Also requests for streaming tools aggregator and iMessage agents app store.",
+    "why_us": "Niche but concrete mobility + job-search pain; low competition for transit-aware filters.",
+    "revenue": "Unknown",
+    "source_link": "https://x.com/AshIsTree/status/2086804999309230482",
+    "source_platform": "x",
+    "engagement": "2 likes (fresh)",
+    "score": 62
+  },
+  {
+    "type": "automation",
+    "what": "AI wrappers surviving and profitable again in 2026: median $18k MRR, 62% gross margin for vertical workflow tools (not pure chat). Examples include LinkedIn outreach (PROSP $128k MRR).",
+    "why_us": "Confirms vertical thin AI + specific deliverable still works; pattern for new wrappers.",
+    "revenue": "Median $18k MRR, top $128k",
+    "source_link": "https://www.youtube.com/watch?v=jaGqRw55nls",
+    "source_platform": "other",
+    "engagement": "Industry analysis",
+    "score": 75
+  }
+]

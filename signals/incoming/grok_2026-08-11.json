@@ -1,0 +1,102 @@
+[
+  {
+    "type": "revenue_report",
+    "what": "Indie app hit 5k active users and $2.4K MRR in native language. First app of founder who quit $100k job.",
+    "why_us": "Real bootstrapped traction signal, language/local market opportunity, path to 10k MRR documented.",
+    "revenue": "$2.4k MRR",
+    "source_link": "https://x.com/sflorimm/status/2087167370787704993",
+    "source_platform": "x",
+    "engagement": "14 likes, 10 replies, 455 views",
+    "score": 72
+  },
+  {
+    "type": "revenue_report",
+    "what": "Directory product reached $600 MRR in under 2 months via personal follow-ups on free listings showing metrics.",
+    "why_us": "Simple monetization of free-to-paid conversion, personal outreach works better than pure product for early MRR.",
+    "revenue": "$600 MRR",
+    "source_link": "https://x.com/2whazzuup/status/2086922338508124456",
+    "source_platform": "x",
+    "engagement": "21 likes, 12 replies, 16 bookmarks",
+    "score": 68
+  },
+  {
+    "type": "revenue_report",
+    "what": "SuperX (X growth tool) at $22k MRR. Founder vibecoded a related product that hit $10k in short time. Multiple products totaling high revenue.",
+    "why_us": "Proven X/Twitter tools monetization, vibe-coding speed to revenue, transparent progress tracking.",
+    "revenue": "$22k MRR (one product), $10k new",
+    "source_link": "https://x.com/robj3d3/status/2086861039791165764",
+    "source_platform": "x",
+    "engagement": "111 likes, 16 replies, 46 bookmarks",
+    "score": 85
+  },
+  {
+    "type": "revenue_report",
+    "what": "Ecom store hit $1M MRR in 38 days. AMA offered.",
+    "why_us": "Extreme growth signal in ecom, though not pure SaaS; distribution and product-market fit lessons.",
+    "revenue": "$1M MRR",
+    "source_link": "https://x.com/ecomnischay/status/2086869498800579008",
+    "source_platform": "x",
+    "engagement": "104 likes, 26 replies",
+    "score": 78
+  },
+  {
+    "type": "demand_gap",
+    "what": "PDF invoices from SaaS tools don't sync to accounting. Manual extraction of line items, VAT, categorization to Xero/Quickbooks is hated. Would pay for email-forward + LLM extract + push tool.",
+    "why_us": "Recurring monthly pain for freelancers/SMBs, clear willingness to pay, existing tools incomplete.",
+    "revenue": "$19-50/mo potential",
+    "source_link": "https://dev.to/the_nortern_dev/the-i-would-pay-50month-to-never-do-this-again-list-3kfb",
+    "source_platform": "other",
+    "engagement": "High engagement on DEV post (multiple similar pains listed)",
+    "score": 82
+  },
+  {
+    "type": "demand_gap",
+    "what": "GDPR Record of Processing Activities for small devs is outdated Excel. Need codebase scanner (Prisma/SQL) that auto-generates living GDPR docs.",
+    "why_us": "Compliance pain with real risk (audits), technical audience that pays, underserved niche.",
+    "revenue": "$19+/mo",
+    "source_link": "https://dev.to/the_nortern_dev/the-i-would-pay-50month-to-never-do-this-again-list-3kfb",
+    "source_platform": "other",
+    "engagement": "Part of high-signal 'I would pay $50/mo' list",
+    "score": 75
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "Analysis of Glam AI, Cal AI, Umax using UGC to hit $1M MRR. 5 content patterns shared for AI apps.",
+    "why_us": "Playbook for AI consumer apps distribution via UGC, proven $1M MRR path.",
+    "revenue": "$1M MRR examples",
+    "source_link": "https://x.com/alexolim_/status/2086830919587942456",
+    "source_platform": "x",
+    "engagement": "53 likes, 181 bookmarks",
+    "score": 80
+  },
+  {
+    "type": "demand_gap",
+    "what": "Counterfeit-listing monitor for ecommerce/Etsy sellers. Viral products get copied; need automated scan + takedown paperwork.",
+    "why_us": "High severity pain from Reddit ecommerce, expensive and specific, brands already pay for protection.",
+    "revenue": "Subscription for small brands",
+    "source_link": "https://www.ideafast.pro/blog/saas-ideas-from-reddit-pain-points",
+    "source_platform": "other",
+    "engagement": "Pain Signal Score 92",
+    "score": 88
+  },
+  {
+    "type": "demand_gap",
+    "what": "Freelance proposal-theft protection: watermark/timestamp shared proposals and track reuse elsewhere for evidence.",
+    "why_us": "Freelancers lose free work; real evidence before agreeing to unpaid proposals.",
+    "revenue": "SaaS for freelancers",
+    "source_link": "https://www.ideafast.pro/blog/saas-ideas-from-reddit-pain-points",
+    "source_platform": "other",
+    "engagement": "Pain Signal Score 89",
+    "score": 81
+  },
+  {
+    "type": "revenue_report",
+    "what": "App Store Pulse (Shopify-related?) plateaued at $2.5-2.8k MRR, founder planning to break it.",
+    "why_us": "Transparent indie Shopify app journey, plateau is common signal for next tactics.",
+    "revenue": "$2.5-2.8k MRR",
+    "source_link": "https://x.com/DsMatie/status/2086399091542794510",
+    "source_platform": "x",
+    "engagement": "30 likes, 9 replies",
+    "score": 65
+  }
+]

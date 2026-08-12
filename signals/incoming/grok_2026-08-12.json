@@ -1,0 +1,72 @@
+[
+  {
+    "type": "revenue_report",
+    "what": "Indie SaaS (elvixai.com - AI agent for SEO backlink building) hit 20 paying customers in 7 days after launch, pricing $9 trial then $99/mo. Later update: 30 customers and $299 revenue in ~9-10 days.",
+    "why_us": "Fast validation of niche AI automation for SEO outreach. Shows strong product-market fit in short time with Twitter marketing.",
+    "revenue": "$99/mo per customer, ~$2-3k potential early MRR trajectory",
+    "source_link": "https://x.com/HsanC_/status/2085060663013974109",
+    "source_platform": "x",
+    "engagement": "139 likes, 55 replies, 18 bookmarks",
+    "score": 78
+  },
+  {
+    "type": "revenue_report",
+    "what": "AI wrapper mobile app Modyfy (car modding niche) launched 2 months ago, already doing $30k/month. Zero-friction funnel with review farming before paywall.",
+    "why_us": "Proof that vertical AI wrappers in passionate subcultures can scale quickly with smart onboarding and paywall timing.",
+    "revenue": "$30k/mo",
+    "source_link": "https://x.com/VechAlex/status/2079545983176761476",
+    "source_platform": "x",
+    "engagement": "45 likes, 57 bookmarks",
+    "score": 72
+  },
+  {
+    "type": "revenue_report",
+    "what": "SaaS reached $8K MRR mainly through SEO by creating free tool pages (e.g. calculators related to core product). Attracts high-intent traffic converting to 1 subscriber/day.",
+    "why_us": "Demonstrates compounding SEO free-tool strategy for SaaS growth without heavy ads.",
+    "revenue": "$8k MRR",
+    "source_link": "https://x.com/arthursbuilds/status/2082860525780914598",
+    "source_platform": "x",
+    "engagement": "166 likes, 180 bookmarks",
+    "score": 75
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "Friend's AI wrapper mobile app crossed 50k downloads on Play Store and generating profit exceeding previous salary.",
+    "why_us": "Real signal of profitable AI mobile wrappers succeeding outside Twitter hype cycle.",
+    "revenue": "Profit > last salary (exact MRR not stated)",
+    "source_link": "https://x.com/wojakcodes/status/2078368825150763164",
+    "source_platform": "x",
+    "engagement": "851 likes, 150 bookmarks",
+    "score": 70
+  },
+  {
+    "type": "demand_gap",
+    "what": "Widespread SaaS price hikes (avg 14% in 2025) and 'SaaS creep' leading companies to replace tools with custom builds or cheaper alternatives. 35% of enterprises already replaced at least one SaaS; 78% plan more. Examples: Zapier overpriced for volume, HubSpot expensive, desire for simple flat-rate or self-hosted alternatives.",
+    "why_us": "Strong market signal for affordable micro-SaaS or vertical automation tools that undercut incumbents on price while solving specific workflows.",
+    "revenue": "Potential savings $thousands/year per company; opportunity for $19-49/mo tools",
+    "source_link": "https://www.droptica.com/blog/great-saas-escape-why-2026-year-take-back-your-software/",
+    "source_platform": "other",
+    "engagement": "Industry reports + multiple articles citing Retool 2026 survey",
+    "score": 82
+  },
+  {
+    "type": "demand_gap",
+    "what": "Overpriced SaaS tools (Zapier, Intercom, Hotjar) charge $200+/mo for features solo devs can rebuild. Gap for dead-simple customer messaging/live chat + tickets for indie SaaS at $19/mo flat.",
+    "why_us": "Clear underserved segment of indie founders who need basic support tools without enterprise bloat and pricing.",
+    "revenue": "$19/mo target pricing",
+    "source_link": "https://www.microgaps.com/blog/overpriced-saas-tools-solo-devs-can-replace",
+    "source_platform": "other",
+    "engagement": "Detailed 2026 analysis",
+    "score": 68
+  },
+  {
+    "type": "demand_gap",
+    "what": "Strong demand for offline-first / privacy-focused / local-only tools (7% of 9k+ 'I wish there was an app' posts). Subscription fatigue driving desire for non-cloud alternatives especially in productivity.",
+    "why_us": "Recurring pattern across analyses of wish-posts; high willingness in finance/productivity niches for privacy tools.",
+    "revenue": "N/A (willingness-to-pay signals high in finance)",
+    "source_link": "https://bigideasdb.com/guides/what-apps-do-people-wish-existed-2026",
+    "source_platform": "other",
+    "engagement": "Based on 9,300+ Reddit analyses + App Store data",
+    "score": 65
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "App that recommends which of your credit cards is best to use at a specific store (based on rewards, categories, current promos)",
+    "why_us": "Clear pain for multi-card holders; high willingness to pay for optimization of rewards; repeatable daily use",
+    "revenue": "Potential $5-15/mo subscription",
+    "source_link": "https://x.com/xoreniii/status/2087532296496640425",
+    "source_platform": "x",
+    "engagement": "56 likes, 36 bookmarks",
+    "score": 68
+  },
+  {
+    "type": "revenue_report",
+    "what": "SaaS that finds and takes down counterfeiters — focused brand protection tool",
+    "why_us": "Boring B2B problem with high willingness to pay; $400k MRR validates market",
+    "revenue": "~$400k MRR",
+    "source_link": "https://x.com/sushilwtf/status/2087491035039703477",
+    "source_platform": "x",
+    "engagement": "40 likes, 25 bookmarks",
+    "score": 72
+  },
+  {
+    "type": "demand_gap",
+    "what": "Simple weather app that just says 'it's too hot, stay inside' instead of complex humidity/dew point data",
+    "why_us": "Frustration with overcomplicated weather apps; micro-SaaS or freemium opportunity",
+    "revenue": "One-time or $3-5/mo",
+    "source_link": "https://x.com/Demo4fhs/status/2079294599013540038",
+    "source_platform": "x",
+    "engagement": "84 likes",
+    "score": 62
+  },
+  {
+    "type": "demand_gap",
+    "what": "Tool that monitors SaaS subscriptions and alerts before free trials convert to paid (subscription audit/cancellation helper)",
+    "why_us": "Widespread subscription fatigue; repeated requests across Reddit/forums; high conversion potential",
+    "revenue": "$5-10/mo or freemium",
+    "source_link": "https://www.reddit.com/r/AppIdeas/comments/1shg3y2/7_app_ideas_from_this_week_that_real_people_are_begging_for/",
+    "source_platform": "forum",
+    "engagement": "53 upvotes on post listing multiple ideas including this",
+    "score": 75
+  },
+  {
+    "type": "demand_gap",
+    "what": "Focused vertical automation tool cheaper than Zapier for specific workflows (e.g. booking → invoice) without per-task pricing",
+    "why_us": "Zapier becomes expensive at scale; gap for simple vertical tools at flat $9/mo",
+    "revenue": "$9/mo flat",
+    "source_link": "https://www.microgaps.com/blog/overpriced-saas-tools-solo-devs-can-replace",
+    "source_platform": "other",
+    "engagement": "Analysis of market gaps",
+    "score": 70
+  }
+]

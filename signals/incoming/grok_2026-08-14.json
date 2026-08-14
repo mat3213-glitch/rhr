@@ -1,0 +1,62 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "App like Buy Me a Coffee but for gifting books people want or recommend (Buy Me a Book)",
+    "why_us": "Clear social gifting + reading niche demand; existing tipping platforms don't cover physical/digital books well",
+    "revenue": "N/A",
+    "source_link": "https://x.com/KeturahAbigail/status/2088008330203603323",
+    "source_platform": "x",
+    "engagement": "58 likes",
+    "score": 62
+  },
+  {
+    "type": "demand_gap",
+    "what": "App that tells which credit card is best to use at which store (rewards optimizer)",
+    "why_us": "Recurring pain for people with multiple cards; high willingness to pay for optimization tools in fintech",
+    "revenue": "N/A",
+    "source_link": "https://x.com/xoreniii/status/2087532296496640425",
+    "source_platform": "x",
+    "engagement": "58 likes, 36 bookmarks",
+    "score": 65
+  },
+  {
+    "type": "revenue_report",
+    "what": "Mobile apps hit $415 daily revenue ($~12k MRR potential) after influencer + Meta ads, launched March, serious marketing 5 weeks",
+    "why_us": "Real numbers + channel insights (influencer + low CPA Meta) for mobile apps",
+    "revenue": "$415/day (~$12k MRR target)",
+    "source_link": "https://x.com/burakeregar/status/2086533326245142671",
+    "source_platform": "x",
+    "engagement": "31 likes",
+    "score": 68
+  },
+  {
+    "type": "revenue_report",
+    "what": "AI Peekaboo (brand visibility in AI search) passed $50k MRR",
+    "why_us": "Emerging category (AI search brand monitoring) with strong traction signal",
+    "revenue": "$50k MRR",
+    "source_link": "https://x.com/hello_code_/status/2087339178816053363",
+    "source_platform": "x",
+    "engagement": "N/A (thread)",
+    "score": 72
+  },
+  {
+    "type": "demand_gap",
+    "what": "Offline-first / privacy-focused tools and local-only versions of popular apps (productivity, notes, storage)",
+    "why_us": "640+ requests across large dataset; subscription fatigue + privacy concerns create clear gap",
+    "revenue": "N/A",
+    "source_link": "https://bigideasdb.com/guides/what-apps-do-people-wish-existed-2026",
+    "source_platform": "other",
+    "engagement": "Analysis of 9k+ posts",
+    "score": 75
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "AI coding assistant for freelancers/indie devs: scaffolds, UI, API, DB, CI/CD, one-click deploy",
+    "why_us": "High search volume (18k/mo), low competition listed, potential $10-30k MRR",
+    "revenue": "$10k-30k potential",
+    "source_link": "https://microsaashq.com/saas-ideas/ai-coding-assistant-5",
+    "source_platform": "other",
+    "engagement": "N/A",
+    "score": 70
+  }
+]

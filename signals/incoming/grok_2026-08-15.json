@@ -1,0 +1,52 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "AI SDR / outbound agent that finds 50 qualified leads/week and sends personalized cold emails without constant babysitting. Existing tools (Clay, Apollo, Instantly) require too much manual work.",
+    "why_us": "Clear willingness to pay $200/mo from small business/solopreneurs; high demand, low builder supply; recurring revenue potential in sales automation niche.",
+    "revenue": "$200/mo willingness",
+    "source_link": "https://dev.to/jimrusk/what-ai-agent-builders-want-to-build-vs-what-people-actually-want-5gp6",
+    "source_platform": "other",
+    "engagement": "Highlighted as top demand signal from r/SaaS May 2026 scans",
+    "score": 85
+  },
+  {
+    "type": "demand_gap",
+    "what": "Invoice & bookkeeping AI agents that reliably extract from PDFs, code GL, push to QuickBooks/Xero without edge-case failures. Boring but high ROI for freelancers/agencies.",
+    "why_us": "Repeated under-served category; tied to measurable time/cost savings; builders avoid due to OCR/integration complexity.",
+    "revenue": "$100-300/mo potential",
+    "source_link": "https://dev.to/jimrusk/what-ai-agent-builders-want-to-build-vs-what-people-actually-want-5gp6",
+    "source_platform": "other",
+    "engagement": "Consistent high demand in weekly scans of Reddit/X/IndieHackers",
+    "score": 80
+  },
+  {
+    "type": "revenue_report",
+    "what": "17yo builder hit $500 MRR with first app in under 2 months (from $0), zero prior app experience, mainly TikTok marketing experience.",
+    "why_us": "Validates rapid micro-SaaS validation + distribution over pure tech; apps = 1% dev, 89% marketing.",
+    "revenue": "$500 MRR",
+    "source_link": "https://x.com/albumedscales/status/2088436162746622213",
+    "source_platform": "x",
+    "engagement": "2 likes, recent (Aug 15 2026)",
+    "score": 65
+  },
+  {
+    "type": "revenue_report",
+    "what": "Plausible Analytics (open-source privacy analytics): $22.2k new MRR in July (best month), MRR +28.5% YoY, 20,183 paying subscribers. Code open since 2019, moat is not code.",
+    "why_us": "Shows durable SaaS growth even in AI era; privacy-first still converts.",
+    "revenue": "$22.2k new MRR / month",
+    "source_link": "https://x.com/PlausibleHQ/status/2084221411334492181",
+    "source_platform": "x",
+    "engagement": "36 likes, 5 reposts",
+    "score": 75
+  },
+  {
+    "type": "demand_gap",
+    "what": "Narrow AI agents for competitor pricing monitoring and meeting summary + action items. Builders over-index on chatbots/frameworks while users want specific workflow solvers.",
+    "why_us": "Very high demand gap vs supply; clear purchase signals from end-users not builders.",
+    "revenue": "N/A (high intent)",
+    "source_link": "https://dev.to/jimrusk/what-ai-agent-builders-want-to-build-vs-what-people-actually-want-5gp6",
+    "source_platform": "other",
+    "engagement": "From 8-week scan of hundreds of conversations",
+    "score": 78
+  }
+]

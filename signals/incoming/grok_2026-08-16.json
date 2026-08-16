@@ -1,0 +1,62 @@
+[
+  {
+    "type": "revenue_report",
+    "what": "TrustMRR (Marc Lou) became a marketplace; revenue doubled in 8 months. Previously $22.9k in Dec 2025, now higher as marketplace. Portfolio includes multiple products totaling high MRR.",
+    "why_us": "Proven indie hacker scaling model with verified revenue directory turning into marketplace. High engagement shows community interest in transparent revenue tracking and acquisition opportunities.",
+    "revenue": "$44k/mo TrustMRR alone (bio), portfolio multi-product",
+    "source_link": "https://x.com/marclou/status/2088499353023619503",
+    "source_platform": "x",
+    "engagement": "560 likes, 58 replies, 56 bookmarks",
+    "score": 85
+  },
+  {
+    "type": "revenue_report",
+    "what": "Gojiberry AI hit $4.3M ARR in ~10 months from €0. AI agents that find & book meetings. Used own tool for growth (LinkedIn outreach, cold email 15k/day, Reddit, SEO).",
+    "why_us": "Strong example of AI sales agent SaaS with self-reinforcing growth loop. Concrete playbook on high-intent outreach + content. High ARR validates demand for AI meeting bookers.",
+    "revenue": "$4.3M ARR",
+    "source_link": "https://x.com/pierreeliottlal/status/2088534936890343889",
+    "source_platform": "x",
+    "engagement": "133 likes, 27 replies, 133 bookmarks",
+    "score": 82
+  },
+  {
+    "type": "revenue_report",
+    "what": "AI search visibility tool (how ChatGPT/Gemini/Claude/Perplexity talk about brands) almost hit $50k MRR. Category emerged in 1 year.",
+    "why_us": "New category of AI SEO / brand monitoring in LLM responses. Companies paying for visibility insights. Signals demand for AI search analytics tools.",
+    "revenue": "~$50k MRR",
+    "source_link": "https://x.com/hello_code_/status/2085036974465778169",
+    "source_platform": "x",
+    "engagement": "400 likes, 119 replies",
+    "score": 78
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "Friend built AI wrapper mobile app, crossed 50k Play Store downloads, revenue already exceeded previous salary. Generating profit.",
+    "why_us": "Confirms AI wrappers can still hit traction and monetize on mobile despite saturation narrative. Low barrier, fast to revenue for some niches.",
+    "revenue": "Exceeded previous salary (profit positive)",
+    "source_link": "https://x.com/wojakcodes/status/2078368825150763164",
+    "source_platform": "x",
+    "engagement": "851 likes, 150 bookmarks",
+    "score": 72
+  },
+  {
+    "type": "demand_gap",
+    "what": "Ask HN: What is some software that you wish existed? Recent thread (4 days ago). Requests for open-source hardware video streamer (Roku-like), vein biometric authenticator, federated library management, open Spotify-like music desktop with MusicBrainz + yt-dlp.",
+    "why_us": "Fresh HN demand signals for privacy/open alternatives to closed ecosystems (streaming, auth, media management). Repeatable theme of digital sovereignty tools.",
+    "revenue": "N/A",
+    "source_link": "https://news.ycombinator.com/item?id=49259602",
+    "source_platform": "hn",
+    "engagement": "1 point + comments (fresh thread)",
+    "score": 65
+  },
+  {
+    "type": "demand_gap",
+    "what": "Complaints on Trustpilot about AI app builders (Lovable, anything.com/createanything): expensive credits, unreliable output, no support, projects taken down, waste of money ($50-$1500 spent with zero usable result).",
+    "why_us": "Clear pain in no-code/AI app generation tools: reliability, support, refund friction. Opportunity for more transparent, reliable, or refund-friendly AI coding platforms or better validation layers.",
+    "revenue": "N/A (users spending $30-1500+)",
+    "source_link": "https://www.trustpilot.com/review/lovable.dev?stars=1",
+    "source_platform": "trustpilot",
+    "engagement": "Multiple 1-star reviews, recent Aug 2026",
+    "score": 68
+  }
+]

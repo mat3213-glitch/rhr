@@ -1,0 +1,62 @@
+[
+  {
+    "type": "revenue_report",
+    "what": "Mission-based alarm apps (Erly / Early / push-up alarm): AI-verified physical tasks (push-ups etc.) to turn off alarm. Hit ~$50k/mo in 4 months, 200k+ downloads. Alarmy (older player) does hundreds of k$/mo with missions.",
+    "why_us": "Proven simple consumer pain (snoozing) with high willingness to pay via sub. Viral TikTok/IG hook + AI verification. Low complexity, high retention via streaks. Multiple clones succeeding.",
+    "revenue": "$50k+/mo (Erly), Alarmy ~$500k/mo historically, company revenue ~$4M+/yr",
+    "source_link": "https://superframeworks.com/case-study/erly",
+    "source_platform": "other",
+    "engagement": "High virality, 16k App Store reviews 4.8*, case studies circulating",
+    "score": 85
+  },
+  {
+    "type": "revenue_report",
+    "what": "Postiz — open-source agentic social media scheduler. Repositioned for AI agents, open-source distribution + viral agent content → $145k–$176k MRR, approaching $2M+ ARR as solo founder.",
+    "why_us": "Shows power of open-source + AI-agent positioning. Clear distribution playbook (GitHub stars → cloud conversions, agent wave). High repeatability for similar agent tools.",
+    "revenue": "$145k–$176k MRR (~$2M ARR)",
+    "source_link": "https://x.com/wickedguro/status/2086824898526367881",
+    "source_platform": "x",
+    "engagement": "Hundreds of likes on updates, 15k+ followers, daily MRR posts",
+    "score": 90
+  },
+  {
+    "type": "demand_gap",
+    "what": "Artist-specific community platform like old DeviantArt but actively moderated against AI-generated content. DA is 'dead', artists want pure human art community with filtering.",
+    "why_us": "Massive engagement (6k likes, 500+ RTs on key post). Clear underserved niche: professional + hobbyist artists fleeing AI-flooded platforms. Monetization via pro features, commissions, premium no-AI feeds.",
+    "revenue": "N/A (demand signal)",
+    "source_link": "https://x.com/RadPax/status/2084000884556706126",
+    "source_platform": "x",
+    "engagement": "6044 likes, 558 reposts, 193 replies, 394k views",
+    "score": 82
+  },
+  {
+    "type": "revenue_report",
+    "what": "Wrestle AI — combat sports AI app. 100k+ downloads, $400k ARR in first 9 months via influencer marketing only, 68% margins, almost no paid ads.",
+    "why_us": "Niche vertical AI (wrestling) with proven influencer-led growth. Shows power of single-channel mastery below $10k MRR. High margins, seasonal upside.",
+    "revenue": "$400k ARR (~$33k MRR)",
+    "source_link": "https://x.com/GeorgeLampro20/status/2087200926129885308",
+    "source_platform": "x",
+    "engagement": "85 likes, 248 bookmarks on core post",
+    "score": 75
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "AI businesses monetizing characters/short-form: one example grew from $870 to $15.7k in 30 days (mostly messaging + subs). Character as asset, content acquires attention, sub opens relationship.",
+    "why_us": "Concrete 18x growth case. Pattern for AI character/UGC wrappers: attention → profile → sub → messaging upsell. Low production cost via AI.",
+    "revenue": "$15.7k/mo (from $0.87k)",
+    "source_link": "https://x.com/Lummox_eth/status/2088980169881014350",
+    "source_platform": "x",
+    "engagement": "25 likes, video case",
+    "score": 68
+  },
+  {
+    "type": "demand_gap",
+    "what": "Free / open-source alternatives directory demand remains strong. One post claiming 'biggest free alternative directory' (1832 alts to 422 apps) got strong engagement. SaaS subscription fatigue continues.",
+    "why_us": "Recurring pain: rising SaaS costs, feature bloat, lock-in. Directories and lightweight open-source replacements keep winning attention.",
+    "revenue": "N/A",
+    "source_link": "https://x.com/robj3d3/status/2085814501946032395",
+    "source_platform": "x",
+    "engagement": "485 likes, 439 bookmarks, 41k views",
+    "score": 72
+  }
+]

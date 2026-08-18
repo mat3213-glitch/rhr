@@ -1,0 +1,62 @@
+[
+  {
+    "type": "revenue_report",
+    "what": "AI SEO SaaS (elvixai.com) launched 16 days ago, already at $570 MRR. Builds SEO backlinks on autopilot.",
+    "why_us": "Fast traction example of AI wrapper/micro-SaaS in SEO niche; clear product-market fit signal with public launch metrics.",
+    "revenue": "$570 MRR in 16 days",
+    "source_link": "https://x.com/HsanC_/status/2088624099782164552",
+    "source_platform": "x",
+    "engagement": "137 likes, 52 replies, 32 bookmarks, 6729 views",
+    "score": 78
+  },
+  {
+    "type": "revenue_report",
+    "what": "AI search tracking / visibility tool almost at $50k MRR. Tracks how ChatGPT, Gemini, Claude, Perplexity, Google AI talk about brands.",
+    "why_us": "Strong revenue validation for AI brand monitoring / GEO (Generative Engine Optimization) niche; emerging category with paying customers.",
+    "revenue": "~$50k MRR",
+    "source_link": "https://x.com/hello_code_/status/2085189387911106671",
+    "source_platform": "x",
+    "engagement": "405 likes, 119 replies",
+    "score": 85
+  },
+  {
+    "type": "demand_gap",
+    "what": "Wish for an app like Buy Me a Coffee but for gifting books (Buy Me a Book). People gift wanted or recommended books.",
+    "why_us": "Clear demand for social gifting in reading niche; existing platforms don't cover book-specific discovery + gifting well.",
+    "revenue": "",
+    "source_link": "https://x.com/KeturahAbigail/status/2088008330203603323",
+    "source_platform": "x",
+    "engagement": "99 likes, 12 replies, 5 bookmarks",
+    "score": 65
+  },
+  {
+    "type": "demand_gap",
+    "what": "Wish for an app that recommends which credit card is best to use at which store (based on rewards, fees, etc.).",
+    "why_us": "Practical personal finance pain; high willingness to pay for optimization tools among credit card users.",
+    "revenue": "",
+    "source_link": "https://x.com/xoreniii/status/2087532296496640425",
+    "source_platform": "x",
+    "engagement": "60 likes, 36 bookmarks, 11614 views",
+    "score": 68
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "Opportunity in focused automation tools replacing expensive general ones like Zapier (per-task pricing). Build vertical-specific workflows at flat low price.",
+    "why_us": "Repeated complaints about overpriced SaaS (Zapier, Intercom etc.); solo-dev friendly gaps for $9-19/mo niche tools.",
+    "revenue": "Potential $9-19/mo flat",
+    "source_link": "https://www.microgaps.com/blog/overpriced-saas-tools-solo-devs-can-replace",
+    "source_platform": "other",
+    "engagement": "Published analysis of market gaps",
+    "score": 72
+  },
+  {
+    "type": "demand_gap",
+    "what": "App that scans fridge photo and suggests recipes (no manual ingredient input). Existing apps require manual entry which kills the point.",
+    "why_us": "Recurring consumer pain; several attempts exist but UX gap remains for pure photo-based AI solution.",
+    "revenue": "",
+    "source_link": "https://www.reddit.com/r/passive_income/comments/1vpo640/whats_your_i_wish_there_was_an_app_for_that/",
+    "source_platform": "other",
+    "engagement": "Active discussion thread",
+    "score": 62
+  }
+]

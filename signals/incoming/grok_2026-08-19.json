@@ -1,0 +1,52 @@
+[
+  {
+    "type": "revenue_report",
+    "what": "Gojiberry AI (AI agents that find high-intent leads and book meetings) hit $4.3M ARR from €0 in a few months. Used own tool for growth, high-intent LinkedIn/cold email outreach (15k emails/day), inbound content, SEO. 2,000 customers in 10 months. Second SaaS after previous exit at €500k ARR.",
+    "why_us": "Clear signal of strong demand for AI-powered sales automation and lead gen tools. Detailed GTM playbook with real numbers shows scalable path for similar AI sales SaaS.",
+    "revenue": "$4.3M ARR (~$358k/mo)",
+    "source_link": "https://x.com/pierreeliottlal/status/2088534936890343889",
+    "source_platform": "x",
+    "engagement": "156 likes, 146 bookmarks, 31 replies, 9.5k views",
+    "score": 85
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "Heyyyy — 'Tinder but for AI characters' app launched 4 months ago. Revenue: $55k May → $200k June → $350k July. Uses dual economy (subs + gems), onboarding gifts gems, hard gates custom characters behind gem cost, frames prices as per-day.",
+    "why_us": "Loneliness economy + AI companions is booming. Proven funnel and monetization for AI character/chat apps. High revenue velocity signals product-market fit in emotional AI wrappers.",
+    "revenue": "$350k/mo",
+    "source_link": "https://x.com/VechAlex/status/2089414809578020882",
+    "source_platform": "x",
+    "engagement": "28 likes, 33 bookmarks",
+    "score": 78
+  },
+  {
+    "type": "demand_gap",
+    "what": "User wishes for an app that tells which of their credit cards is best to use at which store (to maximize rewards/cashback).",
+    "why_us": "Persistent fintech pain: card optimization is complex. Existing tools exist but many users still want simple, real-time recommendation. High bookmarks signal interest. Monetizable via affiliate or premium.",
+    "revenue": "N/A (demand signal)",
+    "source_link": "https://x.com/xoreniii/status/2087532296496640425",
+    "source_platform": "x",
+    "engagement": "60 likes, 36 bookmarks, 11.6k views",
+    "score": 68
+  },
+  {
+    "type": "demand_gap",
+    "what": "Wish for an app like Buy Me a Coffee but for books: people gift you books you want or recommend.",
+    "why_us": "Gift economy + reading niche. Combines social recommendation with micro-gifting. Low competition in book-specific tipping/gifting platforms. Cultural interest in reading communities.",
+    "revenue": "N/A (demand signal)",
+    "source_link": "https://x.com/KeturahAbigail/status/2088008330203603323",
+    "source_platform": "x",
+    "engagement": "98 likes, 5 bookmarks, 12 replies",
+    "score": 65
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "Straitly — AI gateway/router launched with 0% markup on tokens (vs OpenRouter ~5%), no Stripe fees, 142+ models from 20+ providers, auto failover, 99.98% success. Giving 30% off first $10k + $100 free credits.",
+    "why_us": "Direct attack on high-margin AI router space. Demand for cheaper, reliable multi-model access is clear as AI spend grows. Competitive pressure on incumbents signals market opportunity for leaner infrastructure.",
+    "revenue": "N/A (launch, previous related $63k MRR mentioned in context)",
+    "source_link": "https://x.com/Mutchtaba2/status/2089385271896822197",
+    "source_platform": "x",
+    "engagement": "1349 likes, 1826 bookmarks, 366 replies on launch post",
+    "score": 82
+  }
+]

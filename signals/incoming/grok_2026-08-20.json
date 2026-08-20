@@ -1,0 +1,82 @@
+[
+  {
+    "type": "revenue_report",
+    "what": "TrustMRR became a marketplace, revenue doubled. Portfolio: TrustMRR $44k/m, DataFast $26k/m, ShipOrDie $13k/m and others. December 2025: $84k total.",
+    "why_us": "Real verified indie revenue numbers from public builder, high engagement shows interest in transparent MRR tracking/marketplace.",
+    "revenue": "$44k/mo TrustMRR, portfolio multi $k",
+    "source_link": "https://x.com/marclou/status/2088499353023619503",
+    "source_platform": "x",
+    "engagement": "606 likes, 61 replies",
+    "score": 85
+  },
+  {
+    "type": "revenue_report",
+    "what": "AI Peekaboo passed $50,000 MRR. Tool for brand visibility in AI search (ChatGPT, Gemini, Perplexity).",
+    "why_us": "Emerging category of AI search visibility tools with real traction and demand from companies.",
+    "revenue": "$50k/mo MRR",
+    "source_link": "https://x.com/hello_code_/status/2087230853558460488",
+    "source_platform": "x",
+    "engagement": "130 likes, 51 replies",
+    "score": 78
+  },
+  {
+    "type": "revenue_report",
+    "what": "Bootstrapped B2B SaaS to over $200K MRR in 12 months with <$18k marketing spend. SEO & AI search focused.",
+    "why_us": "Strong bootstrapped growth signal in AEO/SEO for SaaS, high engagement.",
+    "revenue": "$200k/mo MRR",
+    "source_link": "https://x.com/saasliam/status/208982...",
+    "source_platform": "x",
+    "engagement": "146 likes, 33 replies",
+    "score": 80
+  },
+  {
+    "type": "revenue_report",
+    "what": "Pocket (YC hardware) crossed $100M Annualized Run Rate in 7 months from $1M. 270k+ devices.",
+    "why_us": "Fastest YC hardware to this milestone, shows hardware+software hybrid potential.",
+    "revenue": "$100M ARR",
+    "source_link": "https://x.com/AkshayNarisetti/status/2090123297518391318",
+    "source_platform": "x",
+    "engagement": "3275 likes, 350 replies",
+    "score": 90
+  },
+  {
+    "type": "revenue_report",
+    "what": "AI-native B2B services company hit $2M ARR in 7 months from zero. Uses Claude Code + agents for delivery.",
+    "why_us": "Validates 'services are the new software' thesis with concrete numbers and tech stack.",
+    "revenue": "$2M ARR",
+    "source_link": "https://x.com/dan__rosenthal/status/2090076521637597219",
+    "source_platform": "x",
+    "engagement": "190 likes, 25 replies",
+    "score": 82
+  },
+  {
+    "type": "demand_gap",
+    "what": "I wish there was an app like Buy Me A Coffee, but instead Buy Me a Book where people gift books you wanted or they recommend.",
+    "why_us": "Clear demand for book gifting/social reading tool, near 100 likes threshold indicates interest.",
+    "revenue": "N/A",
+    "source_link": "https://x.com/KeturahAbigail/status/2088008330203603323",
+    "source_platform": "x",
+    "engagement": "99 likes, 13 replies",
+    "score": 65
+  },
+  {
+    "type": "revenue_report",
+    "what": "Habit Pixel reached $3000 MRR, targeting $5k by EOY. Habit tracker app.",
+    "why_us": "Micro-SaaS habit app with steady growth signal.",
+    "revenue": "$3k/mo MRR",
+    "source_link": "https://x.com/hirvesh/status/2090000663229104258",
+    "source_platform": "x",
+    "engagement": "53 likes, 26 replies",
+    "score": 62
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "Video model wrapper started as simple wrapper, now valued $5.4bn, revenue from $20M to $700M annualized in a year. 'AI wrapper' insult is useless.",
+    "why_us": "Shows successful AI wrappers can scale massively beyond simple prompts.",
+    "revenue": "$700M annualized",
+    "source_link": "https://x.com/PeterPetrovX/status/2089276537476432191",
+    "source_platform": "x",
+    "engagement": "6 likes (but notable claim)",
+    "score": 70
+  }
+]

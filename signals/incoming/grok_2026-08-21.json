@@ -1,0 +1,42 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "OneKYC — KYC once, reuse across neobanks, trading platforms, CEXs. Users hate repeating 30-min identity scans; platforms want pre-verified users for higher conversion.",
+    "why_us": "Massive consumer + B2B demand, clear acquisition path (Sumsub/Persona buyout), reduces onboarding friction industry-wide.",
+    "revenue": "Potential $ high from platforms + freemium consumers",
+    "source_link": "https://x.com/defyneric/status/2087975100347773127",
+    "source_platform": "x",
+    "engagement": "294 likes, 115 replies, 174 bookmarks",
+    "score": 85
+  },
+  {
+    "type": "revenue_report",
+    "what": "New SaaS (elvixai.com) launched 22 days ago hit $1k MRR. Previous SaaS took 11 months for same milestone. Solved own problem, MVP in 5 days, focused marketing.",
+    "why_us": "Concrete proof of fast validation + compounding learning from previous launches.",
+    "revenue": "$1k MRR in 22 days",
+    "source_link": "https://x.com/HsanC_/status/2090704315845325276",
+    "source_platform": "x",
+    "engagement": "175 likes, 69 replies, 35 bookmarks",
+    "score": 82
+  },
+  {
+    "type": "demand_gap",
+    "what": "Cheap & slow AI inference alternative to Cerebras — run best models slowly but dirt-cheap instead of ultra-fast expensive inference.",
+    "why_us": "Poll to test demand, addresses cost barrier for many AI users/builders who don't need max speed.",
+    "revenue": "Usage-based pricing, high volume potential",
+    "source_link": "https://x.com/kunchenguid/status/2089474794240745928",
+    "source_platform": "x",
+    "engagement": "102 likes, 51 replies",
+    "score": 72
+  },
+  {
+    "type": "demand_gap",
+    "what": "Buy Me a Book — like Buy Me a Coffee but for gifting books people want or recommend.",
+    "why_us": "Simple social/gifting idea with clear monetization, appeals to readers/authors communities.",
+    "revenue": "Transaction fees or premium",
+    "source_link": "https://x.com/KeturahAbigail/status/2088008330203603323",
+    "source_platform": "x",
+    "engagement": "99 likes, 13 replies",
+    "score": 68
+  }
+]

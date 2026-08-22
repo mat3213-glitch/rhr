@@ -1,0 +1,82 @@
+[
+  {
+    "type": "revenue_report",
+    "what": "16yo founder launched second app; first one scaled to $30k MRR in 6 months. Sharing journey and focusing on distribution.",
+    "why_us": "Young founder success story with concrete MRR figures; shows potential for micro-SaaS or app launches by indie builders.",
+    "revenue": "$30k MRR",
+    "source_link": "https://x.com/KevinBelfort_30/status/2090891049350701267",
+    "source_platform": "x",
+    "engagement": "36 likes, 13 replies, 11 bookmarks",
+    "score": 72
+  },
+  {
+    "type": "revenue_report",
+    "what": "New SaaS launched 22 days ago hit $1k MRR. Solved own problem, MVP in 5 days, validated + marketing focus.",
+    "why_us": "Fast traction example for indie SaaS; clear playbook of problem-solving + quick ship + marketing.",
+    "revenue": "$1k MRR in 22 days",
+    "source_link": "https://x.com/HsanC_/status/2090704315845325276",
+    "source_platform": "x",
+    "engagement": "292 likes, 122 replies, 58 bookmarks",
+    "score": 85
+  },
+  {
+    "type": "revenue_report",
+    "what": "Vibe-coding startup Anything (AI app builder for non-tech users) hit $2M ARR in first two weeks, raised at $100M valuation.",
+    "why_us": "Explosive early revenue for AI app builder; signals strong demand in no-code/vibe-coding tools.",
+    "revenue": "$2M ARR in 2 weeks",
+    "source_link": "https://xix.ai/ainews/vibecoding-startup-nabs-100m-valuation-hitting-2m-arr-weeks.html",
+    "source_platform": "other",
+    "engagement": "Recent news, high industry interest",
+    "score": 88
+  },
+  {
+    "type": "revenue_report",
+    "what": "Base44 (vibe coding platform) reached $200M ARR, 5 months after $100M; acquired by Wix previously for $80M.",
+    "why_us": "Massive scale for AI coding platform; shows market size for tools enabling non-devs to build apps.",
+    "revenue": "$200M ARR",
+    "source_link": "https://x.com/MaorShlomo/status/2090433135926198276",
+    "source_platform": "x",
+    "engagement": "668 likes, 50 reposts, 85 replies",
+    "score": 82
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "Polsia AI (runs entire company autonomously) hit $10M ARR with zero employees; solo founder raised $30M at $250M val, AI pitched VCs itself.",
+    "why_us": "Extreme AI agent success; pure automation/AI wrapper at scale with no team.",
+    "revenue": "$10M ARR",
+    "source_link": "https://x.com/DataChaz/status/2090839930029150685",
+    "source_platform": "x",
+    "engagement": "55 likes on quote, original high engagement",
+    "score": 90
+  },
+  {
+    "type": "demand_gap",
+    "what": "Wish for an app like Buy Me a Coffee but for gifting books people want or recommend.",
+    "why_us": "Clear product request with social gifting angle; potential micro-SaaS or extension for readers/creators.",
+    "revenue": "N/A",
+    "source_link": "https://x.com/KeturahAbigail/status/2088008330203603323",
+    "source_platform": "x",
+    "engagement": "99 likes, 13 replies, 5 bookmarks",
+    "score": 65
+  },
+  {
+    "type": "demand_gap",
+    "what": "Wish for an app that tells which of your credit cards is best to use at which store (rewards optimization).",
+    "why_us": "Practical finance pain; high willingness to pay for money-saving tools; recurring need.",
+    "revenue": "N/A",
+    "source_link": "https://x.com/xoreniii/status/2087532296496640425",
+    "source_platform": "x",
+    "engagement": "60 likes, 3 replies, 36 bookmarks",
+    "score": 68
+  },
+  {
+    "type": "demand_gap",
+    "what": "Overpriced SaaS like Zapier (task pricing), Intercom; opportunity for focused vertical automation or simple messaging tools at flat $9-19/mo.",
+    "why_us": "Explicit market gaps from analysis of expensive tools solo devs can replace; high repeatability for micro-SaaS.",
+    "revenue": "Potential $9-19/mo flat",
+    "source_link": "https://www.microgaps.com/blog/overpriced-saas-tools-solo-devs-can-replace",
+    "source_platform": "other",
+    "engagement": "Article on opportunities, published Mar 2026",
+    "score": 75
+  }
+]

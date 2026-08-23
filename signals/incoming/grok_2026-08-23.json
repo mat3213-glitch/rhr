@@ -1,0 +1,82 @@
+[
+  {
+    "type": "revenue_report",
+    "what": "AI Peekaboo (AI search visibility tool for brands in ChatGPT/Gemini/Perplexity) passed $50k MRR. Category forming around AI brand monitoring.",
+    "why_us": "Clear demand for AI search visibility; early mover in emerging category with concrete revenue.",
+    "revenue": "$50k MRR",
+    "source_link": "https://x.com/hello_code_/status/2087230853558460488",
+    "source_platform": "x",
+    "engagement": "130 likes, 51 replies, 5 reposts",
+    "score": 82
+  },
+  {
+    "type": "revenue_report",
+    "what": "Glam Up (AI beauty app) reached 1M users + $150k MRR in 6 months with no ads, funding or existing followers. Case study available.",
+    "why_us": "Strong organic growth example for AI consumer app; detailed playbook on distribution and retention.",
+    "revenue": "$150k MRR",
+    "source_link": "https://x.com/dalgom_bami/status/2054435017292706281",
+    "source_platform": "x",
+    "engagement": "172 likes, 249 bookmarks on quote",
+    "score": 85
+  },
+  {
+    "type": "demand_gap",
+    "what": "Repeated requests for offline-first / local-only / privacy-focused tools (photo organizers, recipe apps, productivity). ~7% of 'I wish there was an app' posts. Subscription fatigue strong.",
+    "why_us": "High-signal anti-cloud trend from 9k+ Reddit posts analysis; users willing to pay for local alternatives to cloud SaaS.",
+    "revenue": "N/A (willingness to pay noted)",
+    "source_link": "https://digitalbiztalk.com/article/what-9300-reddit-posts-reveal-about-app-gaps-in-2026",
+    "source_platform": "other",
+    "engagement": "Analysis of 9363 posts, multiple articles echoing",
+    "score": 78
+  },
+  {
+    "type": "demand_gap",
+    "what": "Tool that monitors SaaS subscriptions and alerts before free trials convert to paid, or tracks actual usage vs payment (not just manual logging).",
+    "why_us": "40+ threads found; common pain of forgotten trials and unused subscriptions. Clear payment intent for automation.",
+    "revenue": "Potential $5-15/mo",
+    "source_link": "https://www.reddit.com/r/AppIdeas/comments/1shg3y2/7_app_ideas_from_this_week_that_real_people_are_begging_for/",
+    "source_platform": "other",
+    "engagement": "53 upvotes on post, recurring across Reddit",
+    "score": 72
+  },
+  {
+    "type": "demand_gap",
+    "what": "Dead-simple CRM for freelancers tracking only: who owes money, next project start, cold leads. Existing CRMs too complex for solo.",
+    "why_us": "Freelancers explicitly frustrated with enterprise CRMs; high repeatability and willingness to pay for focused tool.",
+    "revenue": "N/A",
+    "source_link": "https://www.reddit.com/r/AppIdeas/comments/1shg3y2/7_app_ideas_from_this_week_that_real_people_are_begging_for/",
+    "source_platform": "other",
+    "engagement": "53 upvotes, multiple similar requests",
+    "score": 70
+  },
+  {
+    "type": "demand_gap",
+    "what": "Browser extension for price history / tracking changes on any product page (not just Amazon like camelcamelcamel).",
+    "why_us": "People want 90-day price history everywhere; clear e-commerce pain with high utility.",
+    "revenue": "N/A",
+    "source_link": "https://www.reddit.com/r/AppIdeas/comments/1shg3y2/7_app_ideas_from_this_week_that_real_people_are_begging_for/",
+    "source_platform": "other",
+    "engagement": "53 upvotes on compilation post",
+    "score": 68
+  },
+  {
+    "type": "demand_gap",
+    "what": "App like Buy Me a Coffee but for gifting books people want or recommend ('Buy Me a Book').",
+    "why_us": "Social gifting + reading niche; simple concept with community potential.",
+    "revenue": "N/A",
+    "source_link": "https://x.com/KeturahAbigail/status/2088008330203603323",
+    "source_platform": "x",
+    "engagement": "98 likes, 13 replies, 5 bookmarks",
+    "score": 65
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "Suitable AI (AI recruitment automation for sourcing/screening) hit $100k MRR (~$1.2M ARR) within ~6 months of launch.",
+    "why_us": "Fast traction in HR tech AI; shows demand for specialized AI wrappers in recruiting.",
+    "revenue": "$100k MRR",
+    "source_link": "https://arr.club/signal/suitable-ai-hit-100k-mrr-within-6-months-of-launch",
+    "source_platform": "other",
+    "engagement": "ARR Club signal, industry tracking",
+    "score": 80
+  }
+]

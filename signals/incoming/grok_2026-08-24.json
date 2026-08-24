@@ -1,0 +1,72 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "OneKYC: KYC once and get instant access to neobanks, trading platforms, CEXs etc. Users tired of repeating KYC for every app.",
+    "why_us": "Massive consumer demand + platform demand for pre-verified users to reduce friction and boost conversions. Potential billion$ exit to Sumsub/Persona.",
+    "revenue": "N/A (idea stage)",
+    "source_link": "https://x.com/defyneric/status/2087975100347773127",
+    "source_platform": "x",
+    "engagement": "294 likes, 12 reposts, 115 replies, 51k views",
+    "score": 78
+  },
+  {
+    "type": "revenue_report",
+    "what": "SEO backlinks SaaS that builds backlinks on autopilot hit $1.5k MRR in 25 days after launch.",
+    "why_us": "Simple one-feature SaaS with fast traction; validates niche automation tools for SEO.",
+    "revenue": "$1.5k MRR in 25 days",
+    "source_link": "https://x.com/HsanC_/status/2091833960619794487",
+    "source_platform": "x",
+    "engagement": "86 likes, 33 replies",
+    "score": 72
+  },
+  {
+    "type": "revenue_report",
+    "what": "TrendTrack reached $8M ARR in 16 months; founder sharing journey to $1M MRR.",
+    "why_us": "High growth SaaS example with concrete ARR numbers for benchmarking.",
+    "revenue": "$8M ARR",
+    "source_link": "https://x.com/vincent_alonzi/status/2091777521628979703",
+    "source_platform": "x",
+    "engagement": "83 likes",
+    "score": 68
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "DGrid AI decentralized AI network launched with $23M+ Genesis Premium revenue, 15K+ premium subscribers, 500K+ MAU before token TGE.",
+    "why_us": "Proven paid demand for decentralized AI routing/marketplace before token; shows AI infra can monetize early.",
+    "revenue": "$23M+ Genesis revenue, 15k subscribers",
+    "source_link": "https://x.com/Nick_Researcher/status/2091820783895224364",
+    "source_platform": "x",
+    "engagement": "78 likes, multiple related posts 100+",
+    "score": 85
+  },
+  {
+    "type": "demand_gap",
+    "what": "App like Buy Me A Coffee but for gifting books people want or recommend (Buy Me a Book).",
+    "why_us": "Niche social gifting with high engagement signal; cultural/literary angle underserved.",
+    "revenue": "N/A",
+    "source_link": "https://x.com/KeturahAbigail/status/2088008330203603323",
+    "source_platform": "x",
+    "engagement": "98 likes, 13 replies",
+    "score": 65
+  },
+  {
+    "type": "demand_gap",
+    "what": "Free alternatives directory to expensive SaaS (1,832 free alternatives to 422 apps launched).",
+    "why_us": "Addresses SaaS fatigue and overpricing; strong engagement shows demand for cost-cutting tools.",
+    "revenue": "N/A (directory)",
+    "source_link": "https://x.com/robj3d3/status/2085814501946032395",
+    "source_platform": "x",
+    "engagement": "484 likes, 434 bookmarks, 41k views",
+    "score": 82
+  },
+  {
+    "type": "demand_gap",
+    "what": "Overpriced SaaS tools (Zapier, Intercom etc.) charge $200+/mo for features solo devs can build; opportunities for vertical focused cheaper alternatives.",
+    "why_us": "Repeated complaints about SaaS pricing; market signal for micro-SaaS replacements in automation, support, analytics.",
+    "revenue": "Potential $9-19/mo flat alternatives",
+    "source_link": "https://www.microgaps.com/blog/overpriced-saas-tools-solo-devs-can-replace",
+    "source_platform": "other",
+    "engagement": "Article analysis of gaps",
+    "score": 70
+  }
+]

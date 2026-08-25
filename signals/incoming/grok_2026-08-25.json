@@ -1,0 +1,82 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "Analysis of 9,300+ Reddit posts 'I wish there was an app for this': strong demand for offline-first/privacy tools (7% of requests), better finance portfolio analytics, minimalist smart home dashboards, gym decision tools, text-only cooking apps without ads. High pay signals in Finance niche.",
+    "why_us": "Repeatable demand gaps across productivity, finance, health. Anti-subscription and anti-cloud trend is accelerating; clear opportunities for focused micro-SaaS or local-first tools.",
+    "revenue": "N/A (demand signals; Finance has highest pay intent)",
+    "source_link": "https://www.reddit.com/r/SaaS/comments/1q5lfur/i_analyzed_9_300_i_wish_there_was_an_app_for_this/",
+    "source_platform": "other",
+    "engagement": "748 upvotes",
+    "score": 85
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "FormulaBot: no-code Excel/Sheets formula generation AI wrapper hit $40k MRR. Other teardowns: Millimetric.ai $20k MRR (KPI anomaly alerts), Buildpad.io $7.3k MRR (founder co-pilot).",
+    "why_us": "Proven AI wrapper model with concrete revenue. Easy replication potential in vertical tools; shows ceiling and distribution paths (TikTok, Product Hunt).",
+    "revenue": "$40k MRR (FormulaBot), $20k MRR (Millimetric)",
+    "source_link": "https://neodrop.ai/post/tF49rO1UxBu",
+    "source_platform": "other",
+    "engagement": "Industry teardown with disclosed numbers",
+    "score": 90
+  },
+  {
+    "type": "revenue_report",
+    "what": "Bootstrapped company grew to $50k MRR in 1 year with $0 funding and $0 ads. Main drivers: partnerships (revenue share + equity), deep customer relationships (Slack channels), organic/SEO/GEO (AI visibility tool), trusting instinct.",
+    "why_us": "Concrete playbook for zero-spend growth. Partnerships as under-discussed lever. Relevant for AI visibility / SEO tools.",
+    "revenue": "$50k MRR in 12 months",
+    "source_link": "https://x.com/fililinsduarte/status/2090143083614581193",
+    "source_platform": "x",
+    "engagement": "Recent public share",
+    "score": 82
+  },
+  {
+    "type": "revenue_report",
+    "what": "Bootstrapped to over $200k MRR in 12 months with less than $18k spent on marketing. Time to scale announced.",
+    "why_us": "High capital efficiency signal. Organic/SEO focus for B2B SaaS conversions.",
+    "revenue": "$200k+ MRR",
+    "source_link": "https://x.com/saasliam/status/2089741315210649674",
+    "source_platform": "x",
+    "engagement": "146 likes",
+    "score": 80
+  },
+  {
+    "type": "revenue_report",
+    "what": "App hit $1k MRR in exactly one month after launch. Founder building LazyReelAI / MindDraftAI.",
+    "why_us": "Fast traction example for AI apps. Motivational + distribution insights from replies.",
+    "revenue": "$1k MRR in 1 month",
+    "source_link": "https://x.com/imthepk/status/2089559792574693611",
+    "source_platform": "x",
+    "engagement": "168 likes",
+    "score": 75
+  },
+  {
+    "type": "demand_gap",
+    "what": "Widespread SaaS buyer remorse and cost pain: average company wastes hundreds of thousands on unused seats/features. Companies actively looking to replace narrow SaaS slices with custom/AI-built tools because AI lowered build cost. Feature bloat (80% unused features), per-seat pricing explosion, integration friction.",
+    "why_us": "Structural shift: AI makes custom edges viable. Opportunity for lightweight, focused alternatives or AI agents that replace bloated suites.",
+    "revenue": "Potential savings $10k–$1M+/yr per company",
+    "source_link": "https://86saas.com/blog/complete-guide-to-saas-replacement",
+    "source_platform": "other",
+    "engagement": "Multiple 2026 analyses + Capterra survey (3/5 companies regret purchases)",
+    "score": 88
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "Organic iOS+Android AI curtain visualizer reached $581–$650 MRR, $10k+ lifetime, 71 active subs, 80% margin. Verified on TrustMRR.",
+    "why_us": "Niche visual AI product with solid unit economics and organic growth. Shows micro-vertical AI apps can monetize.",
+    "revenue": "$650 MRR",
+    "source_link": "https://x.com/trust_mrr/status/2088981933175063030",
+    "source_platform": "x",
+    "engagement": "TrustMRR verified",
+    "score": 72
+  },
+  {
+    "type": "demand_gap",
+    "what": "SaaS validation tools crowded on survey/interview side but empty on real demand discovery: tools that find high-intent public conversations, score pain urgency, and connect to people already talking about the problem.",
+    "why_us": "Meta-gap for idea/pain scouting tools. Directly relevant to RHR-style signal collection.",
+    "revenue": "N/A",
+    "source_link": "https://x.com/Tommycsx3/status/2091578968512041036",
+    "source_platform": "x",
+    "engagement": "Founder analysis thread",
+    "score": 78
+  }
+]

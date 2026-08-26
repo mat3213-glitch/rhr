@@ -1,0 +1,92 @@
+[
+  {
+    "type": "revenue_report",
+    "what": "Bootstrapped to over $200K MRR in 12 months with less than $18k spent on marketing",
+    "why_us": "Strong proof of organic/SEO growth for B2B SaaS; shows scalable model without ads",
+    "revenue": "$200k MRR",
+    "source_link": "https://x.com/saasliam/status/2089741315210649674",
+    "source_platform": "x",
+    "engagement": "146 likes, 33 replies",
+    "score": 78
+  },
+  {
+    "type": "revenue_report",
+    "what": "App hit $1K MRR in exactly one month after launch",
+    "why_us": "Fast traction signal for indie apps; motivates quick validation",
+    "revenue": "$1k MRR in 1 month",
+    "source_link": "https://x.com/imthepk/status/2089559792574693611",
+    "source_platform": "x",
+    "engagement": "169 likes, 37 replies",
+    "score": 72
+  },
+  {
+    "type": "revenue_report",
+    "what": "Grew company to $50K MRR in 1 year, fully bootstrapped, $0 funding, $0 ads. Key: partnerships, customer care, SEO/GEO",
+    "why_us": "Detailed playbook on partnerships and organic growth for AI Visibility tool",
+    "revenue": "$50k MRR",
+    "source_link": "https://x.com/fililinsduarte/status/2090143083614581193",
+    "source_platform": "x",
+    "engagement": "recent post",
+    "score": 75
+  },
+  {
+    "type": "demand_gap",
+    "what": "PDF to CSV nightmare: tool that extracts line items from SaaS invoices via email forward, categorizes by tax, pushes to Xero/Quickbooks",
+    "why_us": "Explicit willingness to pay $50/mo for automation of painful monthly accounting task",
+    "revenue": "$50/mo potential",
+    "source_link": "https://dev.to/the_nortern_dev/the-i-would-pay-50month-to-never-do-this-again-list-3kfb",
+    "source_platform": "other",
+    "engagement": "DEV Community post",
+    "score": 82
+  },
+  {
+    "type": "demand_gap",
+    "what": "Heartbeat monitor specifically for database dumps: accepts metadata (size, checksum), alerts on silent failures like 50% size drop",
+    "why_us": "Peace of mind tool for devs; $19/mo willingness stated",
+    "revenue": "$19/mo",
+    "source_link": "https://dev.to/the_nortern_dev/the-i-would-pay-50month-to-never-do-this-again-list-3kfb",
+    "source_platform": "other",
+    "engagement": "DEV Community post",
+    "score": 70
+  },
+  {
+    "type": "demand_gap",
+    "what": "GDPR Data Map scanner: reads codebase (Prisma/SQL) and auto-generates living Record of Processing Activities documentation",
+    "why_us": "Compliance pain for small devs; dusty Excel files risk audits",
+    "revenue": "SaaS potential",
+    "source_link": "https://dev.to/the_nortern_dev/the-i-would-pay-50month-to-never-do-this-again-list-3kfb",
+    "source_platform": "other",
+    "engagement": "DEV Community post",
+    "score": 68
+  },
+  {
+    "type": "demand_gap",
+    "what": "Offline-first / privacy-focused / local-only versions of popular productivity apps due to subscription fatigue (~7% of 9k+ requests)",
+    "why_us": "Anti-cloud trend validated across large dataset of wish posts; high volume in productivity",
+    "revenue": "subscription alternative",
+    "source_link": "https://medium.com/write-a-catalyst/i-analyzed-9-300-i-wish-there-was-an-app-for-this-posts-here-is-what-people-actually-want-6a447bbabcd3",
+    "source_platform": "other",
+    "engagement": "analysis of 9300 posts",
+    "score": 85
+  },
+  {
+    "type": "revenue_report",
+    "what": "Plausible Analytics July: $22.2k new MRR (best month), MRR up 28.5% YoY, 20k+ paying subscribers. Open source code not the moat",
+    "why_us": "Counter to 'SaaS is dying' narrative; privacy-first analytics still growing strongly",
+    "revenue": "$22.2k new MRR",
+    "source_link": "https://x.com/PlausibleHQ/status/2084221411334492181",
+    "source_platform": "x",
+    "engagement": "36 likes",
+    "score": 65
+  },
+  {
+    "type": "demand_gap",
+    "what": "Tiny SaaS: connect support channels, weekly show the 5 questions customers keep asking that website still doesn't answer",
+    "why_us": "Simple, high-ROI content/SEO gap fixer; reduces support load",
+    "revenue": "micro-SaaS",
+    "source_link": "https://x.com/oldstackjournal/status/2091420927208899035",
+    "source_platform": "x",
+    "engagement": "12 likes",
+    "score": 62
+  }
+]

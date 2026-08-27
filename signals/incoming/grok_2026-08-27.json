@@ -1,0 +1,82 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "GitHub for normies: visual, no-git platform where non-technical people can store, share and showcase AI-built personal apps",
+    "why_us": "Явный demand gap на фоне массового vibe-coding; высокий сигнал от серийного founder-audience",
+    "revenue": "platform SaaS, high TAM",
+    "source_link": "https://x.com/gregisenberg/status/2092684321497006483",
+    "source_platform": "x",
+    "engagement": "1266 likes, 604 bookmarks, 313 replies, 124k views",
+    "score": 92
+  },
+  {
+    "type": "demand_gap",
+    "what": "Hobby-friendly AI coding assistant: Copilot Pro+ burns $15 per task / subscription gone in days; users cancel because mistakes also cost tokens",
+    "why_us": "Острая ценовая боль у платежеспособных девов; ниша фикс-цены / локальных / cheap-model wrappers",
+    "revenue": "alt to $10–19/user Copilot",
+    "source_link": "https://github.com/orgs/community/discussions/200110",
+    "source_platform": "forum",
+    "engagement": "GitHub Community discussion, high complaint density",
+    "score": 84
+  },
+  {
+    "type": "demand_gap",
+    "what": "SaaS spend auditor for SMBs: 90-day bank review found $780/mo ghost seats, overlapping tools, forgotten trials ($9.3k/yr waste)",
+    "why_us": "Повторяющаяся боль + цифры; легко монетизируется как % от сэкономии",
+    "revenue": "$780/mo recovered in one SMB case",
+    "source_link": "https://www.reddit.com/r/SaaS/comments/1vqv79z/i_audited_90_days_of_software_bills_for_a_small/",
+    "source_platform": "other",
+    "engagement": "r/SaaS, Aug 17 2026",
+    "score": 81
+  },
+  {
+    "type": "demand_gap",
+    "what": "Cheaper HubSpot/CRM alternative: teams leave because Pro jump is ~100x vs Starter, plus $3k–$7k onboarding and credits; Attio/Monday 2–5x cheaper",
+    "why_us": "Платёжеспособные B2B-клиенты ищут альтернативу; ясный ценовой gap",
+    "revenue": "HubSpot Marketing Hub ~$16k/yr vs Monday CRM ~$3.3k/yr (10 seats)",
+    "source_link": "https://www.lyntonweb.com/library/why-companies-leaving-hubspot-2026",
+    "source_platform": "other",
+    "engagement": "industry analysis Jun–Jul 2026",
+    "score": 76
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "Hidden token tax of coding agents: Opus language glitches force extra passes through cheaper models, almost doubling token cost; enterprises ration AI after bills 2–3x",
+    "why_us": "Спрос на cost-control layer / router / spend caps над LLM-stack",
+    "revenue": "enterprise AI bills doubling; one unnamed co $500M/mo cited in coverage",
+    "source_link": "https://dev.ua/en/news/prykhovani-vytraty-anthropic-1787321601",
+    "source_platform": "other",
+    "engagement": "Aug 21 2026 industry report",
+    "score": 74
+  },
+  {
+    "type": "demand_gap",
+    "what": "Software buyer-remorse tools: ~3/5 companies regret a purchase in last 12–18 months; hidden onboarding and usage-based fees",
+    "why_us": "Боль procurement/IT; ниша trial-to-fit, sandbox, TCO calculators",
+    "revenue": "SaaS category, high willingness to pay for avoiding 5–figure mistakes",
+    "source_link": "https://www.ciodive.com/news/software-SaaS-buyer-remorse-cost-overruns-Capterra/699496/",
+    "source_platform": "capterra",
+    "engagement": "Capterra survey 3400 businesses",
+    "score": 71
+  },
+  {
+    "type": "demand_gap",
+    "what": "Buy Me a Book: gift-a-book alternative to Buy Me a Coffee — people send titles you want or they recommend",
+    "why_us": "Простой consumer micro-product; аффилиатная монетизация через книжные магазины",
+    "revenue": "affiliate / small gifts",
+    "source_link": "https://x.com/KeturahAbigail/status/2088008330203603323",
+    "source_platform": "x",
+    "engagement": "98 likes, 13 replies",
+    "score": 61
+  },
+  {
+    "type": "demand_gap",
+    "what": "Maintained open-source harness: builders want forkable OSS they can customize but will pay someone else to operate/maintain",
+    "why_us": "Модель «OSS + paid ops» для AI/dev tools; повторяется паттерн во всём софте",
+    "revenue": "managed OSS / support retainer",
+    "source_link": "https://x.com/natnaelkahssay/status/2092389353335255100",
+    "source_platform": "x",
+    "engagement": "low likes, high specificity",
+    "score": 60
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "iMessage-агент, который просто бронирует рейсы, записывает на приём и заказывает продукты из чата",
+    "why_us": "Явный demand gap: человек спрашивает, кто это строит. Высокий intent + 24 реплая. Можно упаковать как agentic consumer SaaS / iMessage bot",
+    "revenue": "n/a (готовность платить высокая — travel + groceries + appointments)",
+    "source_link": "https://x.com/SarvasvKulpati/status/2093225901232370056",
+    "source_platform": "x",
+    "engagement": "94 likes / 24 replies / 26 bookmarks / 9k views",
+    "score": 78
+  },
+  {
+    "type": "revenue_report",
+    "what": "Driving/clipper-апп дош金 $100k MRR за 3 месяца через UGC: 1.1B views, 32k videos, $0.30 eCPM; следующий шаг — симулятор поездок для клипперов",
+    "why_us": "Конкретный playbook монетизации мобильного аппа + идея инструмента (симулятор поездок) для скейлинга контента",
+    "revenue": "$100k MRR / 3 мес; цель $1M MRR",
+    "source_link": "https://x.com/alexxgrowth/status/2093115990825390254",
+    "source_platform": "x",
+    "engagement": "33 likes / 23 bookmarks / 3.8k views; quoted viral 8.4k likes",
+    "score": 76
+  },
+  {
+    "type": "revenue_report",
+    "what": "Gamma дошла до $100M ARR, основной канал — AEO (AI Engine Optimization), a16z оценивает рынок как дисрапт $80B SEO",
+    "why_us": "Валидирует AEO-инструменты и не-сео-рост AI-SaaS; высокий чек и платёжеспособный сегмент",
+    "revenue": "$100M ARR",
+    "source_link": "https://x.com/5harath/status/2093083591508893951",
+    "source_platform": "x",
+    "engagement": "73 likes / 188 bookmarks / 11k views",
+    "score": 82
+  },
+  {
+    "type": "revenue_report",
+    "what": "Indie-шиппер OrcDev: $50k+ ARR только с продуктов в 2026 + 4k GitHub stars; пачка микро-продуктов (UI kits, GitHub creature, agent teams)",
+    "why_us": "Повторяемая модель портфеля микро-SaaS/девтулов, а не один флагман; цифры без фандрейза",
+    "revenue": "$50k+ ARR",
+    "source_link": "https://x.com/orcdev/status/2093024368133853239",
+    "source_platform": "x",
+    "engagement": "28 likes / 4 bookmarks / 1.5k views",
+    "score": 64
+  },
+  {
+    "type": "defi_yield",
+    "what": "Ethena расширяет backing USDe на equity perpetuals: funding 15–20% vs ~4.7% текущего sUSDe APY; OI equity perps >$6B",
+    "why_us": "Не фарм-шум: инфра уже масштабная, цифры funding vs текущий yield, потенциальный рост sUSDe APY",
+    "revenue": "sUSDe ~4.7% APY сейчас; equity perps funding 9.6–19.7% / 15–20% avg",
+    "source_link": "https://x.com/EthanDeFi_/status/2093308051734639055",
+    "source_platform": "x",
+    "engagement": "50 likes / 8 bookmarks; quoted Ethena 358 likes / 47k views",
+    "score": 74
+  },
+  {
+    "type": "defi_yield",
+    "what": "Ethra Harbor на Base: кампания 100% APR на USDC на 7 дней + $vSHIP до токена; коммьюнити +20% за неделю, RWA maritime",
+    "why_us": "Свежий ончейн yield с цифрой APY и воронкой (7 дней). Высокий риск промо, но повторяется в нескольких тредах",
+    "revenue": "100% APR / 7 days on USDC (Base)",
+    "source_link": "https://x.com/EthraShip/status/2093227128557101353",
+    "source_platform": "x",
+    "engagement": "211 likes / 135 reposts / 154 replies / 10k views",
+    "score": 68
+  },
+  {
+    "type": "demand_gap",
+    "what": "SMB-практика сжигает $780/mo ($9.36k/year) на ghost SaaS: мёртвые сиденья, overlap фич, забытые trial, month-to-month наценка",
+    "why_us": "Платящая боль: аудит подписок для small practice. Рынок широкий (SMB sprawl 87 apps, 34% unused)",
+    "revenue": "$780/mo waste на одну практику; TAM = экономия на подписках",
+    "source_link": "https://www.reddit.com/r/SaaS/comments/1vqv79z/i_audited_90_days_of_software_bills_for_a_small/",
+    "source_platform": "other",
+    "engagement": "r/SaaS thread, Aug 17 2026",
+    "score": 72
+  },
+  {
+    "type": "demand_gap",
+    "what": "Enterprise SaaS sprawl: средняя крупная компания — 2191 приложение, 61% несанкционированные, AI усиливает shadow IT",
+    "why_us": "B2B-боль с бюджетом: governance/FinOps для AI+SaaS, не ещё один ноуттейкер",
+    "revenue": "сотни тысяч–миллионы $ wasted licenses / enterprise",
+    "source_link": "https://www.ciodive.com/news/IT-spend-saas-sprawl-AI-torii/813116/",
+    "source_platform": "other",
+    "engagement": "Torii 2026 SaaS Benchmark Report",
+    "score": 70
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "AEO как первый growth-канал 2026: инструменты для видимости в AI-ответах вместо классического SEO; Gamma уже доказала $100M ARR на этом",
+    "why_us": "Микро-SaaS вокруг AEO/цитируемости в ChatGPT/Perplexity/поисковиках — повторяемый запрос у growth-команд",
+    "revenue": "$100M ARR кейс Gamma; рынок позиционируется как часть $80B SEO",
+    "source_link": "https://x.com/5harath/status/2093083591508893951",
+    "source_platform": "x",
+    "engagement": "73 likes / 188 bookmarks",
+    "score": 71
+  },
+  {
+    "type": "automation",
+    "what": "Honey Traffic — SEO+GEO на автопилоте, публичная сборка к $5k MRR; пайплайн пересобран на реальные SEO API вместо голого LLM",
+    "why_us": "Живой билд-в-паблик автоматизации видимости в поиске и AI; учит от чистого wrapper к data-backed pipeline",
+    "revenue": "цель $5k MRR (день 34 сборки)",
+    "source_link": "https://x.com/PashaBorsai/status/2093039249629024477",
+    "source_platform": "x",
+    "engagement": "17 likes / 11 replies",
+    "score": 61
+  }
+]

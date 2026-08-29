@@ -1,0 +1,102 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "Рабочий memory layer для AI-агентов: не dump чатов в векторную БД, а слой который знает что помнить, что забыть и когда достать",
+    "why_us": "Повторяющаяся боль 2026: OpenViking, Vectorize/Hindsight, SurrealDB, Nowledge Mem, AWS AgentCore Memory — рынок ещё не закрыт. Билдер Clarivo явно ищет продукт",
+    "revenue": "n/a (B2B agent infra, высокая готовность платить у команд с агентами)",
+    "source_link": "https://x.com/nainia_ayoub/status/2093700966751101276",
+    "source_platform": "x",
+    "engagement": "свежий пост 29 Aug; кластер вокруг темы: Emil Eifrem 119 likes / 142 bookmarks, OpenViking/Vectorize треды",
+    "score": 74
+  },
+  {
+    "type": "revenue_report",
+    "what": "Faceless-видео продукт $3k MRR; заброшенный в феврале уже $200 и растёт; запуск прошлого месяца $120. Поднял цены — никто не ушёл, двое апгрейднулись",
+    "why_us": "Живые цифры портфеля микропродуктов + урок pricing. AI music videos / launchpad / faceless content — воспроизводимый стек",
+    "revenue": "$3k MRR (основной) + $200 + $120 на младших продуктах",
+    "source_link": "https://x.com/brian_millot/status/2093651519291670546",
+    "source_platform": "x",
+    "engagement": "10 likes / 10 replies / 184 views (низкий охват, высокая конкретика)",
+    "score": 68
+  },
+  {
+    "type": "automation",
+    "what": "Outcome запустил первые prediction markets на Hyperliquid с $1M incentives ($200k/мес). Комментаторы сразу: пора vibe-кодить арбитражные боты, volume считается с любого фронта",
+    "why_us": "Свежий on-chain incentive + явный bot/automation play. HIP-4 deployer, правила 40/30/30 quotes/maker/taker",
+    "revenue": "$1M pool / $200k per month incentives",
+    "source_link": "https://x.com/VietnamPenguin/status/2093652441640444307",
+    "source_platform": "x",
+    "engagement": "42 likes / 21 bookmarks / 4k views; quoted Outcome launch 824 likes / 179k views",
+    "score": 73
+  },
+  {
+    "type": "defi_yield",
+    "what": "Chutes (Bittensor dTAO): $145M emissions с запуска. Owner $26.1M, miners $59.5M, validators $59.5M. Критика leakage vs устойчивость yield",
+    "why_us": "Ончейн цифры распределения, не маркетинг. Сигнал и для фарма, и для контр-нарратива (когда emission-модель ломается)",
+    "revenue": "$145M total emissions since dTAO launch",
+    "source_link": "https://x.com/DFVTAO/status/2093639628456681718",
+    "source_platform": "x",
+    "engagement": "51 likes / 10 replies / 3k views",
+    "score": 66
+  },
+  {
+    "type": "demand_gap",
+    "what": "Дейтинг-приложения выгорели: 4 из 5 пользователей burnout. Люди уходят в hobby-first ивенты: trivia +403%, mahjong +235%, meet-cute language +117%",
+    "why_us": "Demand gap не «ещё один Tinder», а discovery/оператор ивентов + софт для хобби-социалок. Eventbrite H1 2026 data",
+    "revenue": "n/a (платёжеспособный consumer + B2B ивент-платформы)",
+    "source_link": "https://www.vice.com/en/article/dating-apps-are-dead-heres-where-singles-are-meeting-in-2026/",
+    "source_platform": "other",
+    "engagement": "Vice feature 24 Aug 2026; Forbes Health + Eventbrite Social Study",
+    "score": 71
+  },
+  {
+    "type": "demand_gap",
+    "what": "Ask HN live: нет единого стандартного файла, который описывает все skills/MCP репозитория. Рядом — alternatives to Electron, Fail2ban, observability зависимостей",
+    "why_us": "Свежий dev-tool gap под агентный стек 2026. Кто стандартизирует skills.md/mcp manifest — попадёт в каждый агентный репо",
+    "revenue": "n/a (infra/devtool, enterprise+indie готовность)",
+    "source_link": "https://news.ycombinator.com/ask",
+    "source_platform": "hn",
+    "engagement": "Ask HN front page 29 Aug 2026 (hours-old threads)",
+    "score": 67
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "Show HN: Headless Tools — URL shortener, pastebin, email inbox, reminder и file uploader без UI, только для агентов",
+    "why_us": "Валидирует категорию no-UI SaaS for agents. Микро-SaaS вокруг agent primitives, не чат-обёртка",
+    "revenue": "n/a (ранний запуск, OSS)",
+    "source_link": "https://news.ycombinator.com/item?id=49423424",
+    "source_platform": "hn",
+    "engagement": "Show HN 4 days ago, hdls.tools",
+    "score": 62
+  },
+  {
+    "type": "demand_gap",
+    "what": "Ask HN «что до сих пор делаете руками»: форматирование Google Sheets каждый день; Upwork-алерты после убийства RSS; синтез решений из доков/тредов; trip planning без синка",
+    "why_us": "Прямые «я бы платил $10–20/мес» боли. Sheets formatter и job-alert bot — узкие, монетизируемые микро-SaaS",
+    "revenue": "$10–20/mo willingness (автор треда)",
+    "source_link": "https://news.ycombinator.com/item?id=48045237",
+    "source_platform": "hn",
+    "engagement": "20 points / 34 comments",
+    "score": 64
+  },
+  {
+    "type": "demand_gap",
+    "what": "G2-паттерн 2026: негатив кластерится в pricing surprises, support SLA, UX friction и дырявые интеграции — не в «дорого само по себе»",
+    "why_us": "Карта, куда бить конкурентам enterprise SaaS. Продукт-заместитель выигрывает на прозрачном биллинге + кнопку cancel + готовые интеграции",
+    "revenue": "n/a (категорийный gap, влияет на churn/win-rate)",
+    "source_link": "https://flagup.io/blog/analysis-100000-g2-reviews-what-saas-customers-actually-complain-about",
+    "source_platform": "g2",
+    "engagement": "analysis of ~100k G2 reviews, published 28 Aug 2026",
+    "score": 69
+  },
+  {
+    "type": "demand_gap",
+    "what": "Android Authority poll 2026: 56% дропают приложения из-за unskippable ads; Notion→Obsidian, LANDrop→LocalSend, Syncthing→Resilio из-за батарейки и discoverability",
+    "why_us": "Повторяемый switch-паттерн: люди платят за тишину, офлайн и предсказуемый sync. Ниша local-first / no-ads productivity",
+    "revenue": "n/a (часть аудитории уже платит Apple Music / Solid Explorer)",
+    "source_link": "https://www.androidauthority.com/android-apps-i-ditched-2026-3695261/",
+    "source_platform": "other",
+    "engagement": "281 votes in-article poll; 20 Aug 2026",
+    "score": 63
+  }
+]

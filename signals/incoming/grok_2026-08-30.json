@@ -1,0 +1,142 @@
+[
+  {
+    "type": "revenue_report",
+    "what": "AI Peekaboo (AI search visibility for brands) just hit $66,815 MRR. Founder started it because brands needed a new way to see how they show up in AI answers.",
+    "why_us": "Свежий публичный revenue-print в горячей нише GEO/AI visibility. Показывает, что B2B готов платить за мониторинг присутствия в LLM.",
+    "revenue": "$66.8k/mo",
+    "source_link": "https://x.com/hello_code_/status/2092637151460544552",
+    "source_platform": "x",
+    "engagement": "105 likes, 54 replies, 33 bookmarks, 15.5k views",
+    "score": 84
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "23-year-old dropout built an AI avatar service in 11 days with ChatGPT + 6 free tools, no coding. First client $2,400; month 2 revenue $47,000.",
+    "why_us": "Классический AI-wrapper с числами и низким барьером входа. Сигнал, что avatar/UGC-сервисы всё ещё монетизируются быстро.",
+    "revenue": "$47k in month 2; first client $2.4k",
+    "source_link": "https://x.com/LearnWithSubhan/status/2093564301818888302",
+    "source_platform": "x",
+    "engagement": "107 likes, 77 reposts, 35 replies, 29 bookmarks",
+    "score": 78
+  },
+  {
+    "type": "revenue_report",
+    "what": "Новый SaaS, который строит SEO-бэклинки на автопилоте, достиг $1.5k MRR через 25 дней после лонча.",
+    "why_us": "Узкая функция + быстрый чек платежеспособности SEO-ниши. Хороший паттерн микро-SaaS «одна штука — деньги».",
+    "revenue": "$1.5k/mo за 25 дней",
+    "source_link": "https://x.com/HsanC_/status/2091833960619794487",
+    "source_platform": "x",
+    "engagement": "187 likes, 74 replies, 40 bookmarks",
+    "score": 80
+  },
+  {
+    "type": "revenue_report",
+    "what": "@animosapp hit $2K MRR in 1 month. Founder still shipping and iterating in public.",
+    "why_us": "Свежий 1-month traction print. Полезен как бенчмарк скорости выхода на первые $2k.",
+    "revenue": "$2k/mo за 1 месяц",
+    "source_link": "https://x.com/HeyDetya/status/2093374127071719677",
+    "source_platform": "x",
+    "engagement": "68 likes, 11 replies, 13 bookmarks",
+    "score": 68
+  },
+  {
+    "type": "revenue_report",
+    "what": "PokéItem («CoinMarketCap для Pokémon TCG»): scan collection, live value. 4,000€ MRR, 20k downloads за <4 месяца, zero funding.",
+    "why_us": "Нишевый collector-SaaS с ясной монетизацией и bootstrap-трекшеном. Паттерн: рынок + inventory + реальная цена.",
+    "revenue": "€4k/mo",
+    "source_link": "https://x.com/0xPocho/status/2092574307947790656",
+    "source_platform": "x",
+    "engagement": "35 likes, 8 replies, 8 bookmarks",
+    "score": 66
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "AI SaaS для ответов на RFP: $72k TTM revenue, $66k TTM profit, 153% YoY growth, almost no expenses. Listed on Acquire.com.",
+    "why_us": "Высокая маржа в boring B2B-нише. Показывает, что RFP/proposal AI — уже продаваемый и прибыльный бизнес, не демо.",
+    "revenue": "$72k/yr (~$6k/mo), $66k profit",
+    "source_link": "https://x.com/agazdecki/status/2093785095522144389",
+    "source_platform": "x",
+    "engagement": "33 likes, 28 bookmarks, 8.9k views",
+    "score": 72
+  },
+  {
+    "type": "demand_gap",
+    "what": "Идея AI parking ticket fighter: приложение, которое оспаривает штрафы за парковку. Автор называет это $1M MRR idea, которую никто не собрал; хук про $957 штрафов за год + UGC.",
+    "why_us": "Острая consumer-боль с willingness to pay и готовым гоу-tо-market. Повторяемый pain (штрафы), AI может собрать апелляцию.",
+    "revenue": "claimed $1M MRR opportunity",
+    "source_link": "https://x.com/one_mtb/status/2084732666394431581",
+    "source_platform": "x",
+    "engagement": "70 likes, 77 bookmarks, 11 replies",
+    "score": 74
+  },
+  {
+    "type": "demand_gap",
+    "what": "Co-founder Firecrawl: «I'd pay for a startup that simulates how every coding harness talks about your product» — только если симуляции реалистичны и можно смотреть traces.",
+    "why_us": "Прямой WTP от платящего YC-фаундера. Ниша: AI product evals / how agents describe your SaaS. Смежна с AI visibility.",
+    "revenue": "WTP от founder (Firecrawl)",
+    "source_link": "https://x.com/ericciarla/status/2093757845543993499",
+    "source_platform": "x",
+    "engagement": "58 likes, 14 replies, 26 bookmarks, 7.5k views",
+    "score": 76
+  },
+  {
+    "type": "demand_gap",
+    "what": "Желание: AI, который следит за всеми встречами и на ухо шепчет контекст человека (где встречали, о чём говорили). «I'd pay for that.»",
+    "why_us": "Повторяющаяся боль memory/CRM-для-жизни. Wearable + meeting graph — платёжеспособный B2C/prosumer.",
+    "revenue": "explicit WTP, no price",
+    "source_link": "https://x.com/dadsweb67/status/2093842966934946043",
+    "source_platform": "x",
+    "engagement": "33 likes, 4 replies",
+    "score": 62
+  },
+  {
+    "type": "demand_gap",
+    "what": "swyx: команда хочет платить >$40k/year за enterprise SaaS, который никто не использовал и нельзя кастомизировать. Предлагает hackathon «kill my SaaS» — клон за weekend, $10k prize.",
+    "why_us": "Системная боль SMB/стартапов на дорогой low-moat enterprise SaaS. Сигнал на дешёвые AI-клоны узких workflow-tools.",
+    "revenue": ">$40k/yr wasted SaaS spend",
+    "source_link": "https://x.com/swyx/status/2085517544795079014",
+    "source_platform": "x",
+    "engagement": "470 likes, 94 replies, 207 bookmarks, 145k views",
+    "score": 88
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "AI day-in-the-life pipeline для несуществующей персоны: 6-нодовый стек (LLM + Flux + Gemini + Kling + CapCut). Аккаунт тянет $11k/mo только на рекламе.",
+    "why_us": "Конкретный workflow + цифра ad-revenue. Повторяемый паттерн AI-influencer как микро-бизнес.",
+    "revenue": "$11k/mo ad revenue",
+    "source_link": "https://x.com/framexin/status/2081680805202399677",
+    "source_platform": "x",
+    "engagement": "97 likes, 130 bookmarks, 104k views",
+    "score": 77
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "Один AI-персонаж → Fanvue: $21,400/mo total, $15,800/mo Fanvue, Claude <$180/mo. Тысячи думают, что она реальная.",
+    "why_us": "Жёсткая юнит-экономика wrapperа: высокая маржа, повторяемый playbook character → paid page.",
+    "revenue": "$21.4k/mo",
+    "source_link": "https://x.com/Lumix_exe/status/2081403436659343741",
+    "source_platform": "x",
+    "engagement": "26 likes, quoted thread with guide",
+    "score": 70
+  },
+  {
+    "type": "defi_yield",
+    "what": "Ethra Harbor на Base: USDC → Morpho vault, промо 100% APR на 7 дней + $vSHIP. Депозиты USDC выросли ~50% за 24ч. Под этим — maritime RWA / Sea Verity, не вечный yield.",
+    "why_us": "Свежий onchain yield с цифрой и ростом TVL. Важно: 100% APR — кампания, не базовый APY.",
+    "revenue": "100% APR promo 7d on Base USDC",
+    "source_link": "https://x.com/FrennyDefi/status/2093986852650856628",
+    "source_platform": "x",
+    "engagement": "222 likes, 208 replies; quoted Harbor thread 347 likes",
+    "score": 71
+  },
+  {
+    "type": "demand_gap",
+    "what": "G2-аналитика жалоб SaaS: цена-сюрпризы, слабый саппорт, UX-трение, дыры в интеграциях. «Too expensive» чаще = mismatch value vs paywalled features / usage-based surprises.",
+    "why_us": "Кросс-категорийный demand gap для прозрачного прайсинга, самосервисной отмены и рабочих интеграций — универсальный wedge против incumbents.",
+    "revenue": "n/a (review cluster)",
+    "source_link": "https://flagup.io/blog/analysis-100000-g2-reviews-what-saas-customers-actually-complain-about",
+    "source_platform": "g2",
+    "engagement": "analysis of 100k G2 reviews, published 2026-08-28",
+    "score": 73
+  }
+]

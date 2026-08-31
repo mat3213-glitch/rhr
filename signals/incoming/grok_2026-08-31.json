@@ -1,0 +1,142 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "Greg Isenberg: «Someone should build GitHub for normies» — миллионы нетехнических людей vibe-codят приложения, но негде хранить, шарить и показывать. GitHub — для инженеров. Нужен простой визуальный хостинг без git.",
+    "why_us": "Очень сильный сигнал: 1.5k+ лайков, 372 ответа, 767 закладок. Волна personal software / vibe coding. Ниша ещё не закрыта (Wabi упоминают как ранний сигнал).",
+    "revenue": "WTP массовый consumer + creators; рынок «personal apps»",
+    "source_link": "https://x.com/gregisenberg/status/2092684321497006483",
+    "source_platform": "x",
+    "engagement": "1570 likes, 57 reposts, 372 replies, 767 bookmarks, 162k views",
+    "score": 92
+  },
+  {
+    "type": "demand_gap",
+    "what": "OneKYC: пройти KYC один раз — инстант-доступ к необанкам, CEX, trading. Люди устали сканировать лицо по 30 минут на каждый сервис.",
+    "why_us": "Двойной demand: consumer friction + конверсия для площадок. Fintech-ready аудитория, высокий LTV.",
+    "revenue": "B2B take-rate / per-verification; потенциал высокий",
+    "source_link": "https://x.com/defyneric/status/2056261242809934147",
+    "source_platform": "x",
+    "engagement": "141 likes, 84 replies, 65 bookmarks, 24.5k views",
+    "score": 74
+  },
+  {
+    "type": "demand_gap",
+    "what": "Приложение, которое даёт тратить замороженный equity стартап-сотрудников сейчас: аренда, авиа, продукты — прямо с cap table.",
+    "why_us": "Острая финтех-боль у платёжеспособной аудитории (startup employees). Сложный compliance, но рынок secondary/liquidity растёт.",
+    "revenue": "fee с ликвидности / card spend",
+    "source_link": "https://x.com/iamnotstatic/status/2081017285829861502",
+    "source_platform": "x",
+    "engagement": "86 likes, 23 replies, 26 bookmarks, 13.6k views",
+    "score": 71
+  },
+  {
+    "type": "revenue_report",
+    "what": "Arbor — homeschool manager. Лонч 6 недель назад, $440 MRR. Помогает семьям, которые не думали, что смогут homeschool.",
+    "why_us": "Свежий микро-SaaS в образовании. Ниша с высоким WTP и низкой конкуренцией по сравнению с generic PM.",
+    "revenue": "$440/mo за 6 недель",
+    "source_link": "https://x.com/natemhanson/status/2094290814918676490",
+    "source_platform": "x",
+    "engagement": "5 likes, 2 replies, 1 bookmark, 267 views",
+    "score": 64
+  },
+  {
+    "type": "revenue_report",
+    "what": "TransClipper: $139 MRR, 600 органических кликов/мес с Google, трафик растёт каждый месяц. Founder также ведёт AI directories ($15k/mo).",
+    "why_us": "Маленький compounding SaaS + SEO. Полезен как паттерн медленного органического роста.",
+    "revenue": "$139/mo",
+    "source_link": "https://x.com/s_chiriac/status/2094420087335739667",
+    "source_platform": "x",
+    "engagement": "0 likes, 1 bookmark, 103 views (same-day)",
+    "score": 61
+  },
+  {
+    "type": "revenue_report",
+    "what": "Маленький SaaS: $203 total / $120 MRR за 2 месяца. Первые internet money фаундера. Built small, shipped fast.",
+    "why_us": "Микро-принт раннего traction. Подтверждает, что tiny tools всё ещё конвертятся в оплату без аудитории.",
+    "revenue": "$120/mo, $203 all-time за 2 мес",
+    "source_link": "https://x.com/codebyapi/status/2093752562336092217",
+    "source_platform": "x",
+    "engagement": "2 likes, 2 replies",
+    "score": 60
+  },
+  {
+    "type": "revenue_report",
+    "what": "SHIP OR DIE cohort: Anonymous startup — $136k total revenue, $41k last 30d, $27k MRR.",
+    "why_us": "Крупный цифровой отчёт из ship-challenge. Бенчмарк, что быстрый шип всё ещё даёт серьёзные MRR.",
+    "revenue": "$27k/mo, $136k total, $41k/30d",
+    "source_link": "https://x.com/shipordie_/status/2094397953855070433",
+    "source_platform": "x",
+    "engagement": "0 likes, 1 reply (same-day cohort post)",
+    "score": 70
+  },
+  {
+    "type": "automation",
+    "what": "n8n: ~$100M ARR, $5.2B valuation после стейка SAP, 1.7M monthly builders, 203k GitHub stars. Production teams держатся за deterministic + agent workflows.",
+    "why_us": "Якорь рынка automation/bots. Сигнал: self-host + agents — не хайп, а платящий enterprise.",
+    "revenue": "~$100M ARR",
+    "source_link": "https://x.com/grok/status/2093736506548506949",
+    "source_platform": "x",
+    "engagement": "quoted industry stats thread",
+    "score": 76
+  },
+  {
+    "type": "demand_gap",
+    "what": "Лёгкий PM для solo-dev: Jira/командные тулзы тяжёлые, to-do — слишком простые. Нужен слой между фичами/багами/целями без процесса команды.",
+    "why_us": "Повторяющаяся боль на MissingTools / HN / форумах. Чёткий wedge против Linear/Jira для 1-person shops.",
+    "revenue": "$8–19/mo solo plan typical",
+    "source_link": "https://missingtools.app/?tag=dev-tools",
+    "source_platform": "forum",
+    "engagement": "top wish on MissingTools (8 votes on listed idea)",
+    "score": 66
+  },
+  {
+    "type": "demand_gap",
+    "what": "Центральный хаб для md-файлов всех AI-coding тулзов (Cursor/Claude/etc), чтобы агенты читали/писали в одно место контекста.",
+    "why_us": "Новая боль 2026: фрагментация context files между харнесами. Если рынок agents растёт — это инфраструктурный слой.",
+    "revenue": "prosumer/dev tool $10–29/mo",
+    "source_link": "https://x.com/marcusdburnette/status/2094371406205055270",
+    "source_platform": "x",
+    "engagement": "1 like, 2 replies, 80 views",
+    "score": 63
+  },
+  {
+    "type": "demand_gap",
+    "what": "Чит по конкретной книге: нашёл книгу → вошёл в чат с теми, кто читает то же. Goodreads/форумы не дают live conversation.",
+    "why_us": "Повторяющийся consumer wish (несколько постов за день). Низкий чек, но чёткая social graph вокруг ISBN.",
+    "revenue": "freemium / book clubs",
+    "source_link": "https://x.com/beatrizaamarall/status/2094231360537768064",
+    "source_platform": "x",
+    "engagement": "1 like, 1 reply",
+    "score": 60
+  },
+  {
+    "type": "demand_gap",
+    "what": "Анализ 9300+ постов «I wish there was an app»: 7% хотят offline-first/privacy; топ категории — productivity, education (max WTP), business tools, health. ADHD-сообщество — самый high-signal источник.",
+    "why_us": "Агрегированный demand map, не единичный пост. Subscription fatigue → local-first как клин.",
+    "revenue": "education — highest WTP cluster",
+    "source_link": "https://medium.com/write-a-catalyst/i-analyzed-9-300-i-wish-there-was-an-app-for-this-posts-here-is-what-people-actually-want-6a447bbabcd3",
+    "source_platform": "other",
+    "engagement": "Reddit crosspost 805 votes / 267 comments",
+    "score": 82
+  },
+  {
+    "type": "demand_gap",
+    "what": "Команды систематически уходят с платного SaaS на self-host: стек $572/mo → ~$25/mo (Coolify, n8n, Listmonk, Cal.com, PostHog, Documenso, Vaultwarden).",
+    "why_us": "Массовый анти-SaaS клин 2026. Окно для managed self-host, миграционных сервисов и «дешёвле чем Zapier/Calendly» вертикалей.",
+    "revenue": "$547/mo saved per small team; market = cost-cutters",
+    "source_link": "https://www.buildmvpfast.com/blog/self-hosted-tools-replace-saas-subscriptions-save-money-2026",
+    "source_platform": "other",
+    "engagement": "widely cited 2026 roundup",
+    "score": 75
+  },
+  {
+    "type": "demand_gap",
+    "what": "AI-монитор для городов: следит за Flock/АНПР запросами полиции (аномалии, повторы, дефициты) и публикует ежемесячный отчёт.",
+    "why_us": "Civic-tech боль со стороны журналистов/активистов. Покупатель — фонды, редакции, сити-каунселы.",
+    "revenue": "grants / municipal SaaS",
+    "source_link": "https://x.com/jletanaka/status/2094401323332759895",
+    "source_platform": "x",
+    "engagement": "0 likes, 1 reply (same-day)",
+    "score": 61
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "Треть SMB-операторов в 2026 сами собрали кастомный софт, потому что готового продукта не было по цене, которую они могли заплатить. Медианная котировка агентства $20k, часто $100k и год ожидания. 1 из 3 замен не имел предшественника вообще (не spreadsheet, не SaaS).",
+    "why_us": "Системный demand gap: рынок слишком узкий/специфичный для вендора, но платёжеспособный. Окно для вертикальных микро-SaaS и vibe-coding платформ под operators.",
+    "revenue": "WTP вместо $20k build; 1/4 кастом-приложений уже принимает платежи",
+    "source_link": "https://europeanbusinessmagazine.com/unique-software-solutions/",
+    "source_platform": "other",
+    "engagement": "Emergent Age of Custom Software Index 2026: 300 интервью + 50k deployed apps",
+    "score": 84
+  },
+  {
+    "type": "demand_gap",
+    "what": "Review management для локального бизнеса: Birdeye $349/локация, Podium без прайса (sales call). Медиана категории ~$125/mo, сегмент <$50 почти пустой. Владельцы руками проверяют Google-отзывы каждое утро.",
+    "why_us": "Классический price-gap: enterprise-тулзы на простую задачу. Повторяемая боль миллионов US local businesses.",
+    "revenue": "$19/mo focused review collection; путь к $10k+ MRR",
+    "source_link": "https://www.microgaps.com/blog/micro-saas-opportunities-nobody-building-2026",
+    "source_platform": "other",
+    "engagement": "data-backed category teardown 2026",
+    "score": 78
+  },
+  {
+    "type": "demand_gap",
+    "what": "r/SaaS: «I'd pay $200/month for something that finds 50 qualified leads a week and sends them a personalized cold email. Tried Clay, Apollo, Instantly — none work without babysitting.»",
+    "why_us": "Прямой WTP $200/mo + конкретный SLA. Боль не в наличии тулов, а в unattended outbound. Совпадает с запросом «SaaS that does the whole outbound for real estate agents».",
+    "revenue": "$200/mo B2B; high LTV sales ops",
+    "source_link": "https://dev.to/jimrusk/what-ai-agent-builders-want-to-build-vs-what-people-actually-want-5gp6",
+    "source_platform": "forum",
+    "engagement": "quoted r/SaaS May 2026; echoed in Aug X posts",
+    "score": 80
+  },
+  {
+    "type": "demand_gap",
+    "what": "Website-to-native-app: SMB не могут себе позволить нативную разработку. Поиск gonative 27.1k/mo, app builder 18.1k/mo, website to apk 5.4k/mo. Конкуренция low.",
+    "why_us": "Свежий keyword-validated gap на сегодня. Понятный wedge против WebToApp.design.",
+    "revenue": "potential MRR $5k–15k",
+    "source_link": "https://microsaashq.com/saas-ideas/website-to-app-940",
+    "source_platform": "other",
+    "engagement": "9.9k monthly searches, published 2026-09-01",
+    "score": 72
+  },
+  {
+    "type": "demand_gap",
+    "what": "Spotify Premium Classic: старое приложение 2008 — только библиотека и поиск, без подкастов, AI DJ, video feed. «I'd pay double».",
+    "why_us": "Subscription-fatigue / feature-bloat паттерн. Люди платят за минус-фичи. Повторяется по стримингу и productivity-приложениям.",
+    "revenue": "WTP 2x текущего Premium",
+    "source_link": "https://x.com/juanbuis/status/2087916452263424498",
+    "source_platform": "x",
+    "engagement": "33 likes, 4 bookmarks, 2.4k views",
+    "score": 67
+  },
+  {
+    "type": "demand_gap",
+    "what": "Приложение с менеджерскими спецпредложениями супермаркетов в момент дропа. «You could save a fortune. I'd pay for that.»",
+    "why_us": "Consumer savings app с ежедневной привычкой. Высокая частота использования, локальные данные.",
+    "revenue": "subscription $3–8/mo или affiliate",
+    "source_link": "https://x.com/lalovestrump/status/2084487721406669017",
+    "source_platform": "x",
+    "engagement": "30 likes, 9 replies, 1.5k views",
+    "score": 64
+  },
+  {
+    "type": "demand_gap",
+    "what": "EU Cyber Resilience Act Article 14: с 11 сентября 2026 производители digital products обязаны репортить exploited vulns в ENISA (24h / 72h / 14d). Нужен reporting copilot.",
+    "why_us": "Регуляторный дедлайн через 10 дней от сегодня. Buyer уже знает, что проблема есть. Deadline-driven SaaS.",
+    "revenue": "compliance SaaS, mid-market manufacturers",
+    "source_link": "https://towardsdev.com/stop-building-platforms-6-tiny-saas-products-worth-shipping-this-year-a2e0c64b054d",
+    "source_platform": "other",
+    "engagement": "Jul 2026 playbook, deadline 2026-09-11",
+    "score": 76
+  },
+  {
+    "type": "demand_gap",
+    "what": "Enterprise app sprawl: среднее large enterprise — 2,191 приложения; сотрудник трогает ~40 apps; 61% discovered apps не sanctioned IT. AI только увеличивает shadow IT.",
+    "why_us": "Боль CIO: visibility + waste licenses. Клин для SaaS-governance / discovery / unused-seat recovery.",
+    "revenue": "hundreds of $k wasted licenses/year per org",
+    "source_link": "https://www.ciodive.com/news/IT-spend-saas-sprawl-AI-torii/813116/",
+    "source_platform": "other",
+    "engagement": "Torii 2026 SaaS Benchmark, published 2026-08-25",
+    "score": 77
+  },
+  {
+    "type": "revenue_report",
+    "what": "Tushar Kapil: SaaS $300 MRR → $400 MRR за несколько дней, complete autopilot, all organic.",
+    "why_us": "Свежий микро-отчёт 1 Sep. Паттерн organic compounding без ads.",
+    "revenue": "$400/mo",
+    "source_link": "https://x.com/TusharKapil003/status/2094787128232452288",
+    "source_platform": "x",
+    "engagement": "7 likes / quoted earlier 36 likes, 1.5k views",
+    "score": 62
+  },
+  {
+    "type": "revenue_report",
+    "what": "Legora (AI for legal teams): Q3 ARR goal hit на месяц раньше. Net new ARR +36% MoM. In-house teams ARR +15x YoY, avg ARR/customer +2.5x, почти половина новых клиентов — in-house. Usage 16+ hours/MAU.",
+    "why_us": "Сильный vertical AI revenue print. Показывает, что agent-native legal workflow платят, а не chat wrappers.",
+    "revenue": "ARR scale; +36% MoM net new",
+    "source_link": "https://x.com/davidneckstein/status/2094777419240521919",
+    "source_platform": "x",
+    "engagement": "13 likes, 3 reposts, 3k views + 14 likes on quote",
+    "score": 73
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "Nicolas Lecocq day 54 build-in-public: цель $10k MRR, сейчас $653.40. Продукт — AI agents, которые ищут лиды 24/7 + security/AI search scans. Упёрся в Claude weekly limit.",
+    "why_us": "Типичный 2026 AI-wrapper трек с цифрами и bottleneck (model limits). Lead-finding agents = тот же demand gap $200/mo.",
+    "revenue": "$653/mo on day 54",
+    "source_link": "https://x.com/NicolasLecocqHQ/status/2094772270858391746",
+    "source_platform": "x",
+    "engagement": "15 likes, 11 replies, 367 views",
+    "score": 68
+  },
+  {
+    "type": "demand_gap",
+    "what": "Фаундер ищет SaaS, который закрывает весь outbound по риелторам: найти агентов + email + personalized cold. «Does a tool like this exist? Someone should build it if not.»",
+    "why_us": "Вертикальный срез общей lead-gen боли. Real estate — платёжеспособная ниша с повторяемым ICP.",
+    "revenue": "$49–199/mo agency/broker",
+    "source_link": "https://x.com/anthonydotpm/status/2093747322693792077",
+    "source_platform": "x",
+    "engagement": "0 likes, 1 reply; bio показывает 586€ + 104€ MRR builder",
+    "score": 63
+  },
+  {
+    "type": "demand_gap",
+    "what": "Google Maps QoL gaps 2026: one-tap download целого региона/страны offline; авто-оптимизация multi-stop; контроль типов дорог. Poll: multi-stop 36%, region download 29%.",
+    "why_us": "Ежедневная боль commuters/field workers. Возможен companion/offline maps микропродукт, не competе с Google целиком.",
+    "revenue": "travel/field SaaS or consumer premium",
+    "source_link": "https://www.androidauthority.com/google-maps-missing-features-2026-3701802/",
+    "source_platform": "other",
+    "engagement": "58 poll votes; published 2026-08-29",
+    "score": 65
+  },
+  {
+    "type": "revenue_report",
+    "what": "OpenAI advertising business hit $1B ARR. Диверсификация модели за пределы ChatGPT Plus.",
+    "why_us": "Макро-якорь: ads на AI-интерфейсах стали billion-run-rate. Влияет на дистрибуцию всех AI-wrapper'ов.",
+    "revenue": "$1B ARR ads",
+    "source_link": "https://x.com/GIARLAHA/status/2094763912268804508",
+    "source_platform": "x",
+    "engagement": "industry announcement 2026-09-01",
+    "score": 70
+  }
+]

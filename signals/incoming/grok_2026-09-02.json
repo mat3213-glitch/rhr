@@ -1,0 +1,152 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "Founders хотят вернуть perpetual licenses для business software: «I'd pay a painful upfront price to own the software instead of renting it forever». Повторяет жалобы на Adobe Photoshop (88 G2 mentions «expensive» / «wish I could just buy it once»).",
+    "why_us": "Системный anti-subscription паттерн 2026. WTP высокий, ICP — SMB и соло-операторы. Клин: lifetime / buy-once микро-SaaS против Creative Cloud и SaaS rent.",
+    "revenue": "painful upfront вместо $20–60/mo rent; Procreate-модель $9.99 one-time как якорь",
+    "source_link": "https://x.com/geoffwoo/status/2094382275995549960",
+    "source_platform": "x",
+    "engagement": "24 likes, 2 reposts, 5 replies, 4.3k views (31 Aug)",
+    "score": 74
+  },
+  {
+    "type": "demand_gap",
+    "what": "Claude Capterra: после апгрейда на Pro сразу hit daily limit; токены горят на ошибках модели; $214.50 без рефанда; «slowly shrink the service while increasing prices». Org-бюджет $100 токенов — один MCP-проект съел $12.",
+    "why_us": "Повторяемая боль power-users: unpredictable usage + no refund. Спрос на usage dashboard, hard caps, BYOK с caching, или дешёвый Claude-compatible proxy с SLA.",
+    "revenue": "$20–200/mo plans; WTP за predictability выше чем за raw tokens",
+    "source_link": "https://www.capterra.com/p/10011218/Claude/reviews/",
+    "source_platform": "capterra",
+    "engagement": "verified Capterra reviews through Apr 2026; 1.0-star refund complaints",
+    "score": 81
+  },
+  {
+    "type": "demand_gap",
+    "what": "Runway G2: «significantly overpriced», unusable/incoherent video, credits burn on failed gens, no refunds. 0.0/5 «Total waste of money». 600 credits на одну сцену, которую модель не собрала.",
+    "why_us": "Price + quality gap в AI video. Место для cheaper gen с credit-back на failed renders и preview-before-burn.",
+    "revenue": "credit-fair video SaaS vs Runway mid-tier",
+    "source_link": "https://www.g2.com/products/runway-2022-01-04/reviews?qs=pros-and-cons",
+    "source_platform": "g2",
+    "engagement": "G2 cons cluster: expensive + no refunds (multiple 0-star)",
+    "score": 76
+  },
+  {
+    "type": "demand_gap",
+    "what": "Auto-repair SaaS 2026 (Capterra, 24 Aug): Shopmonkey — слишком дорого для независимых шопов; ARI mobile app тормозит на высоком дневном объёме; AutoLeap — жёсткие annual contracts; Shop Boss не тянет multi-location.",
+    "why_us": "Вертикальный SMB gap: цена + mobile latency + lock-in. Платящий ICP (shop owners) уже на софте, но ненавидит tier.",
+    "revenue": "$49–99/mo single-shop vs Shopmonkey premium",
+    "source_link": "https://www.capterra.com/resources/best-auto-repair-software/",
+    "source_platform": "capterra",
+    "engagement": "Capterra category teardown Aug 24 2026; owner quotes May 2026",
+    "score": 78
+  },
+  {
+    "type": "demand_gap",
+    "what": "Warp.dev Trustpilot: платный Build Plan сломал продукт. BYOK Anthropic падает «LLM unavailable»; нет prompt caching → Opus на большом репо тарифицируется full input каждый раз. 2500 requests сгорели за 10 промптов за день.",
+    "why_us": "Devtool pricing trap + missing caching. Спрос на честный BYOK terminal/agent с Anthropic cache headers и usage transparency.",
+    "revenue": "devtool $20–40/mo или BYOK-only",
+    "source_link": "https://de.trustpilot.com/review/warp.dev",
+    "source_platform": "trustpilot",
+    "engagement": "5★→1★ update Jan 2026; waste-of-money reviews through Aug 2026",
+    "score": 77
+  },
+  {
+    "type": "demand_gap",
+    "what": "Ask HN (2 Sep): ищут альтернативу Proton Mail после outage ~4h 1 Sep. Нужны IMAP, EU region, multi-DC failover и готовность «pay a little extra for an SLA». Fastmail EU region thread — 296 comments (Aug).",
+    "why_us": "Свежий reliability shock + privacy ICP. Окно для privacy email с публичным SLA/uptime, не только E2E marketing.",
+    "revenue": "premium email $5–15/mo + SLA tier",
+    "source_link": "https://news.ycombinator.com/item?id=49523682",
+    "source_platform": "hn",
+    "engagement": "Ask HN 7 points / 5 comments; Fastmail EU thread 296 comments; 4h outage 1 Sep",
+    "score": 79
+  },
+  {
+    "type": "demand_gap",
+    "what": "Klaviyo vs Mailchimp G2 2026: цена прыгает с ростом списка. «Expensive» — 69 упоминаний у Klaviyo vs 45 у Mailchimp. Klaviyo Email from $45/mo, Email+mobile $80; costs scale with active profiles.",
+    "why_us": "Классический price-cliff для ecommerce email. Место для flat-fee / predictable ESP для брендов 5–50k профилей.",
+    "revenue": "$19–39/mo predictable email; vs Klaviyo $45+",
+    "source_link": "https://learn.g2.com/klaviyo-vs-mailchimp",
+    "source_platform": "g2",
+    "engagement": "G2 theme counts 69 vs 45 expensive; May 2026 comparison",
+    "score": 71
+  },
+  {
+    "type": "revenue_report",
+    "what": "Zernio (social/messaging infra for AI agents): $3.07M ARR за 13 месяцев, fully bootstrapped, team of 8, Spain. 6 месяцев назад — one-person $12k MRR.",
+    "why_us": "Редкие конкретные цифры bootstrapped infra. Показывает, что distribution layer для агентов платят, не ещё один content-gen wrapper.",
+    "revenue": "$3.07M ARR / was $12k MRR 6 mo prior",
+    "source_link": "https://x.com/charleslayerr/status/2092272654845608400",
+    "source_platform": "x",
+    "engagement": "307 likes, 20 reposts, 95 replies, 108 bookmarks, 128k views",
+    "score": 88
+  },
+  {
+    "type": "revenue_report",
+    "what": "Open Dev Log: ушёл с CTO в full-time indie. Current MRR $12k, notice period ещё идёт. Build-in-public старт 27 Aug.",
+    "why_us": "Честный $12k MRR якорь без VC. Полезен как калибровка «enough to quit».",
+    "revenue": "$12k/mo",
+    "source_link": "https://x.com/OpenDevLog/status/2093076475519836350",
+    "source_platform": "x",
+    "engagement": "1 like, 1 reply, 87 views — low social, конкретная цифра",
+    "score": 64
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "Adam Lyttle: App Store sales упали впервые за декаду (1.6k likes). Комментарий: люди уходят в прямые модели, AI-wrapper apps будут терять revenue год к году.",
+    "why_us": "Макро-сигнал против thin wrappers. Валидирует ставку на workflow/distribution (Zernio-тип), не chat skin.",
+    "revenue": "App Store category decline; wrapper risk",
+    "source_link": "https://x.com/adamlyttleapps/status/2092201317058150859",
+    "source_platform": "x",
+    "engagement": "1659 likes, 200 RT, 295 quotes, 225 replies, 502 bookmarks, 992k views",
+    "score": 82
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "G2 «AI Code Generation 2026»: 3000+ отзывов. Accuracy в dislikes — 23% ChatGPT, 20% Gemini vs 12% category avg. Structured rating всё ещё 4.35/5. Боль — не «галлюцинирует», а как быстро ошибка всплывает.",
+    "why_us": "Demand gap внутри coding assistants: error-surfacing, eval loop, purpose-built > general chat. 92% всё ещё positive — рынок платит.",
+    "revenue": "coding assistant $10–30/seat; eval/guardrail add-on",
+    "source_link": "https://learn.g2.com/ai-code-generation",
+    "source_platform": "g2",
+    "engagement": "3000+ verified reviews; published 2026-08-30",
+    "score": 80
+  },
+  {
+    "type": "defi_yield",
+    "what": "Base 2 Sep: Tokemak baseUSD 66.98% 7d APY (incl. 61.68% rewards), TVL $8M, reputation Med. Harvest 40 Acres USDC 14.15–14.56% / $2M. Steakhouse/Gauntlet Prime Morpho ~4.4% на $400M+ TVL.",
+    "why_us": "Свежий срез Base: высокий APY = rewards risk; «скучный» 4.4% на сотнях $M — реальный yield. Нужен risk-adjusted dashboard, не raw APY list.",
+    "revenue": "66.98% 7d Tokemak; 14.5% Harvest USDC; ~4.4% blue-chip Morpho",
+    "source_link": "https://blog.vaults.fyi/best-yields-base/",
+    "source_platform": "other",
+    "engagement": "updated 2026-09-02; 50 vaults ranked",
+    "score": 73
+  },
+  {
+    "type": "defi_yield",
+    "what": "Solana 2 Sep: avg DeFi APY 13.2%, best stable 63.3% (gmtrade USDCHF-USDC, TVL $1.63M). LST: mSOL 5.5%, JupSOL 5.3%, JitoSOL 4.9% при TVL bleed (Marinade Native −3.7% 24h) без падения APY — discretionary unstake.",
+    "why_us": "Стабильные LST ~5% vs тонкие FX pools 35–63%. Сигнал для yield-router: отделять real vs farm APY и TVL-quality.",
+    "revenue": "63.3% thin FX pool; ~5% LST on $1B TVL",
+    "source_link": "https://solanaweekly.io/dashboard/",
+    "source_platform": "other",
+    "engagement": "live dashboard 2026-09-02; 331 pools, $9.90B TVL",
+    "score": 72
+  },
+  {
+    "type": "automation",
+    "what": "Capterra/G2 adjacent: failed-payment retry как соло-SaaS идея $49–99/mo, build ~4 weeks. Плюс Expiration Reminder уже берёт $49/mo за алерты по лицензиям/страховкам. Boring automation с удержанием.",
+    "why_us": "Повторяемый паттерн: узкая финансовая автоматизация, которую бухгалтерия делает руками. Высокий retention после embed.",
+    "revenue": "$49–99/mo dunning; $15–49/mo renewal tracking",
+    "source_link": "https://saasranger.com/blog/micro-saas-ideas-for-solo-founders/",
+    "source_platform": "other",
+    "engagement": "2026 solo-founder idea filter; Expiration Reminder live $49/mo",
+    "score": 70
+  },
+  {
+    "type": "demand_gap",
+    "what": "G2 Photoshop cons: subscription requirement 48+ mentions, expensive 88 mentions. Freelancers/students не могут купить once. Procreate на Capterra — 4.8 value, $9.99 one-time как контраст.",
+    "why_us": "Тот же perpetual-license сигнал, но с объёмом G2. Клин: one-time creative tool / Photoshop-lite без CC.",
+    "revenue": "one-time $30–80 или lifetime $99 vs CC rent",
+    "source_link": "https://www.g2.com/products/adobe-photoshop/reviews?qs=pros-and-cons",
+    "source_platform": "g2",
+    "engagement": "88 expensive + 21 subscription-frustration mentions",
+    "score": 75
+  }
+]

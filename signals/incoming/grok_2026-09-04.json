@@ -1,0 +1,152 @@
+[
+  {
+    "type": "revenue_report",
+    "what": "Marc Lou: DataFa.st hit $30K MRR за 2 года без SEO/ads/sponsorships. 1,387 paying customers. First $300 MRR от audience, дальше word of mouth + фичи, которые шарят.",
+    "why_us": "Свежий якорь solo SaaS 2026: $30k без performance-маркетинга. Калибровка «product that users post about» vs paid acquisition.",
+    "revenue": "$30k/mo, 1387 subs",
+    "source_link": "https://x.com/marclou/status/2095848353989058621",
+    "source_platform": "x",
+    "engagement": "89 likes, 2 RT, 34 replies, 7 bookmarks, 4.4k views (4 Sep)",
+    "score": 86
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "Command Code (Ahmad Awais): $15M run rate, 34K paying, 28T tokens, $10/mo open-model coding plan. «fastest growing coding agent», hiring. 2 Sep 2026.",
+    "why_us": "Не thin GPT-wrapper: coding agent на open models + inference/kernels. Показывает, что деньги в harness/infra, не в chat UI.",
+    "revenue": "$15M run rate; $10/mo plan; 34k paying",
+    "source_link": "https://x.com/MrAhmadAwais/status/209524...",
+    "source_platform": "x",
+    "engagement": "242 likes, 12 RT, 51 replies, 26 bookmarks (2 Sep)",
+    "score": 88
+  },
+  {
+    "type": "demand_gap",
+    "what": "Replit Capterra 2026: AI agent застревает в loop и жжёт compute без cap. «$112 bill after $250 the day before»; 1–2★ «Financial Trap / runaway AI billing». Effort-based pricing opaque.",
+    "why_us": "Повторяемый 2026-паттерн AI-devtools: unpredictable token burn. Спрос на hard spend caps, kill-switch на agent loops, prepaid compute.",
+    "revenue": "predictable coding-cloud $20–80/mo vs uncapped agent",
+    "source_link": "https://www.capterra.com/p/10011212/Replit/reviews/",
+    "source_platform": "capterra",
+    "engagement": "verified 1.0–2.0 reviews Mar–Jul 2026; billing-loop cluster",
+    "score": 83
+  },
+  {
+    "type": "demand_gap",
+    "what": "Notion Trustpilot 2026: AI agents = token extortion. Unexpected charges after cancel, opaque pricing, runs burn за дни, no human support. Summary по 88 reviews — majority unhappy на billing.",
+    "why_us": "Массовый ICP (solo + ADHD productivity) платит, потом ненавидит usage model. Клин: flat-fee notes+agent или hard monthly run cap.",
+    "revenue": "flat $8–20/mo vs Notion AI usage cliff",
+    "source_link": "https://www.trustpilot.com/review/notion.so",
+    "source_platform": "trustpilot",
+    "engagement": "88 recent reviews; AI-summary negative on billing (updated 3 Sep)",
+    "score": 80
+  },
+  {
+    "type": "demand_gap",
+    "what": "Lovable.dev Trustpilot 1★: credits drain mid-build, projects/DB freeze on zero credit, «unusable token trap», «waste of money». 2 Sep review: limitation for AI-native apps not disclosed.",
+    "why_us": "AI app-builder credit model ломает production. Спрос на transparent credit-per-step + export-before-lockout.",
+    "revenue": "app-builder $20–50/mo prepaid / export-safe tier",
+    "source_link": "https://www.trustpilot.com/review/lovable.dev?stars=1",
+    "source_platform": "trustpilot",
+    "engagement": "1-star cluster Jul–Sep 2026; vendor replies confirm credit cutoff",
+    "score": 79
+  },
+  {
+    "type": "demand_gap",
+    "what": "«Having Claude in one tab and ChatGPT in another is so annoying. Why is there no single app that just does both?» — 4 Sep. Рядом: wish Codex-focused app.",
+    "why_us": "Мульти-модель UX gap для daily knowledge workers. Не новый LLM — router/workspace с одним inbox, billing и context.",
+    "revenue": "$15–30/mo multi-model workspace",
+    "source_link": "https://x.com/AriannaTyran/status/2095795756498301016",
+    "source_platform": "x",
+    "engagement": "fresh 4 Sep; low likes, high-repeat theme (tabs hell)",
+    "score": 66
+  },
+  {
+    "type": "demand_gap",
+    "what": "Half Baked (9 Jul, vault of 750 ideas): voice-first calorie tracker — 70% quit MyFitnessPal за 30 дней из-за logging friction. «Say lunch: burrito + latte» → instant macros. Market $1.75B, $9.99/mo.",
+    "why_us": "Документированный retention-killer + конкретный WTP. Voice/AI wrapper с узким workflow, не generic fitness.",
+    "revenue": "$9.99/mo; $1.75B calorie-tracking market",
+    "source_link": "https://x.com/gethalfbaked/status/2075208550989594944",
+    "source_platform": "x",
+    "engagement": "idea-giveaway thread Jul 2026; retention stat 70% churn",
+    "score": 72
+  },
+  {
+    "type": "demand_gap",
+    "what": "Carl Pei / Nothing thread: «I still need an app that auto-organises screenshots» — tickets→travel, recipes→food, memes→social, text posters→calendar. Plus native scam-detection on call/SMS.",
+    "why_us": "OS-level pain с платёжеспособным mobile ICP. Screenshot classifier + folders — микро-SaaS или on-device AI utility.",
+    "revenue": "$4–10/mo iOS utility or one-time $8–15",
+    "source_link": "https://x.com/getpeid/status/2051789688675893665",
+    "source_platform": "x",
+    "engagement": "CEO prompt thread May 2026; multiple concrete feature asks",
+    "score": 70
+  },
+  {
+    "type": "demand_gap",
+    "what": "Deployment gap 2026: AI builds app on laptop, founder 3 weeks stuck on Docker/CI/SSL/Nginx. «Spent more time deploying than building.» Повторяемый блокер non-technical founders.",
+    "why_us": "После coding-agents bottleneck сместился в ship-to-prod. Спрос на one-click deploy for AI-generated apps.",
+    "revenue": "$29–99/mo deploy-as-a-service for vibe-coded apps",
+    "source_link": "https://uxcontinuum.com/blog/saas-development/you-built-the-app-now-you-cant-deploy-it",
+    "source_platform": "other",
+    "engagement": "field-note pattern Feb 2026; still cited as 2026 founder #1 stuck point",
+    "score": 74
+  },
+  {
+    "type": "demand_gap",
+    "what": "r/SaaS quote surfaced 4 Sep: «I'd pay $100/mo just to automate this» про Stripe billing hell. 40+ mentions за месяц. ThreddIQ позиционирует как roadmap.",
+    "why_us": "Явный WTP $100/mo на billing ops. Узкий B2B: dunning, refunds-vs-MRR, tax, failed payments.",
+    "revenue": "$49–100/mo Stripe-ops automation",
+    "source_link": "https://x.com/snackforcode/status/2095757527237398747",
+    "source_platform": "x",
+    "engagement": "4 Sep post citing r/SaaS cluster (40+ mentions/mo)",
+    "score": 77
+  },
+  {
+    "type": "defi_yield",
+    "what": "Solana 4 Sep: ExponentFinance PT ONYC 18.9% APR (30d 15.6%), TVL $34.9M; SRONYC 13.4%; APXUSD 11.3%. Yield-bearing stables: OnRe ONYC 11.5% / $296.8M TVL, Huma PST 8.0% / $262M.",
+    "why_us": "Конкретные APR + TVL.split fixed PT vs live stables. Роутер/агрегатор с risk label ценнее raw APY list.",
+    "revenue": "18.9% PT ONYC; 11.5% ONYC $297M TVL",
+    "source_link": "https://x.com/akashi_finance/status/2095833047912366537",
+    "source_platform": "x",
+    "engagement": "live desk 4 Sep; paired TVL figures",
+    "score": 71
+  },
+  {
+    "type": "defi_yield",
+    "what": "Morpho via Monarch: lend USDC vs WHYPE — supply APY 9.32%, но 7d только 6.47%. Автор явно предупреждает не брать spot APY.",
+    "why_us": "Образовательный gap = продукт: 7d vs spot APY warning в UI. Платящий DeFi user уже читает такие треды.",
+    "revenue": "9.32% spot / 6.47% 7d USDC",
+    "source_link": "https://x.com/EthanDeFi_/status/2095831355980714316",
+    "source_platform": "x",
+    "engagement": "2 likes, 2 bookmarks, 196 views — низкий social, высокая конкретика",
+    "score": 63
+  },
+  {
+    "type": "automation",
+    "what": "Paid $1,200 за TG-бота «top 0.1% smart money» alerts. 10 сделок: 5 self-deployed unverified, 3 sandwich 16% slippage, 2 dump before exit. Lost 3.2 ETH / 4 days.",
+    "why_us": "Рынок платит за alpha-bots, но продукт враждебный. Спрос на verified-contract + sandwich-aware + exit-alert bot с refund/SLA.",
+    "revenue": "$1,200 one-time paid; room for $29–99/mo safer alpha bot",
+    "source_link": "https://x.com/Col_Gate_ML/status/2093996612737487001",
+    "source_platform": "x",
+    "engagement": "27 likes, 1 RT, 3 replies, 2 bookmarks, 483 views (30 Aug)",
+    "score": 68
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "AppLess / Thesys (Rabi Guha): generative UI — экран пишется live под запрос, без App Store. 7 Jul demo. Рядом Essential Apps (Nothing): describe → AI app on home screen, 5.5k likes.",
+    "why_us": "Макро-ставка: interface layer вместо ещё одного вертикального SaaS. Совпадает с «SaaSapocalypse / agents eat workflow UI».",
+    "revenue": "API/workspace for generative UI; not yet public MRR",
+    "source_link": "https://x.com/rabi_guha/status/2074527416979251638",
+    "source_platform": "x",
+    "engagement": "1047 likes, 58 RT, 103 replies, 43 quotes (AppLess); Essential 5506 likes",
+    "score": 76
+  },
+  {
+    "type": "revenue_report",
+    "what": "Anim8 (Ternary Studios) joined TrustMRR: $907 MRR, $956 / 30d, 100 active subs, +19053% 30d growth. Early animation/AI tool.",
+    "why_us": "Микро-якорь нового AI creative tool с верифицированными цифрами, не скриншотом из головы.",
+    "revenue": "$907/mo, 100 subs",
+    "source_link": "https://x.com/trust_mrr/status/2093862672232333675",
+    "source_platform": "x",
+    "engagement": "TrustMRR verified card 30 Aug",
+    "score": 64
+  }
+]

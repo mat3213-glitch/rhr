@@ -1,0 +1,192 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "Sam Lessin: «I would pay a great deal for a credit card that allowed me to cancel any subscription from their integrated app rather than trying to navigate service websites».",
+    "why_us": "577 likes / 65 bookmarks — явный WTP на карту/банк-приложение с one-tap cancel. Пересекается с макро-болью auto-renew / hidden charges.",
+    "revenue": "$0–15/yr card perk или $5–9/mo subscription-control app",
+    "source_link": "https://x.com/lessin/status/2089376498180555074",
+    "source_platform": "x",
+    "engagement": "577 likes, 12 RT, 67 replies, 65 bookmarks, 108k views (17 Aug)",
+    "score": 86
+  },
+  {
+    "type": "demand_gap",
+    "what": "Replit Capterra 1–2★ 2026: Agent застревает в coding-error loop и автономно жжёт compute. Отзыв: $250 + $112 сюрприз-счёт за 48ч; billing «predatory and un-capped». Effort-based pricing opaque.",
+    "why_us": "Повторяемый AI-devtools паттерн (не только Trustpilot). Спрос на hard cap + loop kill-switch + prepaid compute.",
+    "revenue": "predictable coding-cloud $20–80/mo vs uncapped agent",
+    "source_link": "https://www.capterra.com/p/10011212/Replit/reviews/",
+    "source_platform": "capterra",
+    "engagement": "1.0–2.0★ verified reviews Jul 2026; concrete $112+$250 bills",
+    "score": 85
+  },
+  {
+    "type": "demand_gap",
+    "what": "G2 2026 Buyer Behavior (2 Sep): AI сделал shortlist дёшевым, bottleneck сдвинулся к finance. ~50% buyers: CFO развернул уже одобренную сделку. Outcome-based pricing 11%→23%. 70% хотят короче контракты из-за непредсказуемого AI pricing.",
+    "why_us": "Макро-боль для любого AI SaaS: нужен defendable invoice, не ещё одна фича. Продукт = outcome billing / spend forecast для CFO.",
+    "revenue": "outcome-priced AI $99–499/mo vs usage cliff",
+    "source_link": "https://learn.g2.com/why-b2b-deals-stall-after-the-ai-shortlist-in-2026",
+    "source_platform": "g2",
+    "engagement": "G2 2026 Buyer Behavior Report; published 2 Sep 2026",
+    "score": 84
+  },
+  {
+    "type": "demand_gap",
+    "what": "Indie Hackers Aug'26: #1 red-flag pain — SaaS auto-renewal/hidden charges. Shopify app trial traps; Gorgias auto-billed $14k; Figmentor EUR 200+ double charge; Starshipit billed after cancel. Parallel: AI price hikes / installed-base harvesting (+10–20% AI bundle, OVH VPS +85–100%).",
+    "why_us": "Агрегированный кластер жалоб Trustpilot/G2/Shopify — не единичный пост. Wedge: cancel-that-cancels + bill-audit SaaS.",
+    "revenue": "$29–99/mo subscription-audit / chargeback-prevention",
+    "source_link": "https://www.indiehackers.com/post/5-red-flag-industries-ripe-for-disruption-data-backed-aug-26-96325c45a0",
+    "source_platform": "forum",
+    "engagement": "IH synthesis Aug 2026; concrete $14k Gorgias case",
+    "score": 83
+  },
+  {
+    "type": "demand_gap",
+    "what": "OnSpace.ai Trustpilot 1★ cluster: AI app-builder locks paid accounts on Free Plan, не отдаёт source export; credits сгорают на retries («$100 plan + $10 credits, stopped working after ~$60»; 3000/7500 credits на crop-to-square).",
+    "why_us": "Тот же vibe-coding credit hell, что Lovable/Replit, но новый вендор. Спрос на export-before-lockout + prepaid step billing.",
+    "revenue": "app-builder $20–50/mo prepaid / export-safe tier",
+    "source_link": "https://www.trustpilot.com/review/onspace.ai",
+    "source_platform": "trustpilot",
+    "engagement": "1★ cluster Feb–Aug 2026; $20–$110+ wasted plans",
+    "score": 80
+  },
+  {
+    "type": "demand_gap",
+    "what": "PandaDoc G2 con: rigid pricing, CRM integrations / custom workflows / bulk send заперты за высокими тарифами — цена растёт для solo/SMB. PM tools: SMB уже ~$44/user vs expected $20–40.",
+    "why_us": "Классический feature-gating wedge. Дешёвый docs+e-sign со всеми интеграциями на mid-tier.",
+    "revenue": "$15–29/user docs+sign vs gated PandaDoc",
+    "source_link": "https://www.g2.com/software/cost-estimating",
+    "source_platform": "g2",
+    "engagement": "G2 review 1 Sep 2026 + Capterra PM pricing May 2026",
+    "score": 72
+  },
+  {
+    "type": "demand_gap",
+    "what": "Matthew Cappucci (180 likes): «I would pay $$$ for a storm chaser/meteorologist dating app» — нишевый vertical dating для сообщества с высокой идентичностью.",
+    "why_us": "Свежий 5 Sep, явный WTP, платящая ниша (gear + travel). Шаблон: niche dating для профессий с shared schedule.",
+    "revenue": "$9–19/mo niche dating",
+    "source_link": "https://x.com/MatthewCappucci/status/2096080933564579894",
+    "source_platform": "x",
+    "engagement": "180 likes, 9 RT, 15 replies, 5 bookmarks, 12k views (5 Sep)",
+    "score": 70
+  },
+  {
+    "type": "demand_gap",
+    "what": "Ask HN (2 days): Proton Mail Frankfurt AC outages — ищут email с custom domain + IMAP + privacy + real SLA. Fastmail EU region / Infomaniak / Kagi Mail / iCloud.",
+    "why_us": "Узкий reliability+privacy mail gap. HN-users ready pay extra за uptime, не только encryption marketing.",
+    "revenue": "$5–15/mo privacy mail with SLA",
+    "source_link": "https://news.ycombinator.com/item?id=49523682",
+    "source_platform": "hn",
+    "engagement": "9 points, 8 comments, ~2 days old",
+    "score": 64
+  },
+  {
+    "type": "demand_gap",
+    "what": "Show HN Artifact Server: teams не хотят смотреть Claude Artifacts на claude.ai — нужны persist/version/share с командой и другими агентами (MCP comments → Pi queue).",
+    "why_us": "Владение artifacts = следующий слой после vibe-coding. B2B collaboration surface над Claude/Cursor outputs.",
+    "revenue": "$15–49/user artifact-host + review",
+    "source_link": "https://news.ycombinator.com/item?id=49554724",
+    "source_platform": "hn",
+    "engagement": "Show HN 1 day ago; explicit team-ownership pain",
+    "score": 66
+  },
+  {
+    "type": "demand_gap",
+    "what": "Topaz Labs Trustpilot: Astra/Studio «way too expensive», US vs CAD surprise, local Mac render slow, credits not enough, subscription vs legacy perpetual. «If half price — 5 stars».",
+    "why_us": "Creative AI tools harvest installed base. Wedge: fair local-first enhancer без credit drip.",
+    "revenue": "$8–19/mo local AI photo/video vs Topaz sub",
+    "source_link": "https://www.trustpilot.com/review/www.topazlabs.com/product/topaz-studio-monthly-69e0e9d82a496938fca24333",
+    "source_platform": "trustpilot",
+    "engagement": "verified 1★ cluster Jul–Aug 2026",
+    "score": 67
+  },
+  {
+    "type": "revenue_report",
+    "what": "Ivan Terekhin (indie iOS/Android): $1.9k MRR 1 Sep → $2k MRR 4 Sep. Target $20k/mo, current stack ~$6k/mo across apps.",
+    "why_us": "Честный solo mobile ladder с фото-доказательством. Калибровка B2C app compounding.",
+    "revenue": "$2k/mo on one app; $6k/mo portfolio",
+    "source_link": "https://x.com/TerekhinIvan/status/2095664701342380090",
+    "source_platform": "x",
+    "engagement": "63 likes, 14 replies, 7 bookmarks (4 Sep); prior 34 likes",
+    "score": 74
+  },
+  {
+    "type": "revenue_report",
+    "what": "Pyth Network August: $10.4M combined live ARR, +39% MoM; $2.93M gross new ARR; Pyth Indices $1.59M ARR; 138+ institutions publishing first-party data.",
+    "why_us": "Крупный onchain data ARR с MoM acceleration. Ориентир для oracle/RWA infra, не мем-токена.",
+    "revenue": "$10.4M ARR, +39% MoM",
+    "source_link": "https://x.com/PythNetwork/status/2095160272386437492",
+    "source_platform": "x",
+    "engagement": "211 likes, 46 RT, 33 replies, 12 bookmarks, 87k views (2 Sep)",
+    "score": 82
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "Alex Nguyen playbook: B2C AI app → $10k MRR через GenZ vertical (ADHD/sleep/mental/fitness) + daily TikTok/IG + AI influencer factory. Claims 370k + 40k user apps.",
+    "why_us": "Распределение = моут 2026 для thin wrappers. 571 likes / 796 bookmarks — сильный interest к самому плейбуку.",
+    "revenue": "$10k MRR target playbook; existing 370k/40k user apps",
+    "source_link": "https://x.com/alexcooldev/status/2095930146008248603",
+    "source_platform": "x",
+    "engagement": "571 likes, 27 RT, 43 replies, 796 bookmarks, 25k views (4 Sep)",
+    "score": 78
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "Poll: OpenAI API product with 20k users, $30k MRR, 70% GM — «real startup or just wrapper?». Market still debating moat vs inference rent.",
+    "why_us": "Бенчмарк unit-econ для wrapper: $30k MRR / 20k users / 70% GM уже считается порогом.",
+    "revenue": "$30k/mo @ 70% GM hypothetical-but-typical",
+    "source_link": "https://x.com/dark_coderz/status/2093119619511046466",
+    "source_platform": "x",
+    "engagement": "28 likes, 16 replies (27 Aug)",
+    "score": 62
+  },
+  {
+    "type": "defi_yield",
+    "what": "OnRe × Kamino: ONyc supply cap 150→200M, USDC 75→100M. Base 11.54% APY on ONyc (токенизированный reinsurance) + levered borrow.",
+    "why_us": "RWA yield с TVL-cap expansion, не эфемерный farm. Institutional dollar asset on Solana.",
+    "revenue": "11.54% APY ONyc; $200M cap",
+    "source_link": "https://x.com/onrefinance/status/2095533748926500914",
+    "source_platform": "x",
+    "engagement": "141 likes, 19 RT, 30 replies, 6.3k views (3 Sep)",
+    "score": 76
+  },
+  {
+    "type": "defi_yield",
+    "what": "Zyfai on Base: top-9 app, 2,484 weekly transacting users, 16,280 yield accounts, >$10M daily rebalance. Double-digit APY on USDC/WETH/cbBTC/EURC; stakers ~4% APY USDC, ~50% supply staked.",
+    "why_us": "Yield-agent product с real users не-нативов. Agent-managed yield как UX, не dashboard.",
+    "revenue": "double-digit APY stables; ~4% USDC staker APY",
+    "source_link": "https://x.com/neutize/status/2095600916611408231",
+    "source_platform": "x",
+    "engagement": "34 likes, 9 RT (3 Sep); prior 28 likes Aug update",
+    "score": 73
+  },
+  {
+    "type": "defi_yield",
+    "what": "DualMint PLAY vault on Solana: $250k claw-machine fleet, 15% APY streamed monthly, on-chain usage/revenue per machine.",
+    "why_us": "Необычный RWA: physical machines → streamed yield. Нишевый machine-finance thesis.",
+    "revenue": "15% APY; $250k vault",
+    "source_link": "https://x.com/Jackhaldorsson/status/2095726537282584811",
+    "source_platform": "x",
+    "engagement": "21 likes + quoted DualMint 37 likes (3–4 Sep)",
+    "score": 65
+  },
+  {
+    "type": "automation",
+    "what": "Alchemy CLI agent: 1 instruction «find highest Aave APY and deposit 5 USDC» — scan Arbitrum/ETH/Solana, bridge, deposit. Demo on Stabledash 4 Sep.",
+    "why_us": "Agentic yield routing shipped, not pitch. UX-unlock для non-power users.",
+    "revenue": "agent-as-a-service on yield routing; fee on AUM",
+    "source_link": "https://x.com/stabledash/status/2095932495287955737",
+    "source_platform": "x",
+    "engagement": "17 likes, 2 RT, 5 replies (4 Sep)",
+    "score": 68
+  },
+  {
+    "type": "automation",
+    "what": "Planemo Trading: <2 weeks on Ondo Perps → $150M volume, #1 builder. Weekly USDC rewards + week-2 trading rewards.",
+    "why_us": "Algo trading bot/platform с быстрым volume proof на tokenized perps.",
+    "revenue": "$150M volume / 2 weeks (fee take unspecified)",
+    "source_link": "https://x.com/PlanemoTrading/status/2096210001022840964",
+    "source_platform": "x",
+    "engagement": "10 likes, 3 RT, 3 replies, 4 bookmarks (5 Sep)",
+    "score": 61
+  }
+]

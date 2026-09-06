@@ -1,0 +1,162 @@
+[
+  {
+    "type": "revenue_report",
+    "what": "Marc Lou: DataFa.st hit $30K MRR in 2 years with no SEO/ads/sponsorships — first $300 from audience, rest word of mouth. 1,387 paying customers.",
+    "why_us": "Свежий 4 Sep, 1077 likes / 227 bookmarks — калибровка «feature obsession → organic SaaS» без платного канала.",
+    "revenue": "$30k/mo",
+    "source_link": "https://x.com/marclou/status/2095848353989058621",
+    "source_platform": "x",
+    "engagement": "1077 likes, 18 RT, 241 replies, 227 bookmarks, 228k views (4 Sep)",
+    "score": 92
+  },
+  {
+    "type": "revenue_report",
+    "what": "Floro S. sold TrendGap (trendgap.io) for a 5-digit deal after 90 days: 920 users, $1.1K MRR. First exit; focus moved to next product.",
+    "why_us": "Короткий цикл валидация→экзит на микро-SaaS. Цифры + срок.",
+    "revenue": "$1.1k/mo pre-exit; 5-digit sale",
+    "source_link": "https://x.com/sflorimm/status/2095885922738860530",
+    "source_platform": "x",
+    "engagement": "86 likes, 68 replies, 12 bookmarks (4 Sep)",
+    "score": 78
+  },
+  {
+    "type": "revenue_report",
+    "what": "Nolimit: €1,300 MRR after 1 year while employed in London finance. Stack almost free (Supabase/Vercel/Resend/Stripe). Lesson: US buyers >> FR; sales>code.",
+    "why_us": "Честный solo + geo-WTP. 299 likes / 246 bookmarks на французском треде.",
+    "revenue": "€1.3k/mo (~$1.4k)",
+    "source_link": "https://x.com/CoderNolimit/status/2095580252890108170",
+    "source_platform": "x",
+    "engagement": "299 likes, 11 RT, 35 replies, 246 bookmarks, 22k views (3 Sep)",
+    "score": 81
+  },
+  {
+    "type": "revenue_report",
+    "what": "TrustMRR #161: macOS productivity SaaS acquired for $25K after 19 days listed. $7.4K revenue last 30 days — 0.3x multiple.",
+    "why_us": "Цена экзита на мелкий desktop SaaS. Низкий мультипль = ликвидность есть, но покупатели диктуют цену.",
+    "revenue": "$7.4k/30d; sold $25k (0.3x)",
+    "source_link": "https://x.com/trust_mrr/status/2095549420557242855",
+    "source_platform": "x",
+    "engagement": "58 likes, 4 RT, 8 replies (3 Sep)",
+    "score": 76
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "Marc Lou Stalkr.ai (X-mention tracker) went from first customer (1 Sep) to $116 MRR by 4 Sep. Unprofitable due to X-data cost + generous free trial; cut trial 100→10 mentions.",
+    "why_us": "Живой unit-econ AI wrapper: data cost > price. Паттерн для любого social-listening micro-SaaS.",
+    "revenue": "$116/mo early; data-cost constrained",
+    "source_link": "https://x.com/marclou/status/2095824951500796301",
+    "source_platform": "x",
+    "engagement": "275 likes, 102 replies, 39 bookmarks, 142k views (4 Sep)",
+    "score": 80
+  },
+  {
+    "type": "demand_gap",
+    "what": "G2 workflow reviews: monday AI features locked to higher tiers («too costly for small teams»); Asana moved promised Enterprise features into a new higher bracket after upgrade.",
+    "why_us": "Повторяемый feature-gating. Wedge: AI-on-mid-tier PM / cheaper plan without bait-and-switch.",
+    "revenue": "$8–19/user AI-lite PM vs gated monday/Asana",
+    "source_link": "https://www.g2.com/software/workflow-management",
+    "source_platform": "g2",
+    "engagement": "G2 verified cons on monday AI + Asana Enterprise (page dated 4 Sep 2026)",
+    "score": 74
+  },
+  {
+    "type": "demand_gap",
+    "what": "createanything.com / anything.com Trustpilot: user spent €1,349.70 over 2 months on credits; AI rebuilt features while breaking three working ones; self-wrote admission of failure. Parallel 1★ «extremely inefficient and expensive».",
+    "why_us": "Vibe-coding credit incinerator — тот же кластер что Replit/OnSpace. Спрос на prepaid cap + export + no-destroy-working-code.",
+    "revenue": "prepaid builder $20–50/mo vs uncapped credits",
+    "source_link": "https://www.trustpilot.com/review/anything.com",
+    "source_platform": "trustpilot",
+    "engagement": "1★ cluster; concrete €1,349.70 burn (updated Aug 16 / Sep 1 2026)",
+    "score": 84
+  },
+  {
+    "type": "demand_gap",
+    "what": "Notion Trustpilot: AI agents billed per token; background agents required for the product to work → «token extortion» / financial nightmare. Unexpected charges and rising solo pricing in review summary (88 reviews, mostly unhappy).",
+    "why_us": "Productivity giant harvests installed base via agent tokens. Wedge: flat-fee local/offline agents.",
+    "revenue": "$10–29/mo flat agent workspace vs token meter",
+    "source_link": "https://www.trustpilot.com/review/notion.so",
+    "source_platform": "trustpilot",
+    "engagement": "Trustpilot summary on 88 reviews; token-extortion 1★ Jun 2026 still listed Sep 3",
+    "score": 79
+  },
+  {
+    "type": "demand_gap",
+    "what": "Spendee Trustpilot (2 Sep window): premium users lose years of data / bank sync dies for 6+ weeks. «Don’t waste your money» after paid plan; compensation = 3 months free.",
+    "why_us": "Fintech data-integrity pain. Wedge: local-first budget app with export that cannot vanish.",
+    "revenue": "$4–9/mo local-first budget vs cloud wipe",
+    "source_link": "https://www.trustpilot.com/review/spendee.com",
+    "source_platform": "trustpilot",
+    "engagement": "1★ «Don’t Waste Your Money» ~4 days before 2 Sep page; prior data-wipe reviews",
+    "score": 72
+  },
+  {
+    "type": "demand_gap",
+    "what": "EU Cyber Resilience Act Article 14 reporting starts 11 Sep 2026: 24h early warning, 72h notification, 14-day final report via ENISA. Proposed product: CRA reporting copilot for digital-product manufacturers.",
+    "why_us": "Hard deadline + regulated buyer. Compliance micro-SaaS с оплатой из budget, не из curiosity.",
+    "revenue": "$99–499/mo compliance copilot",
+    "source_link": "https://towardsdev.com/stop-building-platforms-6-tiny-saas-products-worth-shipping-this-year-a2e0c64b054d",
+    "source_platform": "other",
+    "engagement": "Jul 2026 essay; deadline is 5 days from this signal date",
+    "score": 83
+  },
+  {
+    "type": "demand_gap",
+    "what": "DEV May 2026 / r/SaaS: «I'd pay $200/month for something that finds 50 qualified leads a week and sends personalized cold email. Clay, Apollo, Instantly all need babysitting.» Invoice/bookkeeping agents also listed as high gap vs oversupplied chatbots.",
+    "why_us": "Явный WTP $200/mo + повтор категории AI SDR / invoice agent.",
+    "revenue": "$200/mo AI SDR; invoice agent $49–149/mo",
+    "source_link": "https://dev.to/jimrusk/what-ai-agent-builders-want-to-build-vs-what-people-actually-want-5gp6",
+    "source_platform": "forum",
+    "engagement": "Quoted r/SaaS May 2026 $200/mo WTP; article May 14 2026",
+    "score": 77
+  },
+  {
+    "type": "demand_gap",
+    "what": "Show HN UtlKit: builder frustrated with tool sites that force signup/tracking/server-side JSON format. 170+ browser-only tools, zero hosting cost.",
+    "why_us": "Anti-cloud / privacy-tool demand (совпадает с 7% offline-first в 9.3k «I wish» dataset). Monetizable as pro pack, not ads.",
+    "revenue": "$5–12/mo privacy toolkit or one-time",
+    "source_link": "https://news.ycombinator.com/item?id=49549415",
+    "source_platform": "hn",
+    "engagement": "Show HN ~2 days ago; explicit signup/tracking pain",
+    "score": 66
+  },
+  {
+    "type": "demand_gap",
+    "what": "@iamnotstatic: startup employees sit on illiquid equity for a decade — «someone should build an app that lets you spend it instantly (rent, flights, groceries) off the cap table.»",
+    "why_us": "Fintech wedge (secondary / ESO / advance). 86 likes + 26 bookmarks, concrete use-cases.",
+    "revenue": "fee on advances / 1–3% of unlocked equity",
+    "source_link": "https://x.com/iamnotstatic/status/2081017285829861502",
+    "source_platform": "x",
+    "engagement": "86 likes, 8 QT, 23 replies, 26 bookmarks, 13k views (25 Jul)",
+    "score": 63
+  },
+  {
+    "type": "defi_yield",
+    "what": "OnRe August: AUM ~+$14% to nearly $280M, ecosystem TVL >$400M, ~90% utilization, 11.5% APY on tokenized reinsurance dollar asset (Solana).",
+    "why_us": "RWA yield с real underwriting, не farm. Повторяется как устойчивый 11%+ bucket.",
+    "revenue": "11.5% APY; ~$280M AUM",
+    "source_link": "https://x.com/DaveNehro/status/2096377022314397792",
+    "source_platform": "x",
+    "engagement": "63 likes + quoted OnRe 138 likes (5 Sep / 1 Sep)",
+    "score": 75
+  },
+  {
+    "type": "defi_yield",
+    "what": "OKX Wallet: USDG Yield Boost on X Layer up to 6.8% APY limited-time. Official wallet distribution.",
+    "why_us": "CEX-wallet yield product — массовый UX на stablecoin yield.",
+    "revenue": "up to 6.8% APY USDG",
+    "source_link": "https://x.com/wallet/status/2096472529304961085",
+    "source_platform": "x",
+    "engagement": "51 likes, 2 RT, 11 replies, 18k views (6 Sep)",
+    "score": 64
+  },
+  {
+    "type": "automation",
+    "what": "Priyam Raj hiring operator/agency to turn around a ~$50k MRR AI SaaS (retention, UGC, affiliates, paid). Signals existing AI product at scale with growth/retention gap.",
+    "why_us": "$50k MRR AI already exists but leaks. Opportunity = retention layer / UGC engine as productized service or SaaS.",
+    "revenue": "~$50k/mo existing; turnaround mandate",
+    "source_link": "https://x.com/priymrj/status/2095749062477877296",
+    "source_platform": "x",
+    "engagement": "103 likes, 27 replies, 35 bookmarks (4 Sep)",
+    "score": 70
+  }
+]

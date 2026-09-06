@@ -132,7 +132,10 @@ class TestReddit:
     <summary>From SaaS</summary>
   </entry>
 </feed>"""
-        with patch("collectors.reddit.http_client") as MockClient:
+        with (
+            patch("collectors.reddit.http_client") as MockClient,
+            patch("collectors.reddit.time.sleep") as mock_sleep,
+        ):
             instance = MockClient.return_value.__enter__.return_value
             r1 = MagicMock()
             r1.text = rss_ent
@@ -144,6 +147,7 @@ class TestReddit:
             items = c.fetch()
 
         assert len(items) == 2
+        mock_sleep.assert_called_once_with(2)
         subreddits_found = {i.source_item_id.split(":")[1] for i in items}
         assert subreddits_found == {"Entrepreneur", "SaaS"}
 

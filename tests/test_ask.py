@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 from datetime import datetime, timedelta, timezone
+from unittest.mock import MagicMock
 
 import pytest
 
@@ -108,6 +109,9 @@ class TestHnSearchCollector:
             {"objectID": "2", "title": "quiet", "points": 1, "url": "https://b"},
         ]
         coll = HackerNewsSearchCollector({"queries": ["q"], "min_points": 10})
+        http_client = MagicMock()
+        http_client.__enter__.return_value = http_client
+        monkeypatch.setattr("collectors.hn_search.client", lambda: http_client)
         monkeypatch.setattr(coll, "_search", lambda *a, **kw: hits)
         items = coll.fetch()
         assert [i.source_item_id for i in items] == ["1"]
@@ -117,6 +121,9 @@ class TestHnSearchCollector:
         from collectors.hn_search import HackerNewsSearchCollector
 
         coll = HackerNewsSearchCollector({"queries": ["q"]})
+        http_client = MagicMock()
+        http_client.__enter__.return_value = http_client
+        monkeypatch.setattr("collectors.hn_search.client", lambda: http_client)
         monkeypatch.setattr(coll, "_search",
                             lambda *a, **kw: [{"objectID": "42", "title": "ask hn"}])
         assert "item?id=42" in coll.fetch()[0].url

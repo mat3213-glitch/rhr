@@ -132,7 +132,7 @@ class TestSafeRedirectTransport:
 
     def test_allows_public_host(self):
         inner = MagicMock()
-        inner.handle_response.return_value = httpx.Response(200)
+        inner.handle_request.return_value = httpx.Response(200)
         transport = SafeRedirectTransport(
             inner, resolver=lambda h: ["140.82.112.3"]
         )
@@ -180,11 +180,13 @@ class TestPinnedNetworkBackend:
 
 
 class TestClient:
-    def test_returns_httpx_client(self):
+    def test_returns_httpx_client(self, monkeypatch):
+        monkeypatch.setattr("collectors.http_util.PinnedHTTPTransport", MagicMock())
         with client(timeout=10, resolver=lambda h: ["1.1.1.1"]) as cl:
             assert isinstance(cl, httpx.Client)
 
-    def test_timeout_applied(self):
+    def test_timeout_applied(self, monkeypatch):
+        monkeypatch.setattr("collectors.http_util.PinnedHTTPTransport", MagicMock())
         with client(timeout=15, connect_timeout=3, resolver=lambda h: ["1.1.1.1"]) as cl:
             assert cl.timeout.connect == 3.0
             assert cl.timeout.read == 15.0

@@ -64,7 +64,7 @@ REALISTIC_HTML = '''
 
 @pytest.fixture
 def mock_httpx():
-    with patch("collectors.telegram.httpx.Client") as client_cls:
+    with patch("collectors.telegram.http_client") as http_client:
         mock_client = MagicMock()
         mock_response = MagicMock()
         mock_response.text = REALISTIC_HTML
@@ -72,7 +72,7 @@ def mock_httpx():
         mock_client.__enter__ = MagicMock(return_value=mock_client)
         mock_client.__exit__ = MagicMock(return_value=False)
         mock_client.get.return_value = mock_response
-        client_cls.return_value = mock_client
+        http_client.return_value = mock_client
         yield mock_client
 
 
@@ -158,7 +158,7 @@ def test_body_truncated_to_500(mock_httpx):
         "5 ways to earn",
         "A" * 600
     )
-    with patch("collectors.telegram.httpx.Client") as client_cls:
+    with patch("collectors.telegram.http_client") as http_client:
         mock_client = MagicMock()
         mock_response = MagicMock()
         mock_response.text = long_html
@@ -166,7 +166,7 @@ def test_body_truncated_to_500(mock_httpx):
         mock_client.__enter__ = MagicMock(return_value=mock_client)
         mock_client.__exit__ = MagicMock(return_value=False)
         mock_client.get.return_value = mock_response
-        client_cls.return_value = mock_client
+        http_client.return_value = mock_client
 
         coll = TelegramCollector({"channels": ["passiveincome"]})
         items = coll.fetch()
@@ -181,7 +181,7 @@ def test_handles_empty_channel_list():
 
 
 def test_handles_nonexistent_channel():
-    with patch("collectors.telegram.httpx.Client") as client_cls:
+    with patch("collectors.telegram.http_client") as http_client:
         mock_client = MagicMock()
         mock_response = MagicMock()
         mock_response.text = "<html><body>Sorry, this channel doesn't exist</body></html>"
@@ -189,7 +189,7 @@ def test_handles_nonexistent_channel():
         mock_client.__enter__ = MagicMock(return_value=mock_client)
         mock_client.__exit__ = MagicMock(return_value=False)
         mock_client.get.return_value = mock_response
-        client_cls.return_value = mock_client
+        http_client.return_value = mock_client
 
         coll = TelegramCollector({"channels": ["nonexistent_channel_xyz"]})
         items = coll.fetch()

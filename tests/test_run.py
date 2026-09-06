@@ -2,8 +2,11 @@
 from __future__ import annotations
 
 import os
+import runpy
 import sys
+from builtins import open as builtin_open
 from io import StringIO
+from pathlib import Path
 from unittest.mock import MagicMock, patch
 
 import pytest
@@ -157,14 +160,16 @@ class TestEnvLoading:
         env_file = tmp_path / ".env"
         env_file.write_text('TEST_KEY="hello"\nOTHER_KEY=\'world\'\n')
         monkeypatch.setattr("os.environ", {})
-        with open(env_file) as f:
-            for line in f:
-                line = line.strip()
-                if not line or "=" not in line:
-                    continue
-                key, _, value = line.partition("=")
-                key = key.strip()
-                value = value.strip().strip("\"'")
-                os.environ.setdefault(key, value)
+
+        project_env = str(Path(__file__).parent.parent / ".env")
+
+        def open_test_env(path, *args, **kwargs):
+            if os.fspath(path) == project_env:
+                return builtin_open(env_file, *args, **kwargs)
+            return builtin_open(path, *args, **kwargs)
+
+        monkeypatch.setattr("builtins.open", open_test_env)
+        runpy.run_path(str(Path(__file__).parent.parent / "run.py"), run_name="run_env_test")
+
         assert os.environ.get("TEST_KEY") == "hello"
         assert os.environ.get("OTHER_KEY") == "world"

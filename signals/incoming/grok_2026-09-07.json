@@ -1,0 +1,122 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "VC/founder Sam Lessin: «I would pay a great deal for a credit card that allowed me to cancel any subscription from their integrated app rather than trying to navigate service websites». Pain: subscription cancel UX across dozens of SaaS.",
+    "why_us": "Явный willingness-to-pay от платёжеспособного юзера; повторяемая боль (cancel friction) под финтех/карту или агрегатор подписок.",
+    "revenue": "WTP: «great deal» (high-intent, no $ stated)",
+    "source_link": "https://x.com/lessin/status/2089376498180555074",
+    "source_platform": "x",
+    "engagement": "577 likes, 67 replies, 65 bookmarks, 108k views",
+    "score": 82
+  },
+  {
+    "type": "demand_gap",
+    "what": "Harvest time-tracking: mass 1-star Trustpilot wave — renewal jumps $129→$1,158/yr (~794%), $180→$2,145/mo, $69→$821.50/mo (~1,091%), $2k→$22k/yr. Long-time SMBs exporting data and leaving.",
+    "why_us": "Открытый churn у платящих смолл-команд; окно для cheaper time-tracking/invoicing alternative с предсказуемым ценником и лёгким импортом.",
+    "revenue": "Incumbent bills $1k–$22k/yr; displaced spend is real",
+    "source_link": "https://www.trustpilot.com/review/www.harvestapp.com",
+    "source_platform": "trustpilot",
+    "engagement": "Multiple 1-star reviews Aug 2026; years-long customers",
+    "score": 86
+  },
+  {
+    "type": "demand_gap",
+    "what": "Replit Agent billing: Pro user ($100/mo) reports tasks that used to cost $5–10 now $20–70 with no realtime cost control; Jun–Jul 2026 ~$9,600 agent fees. Other reviews: $25 to watch agent fix its own mess; project $1k→$6k.",
+    "why_us": "Системная боль AI-codegen platforms: unpredictable token/agent loops. Demand for spend caps, live cost meter, cheaper deterministic builders.",
+    "revenue": "$100/mo base + $9.6k extra agent spend reported",
+    "source_link": "https://www.trustpilot.com/review/replit.com",
+    "source_platform": "trustpilot",
+    "engagement": "Recent 1-star cluster Sep 2026",
+    "score": 84
+  },
+  {
+    "type": "demand_gap",
+    "what": "Warp.dev AI terminal: «I paid $40 for 3 minutes» — agent burned credits, hallucinated. Others: 2500 requests gone after 10 prompts; BYOK without Anthropic prompt caching → full-price Opus on large codebases.",
+    "why_us": "AI-devtool pricing opacity + credit burn — та же категория, что Replit. Место для transparent usage / cached-BYOK wrapper.",
+    "revenue": "$39+ surprise invoices; paid Build plan users",
+    "source_link": "https://www.trustpilot.com/review/warp.dev",
+    "source_platform": "trustpilot",
+    "engagement": "1-star Aug 2026 + rating drop 5→1",
+    "score": 74
+  },
+  {
+    "type": "revenue_report",
+    "what": "tiiny.host founder: 2019 solo launch → 2020 first $10 customer → 2021 $1k MRR → 2023 $10k → 2024 $20k MRR → today $1M+ ARR file-hosting micro-SaaS, bootstrapped after 3 failed startups.",
+    "why_us": "Длинный трек simple hosting/file-share; доказанный path 0→$1M ARR без VC.",
+    "revenue": "$1,000,000+ ARR (~$83k+/mo)",
+    "source_link": "https://x.com/_baretto/status/2096899523289522416",
+    "source_platform": "x",
+    "engagement": "250 likes, 52 replies, 46 bookmarks",
+    "score": 78
+  },
+  {
+    "type": "revenue_report",
+    "what": "Career Hound job board: non-technical founder, launched ~2y ago, $25k last month. Hard paywall only: $7/wk, $20/mo, $50/yr. No free tier.",
+    "why_us": "Против фримиум-догмы: жёсткий paywall на нишевом job board даёт $25k/mo.",
+    "revenue": "$25k / last month",
+    "source_link": "https://x.com/starter_story/status/2096683186604704239",
+    "source_platform": "x",
+    "engagement": "81 likes, 100 bookmarks",
+    "score": 76
+  },
+  {
+    "type": "revenue_report",
+    "what": "Indie app for sale: launched late July 2026, $4,500 rev in ~1 month, $1,200 MRR, 200 subs, 10k downloads, 2M+ views. Asking $40k.",
+    "why_us": "Свежий мультипль ~33× MRR на мобильном продукте; быстрый 0→$1.2k MRR за месяц.",
+    "revenue": "$1,200 MRR; $4.5k lifetime; ask $40k",
+    "source_link": "https://x.com/g_buildz_apps/status/2096322603384262968",
+    "source_platform": "x",
+    "engagement": "89 likes, 47 bookmarks, 22k views",
+    "score": 72
+  },
+  {
+    "type": "revenue_report",
+    "what": "Mobile productivity app: launched Apr 2026, $70k MRR, 250k organic downloads, UGC 300M+ views in 3.5 months. Hiring equity head of growth.",
+    "why_us": "Редкий organic+UGC playbook до $70k MRR за ~5 месяцев; копируемый growth loop.",
+    "revenue": "$70k MRR",
+    "source_link": "https://x.com/andy__okamoto/status/2096143609070530855",
+    "source_platform": "x",
+    "engagement": "56 likes, 22 bookmarks",
+    "score": 73
+  },
+  {
+    "type": "revenue_report",
+    "what": "Whop store + Whop Ads: week 1, one morning $48 ad spend → $199 new MRR (monthly subs only), 4.15x ROAS.",
+    "why_us": "Конкретный paid-acquisition loop на digital products; низкий CAC в нише Whop.",
+    "revenue": "$199 new MRR / day on $48 ads",
+    "source_link": "https://x.com/czoob3/status/2096301608510591339",
+    "source_platform": "x",
+    "engagement": "126 likes, 49 bookmarks",
+    "score": 68
+  },
+  {
+    "type": "defi_yield",
+    "what": "Solana August wrap: $143M chain app revenue (38% share), 5.2B txs; tokenized equity ATH $683M; crypto card spend $100M+; OnRe $250M RWA on Kamino; FOMO $1.2M daily revenue record.",
+    "why_us": "Свежий onchain revenue map: payments/x402, RWA collateral, cards — где есть фактический yield/фи для продукта.",
+    "revenue": "$143M Aug app rev on Solana; FOMO $1.2M/day",
+    "source_link": "https://x.com/solana/status/2096584206360969439",
+    "source_platform": "x",
+    "engagement": "678 likes, 111 RTs, 122k views",
+    "score": 70
+  },
+  {
+    "type": "demand_gap",
+    "what": "G2 2026 B2B AI buying: finance now leads the room («is it worth the cost?»); ~half of buyers say CFO reversed an already-approved deal in 12 months; outcome-based pricing preference 11%→23%; 70% want shorter contracts because AI pricing is unpredictable.",
+    "why_us": "Макро-боль всего AI-SaaS: нужны outcome pricing, CFO-ready ROI pack, short contracts — не «seat × token».",
+    "revenue": "Deals stall / CFO kill after shortlist",
+    "source_link": "https://learn.g2.com/why-b2b-deals-stall-after-the-ai-shortlist-in-2026",
+    "source_platform": "g2",
+    "engagement": "G2 buyer survey 2026",
+    "score": 71
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "Founder shipped 7-agent AI that audits a business and outputs a scored PDF. Ran on own startup: 34/100. Price $98 per report.",
+    "why_us": "Узкий AI-wrapper с фиксированной ценой (vs token burn у Replit/Warp); проверяемый формат deliverable.",
+    "revenue": "$98 / report",
+    "source_link": "https://x.com/OfficialDIMAZA/status/2095836476038623560",
+    "source_platform": "x",
+    "engagement": "52 likes, 121k views",
+    "score": 62
+  }
+]

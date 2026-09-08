@@ -1,0 +1,132 @@
+[
+  {
+    "type": "revenue_report",
+    "what": "App launched Aug 10 2026 already at $104k MRR. Author frames 4 growth truths: good ad → downloads, onboarding → paywall rate, paywall → conversion, loop → low churn. Same thread: Apple rejected apps 10+ times; Rork AI reviewers catch flags pre-submit.",
+    "why_us": "Свежий mobile hit + боль App Store review roulette. Rork/пре-ревью это AI-wrapper на реальную боль фаундеров.",
+    "revenue": "$104k MRR in ~1 month",
+    "source_link": "https://x.com/itsjahmills/status/2096975956577522041",
+    "source_platform": "x",
+    "engagement": "73 likes, 118 bookmarks, 8.4k views",
+    "score": 86
+  },
+  {
+    "type": "revenue_report",
+    "what": "«Duolingo for photographers» hit $100K MRR one year after launch.",
+    "why_us": "Валидирует vertical Duolingo-clone playbook за пределами языков; копируемый skill-app формат.",
+    "revenue": "$100k MRR / 12 months",
+    "source_link": "https://x.com/appstoretracker/status/2096976710847902012",
+    "source_platform": "x",
+    "engagement": "28 likes, 39 bookmarks, 2.5k views",
+    "score": 72
+  },
+  {
+    "type": "revenue_report",
+    "what": "Modest Mitkus: 9 months after first mobile app launch, +$15k MRR, six figures lifetime. Now considering sale — mobile «glamorized» vs B2B web, asking best way to sell.",
+    "why_us": "Реальный exit-intent + цифры; сигнал на marketplace/брокер для small mobile SaaS.",
+    "revenue": "$15k+ MRR, $100k+ lifetime in 9 mo",
+    "source_link": "https://x.com/ModestMitkus/status/2096915643694284924",
+    "source_platform": "x",
+    "engagement": "90 likes, 53 bookmarks, 44 replies, 11k views",
+    "score": 78
+  },
+  {
+    "type": "revenue_report",
+    "what": "tryanim8.com: $455 day / $337 prev day, ~$1,142 MRR. Chart posted by founder (also $1.1k+ on another macOS app).",
+    "why_us": "Свежий микро-SaaS трек с ежедневными цифрами; сравнимый бенчмарк early traction.",
+    "revenue": "$1,142 MRR; $455/day spike",
+    "source_link": "https://x.com/adrianabelarde_/status/2096974882244645293",
+    "source_platform": "x",
+    "engagement": "56 likes, 13 bookmarks, 3k views",
+    "score": 68
+  },
+  {
+    "type": "revenue_report",
+    "what": "Tushar Kapil SaaS: $500 → $600 MRR in days (+$100 in ~48h earlier). On the way to $1k MRR. Repeat builder (sold FindYourSaaS, Leadlee).",
+    "why_us": "Короткий шаг $500→$600 с повторяемым фаундером; сигнал о early-PMF воронке.",
+    "revenue": "$600 MRR",
+    "source_link": "https://x.com/TusharKapil003/status/2097224951174742330",
+    "source_platform": "x",
+    "engagement": "69 likes, 29 replies, 8 bookmarks",
+    "score": 64
+  },
+  {
+    "type": "demand_gap",
+    "what": "Ask HN (27d): software that should exist — fully open hardware video streamer (open Roku/AppleTV + AirPlay audio), vein-print hardware authenticator, federated open library LMS, open Spotify-like desktop (Zotero UX + MusicBrainz + S3/rclone + yt-dlp).",
+    "why_us": "Пакет явных product wishes от HN-аудитории; открытый media stack и локальный auth — собираемые ниши.",
+    "revenue": "unpriced; hardware + open-source product gap",
+    "source_link": "https://news.ycombinator.com/item?id=49259602",
+    "source_platform": "hn",
+    "engagement": "Ask HN, 5 comments, 27 days",
+    "score": 66
+  },
+  {
+    "type": "demand_gap",
+    "what": "Capterra Oh Dear reviews: wish more settings; hourly non-critical notification spam; pricing in bulk packs (pay for 5/10/25) so 26 sites is bad unit economics; some say price higher than similar uptime tools.",
+    "why_us": "Классический cons у платящего monitoring: noisy alerts + step-function pricing. Место для per-site + smart severity.",
+    "revenue": "Incumbent priced above peers; bulk tiers",
+    "source_link": "https://www.capterra.com/p/190028/Oh-Dear/reviews/",
+    "source_platform": "capterra",
+    "engagement": "Verified Capterra cons cluster",
+    "score": 67
+  },
+  {
+    "type": "demand_gap",
+    "what": "Trustpilot anything.com / createanything.com / create.xyz: user spent €1,349.70 over 2 months on credits, got zero working product. Another: 23,000 credits on a simple task still failed; compared favorably Emergent, Base44, Rork.",
+    "why_us": "Повторяемая боль no-code AI builders: credit drain without deliverable. Demand for capped-cost / fixed-scope app builders.",
+    "revenue": "€1,349 wasted; 23k credits burned",
+    "source_link": "https://uk.trustpilot.com/review/anything.com",
+    "source_platform": "trustpilot",
+    "engagement": "1-star Sep 2026 cluster",
+    "score": 80
+  },
+  {
+    "type": "demand_gap",
+    "what": "Warp.dev Trustpilot: paid Build plan, BYOK broken («LLM unavailable»), no Anthropic prompt caching so Opus on large repos billed full input every call; 2500 requests gone after 10 prompts. Rating 5→1.",
+    "why_us": "Та же AI-devtool opacity, что Replit. Окно для cached-BYOK terminal / usage meter.",
+    "revenue": "Paid Build plan; surprise token bills",
+    "source_link": "https://www.trustpilot.com/review/warp.dev",
+    "source_platform": "trustpilot",
+    "engagement": "1-star updates Jan–Aug 2026",
+    "score": 74
+  },
+  {
+    "type": "demand_gap",
+    "what": "Trustpilot app.emergent.sh: page freezes, credits vanish, auto-enabled features drain paid credits, ~30 min of real use per subscription then forced top-up; apps ship buggy after credit burn.",
+    "why_us": "Ещё один AI app-builder credit trap (рядом с Anything/Replit). Повторяемость категории высокая.",
+    "revenue": "Subscription + forced credit top-ups",
+    "source_link": "https://it.trustpilot.com/review/app.emergent.sh",
+    "source_platform": "trustpilot",
+    "engagement": "TrustScore 2.0 / 29 reviews, Aug 2026 1-stars",
+    "score": 76
+  },
+  {
+    "type": "demand_gap",
+    "what": "G2 2026 B2B AI shortlist: finance now leads («is it worth the cost?»); ~half of buyers say CFO reversed an already-approved deal in 12 months; outcome-based pricing pref 11%→23%; 70% want shorter contracts because AI pricing is unpredictable.",
+    "why_us": "Макро-боль всего AI-SaaS: outcome pricing + CFO pack + short contracts, не seat×token.",
+    "revenue": "Deals killed post-shortlist by CFOs",
+    "source_link": "https://learn.g2.com/why-b2b-deals-stall-after-the-ai-shortlist-in-2026",
+    "source_platform": "g2",
+    "engagement": "G2 buyer survey 2026",
+    "score": 71
+  },
+  {
+    "type": "defi_yield",
+    "what": "Axis Robotics #2 of 1,098 Base apps, 13,482 WAU. Onchain task creation, verification, scoring, reward reconciliation; Proof of Quality Work for Physical AI / robotics data.",
+    "why_us": "Редкий traction Physical AI on Base с прозрачным reward flow — yield/work marketplace, не только токен.",
+    "revenue": "13.4k WAU; onchain rewards (APY not stated)",
+    "source_link": "https://x.com/0xDvox/status/2097018884532609393",
+    "source_platform": "x",
+    "engagement": "210 likes, 113 replies, 6k views; quoted 447 likes",
+    "score": 70
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "Rork: 5 AI reviewers that catch typical Apple App Store rejection reasons and fix before submit. Builder claims it killed week-long reject loops after 10+ rejections.",
+    "why_us": "Узкий wrapper на платную боль iOS фаундеров; связан с $104k MRR тредом.",
+    "revenue": "unpriced tool; attached to $104k MRR launch story",
+    "source_link": "https://x.com/itsjahmills/status/2096679039842836740",
+    "source_platform": "x",
+    "engagement": "parent + 73/118 on follow-up",
+    "score": 69
+  }
+]

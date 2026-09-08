@@ -88,6 +88,7 @@ sources:
         - "automation bot side project"
       max_results_per_term: 10
       timeout: 120
+      upload_date_after: "1 month"   # only fresh uploads: 2026-09 fix after the dedup key repair
 
   gumroad:
     enabled: true

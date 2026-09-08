@@ -15,7 +15,7 @@ from __future__ import annotations
 import hashlib
 import re
 import sqlite3
-from urllib.parse import urlparse
+from urllib.parse import parse_qs, urlparse
 
 from models import RawItem
 
@@ -54,6 +54,16 @@ def _url_key(url: str) -> str | None:
     host = p.netloc.lower()
     if host.startswith("www."):
         host = host[4:]
+    # YouTube video identity lives in the query (?v=ID), which the generic
+    # normalisation strips. Without this special case every /watch URL collapsed
+    # to the same key "u:youtube.com/watch" and the canonical-earliest rule kept
+    # a single video while flagging every other YouTube signal as a duplicate.
+    if host == "youtube.com" and path == "/watch":
+        vid = parse_qs(p.query).get("v", [""])[0]
+        if vid:
+            return f"u:youtube.com/watch?v={vid}"
+    if host == "youtu.be" and len(path) > 1:
+        return f"u:youtube.com/watch?v={path.lstrip('/').rstrip('/')}"
     return f"u:{host}{path}"
 
 

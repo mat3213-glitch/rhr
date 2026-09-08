@@ -118,6 +118,8 @@ def cmd_scan(args: argparse.Namespace) -> int:
     names = _resolve_scan_names(args, sources_cfg, conn)
     run = logger.start_run("scan", sources=names)
     total_in = total_kept = 0
+    attempted = 0
+    failed = 0
     if not names:
         print("[scan] nothing to do (no sources selected / none due)")
         logger.end_run("ok")
@@ -135,10 +137,12 @@ def cmd_scan(args: argparse.Namespace) -> int:
         except CollectorError as e:
             print(f"[scan] {name}: {e}")
             continue
+        attempted += 1
         print(f"[scan] {name}: fetching via {cfg['type']}...")
         try:
             items = coll.fetch()
         except Exception as e:
+            failed += 1
             print(f"[scan] {name}: FAILED ({e})")
             logger.log_error(f"scan:{name}: {e}")
             log_run(conn, f"scan:{name}", source=name, status="error", message=str(e))
@@ -161,9 +165,15 @@ def cmd_scan(args: argparse.Namespace) -> int:
         )
         total_in += len(items)
         total_kept += stats["inserted"]
-    run = logger.end_run("ok")
-    print(f"[scan] done. fetched={total_in} newly_kept={total_kept}")
-    return 0
+    if attempted > 0 and failed == attempted:
+        logger.end_run("error")
+        print(f"[scan] FAILED: all {attempted} attempted source(s) errored")
+        return 2
+    status = "partial" if failed else "ok"
+    logger.end_run(status)
+    suffix = f" errors={failed}" if failed else ""
+    print(f"[scan] done. fetched={total_in} newly_kept={total_kept}{suffix}")
+    return 1 if failed else 0
 
 
 def cmd_pipeline(_: argparse.Namespace) -> int:

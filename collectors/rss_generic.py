@@ -10,7 +10,7 @@ from urllib.parse import urlparse
 
 import feedparser
 
-from collectors.base import Collector, register
+from collectors.base import Collector, CollectorError, register
 from collectors.http_util import client as http_client
 from models import RawItem, strip_html, utcnow_iso
 
@@ -33,8 +33,8 @@ class RSSCollector(Collector):
                 r = cl.get(feed_url)
                 r.raise_for_status()
                 content = r.text
-        except Exception:
-            return []
+        except Exception as e:
+            raise CollectorError(f"RSS fetch failed for {feed_url}: {e}") from e
         parsed = feedparser.parse(content)
         site = self._site_name(parsed, feed_url)
         items: list[RawItem] = []

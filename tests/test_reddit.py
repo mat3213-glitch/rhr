@@ -91,7 +91,8 @@ class TestReddit:
         # No score info in feed → both pass (min_score only applies when score is present)
         assert len(items) == 2
 
-    def test_fetch_returns_empty_on_error(self):
+    def test_fetch_raises_on_error(self):
+        from collectors.base import CollectorError
         from collectors.reddit import RedditCollector
 
         c = RedditCollector({
@@ -102,9 +103,8 @@ class TestReddit:
         with patch("collectors.reddit.http_client") as MockClient:
             instance = MockClient.return_value.__enter__.return_value
             instance.get.side_effect = Exception("all fail")
-            items = c.fetch()
-
-        assert items == []
+            with pytest.raises(CollectorError, match="Reddit fetch failed"):
+                c.fetch()
 
     def test_fetch_multiple_subreddits(self):
         from collectors.reddit import RedditCollector

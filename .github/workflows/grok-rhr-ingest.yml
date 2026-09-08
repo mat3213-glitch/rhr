@@ -14,10 +14,14 @@ on:
 permissions:
   contents: write
   issues: write
+  pages: write
+  id-token: write
 
 concurrency:
   group: db-write
-  cancel-in-progress: true
+  # Never cancel an in-progress DB writer: a cancellation between processing
+  # and commit could lose the DB snapshot.
+  cancel-in-progress: false
 
 jobs:
   ingest:
@@ -57,3 +61,25 @@ jobs:
             git pull --rebase --autostash origin main
             git push
           fi
+
+      - name: Build dashboard
+        run: python dashboard/build.py
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dashboard
+
+  deploy-dashboard:
+    needs: ingest
+    runs-on: ubuntu-latest
+    concurrency:
+      group: pages
+      cancel-in-progress: false
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

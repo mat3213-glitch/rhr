@@ -65,6 +65,10 @@ class ClassifyOutput:
 Backend = Callable[[ClassifyInput], ClassifyOutput | None]
 
 
+class LLMError(RuntimeError):
+    """Technical failure of the LLM classifier — callers may fall back to rules."""
+
+
 # ─── rule-based backend (default, no deps) ────────────────────────────────────
 
 
@@ -106,22 +110,27 @@ def rule_backend(inp: ClassifyInput) -> ClassifyOutput | None:
 
 
 def llm_backend(inp: ClassifyInput) -> ClassifyOutput | None:
-    """LLM-backed classifier. Currently a thin wrapper that falls back to rules.
+    """LLM-backed classifier. Falls back to rules only on technical failure.
 
-    TODO when you share the free-LLM project:
-      * build a prompt from ClassifyInput,
-      * call your deploy (env-driven: base_url / model / api_key),
-      * parse the JSON response into ClassifyOutput,
-      * return None on parse failure (the signal is simply not classified).
-    Keep the ClassifyOutput schema stable — scoring & track depend on it.
+    Three outcomes from the LLM are kept distinct:
+      * positive verdict  -> ClassifyOutput
+      * explicit negative (is_opportunity=false) -> None (no fallback)
+      * technical error   -> LLMError -> rule_backend as a defined policy
     """
-    # Until the LLM endpoint is wired, fall through to rules so the pipeline
-    # is end-to-end testable today.
-    if os.environ.get("RHR_LLM_BASE_URL"):
+    if not os.environ.get("RHR_LLM_BASE_URL"):
+        return rule_backend(inp)
+    try:
         result = _call_llm(inp)
-        if result is not None:
-            return result
-    return rule_backend(inp)
+    except LLMError as e:
+        print(f"  [llm] signal {inp.signal_id} unavailable, fallback to rules: {e}")
+        return rule_backend(inp)
+    if result is _LLM_NEGATIVE:
+        return None
+    return result
+
+
+# Sentinel returned by _call_llm when the model explicitly says is_opportunity=false.
+_LLM_NEGATIVE = object()
 
 
 def _call_llm(inp: ClassifyInput) -> ClassifyOutput | None:
@@ -135,7 +144,7 @@ def _call_llm(inp: ClassifyInput) -> ClassifyOutput | None:
     model = os.environ.get("RHR_LLM_MODEL", "gpt-4o-mini")
 
     if not base_url:
-        return None
+        raise LLMError("RHR_LLM_BASE_URL is empty")
 
     if not api_key:
         try:
@@ -147,12 +156,11 @@ def _call_llm(inp: ClassifyInput) -> ClassifyOutput | None:
                 api_key = result.stdout.strip()
                 print("  [llm] Using gh auth token as API key (set RHR_LLM_API_KEY for dedicated key)")
             else:
-                return None
-        except Exception:
-            return None
-
-    if not api_key:
-        return None
+                raise LLMError("no api key: gh auth token unavailable")
+        except LLMError:
+            raise
+        except Exception as e:
+            raise LLMError("no api key: gh auth token failed") from e
 
     system_prompt = """You are a classifier for passive-income opportunities found online.
 Given a signal (title, body snippet, source, engagement points, matched keyword groups),
@@ -220,7 +228,7 @@ Guidelines:
             break
         except httpx.HTTPStatusError as e:
             if e.response.status_code not in (429, 500, 502, 503, 504):
-                return None
+                raise LLMError(f"HTTP {e.response.status_code} from LLM endpoint")
             last_exc = e
         except (httpx.TimeoutException, httpx.ConnectError) as e:
             last_exc = e
@@ -228,17 +236,19 @@ Guidelines:
             time.sleep(min(1.0 * (2 ** attempt), 10.0))
     else:
         print(f"  [llm] HTTP error for signal {inp.signal_id}: {last_exc}")
-        return None
+        raise LLMError(f"LLM endpoint unavailable: {last_exc}")
 
     try:
         raw = resp.json()["choices"][0]["message"]["content"]
         data = json.loads(raw)
     except (KeyError, IndexError, json.JSONDecodeError) as e:
         print(f"  [llm] parse error for signal {inp.signal_id}: {e}")
-        return None
+        raise LLMError(f"LLM response parse failure") from e
 
+    if "is_opportunity" not in data:
+        raise LLMError("LLM response missing is_opportunity field")
     if not data.get("is_opportunity", False):
-        return None
+        return _LLM_NEGATIVE
 
     _VALID_CATEGORIES = {"crypto_defi", "digital_asset", "arbitrage", "algo", "other"}
     _VALID_METHODS = {"staking", "yield", "airdrop", "micro_saas", "ai_wrapper", "bot",

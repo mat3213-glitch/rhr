@@ -239,6 +239,9 @@ class SafeRedirectTransport(httpx.BaseTransport):
             raise httpx.ConnectError(f"Blocked SSRF: {host}")
         return self._inner.handle_request(request)
 
+    def close(self) -> None:
+        self._inner.close()
+
 
 def client(
     *,

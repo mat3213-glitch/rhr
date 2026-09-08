@@ -1,6 +1,8 @@
 """Tests for pipeline/classify.py — rule_backend, helpers, classify_pending."""
 import json
 
+from unittest.mock import MagicMock
+
 from pipeline.classify import (
     ClassifyInput,
     ClassifyOutput,
@@ -470,3 +472,69 @@ class TestClassifyPending:
         result = classify_pending(db)
         assert result["candidates_created"] == 0
         assert result["signals_skipped"] == 0  # SQL already filters out linked signals
+
+
+# ── llm_backend tri-state (A10): positive / explicit negative / technical error ──
+
+class TestLLMBackendTriState:
+    def _positive_input(self) -> ClassifyInput:
+        # "Build a SaaS bot" + build_intent → rules WOULD accept it.
+        return ClassifyInput(
+            signal_id=1,
+            source="hackernews",
+            title="Build a SaaS bot",
+            body_text="Let's build SaaS together",
+            url=None,
+            points=150,
+            matched_groups=["build_intent"],
+        )
+
+    def test_explicit_negative_is_not_overridden_by_rules(self, monkeypatch):
+        # An explicit is_opportunity=false must NOT fall back to rule_backend even
+        # when the signal matches heuristics.
+        monkeypatch.setenv("RHR_LLM_BASE_URL", "https://example.invalid/v1")
+        monkeypatch.setenv("RHR_LLM_API_KEY", "test-key")
+
+        import httpx as _httpx
+        fake = MagicMock()
+        fake.json.return_value = {
+            "choices": [{"message": {"content": '{"is_opportunity": false}'}}]
+        }
+        monkeypatch.setattr(_httpx, "post", lambda *a, **k: fake)
+
+        from pipeline.classify import llm_backend, rule_backend
+        inp = self._positive_input()
+        assert rule_backend(inp) is not None  # sanity: rules would say "yes"
+        assert llm_backend(inp) is None      # explicit LLM "no" wins
+
+    def test_technical_error_falls_back_to_rules(self, monkeypatch):
+        from pipeline.classify import llm_backend, rule_backend
+        monkeypatch.setenv("RHR_LLM_BASE_URL", "https://example.invalid/v1")
+        monkeypatch.setenv("RHR_LLM_API_KEY", "test-key")
+
+        import httpx as _httpx
+        monkeypatch.setattr(_httpx, "post", lambda *a, **k: (_ for _ in ()).throw(
+            _httpx.ConnectError("down")
+        ))
+
+        inp = self._positive_input()
+        out = llm_backend(inp)
+        # 3 retries exhausted → LLMError → rules fallback (defined policy).
+        assert out is not None and out.is_opportunity is True
+        assert out.category == "digital_asset"
+
+    def test_missing_is_opportunity_is_technical_error(self, monkeypatch):
+        monkeypatch.setenv("RHR_LLM_BASE_URL", "https://example.invalid/v1")
+        monkeypatch.setenv("RHR_LLM_API_KEY", "test-key")
+
+        import httpx as _httpx
+        fake = MagicMock()
+        fake.json.return_value = {
+            "choices": [{"message": {"content": "{}"}}]
+        }
+        monkeypatch.setattr(_httpx, "post", lambda *a, **k: fake)
+
+        from pipeline.classify import llm_backend
+        inp = self._positive_input()
+        # Malformed response treated as failure → rules fallback.
+        assert llm_backend(inp) is not None

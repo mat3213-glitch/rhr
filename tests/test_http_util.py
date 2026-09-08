@@ -157,6 +157,12 @@ class TestSafeRedirectTransport:
                 httpx.Request("GET", "https://internal.example/b")
             )
 
+    def test_close_delegates_to_inner(self):
+        inner = MagicMock()
+        transport = SafeRedirectTransport(inner)
+        transport.close()
+        inner.close.assert_called_once()
+
 
 class TestPinnedNetworkBackend:
     def test_connects_to_validated_ip_not_hostname(self, monkeypatch):

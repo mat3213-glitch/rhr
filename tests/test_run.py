@@ -169,6 +169,13 @@ class TestEnvLoading:
             return builtin_open(path, *args, **kwargs)
 
         monkeypatch.setattr("builtins.open", open_test_env)
+        # run.py guards the loader with os.path.isfile(project/.env) — on a clean
+        # checkout that file has no real .env, so fake existence to exercise loading.
+        _orig_isfile = os.path.isfile
+        monkeypatch.setattr(
+            "os.path.isfile",
+            lambda p: (os.fspath(p) == project_env) or _orig_isfile(p),
+        )
         runpy.run_path(str(Path(__file__).parent.parent / "run.py"), run_name="run_env_test")
 
         assert os.environ.get("TEST_KEY") == "hello"

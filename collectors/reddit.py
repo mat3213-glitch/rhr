@@ -10,7 +10,7 @@ import time
 
 import feedparser
 
-from collectors.base import Collector, register
+from collectors.base import Collector, CollectorError, register
 from collectors.http_util import client as http_client
 from models import RawItem, strip_html, utcnow_iso
 
@@ -43,8 +43,8 @@ class RedditCollector(Collector):
                 r = cl.get(rss_url, headers={"User-Agent": REDDIT_UA})
                 r.raise_for_status()
                 feed_text = r.text
-        except Exception:
-            return []
+        except Exception as e:
+            raise CollectorError(f"Reddit fetch failed for r/{subreddit}: {e}") from e
 
         parsed = feedparser.parse(feed_text)
         if not parsed.entries:

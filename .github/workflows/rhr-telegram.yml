@@ -58,6 +58,9 @@ jobs:
         # Closes the loop: classify -> worker /rewrite -> /add -> Bot moderation.
         # Marks forwarded candidates in data/rhr.db (bridge_forwarded), so this
         # step MUST run before the DB snapshot commit below.
+        # continue-on-error: a missing secret / transient worker error must not
+        # block the DB snapshot commit; forwarded marks persist either way.
+        continue-on-error: true
         env:
           S2C_WORKER_URL: ${{ secrets.S2C_WORKER_URL }}
           S2C_WORKER_SECRET: ${{ secrets.S2C_WORKER_SECRET }}

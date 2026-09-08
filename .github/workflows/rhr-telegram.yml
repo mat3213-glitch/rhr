@@ -15,10 +15,14 @@ on:
 permissions:
   contents: write
   issues: write
+  pages: write
+  id-token: write
 
 concurrency:
   group: db-write
-  cancel-in-progress: true
+  # Never cancel an in-progress DB writer: a cancellation between issue creation
+  # and the DB commit could orphan already-created GitHub Issues.
+  cancel-in-progress: false
 
 jobs:
   pipeline:
@@ -50,6 +54,15 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python run.py track --top 10
 
+      - name: Bridge top candidates to s2c moderation
+        # Closes the loop: classify -> worker /rewrite -> /add -> Bot moderation.
+        # Marks forwarded candidates in data/rhr.db (bridge_forwarded), so this
+        # step MUST run before the DB snapshot commit below.
+        env:
+          S2C_WORKER_URL: ${{ secrets.S2C_WORKER_URL }}
+          S2C_WORKER_SECRET: ${{ secrets.S2C_WORKER_SECRET }}
+        run: python scripts/bridge_to_s2c.py --limit 5
+
       - name: Commit DB snapshot
         # Same pattern as grok-rhr-ingest.yml: checkpoint WAL, commit, rebase, push.
         # Persists signals, candidates, and github_issue_number so the next run
@@ -67,5 +80,27 @@ jobs:
             git push
           fi
 
+      - name: Build dashboard
+        run: python dashboard/build.py
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dashboard
+
       - name: Show status
         run: python run.py status
+
+  deploy-dashboard:
+    needs: pipeline
+    runs-on: ubuntu-latest
+    concurrency:
+      group: pages
+      cancel-in-progress: false
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

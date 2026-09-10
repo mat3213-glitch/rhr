@@ -1,0 +1,142 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "Кредитная карта/банк-апп, который отменяет любую подписку из одного интерфейса, без бега по сайтам сервисов. Инвестор Sam Lessin: «I would pay a great deal».",
+    "why_us": "Повторяющаяся боль платежеспособных пользователей; подтверждается жалобами на Trustpilot (WPS, Appnebula, Microsoft 365) про тихие списания и невозможность отменить подписку.",
+    "revenue": "willingness-to-pay high; банковский/fintech ARPU",
+    "source_link": "https://x.com/lessin/status/2089376498180555074",
+    "source_platform": "x",
+    "engagement": "577 likes, 67 replies, 65 bookmarks, 108k views",
+    "score": 86
+  },
+  {
+    "type": "demand_gap",
+    "what": "OpenRouter для тулов/агентов: единый протокол, чтобы не регистрироваться в 1000 сервисах; мерчант хостит тул, агент обнаруживает, чек с $0.05/запрос.",
+    "why_us": "Сильный сигнал с агентного слоя; платёжеспособный B2B/infra, явная монетизация per-request.",
+    "revenue": "$0.05/request + take-rate marketplace",
+    "source_link": "https://x.com/FardeemM/status/2096640569808241076",
+    "source_platform": "x",
+    "engagement": "850 likes, 127 replies, 369 bookmarks, 188k views (parent); reply 102 likes / 85 bookmarks",
+    "score": 88
+  },
+  {
+    "type": "demand_gap",
+    "what": "OneKYC: пройти KYC один раз и получить доступ к необанкам, CEX, торговым площадкам. Боль — 30 минут сканирования лица на каждый новый аккаунт.",
+    "why_us": "Двусторонний спрос (user + platform conversion); финтех готов платить за онбординг.",
+    "revenue": "B2B per-KYC / SaaS to platforms",
+    "source_link": "https://x.com/defyneric/status/2056261242809934147",
+    "source_platform": "x",
+    "engagement": "141 likes, 84 replies, 65 bookmarks",
+    "score": 72
+  },
+  {
+    "type": "demand_gap",
+    "what": "Отдельный десктоп-апп Codex вне ChatGPT: сейчас нужно тапать ChatGPT → Codex → ждать desktop connection, из-за этого откладывают работу.",
+    "why_us": "Узкий UX-gap в AI-coding стеке; девы платят за latency/трение.",
+    "revenue": "paid desktop client / wrapper",
+    "source_link": "https://x.com/0xDesigner/status/2071326075263529159",
+    "source_platform": "x",
+    "engagement": "118 likes, 27 replies",
+    "score": 64
+  },
+  {
+    "type": "demand_gap",
+    "what": "Эквивалент ASR-правила Microsoft Defender (блокировать exe без prevalence/age/trusted list) у других EDR. Пентестер: why is there no equivalent.",
+    "why_us": "Боль у SecOps/инфра; высокие bookmarks = сохраняют как референс.",
+    "revenue": "enterprise security spend",
+    "source_link": "https://x.com/techspence/status/2097751393020870832",
+    "source_platform": "x",
+    "engagement": "162 likes, 110 bookmarks, 25k views",
+    "score": 71
+  },
+  {
+    "type": "demand_gap",
+    "what": "Фильтр AI-slop инди-игр на Steam: «another AI slop indie game every 14 minutes».",
+    "why_us": "Массовый discovery-pain для сторов; можно упаковать как скоринг/браузер для каталогов.",
+    "revenue": "consumer/prosumer filter SaaS",
+    "source_link": "https://x.com/jbmax77/status/2097884971633725716",
+    "source_platform": "x",
+    "engagement": "300 likes, 13k views",
+    "score": 68
+  },
+  {
+    "type": "demand_gap",
+    "what": "monday.com AI Work Platform: AI-фичи заперты за дорогими тарифами — малые команды не могут достать потенциал. Параллельно Zapier: жалоба на cost; Asana — фичи уезжают в более дорогой Enterprise.",
+    "why_us": "Классический gap дешёвого AI-workflow для SMB vs инкамбенты.",
+    "revenue": "SMB workflow $10-30/mo",
+    "source_link": "https://www.g2.com/software/workflow-management",
+    "source_platform": "g2",
+    "engagement": "category reviews; explicit cons on pricing/AI gating",
+    "score": 70
+  },
+  {
+    "type": "demand_gap",
+    "what": "G2 2026 Buyer Behavior: узкое место сдвинулось с shortlist на внутреннее одобрение. CFO разворачивает сделки; 70% баеров хотят короткие контракты; outcome-based pricing 11%→23%.",
+    "why_us": "Мета-боль рынка B2B: инструменты «cost story for finance» / ROI pack / короткий контракт.",
+    "revenue": "procurement/enablement SaaS",
+    "source_link": "https://learn.g2.com/why-b2b-deals-stall-after-the-ai-shortlist-in-2026",
+    "source_platform": "g2",
+    "engagement": "G2 2026 Buyer Behavior Report; ~half buyers: CFO reversed approved deal",
+    "score": 74
+  },
+  {
+    "type": "revenue_report",
+    "what": "Vertical AI сжимает путь к $100M ARR: Harvey $100M за 3 года, Legora за 18 мес., OpenEvidence $50M→$150M за 5 мес. Продают готовую работу, не сидения.",
+    "why_us": "Бенчмарк монетизации vertical AI vs старый vSaaS.",
+    "revenue": "$100M+ ARR (Harvey); $150M (OpenEvidence)",
+    "source_link": "https://x.com/lukesophinos/status/2097374197781516554",
+    "source_platform": "x",
+    "engagement": "98 likes, 139 bookmarks, 13k views",
+    "score": 82
+  },
+  {
+    "type": "revenue_report",
+    "what": "gethigh.today — анти-outbid «dump someone / take their spot», сделан за 5 дней. $405 processed / $319 net, 10k views, first payout $175. До этого $0 с собственного SaaS.",
+    "why_us": "Свежий микро-SaaS с цифрами и контр-позиционированием к клонам.",
+    "revenue": "$405 processed (~$319 net), first payout $175",
+    "source_link": "https://x.com/Harish_521/status/2096892711827583343",
+    "source_platform": "x",
+    "engagement": "108 likes, 32 bookmarks",
+    "score": 76
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "SABLE: $1,000 выручки за 6 дней после лонча, без token sale — только продукт.",
+    "why_us": "Ранний product-paid сигнал в AI/инфра нише.",
+    "revenue": "$1,000 in 6 days",
+    "source_link": "https://x.com/sablenetwork/status/2097111211993153731",
+    "source_platform": "x",
+    "engagement": "63 likes",
+    "score": 62
+  },
+  {
+    "type": "revenue_report",
+    "what": "Stan Store: $3M ARR за 1.5 года → $10M год 2 → $30M год 3 → $40M. Новый продукт Stanley (AI Head of Content) из боли «нет аудитории чтобы продавать».",
+    "why_us": "Кейс расширения из смежной боли существующих клиентов.",
+    "revenue": "$40M ARR",
+    "source_link": "https://www.indiehackers.com/post/tech/going-all-in-and-hitting-30m-arr-in-three-years-IBwjFYRHPn5joh0Qm17J",
+    "source_platform": "other",
+    "engagement": "IH feature Sep 2026",
+    "score": 78
+  },
+  {
+    "type": "automation",
+    "what": "Recurflux: тихий отток MRR из-за failed payments (карты, decline, fraud), а не из-за честного churn. Фокус на NRR, а не MRR.",
+    "why_us": "Боль всех подписочных SaaS; автовосстановление платежей.",
+    "revenue": "SaaS billing recovery",
+    "source_link": "https://www.indiehackers.com/post/the-nrr-lie-why-your-mrr-dashboard-is-hiding-your-biggest-leak-bcbc926404",
+    "source_platform": "other",
+    "engagement": "IH post Jun 2026",
+    "score": 67
+  },
+  {
+    "type": "demand_gap",
+    "what": "Шторм-чейсеры/метеорологи хотят dating-апп под нишу; «I would pay $$$ ».",
+    "why_us": "Узкая ниша с явным WTP и высоким engagement.",
+    "revenue": "niche consumer sub",
+    "source_link": "https://x.com/MatthewCappucci/status/2096080933564579894",
+    "source_platform": "x",
+    "engagement": "344 likes, 33 replies, 25k views",
+    "score": 66
+  }
+]

@@ -1,0 +1,172 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "App that auto-organizes screenshots into folders (tickets/travel, recipes, memes, notes/reminders) using on-device AI",
+    "why_us": "Recurring consumer pain; Carl Pei thread + multiple replies; high willingness to use daily",
+    "revenue": "consumer subscription $3-8/mo",
+    "source_link": "https://x.com/getpeid/status/2051789688675893665",
+    "source_platform": "x",
+    "engagement": "thread with many idea replies; parent viral",
+    "score": 72
+  },
+  {
+    "type": "demand_gap",
+    "what": "On-device realtime scam detector for calls/SMS/WhatsApp/web before user clicks or pays",
+    "why_us": "Explicit request in popular idea thread; privacy-first on-device AI is a wedge",
+    "revenue": "freemium + $5-10/mo",
+    "source_link": "https://x.com/getpeid/status/2051789688675893665",
+    "source_platform": "x",
+    "engagement": "reply in high-visibility Carl Pei thread",
+    "score": 68
+  },
+  {
+    "type": "demand_gap",
+    "what": "Dinner picker + grocery list + optional pickup order so user stops deciding what to eat",
+    "why_us": "Direct 'I wish there was an app' + 'I'm tired of picking food'; meal planning niche still fragmented",
+    "revenue": "$5-12/mo or affiliate grocery",
+    "source_link": "https://x.com/misfit_dane/status/2098113867649839144",
+    "source_platform": "x",
+    "engagement": "fresh 10 Sep 2026 post",
+    "score": 61
+  },
+  {
+    "type": "demand_gap",
+    "what": "Distribution-on-autopilot tool that understands product/voice/audience and posts across platforms",
+    "why_us": "Founder explicitly 'I would pay serious money'; distribution is the #1 bottleneck after vibe-coding flood",
+    "revenue": "SaaS $50-200/mo for indie founders",
+    "source_link": "https://x.com/DrewWakefield5/status/2097988448875315696",
+    "source_platform": "x",
+    "engagement": "fresh 10 Sep",
+    "score": 70
+  },
+  {
+    "type": "demand_gap",
+    "what": "Task/todo app with NO AI by default; AI as optional paid upgrade. Users pay to reduce friction not add prompts",
+    "why_us": "Counter-trend to AI-everywhere; builders say they would pay for no-AI version",
+    "revenue": "$8-20/mo",
+    "source_link": "https://x.com/maomao000211/status/2098306312962752630",
+    "source_platform": "x",
+    "engagement": "fresh 11 Sep",
+    "score": 62
+  },
+  {
+    "type": "demand_gap",
+    "what": "Fanfic app = Tumblr social + AO3-grade filters",
+    "why_us": "Clear product gap between two existing products; fandom users are paying and vocal",
+    "revenue": "$4-8/mo",
+    "source_link": "https://x.com/tuidevans/status/2098115363275972709",
+    "source_platform": "x",
+    "engagement": "fresh 10 Sep",
+    "score": 60
+  },
+  {
+    "type": "revenue_report",
+    "what": "Nodott SaaS: $0 ads, 4 months, $500 MRR, 35 paying customers; DM outreach + 1-month free trial",
+    "why_us": "Concrete early-stage playbook with numbers and conversion tactics",
+    "revenue": "$500/mo",
+    "source_link": "https://x.com/heyIrfan/status/2098403364434546804",
+    "source_platform": "x",
+    "engagement": "7 likes, 2 replies, 150 views same-day",
+    "score": 71
+  },
+  {
+    "type": "revenue_report",
+    "what": "Bootstrapped $4k MRR across Astra + Superwrapper; distribution > product; waitlist of 3k was fake validation",
+    "why_us": "Real numbers + 5 operational lessons useful for RHR scoring of new launches",
+    "revenue": "$4k/mo",
+    "source_link": "https://x.com/abhishvekcn/status/2098312684379034028",
+    "source_platform": "x",
+    "engagement": "8 likes, 2 RTs, 10 replies, 5 bookmarks",
+    "score": 78
+  },
+  {
+    "type": "revenue_report",
+    "what": "List of 100+ apps launched in 2026 making $50k+ MRR; also 3 apps at $30k+ including Modyfy",
+    "why_us": "Aggregate proof that 2026 app market still prints; source for competitive scan",
+    "revenue": "$30k-50k+/mo cohort",
+    "source_link": "https://x.com/AIAdsApps/status/2098411740228624434",
+    "source_platform": "x",
+    "engagement": "same-day 11 Sep",
+    "score": 66
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "Voice AI market $22.5B, 34.8% CAGR; Vapi $50M raise; Retell $50M ARR",
+    "why_us": "Category still accelerating; wrappers on voice agents still monetizing",
+    "revenue": "Retell $50M ARR",
+    "source_link": "https://x.com/AICEOJourney/status/2098411375701741709",
+    "source_platform": "x",
+    "engagement": "same-day",
+    "score": 64
+  },
+  {
+    "type": "demand_gap",
+    "what": "Atlassian/Loom: post-acquisition seat explosion $24 -> $288/mo without consent; users calling it a scam",
+    "why_us": "Classic 'incumbent got greedy' opening for simple video-async alternative with honest seats",
+    "revenue": "displacement of $20-60/mo Loom seats",
+    "source_link": "https://www.trustpilot.com/review/atlassian.com",
+    "source_platform": "trustpilot",
+    "engagement": "fresh 1-star 10 Sep 2026",
+    "score": 74
+  },
+  {
+    "type": "demand_gap",
+    "what": "Budget apps (Spendee) deleting years of data; bank sync broken; users paid premium and lost history",
+    "why_us": "Repeat finance-app trust failure; opportunity for export-first, local-first money tracker",
+    "revenue": "$5-10/mo premium",
+    "source_link": "https://www.trustpilot.com/review/spendee.com",
+    "source_platform": "trustpilot",
+    "engagement": "multiple 1-star 2026",
+    "score": 67
+  },
+  {
+    "type": "demand_gap",
+    "what": "monday/Jira/ClickUp/Zapier G2 cons: AI locked in expensive tiers, pricing explodes with seats, Zapier cost vs hours saved",
+    "why_us": "Repeat B2B pain = cheaper automation + honest AI packaging",
+    "revenue": "SMB $20-80/mo alternative",
+    "source_link": "https://www.g2.com/software/workflow-management",
+    "source_platform": "g2",
+    "engagement": "current G2 review cluster",
+    "score": 69
+  },
+  {
+    "type": "demand_gap",
+    "what": "Devs want AI that explains PRs like a human and AI that summarizes Slack to the 1% that matters",
+    "why_us": "Not another coding copilot; energy-drain work around code. High willingness to pay among engineers",
+    "revenue": "$15-40/user/mo",
+    "source_link": "https://dev.to/notadevbuthere/the-ai-tools-nobody-builds-but-every-developer-secretly-needs-4bid",
+    "source_platform": "forum",
+    "engagement": "DEV article Dec 2025 still circulating",
+    "score": 73
+  },
+  {
+    "type": "demand_gap",
+    "what": "Indie productivity: pick a narrow workflow, one-time price, widget, offline, iCloud. Big players ignore niches; users furious at subscriptions",
+    "why_us": "Playbook + proven demand from 6k paid iOS apps analysis",
+    "revenue": "$8-20 one-time or cheap sub",
+    "source_link": "https://youcouldshipthis.com/blog/productivity-app-opportunities",
+    "source_platform": "other",
+    "engagement": "research post",
+    "score": 71
+  },
+  {
+    "type": "demand_gap",
+    "what": "Chronic med coordinator: multi-drug schedule + adherence history + doctor view. 40M chronic patients in ES example; regulation is the moat",
+    "why_us": "Real unsolved problem VCs avoid; if compliance lite / caregiver-first, paid niche",
+    "revenue": "$10-20/mo families + clinic seat",
+    "source_link": "https://crush.news/tecnologia/apps-y-servicios/aplicaciones-que-deberian-existir/",
+    "source_platform": "other",
+    "engagement": "Apr 2026 feature",
+    "score": 63
+  },
+  {
+    "type": "demand_gap",
+    "what": "Tool that audits public ADS-B data vs published airline guidance and ranks airlines on violations",
+    "why_us": "Niche data product; journalists + regulators + travelers would pay or share",
+    "revenue": "media license / API",
+    "source_link": "https://x.com/DorianNo5/status/2098118682492731546",
+    "source_platform": "x",
+    "engagement": "10 Sep request",
+    "score": 60
+  }
+]

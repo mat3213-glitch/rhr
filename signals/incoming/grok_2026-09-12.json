@@ -1,0 +1,82 @@
+[
+  {
+    "type": "revenue_report",
+    "what": "Filip Panoski: first SaaS hit $10k MRR. Build-in-public post with high engagement.",
+    "why_us": "Свежий бенчмарк соло-SaaS: путь до $10k MRR всё ещё конвертит внимание и показывает платёжеспособную аудиторию indie-хакеров.",
+    "revenue": "$10k/mo",
+    "source_link": "https://x.com/FilipPanoski/status/2098049121617694994",
+    "source_platform": "x",
+    "engagement": "2338 likes, 502 replies, 232 bookmarks",
+    "score": 88
+  },
+  {
+    "type": "revenue_report",
+    "what": "Rob Hallam: первый стартап 10 месяцев до $10k MRR; vibecoded-сайт за 5 часов сделал $13k за месяц. Портфель $22k+$13k+$38k.",
+    "why_us": "Конкретные цифры vibecoding vs классический SaaS. Сигнал что микро-сайты/AI-сайты монетизируются быстрее продукта.",
+    "revenue": "$13k this month (5h build); prior $10k MRR in 10 months",
+    "source_link": "https://x.com/robj3d3/status/2098501580517777676",
+    "source_platform": "x",
+    "engagement": "310 likes, 62 replies, 83 bookmarks",
+    "score": 84
+  },
+  {
+    "type": "revenue_report",
+    "what": "Marc Lou: DataFa.st достиг $30k MRR за 2 года без SEO/ads/sponsorships, только WoM. 1387 платящих.",
+    "why_us": "Доказывает что узкий B2B-инструмент с фичами для пользователей масштабируется без платного трафика.",
+    "revenue": "$30k/mo",
+    "source_link": "https://x.com/marclou/status/2095848353989058621",
+    "source_platform": "x",
+    "engagement": "1098 likes, 247 replies, 231 bookmarks",
+    "score": 82
+  },
+  {
+    "type": "demand_gap",
+    "what": "Replit: массовые жалобы на дороговизну, сгорание кредитов, скрытый billing. Trustpilot 11.09: $3023 за 'ghost code', отказ в рефанде. G2: 68 упоминаний expensive, юзер потратил $5k+ и залочен в annual $250/mo до 2027 без даунгрейда.",
+    "why_us": "Повторяющаяся боль vibe-coding платформ. Спрос на usage-based / per-job агента без lock-in и прозрачный биллинг.",
+    "revenue": "покупатели уже платят $25–$3000+; annual Pro $250/mo",
+    "source_link": "https://www.trustpilot.com/review/replit.com",
+    "source_platform": "trustpilot",
+    "engagement": "свежие 1-star 11-12 Sep 2026; G2 68 mentions expensive",
+    "score": 86
+  },
+  {
+    "type": "demand_gap",
+    "what": "G2 AI Code Generation 2026: в 3000+ отзывах 12% жалуются на accuracy; ChatGPT 23% (232/1026), Gemini 20%. Purpose-built (Cursor 4%, Replit 2%) лучше, но покупатели всё равно бесят ошибки в проде.",
+    "why_us": "Demand gap на coding-агента с быстрым обнаружением ошибок до продакшена, не ещё один чат.",
+    "revenue": "категория платит (Copilot/Cursor/Claude tiers)",
+    "source_link": "https://learn.g2.com/ai-code-generation",
+    "source_platform": "g2",
+    "engagement": "3000+ verified reviews; 92% positive overall 4.6/5",
+    "score": 76
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "Pocket FM: 0→$500M ARR, +$250M за год, EBITDA+. Пивот на only-AI content: 25k→2.5M часов/год. Pocket Saga (AI video microdrama) за 2 месяца ~$15M ARR. Localization > translation (+50% retention).",
+    "why_us": "Рабочий playbook AI-контент + UA: 17.5k ads/мес, CTR 2.25% режет CAC на ~30%. Формат микродрам копируем.",
+    "revenue": "$500M ARR; Saga ~$15M ARR in 2 months",
+    "source_link": "https://x.com/RohanNayak2/status/2098104784264065525",
+    "source_platform": "x",
+    "engagement": "5238 likes, 627 RTs, 12k bookmarks, 3.5M views",
+    "score": 80
+  },
+  {
+    "type": "demand_gap",
+    "what": "Врач: 'I wish there was an app like UWorld for Primaries' — нет нормального QBank под первичные медэкзамены в стиле UWorld.",
+    "why_us": "Мед-образование платит дорого (UWorld = премиум). Узкий экзаменационный wrapper с объяснениями.",
+    "revenue": "willingness: медрезы платят десятки $/mo за QBanks",
+    "source_link": "https://x.com/_ivabradine/status/2096893566375117078",
+    "source_platform": "x",
+    "engagement": "143 likes, 75 bookmarks",
+    "score": 64
+  },
+  {
+    "type": "demand_gap",
+    "what": "Constant Contact G2: цена растёт с листом, полезные фичи за paywall, редактор писем ограничивает бренд. Сложные workflow не тянет.",
+    "why_us": "Классический email-SaaS gap: дешёвый редактор + автоматизации без скачка цены за контакты.",
+    "revenue": "Lite $12 / Standard $35 / Premium $80 per month",
+    "source_link": "https://www.g2.com/products/constant-contact/reviews",
+    "source_platform": "g2",
+    "engagement": "повторяющиеся cons про price + customization",
+    "score": 66
+  }
+]

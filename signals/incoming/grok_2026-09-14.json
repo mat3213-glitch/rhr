@@ -1,0 +1,102 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "OpenRouter for tools: Fardeem 'I don't wanna sign up for 1000 services' (850 likes). echul: someone should build an open protocol so any merchant hosts a tool, agents discover it, $0.05/request.",
+    "why_us": "Явная B2B-боль агентной экономики: единый каталог/биллинг тулов вместо 1000 аккаунтов. Платежеспособные builders, 86 bookmarks на follow-up.",
+    "revenue": "$0.05 per request (proposed); market = agent infra",
+    "source_link": "https://x.com/echulshin/status/2096930201762742504",
+    "source_platform": "x",
+    "engagement": "102 likes / 17 replies / 86 bookmarks; quoted 850 likes",
+    "score": 88
+  },
+  {
+    "type": "demand_gap",
+    "what": "Warp.dev Trustpilot (сент 2026): Agent сжигает кредиты на ошибках платформы. '$40 for 3 minutes', крупные задачи = дорого и бесполезно. Нет fair credit refund при фейле агента.",
+    "why_us": "Тот же паттерн что Replit, но другой продукт: спрос на coding-агента с hard cap, refund за platform-fail и прозрачным usage.",
+    "revenue": "платят $40+ за сессию; Pro-тарифы AI IDE",
+    "source_link": "https://www.trustpilot.com/review/warp.dev",
+    "source_platform": "trustpilot",
+    "engagement": "свежие 1-star 27 Aug – 10 Sep 2026",
+    "score": 82
+  },
+  {
+    "type": "demand_gap",
+    "what": "G2 2026 Buyer Behavior: AI закрыл поиск софта, bottleneck = approval. Почти 50% покупателей: CFO отменил уже одобренную сделку. Preference outcome-based pricing 11%→23%. Первый вопрос комнаты: 'is it worth the cost'.",
+    "why_us": "Мета-боль B2B: нужен продукт/слой который пакует ROI для финансов, короткие контракты, предсказуемый invoice. Не ещё один feature-list.",
+    "revenue": "enterprise ACV; 70% хотят короткие контракты из-за AI pace",
+    "source_link": "https://learn.g2.com/why-b2b-deals-stall-after-the-ai-shortlist-in-2026",
+    "source_platform": "g2",
+    "engagement": "G2 2026 Buyer Behavior Report, published 2026-09-02",
+    "score": 80
+  },
+  {
+    "type": "demand_gap",
+    "what": "QuickBooks Online G2: 'pricing model is predatory', +40% на Plus после lock-in данных. Повторяющийся cons: add-ons, рост цены после импорта данных.",
+    "why_us": "Классический SMB accounting gap: честный прайс без lock-in + миграция данных. SMB платит, но бежит от Intuit.",
+    "revenue": "QBO Plus SMB seats; willingness высокий",
+    "source_link": "https://www.g2.com/software/business-management-software",
+    "source_platform": "g2",
+    "engagement": "verified G2 cons, live on category page Sep 2026",
+    "score": 72
+  },
+  {
+    "type": "demand_gap",
+    "what": "PC Soft / WinDev: после смены модели лицензии 15k€ → 55k€ dev + 200k€ sessions. 'x10 цена софта для клиентов невозможна'. Trustpilot волны 1-star сент 2026.",
+    "why_us": "Миграционный рынок: low-code ISV ищут альтернативу (Lazarus/AI rewrite). Узкий но платёжеспособный сегмент EU ISV.",
+    "revenue": "was €15k licenses; now €55k+€200k sessions",
+    "source_link": "https://uk.trustpilot.com/review/www.pcsoft.fr?languages=all",
+    "source_platform": "trustpilot",
+    "engagement": "multiple 1-star Sep 2026 with exact euro figures",
+    "score": 74
+  },
+  {
+    "type": "demand_gap",
+    "what": "G2 email marketing 2026: free plan ок пока список мал; стена Brevo 300 emails/day. Цена скачет с объёмом, нужные фичи на следующем тире.",
+    "why_us": "Повторяемый gap: unlimited contacts + fair volume + brand (без лого) для SMB без прыжка в $80+/mo.",
+    "revenue": "Starter ~$9/mo; category $12–$80",
+    "source_link": "https://learn.g2.com/free-email-marketing-software",
+    "source_platform": "g2",
+    "engagement": "G2 roundup 2026-09-04 based on review analysis",
+    "score": 68
+  },
+  {
+    "type": "demand_gap",
+    "what": "LinkedOut: 'LinkedIn tells you why you should work there. LinkedOut tells you why you probably shouldn\u2019t.'",
+    "why_us": "Рекрутинг/employer-brand anti-surface. Высокий reply-rate = интерес. Можно монетизировать reviews + B2B HR intel.",
+    "revenue": "n/a yet; Glassdoor-like willingness",
+    "source_link": "https://x.com/droidbuilds/status/2099162225885974908",
+    "source_platform": "x",
+    "engagement": "46 likes, 40 replies, 1954 views",
+    "score": 66
+  },
+  {
+    "type": "demand_gap",
+    "what": "Ahrefs Capterra: слишком дорого для SMB/фрилансеров, сложный credit system, recent pricing changes. Ищут тул 'same functionality ~1/3 price'.",
+    "why_us": "Вечный SEO-инструмент gap: Lite SEO suite без enterprise прайса. Платёжеспособные агентства уже сравнивают.",
+    "revenue": "Ahrefs mid-tiers hundreds $/mo; challengers 1/3",
+    "source_link": "https://www.capterra.com/p/176340/Ahrefs/pricing/",
+    "source_platform": "capterra",
+    "engagement": "повторяющиеся founder/CEO quotes on overpriced",
+    "score": 67
+  },
+  {
+    "type": "revenue_report",
+    "what": "Family GPS app screenshot via Peekly: $21M MRR. Автор: страх за семью = готовность платить.",
+    "why_us": "Доказывает размер consumer safety/location vertical. Не идея продукта, а размер чека категории.",
+    "revenue": "$21M/mo (claimed screenshot)",
+    "source_link": "https://x.com/HmzBlackwell/status/2099469720172826739",
+    "source_platform": "x",
+    "engagement": "13 likes, 10 bookmarks, 702 views (fresh 14 Sep)",
+    "score": 62
+  },
+  {
+    "type": "demand_gap",
+    "what": "HN Show: Founder.best / StartupsonX — продукты тонут после launch-дня. Founders сами строят permanent discovery pages.",
+    "why_us": "Повторяемая боль дистрибуции после PH/X-всплеска. Слой recurring discovery, не ещё один каталог ссылок.",
+    "revenue": "n/a; indie willingness low-ticket",
+    "source_link": "https://news.ycombinator.com/item?id=49610868",
+    "source_platform": "hn",
+    "engagement": "fresh Show HN 5d + related Show HN 3d",
+    "score": 61
+  }
+]

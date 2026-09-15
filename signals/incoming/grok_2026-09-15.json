@@ -1,0 +1,152 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "Rewatch UX: 'i wish there was a way when im rewatching a sitcom to just randomise episodes i like being surprised' — массовый consumer-запрос на shuffle любимых эпизодов без спойлеров/порядка сезона.",
+    "why_us": "Огромный engagement = сигнал фичи/микро-приложения поверх Netflix/Plex/Jellyfin. Повторяемая боль binge-rewatch.",
+    "revenue": "freemium $3–6/mo или one-shot Plex plugin",
+    "source_link": "https://x.com/lumaxswift/status/2099560584052146432",
+    "source_platform": "x",
+    "engagement": "19664 likes / 653 RTs / 314 bookmarks / 199k views",
+    "score": 78
+  },
+  {
+    "type": "revenue_report",
+    "what": "Marc Päpper: ушёл из high-paying DL job, ~8h/day + ребёнок, medical SaaS вырос до $12k MRR. Коммент: 12k MRR на 8h/day лучше grind-истории.",
+    "why_us": "Конкретный solopreneur medical vertical + sustainable hours. Доказывает, что нишевый B2B AI/health не требует 80h weeks.",
+    "revenue": "$12k MRR",
+    "source_link": "https://x.com/mpaepper/status/2099860037980037212",
+    "source_platform": "x",
+    "engagement": "2 likes parent; quoted thread 380 likes / 117 replies",
+    "score": 76
+  },
+  {
+    "type": "revenue_report",
+    "what": "jack friks: just hit $60k MRR (CAD) после 3 месяцев flat. September лучше июня–августа.",
+    "why_us": "Свежий mid-stage indie MRR с картинкой. Показывает, что плато 3 мес. потом ломается — паттерн дистрибуции.",
+    "revenue": "$60k MRR CAD",
+    "source_link": "https://x.com/jackfriks/status/2099132974193168575",
+    "source_platform": "x",
+    "engagement": "481 likes / 82 replies / 54 bookmarks / 29k views",
+    "score": 84
+  },
+  {
+    "type": "revenue_report",
+    "what": "ElevenLabs ~$600M ARR / $11B valuation. Не строили chatbot/coding/video — один вертикаль voice, экосистемный lock-in.",
+    "why_us": "Playbook вертикальной AI-интеграции vs foundation race. Шаблон: не модель, а deployment + category ownership.",
+    "revenue": "~$600M ARR, $11B val",
+    "source_link": "https://x.com/guilleflorvs/status/2098815669999391214",
+    "source_platform": "x",
+    "engagement": "52 likes / 18 bookmarks / 5.7k views",
+    "score": 80
+  },
+  {
+    "type": "revenue_report",
+    "what": "Skild AI: $100M ARR за 10 месяцев после первых деплоев. Заводы, стройка, кухни, дата-центры. Physical AI.",
+    "why_us": "Сигнал TAM physical/robotics AI. Не микро-SaaS, но якорь категории и скорость go-to-market.",
+    "revenue": "$100M ARR / 10 months",
+    "source_link": "https://x.com/SkildAI/status/2098093862548099111",
+    "source_platform": "x",
+    "engagement": "2252 likes / 299 RTs / 1132 bookmarks / 1.6M views",
+    "score": 86
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "Pocket FM: 0→$500M ARR, +$250M за год, EBITDA+. Pivot на AI-only production: 25k→2.5M часов контента/год. Pocket Saga (AI microdrama) ~$15M ARR за 2 мес.",
+    "why_us": "Полный playbook AI entertainment wrapper: ads CTR machine, localization vs translation, pay-per-episode + ads unlock. Не generic GPT-обёртка.",
+    "revenue": "$500M ARR group; Saga ~$15M ARR",
+    "source_link": "https://x.com/RohanNayak2/status/2098104784264065525",
+    "source_platform": "x",
+    "engagement": "6210 likes / 749 RTs / 12.4k bookmarks / 3.6M views",
+    "score": 92
+  },
+  {
+    "type": "demand_gap",
+    "what": "G2 Replit cons 2026: expensive + confusing credits; annual Pro $250/mo lock-in без downgrade; $5k+ spent, goodwill $100. 'I wish it was cheaper' / hidden charges.",
+    "why_us": "Повторяемая боль vibe-coding platforms: прозрачный cap, refund за failed agent runs, честный annual pool.",
+    "revenue": "Replit Pro ~$25–250/mo; users already paying thousands",
+    "source_link": "https://www.g2.com/products/replit/reviews?qs=pros-and-cons",
+    "source_platform": "g2",
+    "engagement": "68 mentions Expensive; verified $5k spend review",
+    "score": 81
+  },
+  {
+    "type": "demand_gap",
+    "what": "G2 Runway: significantly overpriced, unusable output, no refunds, credits burn on bad gens. 'Total waste of money'.",
+    "why_us": "Video-gen gap: pay-for-success / refund bad renders / cheaper vertical editor. Платят, но ненавидят credit roulette.",
+    "revenue": "Runway credit packs; SMB already burning hundreds",
+    "source_link": "https://www.g2.com/products/runway-2022-01-04/reviews?qs=pros-and-cons",
+    "source_platform": "g2",
+    "engagement": "multiple 0.0/5 'waste of money' + overpriced mentions",
+    "score": 74
+  },
+  {
+    "type": "demand_gap",
+    "what": "Adobe Photoshop G2: 88 mentions Expensive; 'I wish I could just buy it once'; CC lock-in для фрилансеров/студентов.",
+    "why_us": "Вечный demand на perpetual / fair one-time + AI fill без подписки. Высокая платёжеспособность creative SMB.",
+    "revenue": "PS CC ~$20+/mo; willingness one-time hundreds",
+    "source_link": "https://www.g2.com/products/adobe-photoshop/reviews?qs=pros-and-cons",
+    "source_platform": "g2",
+    "engagement": "88 Expensive mentions; 48 subscription-frustration",
+    "score": 70
+  },
+  {
+    "type": "demand_gap",
+    "what": "Claude G2 2026: usage limits mid-flow, expensive if used at every dev stage, no native image gen. Pro~$20, Max~$100.",
+    "why_us": "Слой usage-metering / overflow routing / cheaper coding-only tier. Power users упираются в cap.",
+    "revenue": "$20–100/mo existing spend",
+    "source_link": "https://learn.g2.com/claude-ai-review",
+    "source_platform": "g2",
+    "engagement": "G2 review synthesis Feb 2026, still cited",
+    "score": 68
+  },
+  {
+    "type": "demand_gap",
+    "what": "Unified media log: 'app where you can log/track all of your media like books, movies, tv shows etc in one place that people actually used'. Существующие приложения пустые социально.",
+    "why_us": "Letterboxd+Goodreads+TV Time в одном с живой соцсетью. Боль не фича, а density пользователей.",
+    "revenue": "$5/mo premium lists",
+    "source_link": "https://x.com/bloodmoonbeam/status/2099676457089826983",
+    "source_platform": "x",
+    "engagement": "fresh 15 Sep; low likes but explicit product spec",
+    "score": 61
+  },
+  {
+    "type": "demand_gap",
+    "what": "Period tracking: 'i wish there was actually just a good period tracking app. like just one.' Ads-heavy incumbents.",
+    "why_us": "Privacy-first, no-ads cycle app — вечный gap после Flo/Clue scandals. Consumer willingness высокая.",
+    "revenue": "$4–8/mo subscription typical",
+    "source_link": "https://x.com/n1ght___owl/status/2099706241576571113",
+    "source_platform": "x",
+    "engagement": "fresh 15 Sep",
+    "score": 60
+  },
+  {
+    "type": "revenue_report",
+    "what": "Taras: $1k revenue / 30 days, MRR $820, costs ~$150, ~85% margin. Doubled in first two weeks of September.",
+    "why_us": "Ранний compounding indie с прозрачной маржой. Эталон unit economics микро-SaaS.",
+    "revenue": "$820 MRR, 85% margin",
+    "source_link": "https://x.com/tarasshyn/status/2099396982594769004",
+    "source_platform": "x",
+    "engagement": "23 likes / 13 replies / 974 views",
+    "score": 66
+  },
+  {
+    "type": "revenue_report",
+    "what": "Bryce wagner Day 21 mobile app: 100 paying subs, $1302 MRR, 179 installs, $95 proceeds. Organic 3 vids/day.",
+    "why_us": "Свежий mobile sub ramp + content motion. Показывает порог $1.3k за 3 недели.",
+    "revenue": "$1302 MRR",
+    "source_link": "https://x.com/Bwag_fit/status/2098194579900002648",
+    "source_platform": "x",
+    "engagement": "32 likes / 13 replies",
+    "score": 64
+  },
+  {
+    "type": "demand_gap",
+    "what": "Half Baked: Savings Companion — банк + AI-персонаж (Tamagotchi/Duolingo owl), здоровье зависит от трат/сбережений. Mint умер, поведение не меняет дашборд.",
+    "why_us": "Сформулированный product gap в personal finance: gamified savings character, не ещё один график.",
+    "revenue": "fintech sub $5–15/mo; Mint had 25M users",
+    "source_link": "https://x.com/gethalfbaked/status/2087276164221943849",
+    "source_platform": "x",
+    "engagement": "newsletter-backed idea post Aug 2026",
+    "score": 67
+  }
+]

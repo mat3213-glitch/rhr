@@ -1,0 +1,102 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "Harvest time-tracking: массовые жалобы на x5–x11 повышение цен для лояльных клиентов (пример: $6k/год → $30k/год за 30 дней; $12 → $116.50/seat; $180 → $2145/мес). Люди ищут альтернативу без lock-in и paywall старых фич.",
+    "why_us": "Повторяющаяся боль SMB/агентств с готовностью платить, но не за 800% hike. Ниша affordable time + invoicing + project hours.",
+    "revenue": "конкурент брал $6k–$30k/yr per account; замена может взять $20–80/user/mo",
+    "source_link": "https://www.trustpilot.com/review/www.harvestapp.com",
+    "source_platform": "trustpilot",
+    "engagement": "серия свежих 1-star отзывов Sep 3–14 2026",
+    "score": 82
+  },
+  {
+    "type": "demand_gap",
+    "what": "Sam Lessin: «I would pay a great deal for a credit card that allowed me to cancel any subscription from their integrated app rather than trying to navigate service websites».",
+    "why_us": "Явная willingness-to-pay от платёжеспособного инвестора; subscription fatigue + dark-pattern cancel flows — повторяющаяся боль (Capterra: 44% tired of subscriptions).",
+    "revenue": "card interchange + $5–15/mo subscription manager",
+    "source_link": "https://x.com/lessin/status/2089376498180555074",
+    "source_platform": "x",
+    "engagement": "578 likes, 67 replies, 65 bookmarks",
+    "score": 78
+  },
+  {
+    "type": "demand_gap",
+    "what": "OpenRouter-for-tools: не хотят sign up на 1000 сервисов. Предложение: открытый протокол, любой merchant хостит tool, агенты находят и платят ~$0.05/request.",
+    "why_us": "Агентская экономика + micropayments; высокий bookmark-сигнал (86) = founder interest.",
+    "revenue": "$0.05/request marketplace take-rate",
+    "source_link": "https://x.com/echulshin/status/2096930201762742504",
+    "source_platform": "x",
+    "engagement": "102 likes / 86 bookmarks; parent idea 850 likes",
+    "score": 76
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "Fastlane — AI short-form content для солопренеров. 2 месяца: paid beta $16k ARR → 1000+ paying, $69k/mo (~$1M ARR across business). 20 customer calls/week, swipe UI.",
+    "why_us": "Доказанный AI-контент wrapper с конкретным GTM (calls + retention score). Повторяемый playbook.",
+    "revenue": "$69k/mo",
+    "source_link": "https://x.com/starter_story/status/2099885194639749554",
+    "source_platform": "x",
+    "engagement": "162 likes, 183 bookmarks",
+    "score": 84
+  },
+  {
+    "type": "revenue_report",
+    "what": "Rezi (AI resume): ~11,000 paying subscribers, $3.2M ARR, 5M users. Старт AI на GPT-3 в 2021, сейчас mobile + matching.",
+    "why_us": "Зрелый AI-wrapper в career vertical с масштабом и retention через jobs.",
+    "revenue": "$3.2M ARR (~$267k/mo)",
+    "source_link": "https://x.com/jacob_jacquet/status/2100183748583309696",
+    "source_platform": "x",
+    "engagement": "40 likes на треде; quoted builder story 330 likes",
+    "score": 72
+  },
+  {
+    "type": "automation",
+    "what": "Native App (YC F26) — marketing autopilot. Launch March, bootstrapped to $2M ARR к mid-Sep, затем YC.",
+    "why_us": "Автопилот маркетинга = hot category; скорость $0→$2M ARR за ~6 мес.",
+    "revenue": "$2M ARR",
+    "source_link": "https://x.com/BenjaminBekken/status/2099892054335582457",
+    "source_platform": "x",
+    "engagement": "97 likes, 35 replies",
+    "score": 74
+  },
+  {
+    "type": "revenue_report",
+    "what": "CitedEvidence — $160k ARR SaaS, launch 15 Jan 2026 (≈8 месяцев до отметки).",
+    "why_us": "Свежий mid-stage SaaS с конкретной датой запуска и цифрой ARR.",
+    "revenue": "$160k ARR",
+    "source_link": "https://x.com/DrSerunjogiEmma/status/2099206907299016864",
+    "source_platform": "x",
+    "engagement": "110 likes, 17 bookmarks",
+    "score": 68
+  },
+  {
+    "type": "revenue_report",
+    "what": "Vacation Tracker: агентство устало от Excel для отпусков после 15 человек → продукт → $3M ARR / >$250k/mo. Крупные HR слишком дорогие.",
+    "why_us": "Классический demand gap (Excel + expensive HRIS) с доказанным outcome.",
+    "revenue": "$3M ARR",
+    "source_link": "https://www.indiehackers.com/post/tech/this-founder-solved-his-agencys-problem-and-turned-the-solution-into-a-3m-arr-saas-uS8zjhggjKA4eoXFAUZi",
+    "source_platform": "other",
+    "engagement": "IH feature 2026-09-16",
+    "score": 73
+  },
+  {
+    "type": "demand_gap",
+    "what": "G2 review Aha! (Sep 11 2026): «Overpriced / AI can replace» — price-for-value, manual config, basic UI. Параллельно monday AI и Jira: AI/advanced фичи только на дорогих тирах, цена растёт с seats.",
+    "why_us": "Повторяющийся gap: roadmap/PM tools дорогие, команды хотят AI-first дешёвую замену.",
+    "revenue": "Aha! enterprise pricing vs AI substitute",
+    "source_link": "https://www.g2.com/software/goal-tracker",
+    "source_platform": "g2",
+    "engagement": "G2 review Sep 11 2026 «Overpriced / AI can replace»",
+    "score": 70
+  },
+  {
+    "type": "demand_gap",
+    "what": "Email marketing 2026: free plan ок, пока список не растёт — потом цена скачет и нужные фичи на следующем тире (G2 Learn, Sep 4). Subscription fatigue: 65% cancellations because too expensive (Capterra).",
+    "why_us": "Вечная боль SMB: contacts vs send-volume pricing. Место для usage-honest ESP.",
+    "revenue": "paid from $9/mo; regret when list scales",
+    "source_link": "https://learn.g2.com/free-email-marketing-software",
+    "source_platform": "g2",
+    "engagement": "G2 analysis Sep 4 2026",
+    "score": 64
+  }
+]

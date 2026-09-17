@@ -1,0 +1,152 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "X-пользователь: «I can’t tell who’s real or fake anymore. I wish there was a way to truly verify who and what is real. The check mark used to do that but now anyone can buy one.»",
+    "why_us": "Явный demand gap по identity/authenticity после paid blue-check. 120 replies = люди ищут решение, не просто лайкают.",
+    "revenue": "B2C $5–15/mo verification; B2B API for marketplaces",
+    "source_link": "https://x.com/RichOToole/status/2100352996030791976",
+    "source_platform": "x",
+    "engagement": "195 likes, 120 replies, 5991 views (Sep 16)",
+    "score": 72
+  },
+  {
+    "type": "demand_gap",
+    "what": "Врач: «I wish there was an app like UWorld for Primaries» — Qbank/симулятор для primary medical exams, аналог UWorld которого нет.",
+    "why_us": "Платёжеспособная аудитория (MD), конкретный продукт-референс, высокий bookmark-сигнал = intent сохранить и искать.",
+    "revenue": "$20–60/mo exam prep (UWorld-like)",
+    "source_link": "https://x.com/_ivabradine/status/2096893566375117078",
+    "source_platform": "x",
+    "engagement": "142 likes, 73 bookmarks, 14.6k views",
+    "score": 68
+  },
+  {
+    "type": "demand_gap",
+    "what": "Прогноз: first app to crack RedNote (Xiaohongshu) UGC tooling hit $1M MRR. Спрос на кросс-платформенный UGC/creator stack под китайский short-form.",
+    "why_us": "Высокий bookmark/like ratio у билдера creator-программ — founder-to-founder сигнал, не потребительский шум.",
+    "revenue": "$1M MRR target if distribution solved",
+    "source_link": "https://x.com/jhueri/status/2100358506985476194",
+    "source_platform": "x",
+    "engagement": "93 likes, 73 bookmarks, 10.6k views (Sep 16)",
+    "score": 66
+  },
+  {
+    "type": "revenue_report",
+    "what": "CitedEvidence (bootstrapped): $14k MRR, +$3k за первую половину сентября.",
+    "why_us": "Свежий апдейт к ранее $160k ARR треку; конкретный инкремент за 2 недели.",
+    "revenue": "$14k/mo",
+    "source_link": "https://x.com/DrSerunjogiEmma/status/2100202790299545841",
+    "source_platform": "x",
+    "engagement": "69 likes, 10 replies (Sep 16)",
+    "score": 67
+  },
+  {
+    "type": "revenue_report",
+    "what": "iOS-приложение: $300 MRR неделю назад → almost $500 MRR. Соло-билдер 21 y.o.",
+    "why_us": "Короткий цикл роста mobile; скриншот + конкретная дельта за 7 дней.",
+    "revenue": "$500/mo",
+    "source_link": "https://x.com/aryanlabde/status/2100267221197181037",
+    "source_platform": "x",
+    "engagement": "140 likes, 80 replies (Sep 16)",
+    "score": 64
+  },
+  {
+    "type": "revenue_report",
+    "what": "Sequenzy hit $10k MRR за 9 месяцев с запуска.",
+    "why_us": "Чистый timeline launch→$10k; mid-stage micro-SaaS benchmark.",
+    "revenue": "$10k/mo",
+    "source_link": "https://x.com/nikpolale/status/2099899082399445189",
+    "source_platform": "x",
+    "engagement": "243 likes, 89 replies, 30 bookmarks (Sep 15)",
+    "score": 76
+  },
+  {
+    "type": "automation",
+    "what": "Filip Panoski: Reddit-growth tool — last week $10k MRR, today $13k. «Get customers from Reddit on autopilot».",
+    "why_us": "Автоматизация дистрибуции на Reddit с доказанным MRR-скачком за дни; платёжеспособные SaaS-покупатели.",
+    "revenue": "$13k/mo",
+    "source_link": "https://x.com/FilipPanoski/status/2099860906108731658",
+    "source_platform": "x",
+    "engagement": "316 likes, 118 replies, 43 bookmarks (Sep 15)",
+    "score": 82
+  },
+  {
+    "type": "revenue_report",
+    "what": "Alarm app hit $80k MRR за 7 месяцев; разбор онбординга (видео).",
+    "why_us": "Высокий bookmark (303) = операторы копируют playbook. Mobile consumer с аномальным MRR.",
+    "revenue": "$80k/mo",
+    "source_link": "https://x.com/jacobrodri_/status/2099857370146803787",
+    "source_platform": "x",
+    "engagement": "276 likes, 303 bookmarks, 18k views (Sep 15)",
+    "score": 84
+  },
+  {
+    "type": "revenue_report",
+    "what": "Kasper Waterlake: launched a new app this week, adding $1k MRR every day. Portfolio context: apps $300k MRR.",
+    "why_us": "Повторный мобильный билдер с paid-ads машиной; сигнал что distribution > product novelty.",
+    "revenue": "+$1k MRR/day on new app; portfolio $300k/mo",
+    "source_link": "https://x.com/kasperwaterlake/status/2098475990183739454",
+    "source_platform": "x",
+    "engagement": "345 likes, 144 bookmarks, 30.5k views (Sep 11)",
+    "score": 80
+  },
+  {
+    "type": "revenue_report",
+    "what": "Sabyr: продукт запущен неделю назад — $2.4k MRR (SEO/ranking via Reddit + Google).",
+    "why_us": "Неделя до первых тысяч MRR; канал = Reddit ranking, стыкуется с automation-категорией.",
+    "revenue": "$2.4k/mo after 1 week",
+    "source_link": "https://x.com/tech_nurgaliyev/status/2099381061947965841",
+    "source_platform": "x",
+    "engagement": "138 likes, 57 bookmarks (Sep 14)",
+    "score": 71
+  },
+  {
+    "type": "revenue_report",
+    "what": "tiiny.host: 2019 solo bootstrap → 2021 $1k MRR → 2023 $10k → 2024 $20k → today $1M+ ARR, 2M+ users.",
+    "why_us": "Длинный bootstrapped путь file-hosting micro-SaaS; высокий social proof (660 likes).",
+    "revenue": "$1M+ ARR",
+    "source_link": "https://x.com/_baretto/status/2096899523289522416",
+    "source_platform": "x",
+    "engagement": "660 likes, 148 bookmarks, 32k views",
+    "score": 77
+  },
+  {
+    "type": "revenue_report",
+    "what": "Career Hound job board: $25k last month, non-technical founder, hard paywall $7/wk / $20/mo / $50/yr, no free tier.",
+    "why_us": "Контртренд freemium; конкретная монетизация нишевой доски вакансий.",
+    "revenue": "$25k/mo",
+    "source_link": "https://x.com/starter_story/status/2096683186604704239",
+    "source_platform": "x",
+    "engagement": "122 likes, 152 bookmarks (Sep 6)",
+    "score": 73
+  },
+  {
+    "type": "demand_gap",
+    "what": "G2: monday AI Work Platform — AI-фичи только на дорогих тирах, дорого для small teams. Jira: цена скачет с seats/advanced. Aha! review Sep 11: «Overpriced / AI can replace».",
+    "why_us": "Повторяемый PM/work-management pricing wall; покупатели явно рассматривают AI-замену.",
+    "revenue": "incumbents $10–50+/seat; AI substitute cheaper",
+    "source_link": "https://www.g2.com/software/goal-tracker",
+    "source_platform": "g2",
+    "engagement": "G2 reviews incl. Sep 11 2026 Aha! «Overpriced / AI can replace»",
+    "score": 70
+  },
+  {
+    "type": "defi_yield",
+    "what": "Mag7X (Bitwise tokenized Mag7 basket) live on Base via Jumper/Coinbase Tokenized Stocks: up to 10% capped APR in USDC from $20k reward pool / 60 days.",
+    "why_us": "Свежий RWA+Base yield с конкретным APR и пулом — не абстрактный «DeFi is back».",
+    "revenue": "up to 10% APR USDC (capped, 60d incentives)",
+    "source_link": "https://x.com/jumperapp/status/2100583095464554889",
+    "source_platform": "x",
+    "engagement": "63 likes (Sep 17)",
+    "score": 61
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "DEV analysis: builders over-index chatbots/agent frameworks; real demand — AI SDR, invoice/bookkeeping agents, competitor monitoring. Quote: «I'd pay $200/month for something that finds 50 qualified leads a week… Clay/Apollo/Instantly need babysitting.»",
+    "why_us": "Явная WTP $200/mo + gap vs existing outbound stack; категория AI wrapper с B2B бюджетом.",
+    "revenue": "$200/mo stated WTP",
+    "source_link": "https://dev.to/jimrusk/what-ai-agent-builders-want-to-build-vs-what-people-actually-want-5gp6",
+    "source_platform": "other",
+    "engagement": "article citing r/SaaS May 2026 demand quote",
+    "score": 69
+  }
+]

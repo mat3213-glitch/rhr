@@ -1,0 +1,132 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "G2 review Aha! (Sep 11 2026): «Overpriced / AI can replace». Roadmap-функционал commoditized; Productboard/Asana/Jira считаются лучше, но «using AI to create your own might be the best path». Jira: pricing jumps on seats/advanced. QuickBooks Online: +40% price hike, lock-in via data migration cost.",
+    "why_us": "Повторяемый платёжный бунт против PM/accounting incumbents + явный intent заменить AI-стеком. Покупатели уже платят дорого.",
+    "revenue": "incumbents $10–50+/seat; AI substitute cheaper",
+    "source_link": "https://www.g2.com/software/goal-tracker",
+    "source_platform": "g2",
+    "engagement": "G2 reviews Sep 2026 (Aha! Overpriced/AI can replace; QBO +40%)",
+    "score": 72
+  },
+  {
+    "type": "demand_gap",
+    "what": "Trustpilot Warp.dev: 1 run of 2 hours = $250; agents expensive on real projects. Lovable.dev 1-star: credit drain, lost projects, $86 charged vs $43, waste of money. Pattern: AI coding/builder tools overcharge tokens with weak support.",
+    "why_us": "Свежие 1-star жалобы на pricing/credits у AI-dev tools = gap для predictable-price coding agent или credit-transparent wrapper.",
+    "revenue": "WTP exists; incumbents $20–250+ per heavy run",
+    "source_link": "https://www.trustpilot.com/review/lovable.dev?stars=1",
+    "source_platform": "trustpilot",
+    "engagement": "1-star cluster Sep 3–17 2026; Warp 1-star Sep 17",
+    "score": 71
+  },
+  {
+    "type": "demand_gap",
+    "what": "X: «Why is there no KSP mod that allows you to control 2 rockets at the same time in a splitscreen interface?» Reusability mod only quicksaves on switch.",
+    "why_us": "Конкретный missing feature + 155 likes в нише с платящими моддерами/инди-играми. Узкий product gap, не общий нарратив.",
+    "revenue": "paid KSP/KSA mod or DLC-style tool",
+    "source_link": "https://x.com/Blobifie/status/2100767164446003547",
+    "source_platform": "x",
+    "engagement": "155 likes, 16 replies, 6 bookmarks, 4.1k views (Sep 18)",
+    "score": 62
+  },
+  {
+    "type": "demand_gap",
+    "what": "HN Show: Spiteware.ai — catalog of apps built out of spite at unfair pricing. Signal that people systematically leave overpriced SaaS and build cheaper clones.",
+    "why_us": "Мета-рынок «spite replacements»; подтверждает pricing-pain как источник идей для micro-SaaS.",
+    "revenue": "n/a catalog; underlying clones monetize",
+    "source_link": "https://news.ycombinator.com/item?id=49669863",
+    "source_platform": "hn",
+    "engagement": "Show HN 6 days ago",
+    "score": 61
+  },
+  {
+    "type": "revenue_report",
+    "what": "Atlas Photo companion app: $100K MRR, 60K downloads, ~1 year after launch. Helps photographers find locations and plan shoots by light. Hooks like «Struggling to find photo spots?» → 7.5M views.",
+    "why_us": "Нишевый consumer tool + viral hooks → six-figure MRR. Конкретные цифры и дистрибуция.",
+    "revenue": "$100k/mo",
+    "source_link": "https://x.com/themariaines/status/2100891349147095422",
+    "source_platform": "x",
+    "engagement": "16 likes, 11 bookmarks, 1.2k views (Sep 18) — low likes but hard $100k claim",
+    "score": 74
+  },
+  {
+    "type": "revenue_report",
+    "what": "Solo founder (full-time finance job in London): 1400€ MRR. Playbook: target US/EN markets, raise prices + upsells, talk to users 24/7, SEO/GEO + affiliation, skip model-chasing (Deepseek 4.1 flash for 90%).",
+    "why_us": "Честный mid-stage solo SaaS с операционным playbook; 139 bookmarks.",
+    "revenue": "€1400/mo",
+    "source_link": "https://x.com/CoderNolimit/status/2100841565077881108",
+    "source_platform": "x",
+    "engagement": "80 likes, 56 bookmarks, 20 replies, 4.3k views (Sep 18)",
+    "score": 70
+  },
+  {
+    "type": "revenue_report",
+    "what": "Filip Panoski: $0 → $13k MRR via Reddit + X only. Framework: every stuck SaaS is stuck on one of five numbers (visitors/signups/trials/paid/churn).",
+    "why_us": "Повторный трек $13k + дистрибуция без ads. Стыкуется с automation категорией.",
+    "revenue": "$13k/mo",
+    "source_link": "https://x.com/FilipPanoski/status/2100585688135553438",
+    "source_platform": "x",
+    "engagement": "96 likes, 23 bookmarks, 58 replies (Sep 17)",
+    "score": 75
+  },
+  {
+    "type": "revenue_report",
+    "what": "Youform hit $18k MRR in a crowded form-builder market by listening to customers. Ferndesk (docs) saves them ~5h/week.",
+    "why_us": "Crowded-category win + adjacent docs tooling WTP. Доказательство что «another X» может вырасти при execution.",
+    "revenue": "$18k/mo Youform",
+    "source_link": "https://x.com/euboid/status/2100581292392005968",
+    "source_platform": "x",
+    "engagement": "121 likes, 21 bookmarks, 20 replies, 6.2k views (Sep 17)",
+    "score": 73
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "Parent paying $4k/month for SAT / SAT Plus / SAT Pro lessons — «it's a guy using an AI wrapper».",
+    "why_us": "Экстремальная WTP в edtech tutoring; wrapper монетизируется как премиум-репетиторство, не как $20 ChatGPT.",
+    "revenue": "$4k/mo one customer (tutoring wrapper)",
+    "source_link": "https://x.com/ParabolicGains/status/2094527366777201117",
+    "source_platform": "x",
+    "engagement": "146 likes (Aug 31)",
+    "score": 68
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "Tonino @tonnoz: waiting since early ChatGPT for Jev use-cases; predicts fastest-growing SaaS by MRR in the next 1–2 months around that unlock.",
+    "why_us": "Founder-signal на новый AI primitive; 139 bookmarks = operators watching to copy.",
+    "revenue": "prediction: record SaaS MRR ramp",
+    "source_link": "https://x.com/tonnoz/status/2100844854490103835",
+    "source_platform": "x",
+    "engagement": "135 likes, 139 bookmarks, 18 replies, 20.6k views (Sep 18)",
+    "score": 66
+  },
+  {
+    "type": "defi_yield",
+    "what": "Hylo $eHYUSD paying 22.2% base APY, fully delta-neutral; claimed #1 yield-bearing asset on Solana + Hylo XP.",
+    "why_us": "Свежий числовой APY + delta-neutral framing (не чистый farm-spam).",
+    "revenue": "22.2% APY",
+    "source_link": "https://x.com/hylo_so/status/2100934336492994674",
+    "source_platform": "x",
+    "engagement": "41 likes, 25 replies (Sep 18)",
+    "score": 63
+  },
+  {
+    "type": "defi_yield",
+    "what": "WISE Nodes: deposit USDT/USDC/USDG — Telecom Nodes up to 22% APY, Sovren Nodes 40% APR. Framed as RWA/DePIN revenue, not emissions-only.",
+    "why_us": "Высокий advertised APR + stablecoin in; проверить sustainability, но цифры конкретные и свежие.",
+    "revenue": "22% APY / 40% APR advertised",
+    "source_link": "https://x.com/WISE_Token/status/2100930747351617721",
+    "source_platform": "x",
+    "engagement": "63 likes, 48 replies (Sep 18)",
+    "score": 60
+  },
+  {
+    "type": "automation",
+    "what": "Paid $1,200 for a Telegram bot that alerts when «top 0.1% smart money wallets» buy. Followed 10 alerts → unverified contracts, sandwiches, insider dumps; lost 3.2 ETH in 4 days.",
+    "why_us": "Доказанная WTP $1200 за alpha-bot + боль на quality/false positives. Gap: verified-wallet + exit alerts, не ещё один copy-trade spam.",
+    "revenue": "$1,200 one-time bot; user lost 3.2 ETH",
+    "source_link": "https://x.com/Col_Gate_ML/status/2093996612737487001",
+    "source_platform": "x",
+    "engagement": "28 likes (Aug 30)",
+    "score": 64
+  }
+]

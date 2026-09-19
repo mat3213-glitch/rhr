@@ -1,0 +1,82 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "Harvest time-tracking: long-time customers hit 5x–800%+ price jumps ($6k→$30k/yr; $12→$116.50/seat; $180→$2,145/mo). Mass 1-star Trustpilot wave Sep 2026, teams shopping alternatives.",
+    "why_us": "Paying agencies/studios already budget for time tracking; switching cost is high but loyalty just broke. Simple, stable-priced Harvest clone or migration tool has immediate demand.",
+    "revenue": "$100–500/seat/yr incumbents; agency bills $1k–30k/yr",
+    "source_link": "https://www.trustpilot.com/review/www.harvestapp.com",
+    "source_platform": "trustpilot",
+    "engagement": "cluster of fresh 1-star reviews Sep 3–14 2026",
+    "score": 84
+  },
+  {
+    "type": "demand_gap",
+    "what": "Warp.dev AI coding agent: users report $250 for a 2-hour run, $40 burned in 3 minutes, no prompt caching on BYOK, projects fail after credits gone. Same pattern on Lovable (lost projects, 1500 credits/$500 gone in seconds).",
+    "why_us": "Repeatable 2026 pain: AI builder credit traps. Market wants predictable flat-fee or cached-token coding agents with refunds and project persistence.",
+    "revenue": "users already paying $40–300+/mo; willing to switch",
+    "source_link": "https://www.trustpilot.com/review/warp.dev",
+    "source_platform": "trustpilot",
+    "engagement": "multiple 1-star reviews last 3–10 days",
+    "score": 81
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "Pocket FM shipped Sherpa, fiction-writing AI trained on 100M+ hours listener retention. Claims $500M ARR (from ~$198–250M), 1200% content production lift, 10% of writers >$200k, one IP >$100M.",
+    "why_us": "Proof that vertical AI on proprietary engagement data beats generic LLM wrappers. Template for niche writers/creators with owned distribution.",
+    "revenue": "$500M ARR company; writers >$200k/yr",
+    "source_link": "https://x.com/RohanNayak2/status/2101019876269973593",
+    "source_platform": "x",
+    "engagement": "3929 likes, 455 RTs, 479 replies, 3.2M views",
+    "score": 88
+  },
+  {
+    "type": "revenue_report",
+    "what": "Secondhand X recap: Yasser Elsaid shipped pricing page + tweet, first customer in 30 min, $1M ARR in 117 days bootstrapped; called a GPT wrapper.",
+    "why_us": "Shows distribution + paywall can outrun product sophistication for wrappers. Useful benchmark, not a build spec.",
+    "revenue": "$1M ARR / 117 days",
+    "source_link": "https://x.com/insightcut/status/2101244666331177436",
+    "source_platform": "x",
+    "engagement": "low on recap tweet; claim is circulating",
+    "score": 62
+  },
+  {
+    "type": "demand_gap",
+    "what": "Ask HN (5 days ago): privacy/security tools that don't exist — SDK phone-home inspector for your own apps, global registry of who stores your email/phone, default router DNS/VPN, anti-caller-ID spoofing.",
+    "why_us": "HN audience pays for security. SDK leak scanner is a micro-SaaS for indie/mobile shops; data-broker tracker is consumer + B2B.",
+    "revenue": "security tools $10–99/mo SMB",
+    "source_link": "https://news.ycombinator.com/item?id=49690524",
+    "source_platform": "hn",
+    "engagement": "5 points, 8 comments, fresh 5d",
+    "score": 61
+  },
+  {
+    "type": "demand_gap",
+    "what": "G2: QuickBooks Online plus hiked ~40% after lock-in; users call pricing predatory because migration cost > hike. Salesforce/Agentforce pricing pushes teams to Twilio Flex.",
+    "why_us": "Classic incumbent tax. Room for lighter invoicing/AR tools and outcome-priced support agents.",
+    "revenue": "QB Plus SME spend hundreds–thousands/mo",
+    "source_link": "https://www.g2.com/software/business-management-software",
+    "source_platform": "g2",
+    "engagement": "verified G2 reviews Jul–Sep 2026",
+    "score": 70
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "Cited r/SaaS May 2026: 'I'd pay $200/month for something that finds 50 qualified leads a week and sends personalized cold email. Clay/Apollo/Instantly all need babysitting.' Invoice-to-QuickBooks agents also underserved vs chatbot wrappers.",
+    "why_us": "Vertical agents (SDR, bookkeeping) have stated WTP; general chatbots oversupplied.",
+    "revenue": "$200/mo stated WTP",
+    "source_link": "https://dev.to/jimrusk/what-ai-agent-builders-want-to-build-vs-what-people-actually-want-5gp6",
+    "source_platform": "other",
+    "engagement": "quoted Reddit WTP; article May 2026",
+    "score": 68
+  },
+  {
+    "type": "demand_gap",
+    "what": "Website-to-native-app converters: 9.9k monthly searches, low competition, estimated $5k–15k MRR. SMBs still cannot ship iOS/Android from an existing site.",
+    "why_us": "Recurring local-business pain, existing competitors thin (WebToApp.design). AI can compress build time.",
+    "revenue": "$5k–15k MRR potential",
+    "source_link": "https://microsaashq.com/saas-ideas/website-to-app-940",
+    "source_platform": "other",
+    "engagement": "search vol 9.9k/mo; page dated 2026-09-19",
+    "score": 66
+  }
+]

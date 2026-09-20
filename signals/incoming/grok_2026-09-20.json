@@ -1,0 +1,132 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "Единый счёт/биллинг для всех AI-инструментов: каждый инструмент — своя подписка, кредиты и дашборд. Запрос: one bill for all AI tools.",
+    "why_us": "Повторяющаяся боль фрилансеров и SMB: фрагментация AI-стека + непредсказуемые credits. Ниша для aggregator/wallet/proxy-биллинга.",
+    "revenue": "n/a (готовность платить за упрощение стека)",
+    "source_link": "https://x.com/CiprianiRanieri/status/2101629696601477377",
+    "source_platform": "x",
+    "engagement": "1 like, fresh 20 Sep 2026",
+    "score": 62
+  },
+  {
+    "type": "demand_gap",
+    "what": "Массовый спрос на бесплатные/дешёвые альтернативы платным SaaS: тред ChatGPT/Canva/Figma/Notion/Copilot. Пост 300 paid→free — 1258 лайков.",
+    "why_us": "Сильный сигнал ценовой усталости: люди активно ищут замену подписок. Можно строить comparison/switcher или дешёвые клоны нишевых фич.",
+    "revenue": "n/a (high intent to cancel paid tools)",
+    "source_link": "https://x.com/kumud_deepali/status/2100230527039205377",
+    "source_platform": "x",
+    "engagement": "1258 likes, 443 reposts, 1792 bookmarks",
+    "score": 88
+  },
+  {
+    "type": "demand_gap",
+    "what": "Replit: кредиты сгорают, confusing billing, annual lock-in $250/mo без даунгрейда, юзер потратил $5000+. Wish cheaper vibe-coding.",
+    "why_us": "Повторяемая боль vibe-coding платформ: прозрачный usage, предсказуемый ценник, локальный/самохостинг альтернатива.",
+    "revenue": "$250/mo lock-in, $5k+ spent examples",
+    "source_link": "https://www.g2.com/products/replit/reviews?qs=pros-and-cons",
+    "source_platform": "g2",
+    "engagement": "68 mentions expensive, 56 credit-depletion mentions",
+    "score": 84
+  },
+  {
+    "type": "demand_gap",
+    "what": "Lovable.dev 1-star: credits drain, проекты теряются, download не работает после $25, double-charge $86 vs $43, frozen UI. Vibe-coding без надёжного export/billing.",
+    "why_us": "Тот же кластер, что Replit: AI app builders монетизируют credits агрессивно. Окно для честного usage + recoverable projects.",
+    "revenue": "$25–$86 charges, credits ~$500 equivalent lost",
+    "source_link": "https://www.trustpilot.com/review/lovable.dev?stars=1",
+    "source_platform": "trustpilot",
+    "engagement": "много 1-star, свежие отзывы Sep 2026",
+    "score": 80
+  },
+  {
+    "type": "demand_gap",
+    "what": "Adobe Photoshop: подписка — главный cons. Wish buy once / perpetual license. Freelancers/students не тянут Creative Cloud.",
+    "why_us": "Долгоиграющая боль + высокая готовность переходить на альтернативы (GIMP/лёгкие AI editors).",
+    "revenue": "CC subscription replacement opportunity",
+    "source_link": "https://www.g2.com/products/adobe-photoshop/reviews?qs=pros-and-cons",
+    "source_platform": "g2",
+    "engagement": "88 mentions expensive / 48 subscription frustration",
+    "score": 78
+  },
+  {
+    "type": "demand_gap",
+    "what": "Агент, который находит 50 квалифицированных лидов в неделю и шлёт personalized cold email. Clay/Apollo/Instantly — нужно babysitting. Quote: I'd pay $200/mo.",
+    "why_us": "Явный willingness-to-pay $200/mo + неудовлетворённость лидерами. Не глямурно, но платящий B2B.",
+    "revenue": "$200/mo stated WTP",
+    "source_link": "https://dev.to/jimrusk/what-ai-agent-builders-want-to-build-vs-what-people-actually-want-5gp6",
+    "source_platform": "forum",
+    "engagement": "r/SaaS May 2026 quote in analysis",
+    "score": 76
+  },
+  {
+    "type": "automation",
+    "what": "Invoice processing agent: читает PDF, достаёт line items, пушит в accounting. Freelancers/agencies просят постоянно; builders не строят из-за OCR/интеграций.",
+    "why_us": "Грязная, recurring, привязанная к готовности платить операционка. Underserved vs chatbots.",
+    "revenue": "recurring SMB/agency spend",
+    "source_link": "https://dev.to/jimrusk/what-ai-agent-builders-want-to-build-vs-what-people-actually-want-5gp6",
+    "source_platform": "forum",
+    "engagement": "category gap analysis 2026",
+    "score": 74
+  },
+  {
+    "type": "revenue_report",
+    "what": "EventCatalog hit $23k MRR without Stripe: invoiced by hand, license keys in DB, conversation with every customer first.",
+    "why_us": "Доказательство, что niche developer tool + high-touch sales доходят до $23k MRR. Анти-шаблон для self-serve only.",
+    "revenue": "$23k MRR",
+    "source_link": "https://x.com/BhaskerKuma/status/2101646014612377773",
+    "source_platform": "x",
+    "engagement": "fresh 20 Sep 2026 + YouTube case",
+    "score": 72
+  },
+  {
+    "type": "revenue_report",
+    "what": "Scenetra joined TrustMRR: $1.1k MRR, $1.2k last 30d, $4k total, 56 active subs, -44% 30d growth.",
+    "why_us": "Верифицированные цифры микро-SaaS + признак оттока. Полезно для бенчмарка ранних стадий.",
+    "revenue": "$1.1k/mo MRR, 56 subs",
+    "source_link": "https://x.com/trust_mrr/status/2101680418672324662",
+    "source_platform": "x",
+    "engagement": "verified TrustMRR listing",
+    "score": 68
+  },
+  {
+    "type": "revenue_report",
+    "what": "The Autopilot newsletter (saschthetasch): $823 MRR, $998 last 30d, $17k total revenue.",
+    "why_us": "Конкретная монетизация ньюслеттера на уровне ~$800 MRR — реалистичный бенч для контент-продуктов.",
+    "revenue": "$823 MRR, $17k total",
+    "source_link": "https://x.com/shipordie_/status/2101645616795254877",
+    "source_platform": "x",
+    "engagement": "public revenue card 20 Sep 2026",
+    "score": 66
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "AI virtual try-on Shopify app (Torziva) для fashion stores: 0 reviews → цель $1k MRR за 30 дней. Agency outreach + listing constraints Shopify.",
+    "why_us": "Свежий AI-wrapper запуск в ecom с ясным KPI. Категория try-on ещё не закрыта.",
+    "revenue": "target $1k MRR / 30d, currently $0",
+    "source_link": "https://x.com/torziva/status/2101608100843413712",
+    "source_platform": "x",
+    "engagement": "2 likes, building-in-public 20 Sep",
+    "score": 61
+  },
+  {
+    "type": "demand_gap",
+    "what": "Авто-сортировка скриншотов: tickets→travel, recipes→food, memes→social, text posters→calendar. Ответ в треде Carl Pei (Nothing Essential AI).",
+    "why_us": "Он-девайс организация медиа — массовый UX-pain. Nothing уже тестит generated apps, значит спрос валидируется оем.",
+    "revenue": "n/a (consumer, potential IAP)",
+    "source_link": "https://x.com/getpeid/status/2051789688675893665",
+    "source_platform": "x",
+    "engagement": "thread replies; parent high-profile CEO ask",
+    "score": 64
+  },
+  {
+    "type": "demand_gap",
+    "what": "Notion Trustpilot: unexpected charges after cancel/downgrade, business support мёртв, данные уходят в OpenAI мелким шрифтом, AI credits сгорают за дни.",
+    "why_us": "Боль workspace+AI: billing integrity + privacy. Окно для self-host / privacy-first Notion-likes.",
+    "revenue": "годовые списания €400+ как боль",
+    "source_link": "https://www.trustpilot.com/review/notion.so",
+    "source_platform": "trustpilot",
+    "engagement": "83 recent reviews, mostly unhappy summary",
+    "score": 70
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "type": "revenue_report",
+    "what": "Postiz just hit $200k MRR; Squad hit $10k MRR less than a month after launch. Thread asking for more 2026 SaaS wins.",
+    "why_us": "Свежие публичные бенчмарки: соц-планировщик до $200k и сверхбыстрый $10k/мес за <30 дней. Высокий engagement у bootstrappers.",
+    "revenue": "$200k MRR (Postiz), $10k MRR (Squad)",
+    "source_link": "https://x.com/yongfook/status/2101913046587428888",
+    "source_platform": "x",
+    "engagement": "173 likes, 71 replies, 69 bookmarks, 28.5k views",
+    "score": 86
+  },
+  {
+    "type": "revenue_report",
+    "what": "Micro-SaaS Tushar Kapil: $800→$900 за сутки, затем $1,000 MRR за ~2 месяца итераций. Next goal $10k bootstrapped.",
+    "why_us": "Конкретная траектория 0→$1k/2 мес. Повторяемый паттерн early SaaS.",
+    "revenue": "$1,000 MRR in ~2 months",
+    "source_link": "https://x.com/TusharKapil003/status/2101382212897935754",
+    "source_platform": "x",
+    "engagement": "170 likes, 60 replies, 37 bookmarks",
+    "score": 80
+  },
+  {
+    "type": "revenue_report",
+    "what": "Atlas Photo companion app: ~$100k MRR, 60k downloads за ~1 год. Локации и свет для фотографов; хуки «Struggling to find photo spots?» → 7.5M views.",
+    "why_us": "Нишевый vertical SaaS + дистрибуция через короткий хук. Доказывает, что узкий workflow фотографов платит.",
+    "revenue": "$100k MRR, 60k downloads",
+    "source_link": "https://x.com/themariaines/status/2100891349147095422",
+    "source_platform": "x",
+    "engagement": "21 likes, 20 bookmarks",
+    "score": 72
+  },
+  {
+    "type": "demand_gap",
+    "what": "HubSpot Marketing Hub G2 21 Sep 2026: «Cost is astronomical», paywall на каждый клик, B2B deal attribution ломается. Ловушка апсейла.",
+    "why_us": "SMB/B2B готовы платить за маркетинг-стек, но ненавидят tier-traps. Окно для attribution-lite / predictable pricing.",
+    "revenue": "enterprise-tier replacement, mid-market WTP",
+    "source_link": "https://www.g2.com/software/digital-marketing",
+    "source_platform": "g2",
+    "engagement": "review dated Sep 21, 2026",
+    "score": 78
+  },
+  {
+    "type": "demand_gap",
+    "what": "QuickBooks Online: +40% цена Plus после lock-in данных. «Predatory pricing» — миграция дороже, чем повышение.",
+    "why_us": "Классический switching-cost pain в accounting. Спрос на честный экспорт + фиксированную цену / self-host bookkeeping.",
+    "revenue": "40% hike as switching trigger",
+    "source_link": "https://www.g2.com/software/business-management-software",
+    "source_platform": "g2",
+    "engagement": "G2 review Jul 28, 2026 (Paul Updike)",
+    "score": 76
+  },
+  {
+    "type": "demand_gap",
+    "what": "Aha! roadmap: «Overpriced / AI can replace». Нет feature-parity, UI basic, CS без эмпатии. Команды уже заменяют AI.",
+    "why_us": "Подтверждение commodity-SaaS под ударом AI. Ниша: Linear-like roadmap за долю цены Aha.",
+    "revenue": "Aha seat replacement",
+    "source_link": "https://www.g2.com/software/goal-tracker",
+    "source_platform": "g2",
+    "engagement": "review Sep 11, 2026",
+    "score": 73
+  },
+  {
+    "type": "demand_gap",
+    "what": "Warp.dev Trustpilot: 2 часа агента = $250; Build Plan — «easiest way to lose money». Ошибки агента жгут бюджет.",
+    "why_us": "Повторяемый паттерн AI-coding: unpredictible agent billing. Нужен cap, local agent, refund on loop.",
+    "revenue": "$250 / 2h negative example",
+    "source_link": "https://www.trustpilot.com/review/warp.dev",
+    "source_platform": "trustpilot",
+    "engagement": "1-star Sep 15, 2026 + multiple Sep reviews",
+    "score": 77
+  },
+  {
+    "type": "demand_gap",
+    "what": "swyx: команда платит >$40k/год за enterprise SaaS, который нельзя кастомизировать. Предлагает weekend-hackathon клонировать и убить low-moat SaaS.",
+    "why_us": "Явная willingness $40k/yr + тезис «commodity SaaS dies to weekend clones». Карта, какие категории ещё живы.",
+    "revenue": ">$40k/year enterprise spend to displace",
+    "source_link": "https://x.com/swyx/status/2085517544795079014",
+    "source_platform": "x",
+    "engagement": "472 likes, 94 replies, 213 bookmarks",
+    "score": 84
+  },
+  {
+    "type": "automation",
+    "what": "Zapier Alternatives: per-task billing «painful on high-volume». n8n/Huginn/Activepieces как cheaper/self-host ответ.",
+    "why_us": "Вечный pain автоматизации: цена за шаг. Спрос на execution-priced / self-host iPaaS для SMB.",
+    "revenue": "Zapier replacement, pay-per-execution",
+    "source_link": "https://alternativeto.net/software/zapier/",
+    "source_platform": "other",
+    "engagement": "page updated Sep 7, 2026; 100+ listed alts",
+    "score": 71
+  },
+  {
+    "type": "demand_gap",
+    "what": "Нет полного canceller подписок across Apple + Google Play + PayPal recurring. Частичные решения, лидера нет (Interexy 2026 gap list).",
+    "why_us": "Документированный unserved niche: единый kill-switch биллинга. Consumer+SMB, высокая частота жалоб на surprise renewals.",
+    "revenue": "consumer SaaS / freemium + IAP",
+    "source_link": "https://interexy.com/app-ideas-that-dont-exist-yet",
+    "source_platform": "other",
+    "engagement": "updated Sep 2, 2026 market-gap article",
+    "score": 70
+  },
+  {
+    "type": "defi_yield",
+    "what": "Solana ehyusd: APY spike 10%→20%+; ehyusd-USDC loop on Loopscale up to 32% max net APY. Base LST 6–8% + risk premium.",
+    "why_us": "Свежая конкретная стратегия с цифрами, не абстрактный «farm». Риск-премия явно описана.",
+    "revenue": "up to 32% net APY (loop), 20%+ pool",
+    "source_link": "https://x.com/1ayberkk/status/2102050514536124656",
+    "source_platform": "x",
+    "engagement": "fresh 21 Sep 2026",
+    "score": 64
+  },
+  {
+    "type": "defi_yield",
+    "what": "Pendle LO-NGI+: limit orders на YT + 100% APR rewards while waiting, поверх base yield NGI+.",
+    "why_us": "Официальный протокол, структурированный yield + incentives. Пригодно как сигнал продукта вокруг Pendle UX.",
+    "revenue": "100% APR waiting + base NGI+",
+    "source_link": "https://x.com/pendle_fi/status/2102024459704225973",
+    "source_platform": "x",
+    "engagement": "4 likes, official account",
+    "score": 63
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "Claude Capterra: token burn на ошибках модели, $400/mo stack, Cyber Verification access снят, $12 за один MCP-проект из $100 бюджета.",
+    "why_us": "Боль предсказуемых лимитов для pro users. Обёртка: budget caps, error-retry не жрёт токены, team pool.",
+    "revenue": "$400/mo spend at risk",
+    "source_link": "https://www.capterra.com/p/10011218/Claude/reviews/",
+    "source_platform": "capterra",
+    "engagement": "1-star Sep 1, 2026 + multiple 2026 cons",
+    "score": 74
+  },
+  {
+    "type": "revenue_report",
+    "what": "Arbor homeschool manager: launch 6 weeks ago, $440 MRR. Помогает семьям, которые не думали, что смогут homeschool.",
+    "why_us": "Вертикальный family SaaS с ранней выручкой. Не crowded productivity.",
+    "revenue": "$440 MRR / 6 weeks",
+    "source_link": "https://x.com/natemhanson/status/2094290814918676490",
+    "source_platform": "x",
+    "engagement": "7 likes",
+    "score": 61
+  }
+]

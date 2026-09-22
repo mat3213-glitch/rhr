@@ -1,0 +1,102 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "Replit Agent: runaway uncapped AI billing loops. Reviewer hit hundreds of dollars in 48h including $112 after a $250 payment when the agent got stuck in an error loop and burned tokens autonomously.",
+    "why_us": "Повторяющаяся боль AI-coding tools: непрозрачные usage-based цены. Спрос на hard caps, kill-switch агента и предсказуемый биллинг.",
+    "revenue": "willingness to pay for predictable AI-dev plans vs surprise $100-250+ bills",
+    "source_link": "https://www.capterra.com/p/10011212/Replit/reviews/",
+    "source_platform": "capterra",
+    "engagement": "2.0/5 review titled Financial Trap for Developers, Jul 14 2026",
+    "score": 78
+  },
+  {
+    "type": "demand_gap",
+    "what": "Adobe Photoshop: users still want one-time buy. G2 cons cluster on expensive Creative Cloud subscription; reviewers explicitly say they wish they could buy it once.",
+    "why_us": "Классический demand gap: perpetual / lifetime license vs subscription hell. Высокая платёжеспособность креаторов и фрилансеров.",
+    "revenue": "$20-60/mo current CC; users signal $100+ one-time preference",
+    "source_link": "https://www.g2.com/products/adobe-photoshop/reviews?qs=pros-and-cons",
+    "source_platform": "g2",
+    "engagement": "88 mentions of Expensive; 21+ mentions of subscription frustration",
+    "score": 76
+  },
+  {
+    "type": "demand_gap",
+    "what": "AI credit traps across Lovable, Fotor, Magai, Artlist, anything.com: MAX/unlimited plans do not include real generation credits; short clips or small tasks burn thousands of credits; refunds refused.",
+    "why_us": "Системная боль AI-wrapper рынка 2026: opaque credits. Возможность для честного usage dashboard + fixed monthly generation buckets.",
+    "revenue": "users already paying $20-50/mo and $100-1350 one-shots they regret",
+    "source_link": "https://www.trustpilot.com/review/lovable.dev?stars=1",
+    "source_platform": "trustpilot",
+    "engagement": "multiple 1-star reviews Sep 2026; same pattern on Capterra/G2",
+    "score": 81
+  },
+  {
+    "type": "demand_gap",
+    "what": "Ask HN: What Pocket alternatives did you move to? After Mozilla sunset, people want save-for-later with offline reading, TTS, imports from Pocket/Instapaper/Raindrop and self-host options.",
+    "why_us": "Явный vacuum после shutdown incumbenta. Комментарии называют Folio, Readeck, Raindrop, Wallabag — рынок ещё не закрыт.",
+    "revenue": "$5-10/mo consumer read-it-later",
+    "source_link": "https://news.ycombinator.com/item?id=44597668",
+    "source_platform": "hn",
+    "engagement": "126 points, 145 comments",
+    "score": 74
+  },
+  {
+    "type": "demand_gap",
+    "what": "Radius relaunch as Meetup.com alternative: simpler groups/events, flat £12/mo Pro, free Events API, widgets, waitlists. HN debate vs Luma/Meetup.",
+    "why_us": "Организаторы локальных сообществ ненавидят Meetup fees/complexity. Валидированный category с живым Show HN.",
+    "revenue": "£12/mo per Pro group",
+    "source_link": "https://news.ycombinator.com/item?id=49777539",
+    "source_platform": "hn",
+    "engagement": "161 points, 76 comments",
+    "score": 72
+  },
+  {
+    "type": "revenue_report",
+    "what": "quicker.chat (Mac unified inbox for LinkedIn/Slack/WhatsApp/X/iMessage) hit 1,242 waitlist signups in 24h. Founder published plan to $20k MRR in 90 days via Superhuman-style invite waves and personal onboarding calls.",
+    "why_us": "Свежий launch + конкретный revenue target + distribution через 150k email / 140k social. Паттерн invite-only SaaS.",
+    "revenue": "target $20k MRR / 90 days",
+    "source_link": "https://x.com/tomaldertweets/status/2102391637217329591",
+    "source_platform": "x",
+    "engagement": "8 likes, 7 replies, 507 views on day-of post",
+    "score": 68
+  },
+  {
+    "type": "demand_gap",
+    "what": "Founderfill: autofill founder forms (Stripe onboarding, App Store metadata, recurring app onboarding). Commenters say Stripe onboarding alone is 40 minutes they resent every time; would pay if it hits the painful forms.",
+    "why_us": "Узкий B2B pain founders; чёткий WTP signal в треде.",
+    "revenue": "SaaS waitlist; implied $10-30/mo founder utility",
+    "source_link": "https://x.com/uriel_builds/status/2099629182690959741",
+    "source_platform": "x",
+    "engagement": "thread replies confirming pay intent",
+    "score": 66
+  },
+  {
+    "type": "demand_gap",
+    "what": "Voice-first calorie tracker: 70% quit tracking in 30 days because logging is painful. Speak a meal, AI parses portions/usuals. Suggested $9.99/mo; 10k subs = $1M+ ARR.",
+    "why_us": "Retention gap в $1.75B market. AI speech + nutrition — конкретный микро-SaaS.",
+    "revenue": "$9.99/mo; $1.75B category",
+    "source_link": "https://x.com/gethalfbaked/status/2075208550989594944",
+    "source_platform": "x",
+    "engagement": "idea dump from Half Baked newsletter vault",
+    "score": 64
+  },
+  {
+    "type": "demand_gap",
+    "what": "Subscription hell → pay-what-you-want software trend. Greg Isenberg: people do not want another SaaS sub; PWYW can 2-3x conversion in beta.",
+    "why_us": "Pricing-model gap, не feature gap. Полезно для GTM микропродуктов RHR.",
+    "revenue": "variable; whales cited paying $1000 for Sublime-like tools",
+    "source_link": "https://x.com/gregisenberg/status/1808112172196638918",
+    "source_platform": "x",
+    "engagement": "487 likes, 34 reposts, 71 replies",
+    "score": 70
+  },
+  {
+    "type": "demand_gap",
+    "what": "Task tools (Jira/ClickUp) G2: pricing explodes with seats/tiers; users want AI automation without enterprise tax. ClickUp learning curve + Jira rapid price jumps.",
+    "why_us": "Повторяемый cons-паттерн team task software. Ниша: simple AI task layer with honest seat pricing.",
+    "revenue": "mid-market teams already paying premium tiers",
+    "source_link": "https://www.g2.com/software/team-task-management",
+    "source_platform": "g2",
+    "engagement": "multiple verified G2 reviews citing price + complexity",
+    "score": 67
+  }
+]

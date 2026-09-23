@@ -1,0 +1,122 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "OpenRouter for tools: founders do not want to sign up for 1000 SaaS APIs. Request for an open protocol where any merchant hosts a tool, agents discover it, and pay ~$0.05 per request.",
+    "why_us": "Явный agent-economy gap. Высокий engagement + повтор в треде. Инфра для микро-монетизации tools/MCP.",
+    "revenue": "$0.05/request marketplace take-rate",
+    "source_link": "https://x.com/FardeemM/status/2096640569808241076",
+    "source_platform": "x",
+    "engagement": "850 likes, 126 replies, 371 bookmarks on original; 101 likes on 'someone should build'",
+    "score": 88
+  },
+  {
+    "type": "demand_gap",
+    "what": "One credit card / wallet app that can cancel ANY subscription from a single interface instead of hunting cancel flows on vendor sites.",
+    "why_us": "Классическая consumer+SMB боль subscription hell. WTP ('I would pay a great deal') от платёжеспособного инвестора.",
+    "revenue": "$5-15/mo consumer or card interchange + cancellation fee",
+    "source_link": "https://x.com/lessin/status/2089376498180555074",
+    "source_platform": "x",
+    "engagement": "578 likes, 65 replies, 66 bookmarks, 109k views",
+    "score": 84
+  },
+  {
+    "type": "demand_gap",
+    "what": "X identity: people cannot tell real vs fake accounts after anyone can buy a checkmark. Request for true verification of who/what is real.",
+    "why_us": "Повторяемая trust-боль соцсетей. Возможность для third-party identity / proof-of-personhood слоя.",
+    "revenue": "$8-20/mo premium verify or B2B API",
+    "source_link": "https://x.com/RichOToole/status/2100352996030791976",
+    "source_platform": "x",
+    "engagement": "209 likes, 127 replies",
+    "score": 72
+  },
+  {
+    "type": "demand_gap",
+    "what": "G2 review of Aha!: overpriced roadmap tool, UI basic, CS lacks empathy; reviewer says product roadmap is commoditized and AI can replace the suite.",
+    "why_us": "Платёжеспособные product teams ищут дешёвую AI-замену Aha/Productboard. Классический 'too expensive + wish AI did it'.",
+    "revenue": "Aha mid-market seats; AI alternative $20-99/mo",
+    "source_link": "https://www.g2.com/software/goal-tracker",
+    "source_platform": "g2",
+    "engagement": "verified G2 review Sep 11 2026 titled Overpriced / AI can replace",
+    "score": 74
+  },
+  {
+    "type": "demand_gap",
+    "what": "QuickBooks Online: predatory 40% price hike after lock-in; migration cost higher than increase. Users trapped by data gravity.",
+    "why_us": "Системная боль accounting SaaS. Спрос на portable books + cheaper QBO alternative with easy import.",
+    "revenue": "SMB already paying QBO Plus; 40% hike = switching window",
+    "source_link": "https://www.g2.com/software/business-management-software",
+    "source_platform": "g2",
+    "engagement": "G2 review Jul 28 2026 Intuit/Quickbooks Predatory Pricing model",
+    "score": 73
+  },
+  {
+    "type": "demand_gap",
+    "what": "Ask HN: looking for a non-cloud Wispr Flow alternative that runs on-device. Repeated pattern of people building local Whisper wrappers because $15/mo cloud dictation is too expensive and not private.",
+    "why_us": "Повторяемый demand gap local STT. Несколько Show HN (FnScribe, Mellon, Handy, Glimpse, VoiceInk).",
+    "revenue": "$15/mo incumbent; local apps $0-25 one-time",
+    "source_link": "https://news.ycombinator.com/item?id=49809670",
+    "source_platform": "hn",
+    "engagement": "fresh Ask HN + multiple prior Show HN threads on same pain",
+    "score": 76
+  },
+  {
+    "type": "revenue_report",
+    "what": "Yaak (MIT-licensed offline API client) crossed $5k MRR. Founder was unsure open-source + offline would monetize.",
+    "why_us": "Доказанный OSS-to-paid паттерн для devtools. Конкретная цифра и свежий пост.",
+    "revenue": "$5k MRR",
+    "source_link": "https://x.com/GregorySchier/status/2102461057940033641",
+    "source_platform": "x",
+    "engagement": "63 likes, 12 replies",
+    "score": 70
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "BeatAPI: image/video model API layer born from founder pain wiring models into BeatDesign. 744 signups in 25 days, ~$900 revenue, 284 billed usage records, 33 top-ups.",
+    "why_us": "Свежий AI infra wrapper с воронкой curiosity→first call→top-up. Честные conversion numbers.",
+    "revenue": "~$900 in 25 days; 33 paying top-ups",
+    "source_link": "https://www.indiehackers.com/post/we-got-744-signups-in-25-days-heres-the-growth-work-we-actually-did-ee48a3ecbf",
+    "source_platform": "other",
+    "engagement": "Indie Hackers post published 2026-09-23",
+    "score": 80
+  },
+  {
+    "type": "revenue_report",
+    "what": "TooEasy habit tracker: solo founder in Vietnam, $1.8k MRR while keeping a 9-5. Target $10k/mo.",
+    "why_us": "Микро-SaaS habit category still prints. Конкретный MRR и solo constraint.",
+    "revenue": "$1.8k MRR",
+    "source_link": "https://x.com/robmailserver/status/2102697502931878156",
+    "source_platform": "x",
+    "engagement": "26 likes, 28 replies",
+    "score": 62
+  },
+  {
+    "type": "revenue_report",
+    "what": "Indie SaaS for combat-sport clubs crossed €1.2k MRR while founder still delivers food and coaches. Clubs pay; product growing but not yet family-living income.",
+    "why_us": "Вертикальный niche SaaS (JJB/gyms) с доказанной willingness to pay клубов.",
+    "revenue": "€1.2k MRR",
+    "source_link": "https://x.com/JoyBoyBuild/status/2102486065269428713",
+    "source_platform": "x",
+    "engagement": "99 likes, 13 replies",
+    "score": 66
+  },
+  {
+    "type": "revenue_report",
+    "what": "Flidget.com: cancel-flow conversation tool for SaaS. $4k MRR mostly via word of mouth after talking to users at the exact cancel moment.",
+    "why_us": "Мета-боль churn + продукт на этой боли. Паттерн 'ask at worst moment'.",
+    "revenue": "$4k MRR",
+    "source_link": "https://www.indiehackers.com/post/4k-mrr-and-the-only-growth-hack-that-actually-worked-talking-to-users-at-the-worst-moment-565b28058c",
+    "source_platform": "other",
+    "engagement": "Indie Hackers case May 2026",
+    "score": 68
+  },
+  {
+    "type": "demand_gap",
+    "what": "Tool that connects to a codebase and captures screenshots of every screen / edge-case into one live product canvas.",
+    "why_us": "QA + design-system + onboarding pain. Узкий B2B для product/eng teams.",
+    "revenue": "$20-50/mo team tool",
+    "source_link": "https://x.com/shikhars_/status/2100122723737596125",
+    "source_platform": "x",
+    "engagement": "38 likes, 20 replies, 17 bookmarks",
+    "score": 61
+  }
+]

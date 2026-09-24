@@ -1,0 +1,122 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "Тул для трекинга всех AI/приложений с доступом к email, calendar, SMS — единый permission manager",
+    "why_us": "Явный demand gap от founder/PM: permissions размазаны по десяткам экранов, с ростом AI-агентов проблема усиливается",
+    "revenue": "n/a",
+    "source_link": "https://x.com/shikhars_/status/2102975814476427578",
+    "source_platform": "x",
+    "engagement": "17 likes, 6 replies, 9 bookmarks, 1449 views",
+    "score": 68
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "Приложение photo-to-cartoon делает $100K MRR — простой AI-wrapper на изображениях",
+    "why_us": "Конкретная цифра монетизации микро-SaaS без сложного продукта; повторяемый паттерн consumer AI image tools",
+    "revenue": "$100k/mo",
+    "source_link": "https://x.com/shipper_dck/status/2103084487852609740",
+    "source_platform": "x",
+    "engagement": "3 likes, 1 repost, 2 bookmarks",
+    "score": 72
+  },
+  {
+    "type": "demand_gap",
+    "what": "Lovable.dev: жалобы на агрессивный сжиг credits, хранение съедает credits даже у offline-приложений, сбои теряют сотни долларов за секунды",
+    "why_us": "Массовый боль AI app-builders: непредсказуемый billing. Гап на прозрачный credit-metering / локальные или fixed-price builders",
+    "revenue": "$25–$500 lost per incident",
+    "source_link": "https://www.trustpilot.com/review/lovable.dev?stars=1",
+    "source_platform": "trustpilot",
+    "engagement": "1-star cluster, Sep 2026 reviews",
+    "score": 74
+  },
+  {
+    "type": "demand_gap",
+    "what": "QuickBooks Online: predatory pricing +40% hike после lock-in данных; AI-фичи не нравятся; банк-интеграции хромают",
+    "why_us": "Классический SMB-боль с высокой платёжеспособностью. Окно для дешёвлого accounting/сверки без vendor lock-in",
+    "revenue": "n/a (incumbent +40% price)",
+    "source_link": "https://www.g2.com/software/business-management-software",
+    "source_platform": "g2",
+    "engagement": "G2 reviews citing 40% hike",
+    "score": 71
+  },
+  {
+    "type": "demand_gap",
+    "what": "Aha! product roadmap — «overpriced / AI can replace», много ручной конфигурации, слабый CS",
+    "why_us": "PM-tools дорожают, команды уходят в AI. Гап на lightweight AI roadmap/OKR для малых команд",
+    "revenue": "n/a",
+    "source_link": "https://www.g2.com/software/goal-tracker",
+    "source_platform": "g2",
+    "engagement": "G2 review 11 Sep 2026",
+    "score": 66
+  },
+  {
+    "type": "demand_gap",
+    "what": "Ask HN: local / on-device alternative to Wispr Flow (cloud dictation). Ищут Handy, VoiceInk, Glimpse",
+    "why_us": "Свежий запрос на privacy-first voice-to-text. Платящие юзеры уже покупают $25+ лицензии",
+    "revenue": "$25 one-device (VoiceInk comps)",
+    "source_link": "https://news.ycombinator.com/item?id=49809670",
+    "source_platform": "hn",
+    "engagement": "fresh Ask HN, 3 pts, active replies",
+    "score": 70
+  },
+  {
+    "type": "demand_gap",
+    "what": "Meetup заспамлен коммерческими AI-flyer ивентами. Radius — альтернатива для сообществ и lightweight activities",
+    "why_us": "Повторяющийся боль от засилья Meetup. Спрос на anti-commercial local events",
+    "revenue": "n/a",
+    "source_link": "https://news.ycombinator.com/item?id=49777539",
+    "source_platform": "hn",
+    "engagement": "166 points, 84 comments",
+    "score": 78
+  },
+  {
+    "type": "defi_yield",
+    "what": "QFEX Managed Accounts: market-neutral AI strategy, out-of-sample APY 29.6% net, Sharpe 3.01, no lock-up, collateral в своём аккаунте",
+    "why_us": "Свежий yield-продукт с цифрами и waitlist. Высокий engagement на анонс",
+    "revenue": "29.6% APY net",
+    "source_link": "https://x.com/annanay/status/2103115910940623187",
+    "source_platform": "x",
+    "engagement": "236 likes, 38 RT, 253 quotes, 8195 views",
+    "score": 81
+  },
+  {
+    "type": "defi_yield",
+    "what": "apyUSD / Apyx: 30D APY 13.21% on digital credit, implied 14.56% if STRC recovers to $100",
+    "why_us": "Конкретный onchain credit yield выше стейблов, свежий снэпшот",
+    "revenue": "13.21% APY (30D)",
+    "source_link": "https://x.com/apyx_fi/status/2103122395989229984",
+    "source_platform": "x",
+    "engagement": "5 likes, 2 RT",
+    "score": 62
+  },
+  {
+    "type": "demand_gap",
+    "what": "Платформа желаний: люди публикуют проверенную просьбу (ноутбук, криб, школа), доноры выбирают кому помочь без DM-нищенства",
+    "why_us": "Чёткая формулировка продукта + анти-скам верификация. Ниша между GoFundMe и чатными сборами",
+    "revenue": "n/a",
+    "source_link": "https://x.com/Hemjayoh/status/2103084245728072028",
+    "source_platform": "x",
+    "engagement": "7 likes, 3 RT, 1 quote",
+    "score": 61
+  },
+  {
+    "type": "demand_gap",
+    "what": "Warp.dev AI: 1-star жалобы — $250 за 2ч run, credits сгорают за 10 промптов, pricing trap после перехода на Build Plan",
+    "why_us": "Тот же паттерн, что Lovable: AI-dev tools жгут бюджет. Спрос на predictable pricing для coding agents",
+    "revenue": "$250 / 2h cited",
+    "source_link": "https://www.trustpilot.com/review/warp.dev",
+    "source_platform": "trustpilot",
+    "engagement": "1-star reviews Sep 2026",
+    "score": 69
+  },
+  {
+    "type": "revenue_report",
+    "what": "Список 300 paid→free alternatives набрал 1255 лайков — сильный сигнал subscription fatigue и спроса на дешёвые замены",
+    "why_us": "Массовый интерес к сходу с платных SaaS. Карта ниш где people switch",
+    "revenue": "n/a (demand for $0 alternatives)",
+    "source_link": "https://x.com/kumud_deepali/status/2100311470437285894",
+    "source_platform": "x",
+    "engagement": "1255 likes, 443 RT, 48 replies",
+    "score": 80
+  }
+]

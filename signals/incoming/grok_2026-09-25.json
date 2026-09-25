@@ -1,0 +1,152 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "G2 review Aha! (Sep 11, 2026): roadmap tool called overpriced; reviewer says product roadmap is commoditized and they replaced it with AI + Jira/Asana/Productboard. Pain: price vs value + manual config.",
+    "why_us": "Повторяющийся demand gap: PM-инструменты дорожают, покупатели уходят в AI-самоделку. Можно микро-SaaS: AI roadmap из tickets/Slack без enterprise-цены.",
+    "revenue": "Aha! enterprise pricing; willingness to replace with cheaper AI stack",
+    "source_link": "https://www.g2.com/software/goal-tracker",
+    "source_platform": "g2",
+    "engagement": "G2 verified review, Sep 11 2026",
+    "score": 72
+  },
+  {
+    "type": "demand_gap",
+    "what": "QuickBooks Online G2: «predatory pricing» — Plus подняли ~40%. Данные залочены, миграция дороже повышения. Не любят AI-фичи.",
+    "why_us": "Классическая lock-in боль SMB-бухгалтерии. Альтернатива с честным прайсом + простой экспорт — платёжеспособный сегмент.",
+    "revenue": "QBO Plus +40% hike; SMB accounting spend",
+    "source_link": "https://www.g2.com/software/business-management-software",
+    "source_platform": "g2",
+    "engagement": "G2 review Jul 28 2026, category page live Sep 18",
+    "score": 70
+  },
+  {
+    "type": "demand_gap",
+    "what": "HubSpot Sales Hub / Salesforce reviews: цена взлетает на Pro/Enterprise; ключевые фичи (sequences, forecasts) за пейволлом; SMB вынуждены покупать лишние seats.",
+    "why_us": "Повторяемый cons по CRM: seat-tax и feature gating. Ниша — CRM на 1–5 seats без forced bundle.",
+    "revenue": "HubSpot Pro/Ent; Salesforce editions",
+    "source_link": "https://www.g2.com/es/software/sales-force-automation",
+    "source_platform": "g2",
+    "engagement": "Multiple G2 cons on pricing, page dated Sep 22 2026",
+    "score": 68
+  },
+  {
+    "type": "demand_gap",
+    "what": "G2 discussion: affordable MDR for online businesses without enterprise price. Huntress/Cynet/Sophos named; community asked if they actually work for SMBs.",
+    "why_us": "Явный поиск дешёвого managed detection. Можно позиционировать lightweight MDR/XDR для ecom/SaaS.",
+    "revenue": "SMB cybersecurity budgets vs enterprise MDR",
+    "source_link": "https://www.g2.com/discussions/affordable-mdr-tools-for-online-businesses",
+    "source_platform": "g2",
+    "engagement": "G2 community thread Sep 16 2026",
+    "score": 64
+  },
+  {
+    "type": "demand_gap",
+    "what": "Trustpilot Warp.dev: 5→1 star after «Build Plan». BYOK ломается, нет Anthropic prompt caching — Opus по полному input на каждый запрос. Support шлёт в GitHub. Другие: waste of money, usage limits.",
+    "why_us": "Боль AI-dev-tooling: скрытый token cost + сломанный BYOK. Спрос на честный agent terminal с caching и прозрачными лимитами.",
+    "revenue": "Paid Warp plans + raw Anthropic token spend",
+    "source_link": "https://de.trustpilot.com/review/warp.dev",
+    "source_platform": "trustpilot",
+    "engagement": "1-star updates Jan/Oct 2025–2026; TrustScore complaints",
+    "score": 74
+  },
+  {
+    "type": "demand_gap",
+    "what": "HN Ask: LinkedIn job search replaced decent filters with fuzzy AI search. People asking for alternatives; hiring.cafe / searchforjobs.app recommended.",
+    "why_us": "Свежая боль рынка труда 2026: AI-search ломает precision. Job-board с жёсткими фильтрами без LinkedIn-tax.",
+    "revenue": "Job-seeker + recruiter SaaS",
+    "source_link": "https://news.ycombinator.com/item?id=49816567",
+    "source_platform": "hn",
+    "engagement": "Ask HN ~1 day ago, active comments",
+    "score": 67
+  },
+  {
+    "type": "revenue_report",
+    "what": "Indie builder @carlmonkft: first app failed after 2 years organic (30M views). Before $10k MRR learned: don't rely on organic, kill flops in 2 weeks via download-to-paid/trial data. Screen-time niche hard.",
+    "why_us": "Свежий (сегодня) high-engagement пост с конкретной воронкой и антипаттернами. Урок дистрибуции для consumer apps.",
+    "revenue": "$10,000 MRR (subsequent product; first app failed)",
+    "source_link": "https://x.com/carlmonkft/status/2103429573098492004",
+    "source_platform": "x",
+    "engagement": "212 likes, 222 bookmarks, 56 replies, 10.6k views",
+    "score": 86
+  },
+  {
+    "type": "revenue_report",
+    "what": "HeyReach (@nikolak47) hit $18M ARR bootstrapped, 7500+ customers, 73%+ EBITDA. Growth slowed to ~7% MoM; TAM exhaustion on agency niche; shifting to GTM/sales + AI-first. Voice Notes was #1 requested feature for 18 months.",
+    "why_us": "Редкие честные цифры + feature-gap (voice notes) и урок: не копировать конкурентов пока tech не готов. Планируют второй продукт 5–10x.",
+    "revenue": "$18M ARR, ~7% MoM, path to $20M this year",
+    "source_link": "https://x.com/nikolak47/status/2103183053275431110",
+    "source_platform": "x",
+    "engagement": "140 likes, 69 bookmarks, 44 replies, 21k views",
+    "score": 88
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "Higgsfield AI creative suite: $1B ARR in 18 months, 30M users, Fortune 500, 400 people. $100M→$1B ARR in 10 months. Application-layer AI video/creative.",
+    "why_us": "Бенчмарк AI wrapper/suite 2026: application layer, не foundation model. Enterprise adoption 10x since June.",
+    "revenue": "$1B ARR / ~$2.5M ARR per employee",
+    "source_link": "https://x.com/higgsfield/status/2103158589577977939",
+    "source_platform": "x",
+    "engagement": "1417 likes, 305 reposts, 219 replies, 653k views",
+    "score": 84
+  },
+  {
+    "type": "revenue_report",
+    "what": "Hunter J. Isaacson: at 22 built #1 app worldwide, 100M downloads, $20M ARR (BagsApp / acquired products).",
+    "why_us": "Consumer app scale-benchmark; сигнал что hit-apps всё ещё дают 8-значный ARR.",
+    "revenue": "$20M ARR, 100M downloads",
+    "source_link": "https://x.com/hunterjisaacson/status/2103355978859372746",
+    "source_platform": "x",
+    "engagement": "102 likes, 21 bookmarks, 7.2k views",
+    "score": 71
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "SmoothCapture (screen recorder) added subscriptions 15 days ago: $111 revenue, $90 MRR, 3 churns. Founder projects $1k MRR in ~5 months at current rate.",
+    "why_us": "Микро-SaaS с ранней монетизацией. Конкретика trial→paid и churn на старте.",
+    "revenue": "$90 MRR / $111 total in 15 days",
+    "source_link": "https://x.com/VuNguyenDev/status/2103306977430691959",
+    "source_platform": "x",
+    "engagement": "27 likes, 14 replies",
+    "score": 62
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "QoraAPI: one key for 350+ models ~70% off. Tweet: gateway hit $1,070.01 today as teams leave expiring monthly credits of legacy clouds.",
+    "why_us": "Спрос на multi-model API gateway без сгорающих кредитов. Классический infra-wrapper.",
+    "revenue": "$1,070 (daily? cumulative stated as hit today)",
+    "source_link": "https://x.com/QoraAPI/status/2103475941603520783",
+    "source_platform": "x",
+    "engagement": "fresh Sep 25, low likes but concrete $ figure",
+    "score": 61
+  },
+  {
+    "type": "demand_gap",
+    "what": "Yu Jin Lee: instinct productivity agent feels 10x vs poke ($0.99/mo); would pay $10/mo but not an order of magnitude more — not a novel experience, mostly chore-automation.",
+    "why_us": "WTP-калибровка personal AI agents: $10/mo ceiling unless novel capability. Важно для pricing AI wrappers.",
+    "revenue": "$10/mo WTP stated",
+    "source_link": "https://x.com/leeyujin512/status/2094521252182368370",
+    "source_platform": "x",
+    "engagement": "65 likes, 34 bookmarks, 7k views",
+    "score": 66
+  },
+  {
+    "type": "automation",
+    "what": "levelsio replaced a stack of SaaS with vibe-coded internals, ~$25k/mo savings (NSFW detect $2.5k, human mods $10k, support $5k, image resize $1.5k, maps $500, etc.). Remaining: domains, email, R2, B2, Hetzner, xAI.",
+    "why_us": "Карта уязвимых SaaS, которые соло-фаундер выкидывает. Кандидаты на simpler cheaper tools или anti-SaaS infra.",
+    "revenue": "~$25,000/mo saved",
+    "source_link": "https://x.com/levelsio/status/2097692685775565031",
+    "source_platform": "x",
+    "engagement": "4286 likes, 6191 bookmarks, 576k views",
+    "score": 82
+  },
+  {
+    "type": "demand_gap",
+    "what": "Capterra Sellsy reviews: annual-only lock-in after 14-day trial, ~€95/user/mo plus paid modules (treasury +€45). Users compare cheaper combo Pennylane+€29 / Yousign+€11 / HubSpot starter €20.",
+    "why_us": "EU SMB all-in-one CRM/finance боль: opaque add-ons + yearly trap. Спрос на monthly unbundled stack.",
+    "revenue": "~€95–140/user/mo incumbent vs ~€60 unbundled",
+    "source_link": "https://www.capterra.com/p/133104/Sellsy/reviews/",
+    "source_platform": "capterra",
+    "engagement": "Detailed 1-star style cons on Capterra",
+    "score": 69
+  }
+]

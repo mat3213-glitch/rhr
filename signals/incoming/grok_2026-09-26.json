@@ -1,0 +1,152 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "@samconnerone (Circle/Arc): someone should build a trusted rating system for DeFi protocols and tokens covering security, liquidity, decentralization, audits, token concentration, history, governance, yield sustainability.",
+    "why_us": "Явный product request от web3-инфлюенсера в день сбора. Ритейл-DeFi всё ещё не умеет считать риск до аллокации капитала.",
+    "revenue": "Подписка/API для retail + funds; ads/listings от протоколов",
+    "source_link": "https://x.com/samconnerone/status/2103826407616909355",
+    "source_platform": "x",
+    "engagement": "134 likes, 48 reposts, 62 replies, 3k views (same day)",
+    "score": 78
+  },
+  {
+    "type": "demand_gap",
+    "what": "Sam Lessin: I would pay a great deal for a credit card whose app can cancel any subscription instead of hunting vendor sites.",
+    "why_us": "Классическая боль subscription fatigue + fintech WTP от GP. Совпадает с Capterra: 42% отменили подписку за 90 дней потому что too expensive.",
+    "revenue": "Card interchange + premium card fee; high WTP stated",
+    "source_link": "https://x.com/lessin/status/2089376498180555074",
+    "source_platform": "x",
+    "engagement": "578 likes, 68 bookmarks, 64 replies, 109k views",
+    "score": 86
+  },
+  {
+    "type": "demand_gap",
+    "what": "Ask HN (minutes–hours old): anyone using a non-cloud Wispr Flow alternative that runs on-device. Replies: Handy (OSS), VoiceInk ($25), Glimpse, FluidVoice.",
+    "why_us": "Свежий privacy/local-dictation gap. Люди платят за on-device voice, не хотят cloud Wispr.",
+    "revenue": "VoiceInk $25 one-device; paid local extras",
+    "source_link": "https://news.ycombinator.com/item?id=49809670",
+    "source_platform": "hn",
+    "engagement": "Ask HN live same day, multiple product replies",
+    "score": 71
+  },
+  {
+    "type": "demand_gap",
+    "what": "G2 Aha! review Sep 11 2026 titled Overpriced / AI can replace. 4 years on Aha!, roadmap commoditized; replaced with AI + Jira/Asana/Productboard. Price for value + manual config.",
+    "why_us": "Повторяемый PM-tool gap: enterprise roadmap дорог, покупатели уходят в AI-самоделку.",
+    "revenue": "Aha! enterprise vs DIY AI stack",
+    "source_link": "https://www.g2.com/software/goal-tracker",
+    "source_platform": "g2",
+    "engagement": "Verified G2 review Sep 11 2026",
+    "score": 72
+  },
+  {
+    "type": "demand_gap",
+    "what": "G2 ServiceTitan dislike: after drop, still forced to pay >$3,500/mo with no early terminate. Implementation harder than expected, value not delivered. Same page: Joby positioned as ServiceTitan-depth without six-figure setup.",
+    "why_us": "Field-service lock-in боль. Спрос на mid-market FSM без контрактной ловушки.",
+    "revenue": ">$3,500/mo trapped spend; six-figure enterprise alternative",
+    "source_link": "https://www.g2.com/software/work-order",
+    "source_platform": "g2",
+    "engagement": "G2 cons + competitor narrative, page live Sep 16 2026",
+    "score": 76
+  },
+  {
+    "type": "demand_gap",
+    "what": "Brightwheel G2 discussion: hidden 3% card fee, no refund on service fees, $56 extra on one tuition payment. Parents call it scam; support poor.",
+    "why_us": "EdTech payments pain: fee opacity. Ниша прозрачных school-billing rails без 3% surcharge.",
+    "revenue": "3% of tuition volume + non-refundable fees",
+    "source_link": "https://www.g2.com/discussions/how-do-you-handle-brightwheel-s-credit-card-service-fees-and-refund-policy",
+    "source_platform": "g2",
+    "engagement": "Angry parent thread + 1 comment calling scam, Sep 2026",
+    "score": 66
+  },
+  {
+    "type": "demand_gap",
+    "what": "Matthew Cappucci: I would pay $$$ for a storm chaser / meteorologist dating app. Niche but high-engagement WTP.",
+    "why_us": "Чёткая willingness-to-pay на vertical dating. Маленький TAM, но сильный сигнал продукта.",
+    "revenue": "WTP $$$ stated",
+    "source_link": "https://x.com/MatthewCappucci/status/2096080933564579894",
+    "source_platform": "x",
+    "engagement": "344 likes, 33 replies, 25k views",
+    "score": 64
+  },
+  {
+    "type": "revenue_report",
+    "what": "TrustMRR (by @marclou): marketplace for buying/selling SaaS/apps/AI with verified Stripe/RevenueCat MRR, founder negotiation + escrow. Tweet: site reached $44k/mo revenue.",
+    "why_us": "Конкретный $44k/mo на infra вокруг покупки микро-SaaS. Сам продукт — сигнал спроса на verified-MRR deals.",
+    "revenue": "$44,000/mo",
+    "source_link": "https://x.com/samanfaegh/status/2103444313858519461",
+    "source_platform": "x",
+    "engagement": "138 likes, 196 bookmarks, 5.7k views",
+    "score": 84
+  },
+  {
+    "type": "revenue_report",
+    "what": "@ilyanovohatskyi / microns.io: €23 MRR EdTech SaaS acquired for $3,000 (15x). Ukrainian founder in Berlin.",
+    "why_us": "Мультипликатор крошечных SaaS: 15x MRR даже при €23. Бенчмарк для flip-market.",
+    "revenue": "€23 MRR sold at $3,000 (15x)",
+    "source_link": "https://x.com/ilyanovohatskyi/status/2103503828368961713",
+    "source_platform": "x",
+    "engagement": "39 likes, 15 bookmarks",
+    "score": 68
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "16yo Kevin Belfort: first app to $30k MRR in 6 months; just launched second app. Conversions ok, bottleneck is distribution.",
+    "why_us": "Consumer AI/app wrapper scale: $30k MRR / 6 mo without deep domain. Урок — distribution, не модель.",
+    "revenue": "$30,000 MRR in 6 months",
+    "source_link": "https://x.com/KevinBelfort_30/status/2090891049350701267",
+    "source_platform": "x",
+    "engagement": "59 likes, 15 replies, 3.8k views",
+    "score": 73
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "Hypothetical/real framing: OpenAI-API product with 20k users, $30k MRR, 70% GM — community argues wrapper vs startup vs moat.",
+    "why_us": "Калибровка рынка: $30k MRR / 70% GM считается рабочей единицей AI wrapper 2026.",
+    "revenue": "$30,000 MRR, 70% gross margin, 20k users",
+    "source_link": "https://x.com/dark_coderz/status/2093119619511046466",
+    "source_platform": "x",
+    "engagement": "28 likes, 17 replies",
+    "score": 61
+  },
+  {
+    "type": "demand_gap",
+    "what": "Show HN ReacherX: open-source Apollo alternative. Founder: even in 2026 finding the right people is hard; wants plain-English people search with evidence, not static Apollo DB.",
+    "why_us": "Sales-intel gap для non-sales founders. Live X/LinkedIn search vs stale databases.",
+    "revenue": "Apollo-alternative pricing for indie/dev users",
+    "source_link": "https://news.ycombinator.com/item?id=49800641",
+    "source_platform": "hn",
+    "engagement": "Show HN 4 days ago",
+    "score": 63
+  },
+  {
+    "type": "demand_gap",
+    "what": "Trustpilot Warp.dev: 1-star after Build Plan. One 2-hour AI run = $250. BYOK without Anthropic prompt caching = full input tokens every request. Called waste of money / usage-limit scam.",
+    "why_us": "AI coding tool pricing shock. Спрос на честный agent-terminal с caching и предсказуемым $.",
+    "revenue": "$250 per long run; paid Warp plans",
+    "source_link": "https://de.trustpilot.com/review/warp.dev",
+    "source_platform": "trustpilot",
+    "engagement": "1-star reviews 2025–2026, incl. Sep 16 2026",
+    "score": 74
+  },
+  {
+    "type": "demand_gap",
+    "what": "Capterra subscription-fatigue research: 42% canceled a plan in last 90 days; 65% of cancelers said too expensive; 38% would cancel on any price hike; 80% prefer tiered/flexible pricing.",
+    "why_us": "Макро-боль всех SaaS: цена vs value. Поддерживает идею cancel-from-card и честных mid-tiers.",
+    "revenue": "Mass consumer/SMB subscription spend",
+    "source_link": "https://www.capterra.com/resources/subscription-fatigue/",
+    "source_platform": "capterra",
+    "engagement": "Capterra survey stats",
+    "score": 70
+  },
+  {
+    "type": "automation",
+    "what": "STON.fi packaged TON→EVM Telegram Mini App example (TonConnect + Dynamic embedded EVM wallet + Omniston). Builders can expose EVM products to TON users without becoming TON-native.",
+    "why_us": "Готовый паттерн кроссчейн-бота/миниаппа. Автоматизация бриджей как продукт для EVM-протоколов.",
+    "revenue": "Swap/bridge take-rate on TON↔EVM flow",
+    "source_link": "https://x.com/ChainSector/status/2103066649351827661",
+    "source_platform": "x",
+    "engagement": "119 likes on analysis; original STON.fi 70 likes + 18 quotes",
+    "score": 65
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "type": "revenue_report",
+    "what": "Tally (form builder) crossed $6M ARR and 2.5M users after 6 years, team of 10, bootstrapped product-led.",
+    "why_us": "Конкретные ARR-цифры нишевого no-code форм-билдера; долгий трек и повторяемый паттерн инди-хакерского роста.",
+    "revenue": "$6M ARR",
+    "source_link": "https://www.indiehackers.com/post/6-years-in-6-million-far-Zf0kp5NGfnrdWefXXFBv",
+    "source_platform": "other",
+    "engagement": "IH revenue update + blog",
+    "score": 78
+  },
+  {
+    "type": "revenue_report",
+    "what": "PressDrop.io: $700 revenue in 3 weeks after launch. Press-release distribution to 500+ outlets. First sale day 1, then silence, then sales after showing product on X. Price path cheap → $99 early bird, target ~$199.",
+    "why_us": "Свежий launch с цифрами и дистрибуционным инсайтом (show > tell). Ниша PR-для-стартапов платежеспособна.",
+    "revenue": "$700 / 3 weeks",
+    "source_link": "https://www.indiehackers.com/post/700-in-revenue-3-weeks-after-launch-my-story-739b3b29ca",
+    "source_platform": "other",
+    "engagement": "IH post Sep 21 2026",
+    "score": 72
+  },
+  {
+    "type": "revenue_report",
+    "what": "BeatAPI: 744 signups in 25 days, ~$900 revenue. 284 billed API usage, 33 topped up. SEO from decision-pages for developers.",
+    "why_us": "Свежие цифры конверсии signup→usage→pay. Боль активации API-продукта явна.",
+    "revenue": "~$900 / 25 days",
+    "source_link": "https://www.indiehackers.com/post/we-got-744-signups-in-25-days-heres-the-growth-work-we-actually-did-ee48a3ecbf",
+    "source_platform": "other",
+    "engagement": "IH Sep 23 2026",
+    "score": 70
+  },
+  {
+    "type": "demand_gap",
+    "what": "Joke-tweet «they should make a super app where you can visit any website you want» hit 1580 likes / 180 replies / 124 quotes in one day. People still want a WeChat-like everything-app in the West.",
+    "why_us": "Высокий engagement (>100 likes с запасом) на demand gap супер-аппа. Тема повторяется в 2026 (AI workspaces as proto-super-app).",
+    "revenue": "n/a",
+    "source_link": "https://x.com/willcb/status/2102186306193563936",
+    "source_platform": "x",
+    "engagement": "1580 likes, 180 replies, 124 quotes",
+    "score": 76
+  },
+  {
+    "type": "demand_gap",
+    "what": "Replit G2 cons: expensive, confusing billing, annual lock-in. User spent $5k+, $250/mo through Apr 2027, no downgrade. 68 mentions of expensive.",
+    "why_us": "Повторяющаяся боль цены vibe-coding IDE. Платежеспособная аудитория (SMB/инди). Щель для cheaper / transparent-credits alternative.",
+    "revenue": "incumbent $250/mo annual",
+    "source_link": "https://www.g2.com/products/replit/reviews?qs=pros-and-cons",
+    "source_platform": "g2",
+    "engagement": "68 mentions expensive",
+    "score": 74
+  },
+  {
+    "type": "demand_gap",
+    "what": "Harvest time-tracking: Trustpilot 1.9. Long-term users report 5x–8x price hikes ($6k→$30k/yr; $12→$116.50/seat). Freelancers and SMBs fleeing.",
+    "why_us": "Классический SaaSacre-гэп: incumbents raise prices, buyers seek cheaper focused tools.",
+    "revenue": "incumbent $12–$116/seat",
+    "source_link": "https://www.trustpilot.com/review/www.harvestapp.com",
+    "source_platform": "trustpilot",
+    "engagement": "30 reviews, score 1.9",
+    "score": 73
+  },
+  {
+    "type": "demand_gap",
+    "what": "Ask HN: local/non-cloud Wispr Flow alternative for on-device dictation. Replies: Handy (OSS), VoiceInk ($25), Glimpse, FluidVoice.",
+    "why_us": "Свежий privacy demand gap: voice-to-text without cloud. Есть willingness to pay ($25+) и OSS-ниша.",
+    "revenue": "$25 one-device comps",
+    "source_link": "https://news.ycombinator.com/item?id=49809670",
+    "source_platform": "hn",
+    "engagement": "Ask HN live (minutes old)",
+    "score": 68
+  },
+  {
+    "type": "demand_gap",
+    "what": "Show HN: ReacherX — open-source Apollo alternative. Live search X+LinkedIn in plain English instead of static sales DB. Built because finding people in 2026 is still hard.",
+    "why_us": "Прямой demand gap vs Apollo/sales-intel. Founder-first, not sales-ops. Open-source wedge.",
+    "revenue": "n/a (early)",
+    "source_link": "https://news.ycombinator.com/item?id=49800641",
+    "source_platform": "hn",
+    "engagement": "Show HN 5 days ago",
+    "score": 66
+  },
+  {
+    "type": "revenue_report",
+    "what": "@harisahmad59: 24yo solo, $1k MRR while finishing CS degree. Audience 200k+. Built own SaaS products from room.",
+    "why_us": "Свежий micro-SaaS revenue snapshot + distribution via audience.",
+    "revenue": "$1k MRR",
+    "source_link": "https://x.com/harisahmad59/status/2104203081022099469",
+    "source_platform": "x",
+    "engagement": "19 likes, 11 replies",
+    "score": 62
+  },
+  {
+    "type": "revenue_report",
+    "what": "QR-code app doing $200k MRR launched <1 year ago despite native camera QR being free. Screenshot via @peekly_app.",
+    "why_us": "Контринтуитивный сигнал: commodity-feature монетизируется на B2B-обёртке (аналитика, бренд, динамические коды).",
+    "revenue": "$200k MRR",
+    "source_link": "https://x.com/HmzBlackwell/status/2104199744809824738",
+    "source_platform": "x",
+    "engagement": "2 likes, 4 bookmarks",
+    "score": 67
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "AI-wrapper trap: 53% of SaaS listings are AI-flavored but basic wrappers sell at 1.0x–1.6x revenue because of churn. Separate take: wrapper might clear ~$50k/yr vs $210k subscription product.",
+    "why_us": "Анти-сигнал для категории: wrappers легко строить, тяжело продать. Нужен мот + данные, не только GPT UI.",
+    "revenue": "1.0–1.6x multiple; ~$50k/yr take-home example",
+    "source_link": "https://x.com/ValentExits/status/2103825121316376693",
+    "source_platform": "x",
+    "engagement": "low; complementary 9847-like quoted post",
+    "score": 64
+  },
+  {
+    "type": "defi_yield",
+    "what": "Narrative cluster: 200 claw machines bringing real cashflow onto Solana, claimed 12–15% monthly yield / transparent RWA vs speculative loops. Parallel: OnRe ONyc reinsurance yield 9–15%.",
+    "why_us": "Свежий RWA-yield тред (не только farm APY). Нужна проверка on-chain, но повторяемость темы за 24ч высока.",
+    "revenue": "12–15% claimed monthly / 9–15% reinsurance",
+    "source_link": "https://x.com/ikramulweb3/status/2104098552704295002",
+    "source_platform": "x",
+    "engagement": "cluster of same-day posts, low likes",
+    "score": 61
+  },
+  {
+    "type": "automation",
+    "what": "Indie founder cut weekly growth+revenue audit from 3 hours to 3 minutes with parallel agents on Stripe + GA4 + Search Console + PostHog. Cross-query: mobile traffic drop vs failed payments vs rankings.",
+    "why_us": "Боль соло-фаундера: сшивать analytics+billing. Готовый шаблон микро-SaaS/agent product.",
+    "revenue": "n/a (internal leverage)",
+    "source_link": "https://www.indiehackers.com/post/how-i-cut-my-weekly-growth-revenue-audits-from-3-hours-to-3-minutes-59a0d8f3d5",
+    "source_platform": "other",
+    "engagement": "IH Sep 23 2026",
+    "score": 69
+  },
+  {
+    "type": "demand_gap",
+    "what": "Warp.dev Trustpilot: users flipping 5→1 star after Build Plan + broken BYOK, no Anthropic prompt caching so Opus on large repos costs full input tokens. «Waste of money / usage limits».",
+    "why_us": "Боль AI-terminal: pricing + BYOK + caching. Платящие разработчики ищут предсказуемый cost control.",
+    "revenue": "paid Build Plan",
+    "source_link": "https://de.trustpilot.com/review/warp.dev",
+    "source_platform": "trustpilot",
+    "engagement": "1-star updates Jan 2026 cluster",
+    "score": 71
+  },
+  {
+    "type": "demand_gap",
+    "what": "Vizard G2: 27 mentions expensive for individual creators; plan limits (watermark, storage, export) on lower tiers. Video-snippet tool priced for teams, not solo creators.",
+    "why_us": "Повторяющаяся боль AI-video clippers: creator-tier pricing gap.",
+    "revenue": "yearly fee too high for beginners",
+    "source_link": "https://www.g2.com/products/vizard-corp-vizard/reviews?qs=pros-and-cons",
+    "source_platform": "g2",
+    "engagement": "27 expensive mentions",
+    "score": 65
+  }
+]

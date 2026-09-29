@@ -1,0 +1,142 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "Карта/банкинг-приложение, которое отменяет любую подписку из одного интерфейса, без хождения по сайтам сервисов",
+    "why_us": "Ясная WTP от VC/фаундера, subscription fatigue подтверждён Capterra (42% отменили подписку за 90 дней). Повторяющаяся боль со стороны платёжеспособной аудитории",
+    "revenue": "WTP high; card+app bundle",
+    "source_link": "https://x.com/lessin/status/2089376498180555074",
+    "source_platform": "x",
+    "engagement": "577 likes / 64 replies / 67 bookmarks / 109k views",
+    "score": 86
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "Whispy AI girlfriend app: $1M revenue за ~100 дней / заявлено $700k MRR через AI-ads (Seedance) + UGC-цикл на in-app currency",
+    "why_us": "Конкретный playbook дистрибуции AI-consumer wrapper: generated ads → scale winners → users-as-creators",
+    "revenue": "$700k MRR claimed / $1M in 100 days",
+    "source_link": "https://x.com/SamGrwth_/status/2104680799295738223",
+    "source_platform": "x",
+    "engagement": "4 likes / 3 bookmarks (low social proof; цифры неверифицированы)",
+    "score": 62
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "Underserved AI-app ниша: собрали за 3 дня, запустили ещё за 3, Instagram influencer → 1M views → ads → $10k MRR за 2 недели",
+    "why_us": "Повторяемый паттерн micro-SaaS/AI consumer: узкая ниша + быстрый ship + paid distro",
+    "revenue": "$10k MRR in 2 weeks",
+    "source_link": "https://x.com/heyozi/status/2080659004229898241",
+    "source_platform": "x",
+    "engagement": "221 likes / 775 bookmarks / 112k views",
+    "score": 88
+  },
+  {
+    "type": "revenue_report",
+    "what": "Sequenzy (последовательности/email SaaS) $9.3k MRR за 8 месяцев bootstrap; рост де-факто от одного крупного клиента с тонкой маржой",
+    "why_us": "Честный anti-hype репорт: MRR-чарт на X не равно PMF; концентрация выручки = риск",
+    "revenue": "$9.3k MRR / 8 mo bootstrapped",
+    "source_link": "https://x.com/nikpolale/status/2094818449411260822",
+    "source_platform": "x",
+    "engagement": "153 likes / 84 replies / 20 bookmarks",
+    "score": 78
+  },
+  {
+    "type": "automation",
+    "what": "Reddibee: AI-агент читает Reddit и находит людей, кто ищет то, что вы продаёте. Запуск, цель $1k MRR за 30 дней или kill",
+    "why_us": "Прямой конкурент/валидация ниши для RHR-like сбора болей; building in public с цифрами каждую пятницу",
+    "revenue": "goal $1k MRR / 30 days",
+    "source_link": "https://x.com/thesamarkundal/status/2103157123849101394",
+    "source_platform": "x",
+    "engagement": "22 likes / 67k views",
+    "score": 68
+  },
+  {
+    "type": "demand_gap",
+    "what": "Локальная (non-cloud) альтернатива Wispr Flow для диктовки на устройстве; люди собирают Handy / VoiceInk / Glimpse",
+    "why_us": "Свежий Ask HN: privacy/offline dictation ещё не закрыт; готовность платить $25+/device",
+    "revenue": "$25 one-device (VoiceInk) / freemium local",
+    "source_link": "https://news.ycombinator.com/item?id=49809670",
+    "source_platform": "hn",
+    "engagement": "fresh Ask HN, comments with product recs",
+    "score": 64
+  },
+  {
+    "type": "demand_gap",
+    "what": "Jira: pricing растёт слишком быстро при upgrade/seats/advanced features; monday free без dependencies. Ищут более предсказуемый issue-tracking",
+    "why_us": "Классический cons-паттерн на G2, повторяется годами; платёжеспособные команды",
+    "revenue": "mid-market seats $ / user",
+    "source_link": "https://www.g2.com/software/issue-tracking",
+    "source_platform": "g2",
+    "engagement": "G2 reviews Sep 2026 (Jira + monday AI)",
+    "score": 66
+  },
+  {
+    "type": "demand_gap",
+    "what": "Load balancing: AWS ELB LCU-биллинг взрывается на трафике; ищут предсказуемый cost-effective LB (HAProxy/Traefik vs cloud)",
+    "why_us": "Свежее G2 discussion (27 Sep 2026): сложно моделировать счёт до scale",
+    "revenue": "infra savings vs LCU surprise bills",
+    "source_link": "https://www.g2.com/de/discussions/what-is-the-most-cost-effective-load-balancing-solution-that-can-still-handle-millions-of-requests-without-the-bill-exploding-as-traffic-scales",
+    "source_platform": "g2",
+    "engagement": "G2 discussion published 2026-09-27",
+    "score": 63
+  },
+  {
+    "type": "demand_gap",
+    "what": "Brightwheel: скрытая 3% комиссия на карту + no refund на service fee (пример $56 extra на tuition). Родители/школы ищут прозрачные платежи",
+    "why_us": "Сильная эмоциональная боль + регулярные платежи tuition = предсказуемый take-rate для альтернативы",
+    "revenue": "3% fee on tuition volume",
+    "source_link": "https://www.g2.com/discussions/how-do-you-handle-brightwheel-s-credit-card-service-fees-and-refund-policy",
+    "source_platform": "g2",
+    "engagement": "angry parent thread + 1-star comments",
+    "score": 67
+  },
+  {
+    "type": "demand_gap",
+    "what": "AI coding terminals (Warp.dev / Replit): кредиты сгорают на ошибках модели; $250 за 2h run, $600+/mo unexpected. Нужен предсказуемый биллинг и не брать деньги за фейлы AI",
+    "why_us": "Массовые 1-star Trustpilot; повторяемая боль всего AI-dev сегмента",
+    "revenue": "$20–100/mo predictable vs usage traps",
+    "source_link": "https://www.trustpilot.com/review/warp.dev",
+    "source_platform": "trustpilot",
+    "engagement": "1-star reviews Sep 2026; Replit analog $600–1700 spend",
+    "score": 74
+  },
+  {
+    "type": "demand_gap",
+    "what": "Smartsheet: per-user billing + min 3 seats Business = ~$1000/yr для solo-dev; старые шиты недоступны, support игнорирует",
+    "why_us": "Solo-developer pricing gap vs enterprise sheet tools",
+    "revenue": "~$1k/yr forced min seats",
+    "source_link": "https://www.trustpilot.com/reviews/69a6b1983da8b8f192690059",
+    "source_platform": "trustpilot",
+    "engagement": "1-star Mar 2026 (still relevant pricing model)",
+    "score": 61
+  },
+  {
+    "type": "revenue_report",
+    "what": "16yo founder: first app to $30k MRR за 6 месяцев (Refeel), второй запущен, упор на distribution",
+    "why_us": "Consumer app trajectory + явный bottleneck = дистрибуция, не продукт",
+    "revenue": "$30k MRR in 6 months",
+    "source_link": "https://x.com/KevinBelfort_30/status/2090891049350701267",
+    "source_platform": "x",
+    "engagement": "58 likes / 19 bookmarks",
+    "score": 70
+  },
+  {
+    "type": "demand_gap",
+    "what": "Show HN ReacherX — open-source Apollo alternative: live search people on X/LinkedIn по plain English, без sales-jargon",
+    "why_us": "Фаундер ушёл full-time Jun 2026; боль «найти людей по описанию » всё ещё жива",
+    "revenue": "Apollo-priced outbound / OSS wedge",
+    "source_link": "https://news.ycombinator.com/item?id=49800641",
+    "source_platform": "hn",
+    "engagement": "Show HN ~7 days ago",
+    "score": 65
+  },
+  {
+    "type": "demand_gap",
+    "what": "I would pay $$$ for a storm chaser / meteorologist dating app",
+    "why_us": "Узкая vertical dating с явной WTP и сильным engagement; паттерн нишевых dating apps",
+    "revenue": "subscription dating ARPU",
+    "source_link": "https://x.com/MatthewCappucci/status/2096080933564579894",
+    "source_platform": "x",
+    "engagement": "344 likes / 33 replies / 25k views",
+    "score": 72
+  }
+]

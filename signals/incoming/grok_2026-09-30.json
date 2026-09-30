@@ -1,0 +1,102 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "AI-personal assistant that owns a computer, phone and email and just executes tasks after a message from your phone.",
+    "why_us": "High-engagement wish (206 likes, 43 replies, 37 bookmarks) from a Notion AI product person. Recurring category: agent that finishes the last mile instead of another chat box.",
+    "revenue": "N/A (paid-agent TAM; users already pay $20-200/mo for Cursor/Claude)",
+    "source_link": "https://x.com/nichochar/status/2104682677861527817",
+    "source_platform": "x",
+    "engagement": "206 likes, 43 replies, 37 bookmarks",
+    "score": 82
+  },
+  {
+    "type": "demand_gap",
+    "what": "Voice-first calorie tracker: speak a meal in natural language, AI logs macros without MyFitnessPal search friction. Market cited $1.75B with 70% 30-day churn.",
+    "why_us": "Documented retention pain + explicit $9.99/mo pricing suggestion. Fitness tracking is a paying vertical; logging friction is the documented killer.",
+    "revenue": "$9.99/mo suggested",
+    "source_link": "https://x.com/gethalfbaked/status/2075208550989594944",
+    "source_platform": "x",
+    "engagement": "idea thread; newsletter vault with 750 ideas",
+    "score": 74
+  },
+  {
+    "type": "demand_gap",
+    "what": "AI coding tools (Warp, Replit, Rocket.new, Atoms) billed as productivity but users report credits burning in minutes, $250 for a 2h run, $3k spent on broken generated apps, refunds refused.",
+    "why_us": "Repeatable Trustpilot 1-star pattern across multiple vibe-coding products in Sep 2026. Demand gap is predictable pricing + working output, not another wrapper.",
+    "revenue": "Users already spend $40-$3k; incumbents overcharge",
+    "source_link": "https://www.trustpilot.com/review/replit.com",
+    "source_platform": "trustpilot",
+    "engagement": "multiple 1-star reviews Sep 2026 ($3,023, $250, $39 in 3 min)",
+    "score": 86
+  },
+  {
+    "type": "demand_gap",
+    "what": "Cursor/Copilot G2 cons cluster: steep $20+/mo, token limits, extra spend to avoid caps, inaccurate suggestions. Teams stacking Copilot+Cursor+Claude without ROI visibility.",
+    "why_us": "Paying developers + CFOs want spend control and fair usage. Opportunity: usage auditor, cheaper agent, or predictable flat-rate coding agent.",
+    "revenue": "$15-200/user/mo incumbent pricing",
+    "source_link": "https://www.g2.com/products/cursor/reviews?qs=pros-and-cons",
+    "source_platform": "g2",
+    "engagement": "Cursor expensive (5 mentions), Copilot expensive (25+ mentions)",
+    "score": 78
+  },
+  {
+    "type": "revenue_report",
+    "what": "Jon Yongfook (Bannerbear / image-video automation) bootstrapping SaaS at $81K MRR. Thread on death of build-in-public: sell to non-technical buyers in unsaturated niches.",
+    "why_us": "Hard revenue number + distribution lesson: quiet B2B automation to non-devs beats public MRR flex.",
+    "revenue": "$81k MRR",
+    "source_link": "https://x.com/yongfook/status/2105208974140461504",
+    "source_platform": "x",
+    "engagement": "287 likes, 81 replies, 80 bookmarks",
+    "score": 88
+  },
+  {
+    "type": "revenue_report",
+    "what": "Niche iOS charging-animation app: under 5k downloads, ~$40k/month. Thesis: precise demand selection beats traffic.",
+    "why_us": "Concrete micro-app economics. Validates unsexy App Store utilities with tiny DAU and high ARPU.",
+    "revenue": "$40k/mo",
+    "source_link": "https://x.com/AI_Jasonyu/status/2101871814343319615",
+    "source_platform": "x",
+    "engagement": "repost of proven selection essay, Sep 21 2026",
+    "score": 80
+  },
+  {
+    "type": "automation",
+    "what": "Recoura launched on Stripe App Marketplace: recovers failed payments / expired cards (involuntary churn) for Stripe and Square.",
+    "why_us": "Direct monetization of a universal SaaS pain (failed MRR). Stripe marketplace distribution is a repeatable channel.",
+    "revenue": "% of recovered revenue (typical 1-5% of recovered MRR)",
+    "source_link": "https://x.com/recoura_io/status/2105287081555886467",
+    "source_platform": "x",
+    "engagement": "just passed Stripe app review; marketplace listing live",
+    "score": 71
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "Startmate / Batko list of AI startups someone should build now that Claude/Codex make building cheap: productized services customized by an agent at onboard.",
+    "why_us": "Operator with deal-flow saying demand is visible in audits. Aligns with wrapping AI inside one operational job, not generic chat.",
+    "revenue": "N/A (accelerator request-for-startups)",
+    "source_link": "https://startmate.com/writing/the-ai-startups-someone-should-build",
+    "source_platform": "other",
+    "engagement": "Aug 20 2026 essay from ex-Startmate CEO",
+    "score": 68
+  },
+  {
+    "type": "demand_gap",
+    "what": "Notion Trustpilot: support fails for months, €4 compensation on €24 paid, Business plan jumping to €29/mo, mobile app bugged. Users hunting alternatives.",
+    "why_us": "Switching intent from a large paying base. Workspace tools that stay reliable and cheap can steal churn.",
+    "revenue": "€24-29/mo per workspace at risk",
+    "source_link": "https://www.trustpilot.com/review/notion.so",
+    "source_platform": "trustpilot",
+    "engagement": "fresh Sep 2026 1-star reviews",
+    "score": 70
+  },
+  {
+    "type": "demand_gap",
+    "what": "Someone should build a web search that is just grep. 85 likes from Databricks Search/Agents engineer.",
+    "why_us": "Developer-grade demand for deterministic search vs LLM-slop SERP. Small tool, high willingness among technical buyers.",
+    "revenue": "N/A",
+    "source_link": "https://x.com/mrdrozdov/status/2104717218504413442",
+    "source_platform": "x",
+    "engagement": "85 likes, 12 bookmarks",
+    "score": 66
+  }
+]

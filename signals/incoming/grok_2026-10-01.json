@@ -1,0 +1,92 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "Реестр репутации web3-проектов: обещания vs выполнение, сколько собрали с комьюнити (mint/TCG) vs сколько вернули, whitepaper на TGE vs реальная utility, онгоинг команды. Иммунитет для новых проектов, кроме уже залогированных грифтеров. Автор прямо спрашивает «Who is building it?».",
+    "why_us": "Явная готовность платить за центральный реестр уроков цикла. Данные размазаны по Twitter/on-chain, инкумбенты не покрывают историю команды.",
+    "revenue": "N/A (автор: would pay a lot)",
+    "source_link": "https://x.com/tylerdurdeth/status/2103089837800562861",
+    "source_platform": "x",
+    "engagement": "30 likes, 10 replies, 7 bookmarks, 1335 views (2026-09-24)",
+    "score": 66
+  },
+  {
+    "type": "revenue_report",
+    "what": "Doka Cam — эстетичная камера. За 78 дней: $6K MRR, 30K загрузок, топ-100 US и China. Дистрибуция: 4 faceless-аккаунта, 13.4M views. Формат: фото уже внутри приложения + solution-oriented demo (1 ролик 1.9M views, 14.5K bookmarks).",
+    "why_us": "Повторяемый playbook consumer-app: faceless short-form + демо внутри продукта. Низкий CAC, быстрый выход на MRR.",
+    "revenue": "$6k MRR / 78 days, 30k downloads",
+    "source_link": "https://x.com/themariaines/status/2105353249964564572",
+    "source_platform": "x",
+    "engagement": "26 likes, 29 bookmarks, 2235 views (2026-09-30)",
+    "score": 72
+  },
+  {
+    "type": "revenue_report",
+    "what": "SaaS основателя jack friks дошёл до $45k MRR (пост-праздник с скрином, фича dark mode). Бутстрап, публичный milestone.",
+    "why_us": "Свежий публичный бенчмарк solo/small SaaS выше среднего сегмента. Высокая вовлечённость подтверждает интерес к таким цифрам.",
+    "revenue": "$45k MRR",
+    "source_link": "https://x.com/jackfriks/status/2105316426294726831",
+    "source_platform": "x",
+    "engagement": "189 likes, 46 replies, 12 bookmarks, 24.8k views (2026-09-30)",
+    "score": 80
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "AI character chat app дошёл до $900K MRR за 6 месяцев. Концепт: чат с AI-персонажами. Кейс разобран Peekly (трекер выигрышных приложений).",
+    "why_us": "Крайне высокий revenue-сигнал в категории AI-companion. Подтверждает, что вертикаль всё ещё печатает крупные MRR на простом wrapper-паттерне.",
+    "revenue": "$900k MRR / 6 months",
+    "source_link": "https://x.com/peekly_app/status/2105255741456372030",
+    "source_platform": "x",
+    "engagement": "50 likes, 63 bookmarks, 2633 views (2026-09-30)",
+    "score": 84
+  },
+  {
+    "type": "revenue_report",
+    "what": "Reachlee (ReachleeHQ) дошёл до $1,000 MRR за ~2 месяца, бутстрап. За неделю до этого было $800→$900. Следующая цель автора — $10k MRR.",
+    "why_us": "Ранний milestone микро-SaaS с публичной траекторией. Полезен как бенчмарк скорости до первого $1k.",
+    "revenue": "$1k MRR / ~2 months",
+    "source_link": "https://x.com/TusharKapil003/status/2101419764698739030",
+    "source_platform": "x",
+    "engagement": "173 likes, 64 replies, 9 reposts (2026-09-19)",
+    "score": 74
+  },
+  {
+    "type": "demand_gap",
+    "what": "После подписи Newsom SB 947 (No Robo Bosses Act, 30 сен 2026) работодатель в CA не может увольнять/наказывать, опираясь только на AI: нужен human corroboration, written notice какие данные использовало АДС, и человек-контакт. Startup Heist оценивает дырку «firing receipt» (доказательный слой между HRIS и аудитом) в $40k MRR. Закон вступает с 1 июля 2027.",
+    "why_us": "Регуляторный дедлайн с платёжеспособным баером (HR/legal CA employers). Инкумбенты не закрывают окно доказательств между решением AI и человеческим corroboration.",
+    "revenue": "$40k MRR estimate (Startup Heist)",
+    "source_link": "https://www.cnbc.com/2026/09/30/california-gavin-newsom-ai-ban.html",
+    "source_platform": "other",
+    "engagement": "Закон подписан 2026-09-30; гап-оценка https://www.startupheist.com/tag/20k-100k-mrr/",
+    "score": 77
+  },
+  {
+    "type": "demand_gap",
+    "what": "Компании, уже сожжённые непредсказуемыми счетами, ищут load balancer с фиксированной ценой без per-request и bandwidth overage. На G2 сравнивают HAProxy/Traefik (self-host, предсказуемо), Kemp LoadMaster (fixed license) vs Azure App Gateway и NGINX Plus, где счёт плывёт.",
+    "why_us": "Повторяющаяся боль usage-based infra. Платёжеспособный баер: команды, которые уже потеряли деньги на overage.",
+    "revenue": "N/A (B2B willingness after cost burn)",
+    "source_link": "https://www.g2.com/discussions/which-load-balancing-platforms-have-the-clearest-pricing-and-no-surprise-per-request-or-bandwidth-overage-charges-for-a-company-that-has-been-burned-by-unpredictable-costs-before",
+    "source_platform": "g2",
+    "engagement": "G2 discussion, 2026-09-27, 1 развёрнутый комментарий в пользу fixed/селфхост",
+    "score": 63
+  },
+  {
+    "type": "demand_gap",
+    "what": "Replit AI: неконтролируемые счета, когда агент застревает в цикле ошибок и сам жжёт токены. Отзыв Capterra (14 июл 2026, 2/5): сотни долларов за <48 часов, в т.ч. $112 сразу после оплаты $250, no-refund на AI compute. Другой отзыв: каждый повторный промпт считается в usage.",
+    "why_us": "Повторяемая боль agent-coding: нужен hard spend cap, килл-свитч при loop и прозрачный счёт до запуска. Платят разработчики и малый бизнес.",
+    "revenue": "N/A (users already paying hundreds unexpectedly)",
+    "source_link": "https://www.capterra.com/p/10011212/Replit/reviews/",
+    "source_platform": "capterra",
+    "engagement": "2.0/5 review 2026-07-14 «Financial Trap»; отдельный 1.0/5 март 2026 про misleading usage",
+    "score": 68
+  },
+  {
+    "type": "automation",
+    "what": "Агент-переговорщик цены перед покупкой: шаблон Haggle Bot (SpaceXAI) сравнивает same-day цены, показывает план (target / opening / walk-away) и шлёт контроффер только после approve. В одном прогоне заказ $14,629 снижен до $6,143 (−58%). Пост ссылается на идею покупок-агента с 4M views.",
+    "why_us": "Высокий intent (513 bookmarks) и конкретная экономия. Продуктовый зазор: B2C/SMB агент, который торгуется до оплаты и берёт % сэкономленного.",
+    "revenue": "кейс −58% на заказе $14.6k; монетизация агента не раскрыта",
+    "source_link": "https://x.com/Argona0x/status/2105379600444366919",
+    "source_platform": "x",
+    "engagement": "305 likes, 513 bookmarks, 48 reposts, 41.5k views (2026-09-30)",
+    "score": 81
+  }
+]

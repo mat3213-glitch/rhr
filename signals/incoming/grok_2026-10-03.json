@@ -1,0 +1,92 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "HubSpot CRM: одна нужная фича запирает весь Pro-tier. Capterra: 35% негативных отзывов из 884 про цену; владелец строительной фирмы (22 сен 2026) пишет «We can’t afford it anymore» и ищет платформу с гибкой ценой. Старт $20/user/mo, фичи за paywall.",
+    "why_us": "Повторяемая боль SMB: flat-rate CRM без seat-tax и без «одна фича = Pro». Платёжеспособный сегмент уже платит HubSpot и уходит.",
+    "revenue": "замена счета $20+/user/mo; конкурент SimpleCRM позиционируется в $25 flat/mo",
+    "source_link": "https://www.capterra.com/p/152373/HubSpot-CRM/",
+    "source_platform": "capterra",
+    "engagement": "884 reviews on pricing complaint cluster; review 22 Sep 2026",
+    "score": 78
+  },
+  {
+    "type": "demand_gap",
+    "what": "Нет центрального репутационного трекера web3-проектов: promises vs delivered, сколько собрали с комьюнити vs сколько вернули, whitepaper на TGE vs реальная utility, иммунитет новых проектов если фаундеры уже в логе экстракций. Автор прямо пишет «I would pay a lot of money» и «Who is building it?» (24 сен 2026).",
+    "why_us": "Чёткий demand gap с WTP, без существующего стандарта. Можно продавать как research-terminal для фондов и ангелов.",
+    "revenue": "WTP «lot of money»; аналог research-terminal $49-199/mo",
+    "source_link": "https://x.com/tylerdurdeth/status/2103089837800562861",
+    "source_platform": "x",
+    "engagement": "30 likes, 10 replies, 7 bookmarks, 1336 views",
+    "score": 72
+  },
+  {
+    "type": "revenue_report",
+    "what": "Ferndesk (доки, верифицируемые по кодбейзу) поднял цену с $39 до $149/mo. На $39 клиенты чернились и vibe-code-или клон; юнит-экономика AI-верификации не сходилась. Дорогие клиенты дольше живут и хотят managed implementation (16 сен 2026).",
+    "why_us": "Сигнал, что budget AI-SaaS умирает: либо серьёзный чек $149+, либо клон за выходные. Ценно для позиционирования RHR-продуктов.",
+    "revenue": "$149/mo старт (было $39/mo, черн)",
+    "source_link": "https://x.com/euboid/status/2100219654660858053",
+    "source_platform": "x",
+    "engagement": "296 likes, 57 replies, 89 bookmarks, 15735 views",
+    "score": 84
+  },
+  {
+    "type": "revenue_report",
+    "what": "ReachleeHQ пересёк $1400 MRR 3 окт 2026, за сутки после $1300. Траектория: ~$1100 за ~2 месяца (24 сен), $1200 (28 сен), $1300 (1 окт). Следующий шаг — Facebook integration.",
+    "why_us": "Свежий публичный MRR-трек микро-SaaS: ~$700/mo прирост на ранней стадии, канал — интеграции (FB). Образец узкого outreach-инструмента.",
+    "revenue": "$1400 MRR, +$100 за 24ч, ~2 месяца до $1100",
+    "source_link": "https://x.com/TusharKapil003/status/2106293462916317338",
+    "source_platform": "x",
+    "engagement": "53 likes, 25 replies, 12 bookmarks; предыдущий пост $1300 = 74 likes",
+    "score": 76
+  },
+  {
+    "type": "revenue_report",
+    "what": "Indie app (Monkeyless, meditation + screen time) не дошёл до $10k MRR за 2 года ежедневного органического постинга, даже после 30M views за 2 месяца. Вывод автора (25 сен 2026): screen-time ниша тяжёлая, органика не делает денег, решение scale vs kill нужно за 2 недели по download-to-paid и trial start.",
+    "why_us": "Анти-сигнал с высоким охватом: не строить screen-time/медитацию на органике. 670 букмарков = люди сохраняют как чек-лист.",
+    "revenue": "не достиг $10k MRR за 2 года при 30M views",
+    "source_link": "https://x.com/carlmonkft/status/2103429573098492004",
+    "source_platform": "x",
+    "engagement": "593 likes, 103 replies, 670 bookmarks, 43032 views",
+    "score": 80
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "SaaS-директория codehype.ai сделала $1400 выручки в первый месяц не за счёт уникальности, а за счёт дистрибуции: автор качал контент с янв 2023, 4-5M reach/mo, 105k IG. Тезис: average SaaS + distribution бьёт unique SaaS без аудитории (3 окт 2026).",
+    "why_us": "Подтверждённый паттерн AI-эры: директории и обёртки монетизируются только с готовым каналом. Для RHR — не клонировать директорию, а брать боли, где дистрибуция уже есть.",
+    "revenue": "$1400 в первый месяц директории",
+    "source_link": "https://x.com/harisahmad59/status/2106343065443299487",
+    "source_platform": "x",
+    "engagement": "55 likes, 24 replies, 20 bookmarks, 2539 views",
+    "score": 70
+  },
+  {
+    "type": "demand_gap",
+    "what": "Замкнутая экономика indie hackers: не платят $5/mo за чужой tiny SaaS, тратят 20 часов и $50 на клон, потом продают свой за $6 тем же людям (24 сен 2026, 220 лайков, 94 реплая).",
+    "why_us": "Подтверждает, что продавать инди-хакерам микро-тул бессмысленно. Платёжеспособный спрос — вне этого круга (SMB, которые не клонируют).",
+    "revenue": "рынок $5-6/mo не конвертит; клон стоит ~$50 + 20ч",
+    "source_link": "https://x.com/oldstackjournal/status/2103005007549465083",
+    "source_platform": "x",
+    "engagement": "220 likes, 94 replies, 14 bookmarks, 12338 views",
+    "score": 77
+  },
+  {
+    "type": "demand_gap",
+    "what": "G2-обсуждение 27 сен 2026: компании, уже обожжённые непредсказуемыми счетами, ищут load balancer с фиксированной ценой без per-request и bandwidth overage. В треде называют HAProxy/Traefik self-host и Progress Kemp fixed license; Azure App Gateway ругают за смешанный биллинг.",
+    "why_us": "Боль не в фиче, а в модели биллинга. Продукт-возможность: predictable-cost proxy / bill-audit для infra с алертами на overage.",
+    "revenue": "fixed license vs usage overage; конкретный WTP не назван",
+    "source_link": "https://www.g2.com/it/discussions/which-load-balancing-platforms-have-the-clearest-pricing-and-no-surprise-per-request-or-bandwidth-overage-charges-for-a-company-that-has-been-burned-by-unpredictable-costs-before",
+    "source_platform": "g2",
+    "engagement": "discussion thread, published 27 Sep 2026",
+    "score": 64
+  },
+  {
+    "type": "revenue_report",
+    "what": "jackfriks: SaaS дошёл до $45k MRR (30 сен 2026), пост-праздник про dark mode. Конкретный публичный уровень, не проекция.",
+    "why_us": "Бенчмарк живого indie SaaS на $45k MRR — показывает, что одиночные продукты ещё доходят до этого уровня, даже если апдейт косметический.",
+    "revenue": "$45k MRR",
+    "source_link": "https://x.com/jackfriks/status/2105316426294726831",
+    "source_platform": "x",
+    "engagement": "198 likes, 47 replies, 13 bookmarks, 27638 views",
+    "score": 68
+  }
+]

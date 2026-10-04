@@ -1,0 +1,82 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "Replit: повторяемые жалобы на биллинг AI-агента. Trustpilot 16 фев 2026: апгрейд в Teams не перенёс проекты, ~$400 overage, refund отказан, $30 credits. 6 янв 2026: потрачено €1700, платит за ошибки агента. 21 мар 2026: потеря ~$1500, агент не доводит проект. 22 сен 2026: usage копится, когда пользователь не за компьютером, itemized logs отказывают. G2: $5000+ с февраля, annual Pro $250/mo залочен до апр 2027, нет даунгрейда и рефанда.",
+    "why_us": "Платёжеспособные билдеры уже жгут сотни-тысячи и уходят. Дыра: AI coding с жёстким spend cap, workspace-level alerts и prepaid credits, которые не сгорают в чужом workspace.",
+    "revenue": "зафиксированные потери $400 / €1700 / $1500 / $5000+; план $250/mo",
+    "source_link": "https://www.trustpilot.com/reviews/699388aad30420c2f8392338",
+    "source_platform": "trustpilot",
+    "engagement": "кластер 1-star: 4 useful на отзыве про €1700; G2 dislike-треды про $5k lock-in",
+    "score": 81
+  },
+  {
+    "type": "demand_gap",
+    "what": "G2 discussion 27 сен 2026: компании, уже обожжённые непредсказуемыми счетами, ищут load balancer без per-request и bandwidth overage. В треде хвалят fixed license (Progress Kemp) и self-host HAProxy/Traefik; Azure App Gateway ругают за смешанный биллинг.",
+    "why_us": "Боль в модели цены, не в фиче. Смежный продукт: bill-audit / predictable-cost proxy для usage-based infra, тот же паттерн что у Replit.",
+    "revenue": "fixed license vs usage overage; WTP не назван",
+    "source_link": "https://www.g2.com/it/discussions/which-load-balancing-platforms-have-the-clearest-pricing-and-no-surprise-per-request-or-bandwidth-overage-charges-for-a-company-that-has-been-burned-by-unpredictable-costs-before",
+    "source_platform": "g2",
+    "engagement": "discussion published 27 Sep 2026",
+    "score": 64
+  },
+  {
+    "type": "demand_gap",
+    "what": "Ex-CEO Startmate (20 авг 2026) публично просит AI chief of staff: не ещё один inbox-пинг, а проактивный агент с доступом к компьютеру и телефону из коробки. Пишет, что видит один и тот же ручной труд в компании за компанией и что спрос всплывает на каждом Hourglass-аудите.",
+    "why_us": "Именованный buyer с портфелем стартапов, не абстрактный wish. Окно: проактивный ops-агент для фаундера, не очередной email-copilot.",
+    "revenue": "WTP не назван; сегмент — funded founders",
+    "source_link": "https://www.startmate.com/writing/the-ai-startups-someone-should-build",
+    "source_platform": "other",
+    "engagement": "request-for-startups post, 20 Aug 2026",
+    "score": 66
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "Vano (market intelligence для трейдеров: discovery + analysis + assistant + monitoring) запущен после 9 месяцев билда. 3 окт 2026, на 3-й день после лонча, $218 MRR. Автор @thegreatola / @usevano_.",
+    "why_us": "Свежий proof, что узкий AI-слой поверх трейдинга берёт деньги в первую неделю, не нужен год SEO. Малый чек, но конверсия в оплату есть.",
+    "revenue": "$218 MRR на день 3 после лонча",
+    "source_link": "https://x.com/thegreatola/status/2106452841736884266",
+    "source_platform": "x",
+    "engagement": "113 likes, 39 replies, 2 bookmarks, 6361 views; лонч-пост 244 likes",
+    "score": 74
+  },
+  {
+    "type": "revenue_report",
+    "what": "Postraid (контент-инструмент, @Nick_333ch) пересёк $300 MRR на день 10: 9 платящих (2x Growth, 7x Starter), апгрейд после одной зашипанной фичи. 21 сен 2026. Цель автора — $10k MRR.",
+    "why_us": "Ранний MRR за 10 дней на узкой маркетинговой боли (нечем генерить контент). Паттерн: фича по запросу клиента сразу поднимает tier.",
+    "revenue": "$301 MRR, 9 customers, day 10",
+    "source_link": "https://x.com/marclou/status/2101948117734105468",
+    "source_platform": "x",
+    "engagement": "тред TrustMRR-чарта, цитируется в ответе marclou 21 Sep 2026",
+    "score": 70
+  },
+  {
+    "type": "revenue_report",
+    "what": "Eric Djavid (@ericdjav) 30 сен 2026: новое приложение, запущенное в сентябре, перешло $50 MRR. Портфель в био: Lewis $1156/m, BlablaFrench $300, ещё $415/m, solo AI machine $26.4k.",
+    "why_us": "Маленький чек, но показывает рабочий портфель соло-приложений рядом с $26.4k AI-машиной. Имеет смысл смотреть, что именно в $26.4k, а не клонировать $50-эксперимент.",
+    "revenue": "$50 MRR новое приложение; портфель включает $26.4k",
+    "source_link": "https://x.com/ericdjav/status/2105388455178166384",
+    "source_platform": "x",
+    "engagement": "57 likes, 30 replies, 6 bookmarks, 1423 views",
+    "score": 62
+  },
+  {
+    "type": "demand_gap",
+    "what": "Jon Yongfook (Bannerbear, $81k MRR) 21 сен 2026: целая категория SaaS держится на рве «девам некогда сделать это самим», и этот ров схлопывается в реальном времени. 235 лайков, 65 реплаев.",
+    "why_us": "Анти-сигнал от платящего оператора: не строить dev-time-saver обёртки. Спрос смещается туда, где покупатель не умеет вайбкодить (trades, local ops, compliance).",
+    "revenue": "автор $81k MRR на image/video automation",
+    "source_link": "https://x.com/yongfook/status/2101842577347706884",
+    "source_platform": "x",
+    "engagement": "235 likes, 65 replies, 66 bookmarks, 59758 views",
+    "score": 79
+  },
+  {
+    "type": "demand_gap",
+    "what": "Slack ~$7/mo за 2 активных пользователей назван too expensive, автор просит альтернативы (28 июл 2026, 75 лайков, 157 реплаев). Соседний паттерн: Roam «too expensive to fail», люди уходят в Obsidian без подписки.",
+    "why_us": "Микро-команды не тянут seat pricing даже на $7. Окно — flat-rate async chat / notes для 2-5 человек, без per-seat.",
+    "revenue": "текущий чек ~$7/mo на 2 seats, ищут дешевле",
+    "source_link": "https://x.com/anulagarwal/status/2082018379574186260",
+    "source_platform": "x",
+    "engagement": "75 likes, 157 replies, 22 bookmarks, 37511 views",
+    "score": 63
+  }
+]

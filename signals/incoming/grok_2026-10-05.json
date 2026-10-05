@@ -1,0 +1,102 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "Замкнутая экономика indie SaaS: фаундеры не платят $5/mo за чужой micro-SaaS, тратят 20 часов и $50 на клон, потом продают клон тем же людям за $6/mo. Все фаундеры, ноль покупателей.",
+    "why_us": "Высокий охват (219 лайков, 94 реплая) на повторяемую боль: willingness-to-pay у indie-аудитории низкий. Окно для продуктов, которые продают не фаундерам, а SMB/операторам, или для инфры, которую невыгодно клонировать (data, distribution, compliance).",
+    "revenue": "бенчмарк боли: отказ платить $5/mo vs 20h+$50 на клон",
+    "source_link": "https://x.com/oldstackjournal/status/2103005007549465083",
+    "source_platform": "x",
+    "engagement": "219 likes, 94 replies, 14 bookmarks, 12.3k views",
+    "score": 82
+  },
+  {
+    "type": "demand_gap",
+    "what": "G2 (Sep 30 2026): у conversational AI survey platforms цена — самая частая жалоба (20% verified reviews). 16% даже среди 4.5–5★ всё равно жалуются на pricing/credit limits. Credit-модели «scale up aggressively», advanced features locked behind tiers. У SMB цена в 23% жалоб, у enterprise — customization (24%).",
+    "why_us": "Агрегированная боль платёжеспособных баеров, не единичный твит. Окно для flat-rate / predictable-credit AI survey и research tools, особенно для SMB.",
+    "revenue": "категория уже платная; жалоба на usage-based credits",
+    "source_link": "https://learn.g2.com/conversational-ai-survey-platforms",
+    "source_platform": "g2",
+    "engagement": "230+ verified reviews; price cited in 20% as top dislike",
+    "score": 84
+  },
+  {
+    "type": "demand_gap",
+    "what": "Replit billing pain на G2: annual Pro $250/mo не даёт пул кредитов на год, а локает в ежемесячный платёж. Один ревьюер потратил $5,000+ с февраля, залочен до апреля 2027, downgrade/рефанда нет, $100 goodwill на $5k+. Другие: hidden charges, конфузный billing, «wish it was cheaper».",
+    "why_us": "Конкретная денежная боль vibe-coding платформ: непредсказуемые credits + annual lock-in. Окно для прозрачного usage-meter или более дешёвого agent-coding с фиксированным пулом.",
+    "revenue": "$5,000+ spent by one reviewer; $250/mo annual lock-in",
+    "source_link": "https://www.g2.com/products/replit/reviews?qs=pros-and-cons",
+    "source_platform": "g2",
+    "engagement": "multiple verified dislikes on billing; one review cites $5k+",
+    "score": 76
+  },
+  {
+    "type": "demand_gap",
+    "what": "Capterra reviews Claude (2026): токены съедают бюджет — один клиент платил ~$400/mo и ушёл из-за падения качества и неясных лимитов; другой — $100 org token budget, один MCP/debug проект ~$12. Жалобы: shrink service while raising price, errors eat tokens, no CS help until refresh.",
+    "why_us": "Повторяемая боль LLM API cost predictability у платящих разработчиков. Окно для cost-guardrails, token budgets, или более дешёвых coding-agent обёрток с фиксированным счетом.",
+    "revenue": "reviewers paying ~$100–$400/mo",
+    "source_link": "https://www.capterra.com/p/10011218/Claude/reviews/",
+    "source_platform": "capterra",
+    "engagement": "verified 1-star and cons reviews through Sep 2026",
+    "score": 74
+  },
+  {
+    "type": "revenue_report",
+    "what": "Postiz (agentic social scheduler) добавил ~$118k MRR: с $84k в апреле до ~$202k по Stripe-connected TrustMRR (~6k active subs, $190k collected / 30d). Jon Yongfook отдельно подтвердил «just hit $200k MRR»; рядом Squad — $10k MRR меньше чем за месяц после лонча.",
+    "why_us": "Самый крупный документированный indie MRR-прирост. Паттерн: open-source + agent positioning + social scheduling. Повторяемый playbook, не разовый скрин.",
+    "revenue": "~$202k MRR (+$118k), Squad $10k MRR <1 month",
+    "source_link": "https://stealwhatworks.com/blogs/news/indie-saas-gained-most-revenue",
+    "source_platform": "other",
+    "engagement": "Yongfook thread 248 likes, 120 bookmarks, 42k views confirming $200k: https://x.com/yongfook/status/2101913046587428888",
+    "score": 88
+  },
+  {
+    "type": "revenue_report",
+    "what": "Marc Lou, September 2026: $217,071 total. TrustMRR $53k, DataFast $31k, CodeFast $7k, ShipFast $2k, прочие мелкие продукты. Margin 90%. HYROX experiment $112k разово раздувает месяц, но marketplace и SaaS — лучший месяц. Solo.",
+    "why_us": "Публичный portfolio-разбор с конкретными цифрами: marketplace для покупки MRR-бизнесов и analytics SaaS держат основной recurring. Повторяемый паттерн портфеля micro-products.",
+    "revenue": "$217k September; TrustMRR $53k, DataFast $31k MRR-equivalent month",
+    "source_link": "https://x.com/marclou/status/2105247559690416317",
+    "source_platform": "x",
+    "engagement": "widely quoted revenue thread (Sep 30 2026)",
+    "score": 86
+  },
+  {
+    "type": "revenue_report",
+    "what": "jack friks: SaaS (Post Bridge, social scheduling) недавно дошёл до $45k MRR; пост про это как повод сшипить dark mode. 198 лайков, 30 Sep 2026.",
+    "why_us": "Свежий публичный MRR-чекпоинт в scheduling-нише рядом с Postiz. Подтверждает, что vertical social-posting tools ещё платят десятки тысяч MRR.",
+    "revenue": "$45k MRR",
+    "source_link": "https://x.com/jackfriks/status/2105316426294726831",
+    "source_platform": "x",
+    "engagement": "198 likes, 47 replies, 3 quotes",
+    "score": 78
+  },
+  {
+    "type": "revenue_report",
+    "what": "Nick Launches: September revenue $3,858, но MRR только $98. Почти всё — one-time launches и directory submissions. Следующий шаг — distribution tools за $99/mo. Цифры сверены с Stripe на TrustMRR.",
+    "why_us": "Чистая боль launch-spike vs recurring: деньги есть, подписки нет. Паттерн для RHR — искать продукты, где дистрибуция сама становится подпиской, а не разовым лончем.",
+    "revenue": "$3,858 Sep revenue, $98 MRR; planned $99/mo tools",
+    "source_link": "https://x.com/nicklaunches/status/2105855311974416710",
+    "source_platform": "x",
+    "engagement": "42 likes, 21 replies; Stripe-verified on TrustMRR",
+    "score": 67
+  },
+  {
+    "type": "defi_yield",
+    "what": "RISE (perps/spot, RWA listings): Sep 25 дошли $10B cumulative volume, OI ATH $77.3M (2 Oct). Fees $2.75M, 11,669 accounts, peak DAU 3,211, RWA volume $2.12B. Новые листинги MSTR/NVDA/TSLA и др. — $126M volume за первый месяц. Шипнули TWAP, one-click, referral slugs, Impact Pool.",
+    "why_us": "Свежий (5 Oct) публичный fee/волюм чекпоинт по onchain perps + tokenized equities. Показывает, где сейчас сидит объём и комиссии, не APY-обещание.",
+    "revenue": "$2.75M fees cumulative reported; $10.65B volume",
+    "source_link": "https://x.com/risextrade/status/2107087954850300029",
+    "source_platform": "x",
+    "engagement": "66 likes, 14 replies, 4.8k views (posted 2026-10-05)",
+    "score": 70
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "Capterra 1min.AI: lifetime deals и credit packs не хватает на heavy use; top-tier models «too expensive», свитч с Merlin из-за цены и отсутствия API token integration. Паттерн multi-model AI wrappers: реклама lifetime, фактически credits кончаются на топ-моделях.",
+    "why_us": "Повторяемая жалоба на AI-aggregator wrappers. Окно — честный BYO-key или прозрачный pass-through без lifetime-deal трапа.",
+    "revenue": "lifetime deals sold (StackSocial cited); usage still credit-gated",
+    "source_link": "https://www.capterra.com/p/10020011/1min-AI/reviews/",
+    "source_platform": "capterra",
+    "engagement": "multiple cons reviews on credits and top-tier cost",
+    "score": 66
+  }
+]

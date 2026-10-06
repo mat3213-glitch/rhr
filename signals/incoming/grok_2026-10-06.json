@@ -1,0 +1,112 @@
+[
+  {
+    "type": "ai_wrapper",
+    "what": "swaptok.app — AI-wrapper для faceswap видео. Запущен ~5 месяцев назад, вирал на JP/CN X, маркетинга с тех пор нет, но новые клиенты ежедневно, в основном из рефералов ChatGPT.",
+    "why_us": "Живой wrapper с органическим каналом (LLM-referrals), 100 лайков и 54 букмарка в день поста. Показывает, что узкий media-wrapper может держать платящих без paid ads.",
+    "revenue": "daily new customers, сумма не раскрыта (автор: not life-changing)",
+    "source_link": "https://x.com/willbakerships/status/2107362034996363357",
+    "source_platform": "x",
+    "engagement": "100 likes, 54 bookmarks, 22 replies, 6121 views",
+    "score": 78
+  },
+  {
+    "type": "revenue_report",
+    "what": "Reachlee (outreach SaaS) пересёк $1500 MRR 6 октября, сутки назад было $1400. Следующий шаг — MCP для Reachlee.",
+    "why_us": "Свежий публичный MRR-апдейт микро-SaaS в outreach + явный пивот в agent/MCP-интерфейс. Подтверждает платёж за узкий B2B-инструмент в диапазоне $1–2k MRR.",
+    "revenue": "$1500 MRR",
+    "source_link": "https://x.com/TusharKapil003/status/2107323004514689531",
+    "source_platform": "x",
+    "engagement": "73 likes, 32 replies, 5 reposts",
+    "score": 76
+  },
+  {
+    "type": "demand_gap",
+    "what": "Нет центрального реестра репутации web3-проектов: promises vs delivered, сколько собрали с комьюнити vs сколько вернули, whitepaper на TGE vs реальная utility, повторные гранты с иммунитетом для новых. Автор прямо пишет, что заплатил бы много и спрашивает, кто строит.",
+    "why_us": "Явный willingness-to-pay от фаундера в crypto. Боль повторяется (люди снова входят в те же проекты). Данные публичные, MVP — скоринг + скоринг.",
+    "revenue": "WTP: «I would pay a lot of money», цена не названа",
+    "source_link": "https://x.com/tylerdurdeth/status/2103089837800562861",
+    "source_platform": "x",
+    "engagement": "30 likes, 10 replies, 7 bookmarks",
+    "score": 68
+  },
+  {
+    "type": "demand_gap",
+    "what": "WooCommerce-селлер просит инструмент авторесайза картинок товаров: ручная работа надоела. Пост на суахили с скрином.",
+    "why_us": "Узкая ecom-боль с ясным buyer (магазины на Woo). Конкуренты есть, но человек их не нашёл — сигнал дистрибуции или дыры в UX/цене.",
+    "revenue": "не указан, сегмент уже платит за Woo-плагины",
+    "source_link": "https://x.com/DrKanyuira/status/2106832542322311489",
+    "source_platform": "x",
+    "engagement": "41 likes, 14 bookmarks, 11 replies, 4656 views",
+    "score": 64
+  },
+  {
+    "type": "revenue_report",
+    "what": "Nick Launches: сентябрь $3858 выручки при $98 MRR. Почти всё — разовые лончи и directory submissions. Следующий продукт — distribution tools за $99/мес. Цифры сверены со Stripe через TrustMRR.",
+    "why_us": "Чёткий разрыв one-time vs recurring. Показывает платёжеспособность за launch-distribution ($99/mo) и риск строить бизнес на разовых продажах.",
+    "revenue": "$3858 Sep revenue, $98 MRR; plan $99/mo",
+    "source_link": "https://x.com/nicklaunches/status/2105855311974416710",
+    "source_platform": "x",
+    "engagement": "42 likes, 21 replies",
+    "score": 74
+  },
+  {
+    "type": "revenue_report",
+    "what": "Sauror (GEO/SaaS) — +120€ MRR за один день на 7-й день после лонча. Продукт: видимость бренда в ChatGPT/Perplexity.",
+    "why_us": "Свежий GEO-микро-SaaS с первыми платящими в первую неделю. Категория «как тебя видят LLM» ещё платит на старте.",
+    "revenue": "+€120 MRR за день, день 7 после лонча",
+    "source_link": "https://x.com/OnKizuo/status/2107128766832992706",
+    "source_platform": "x",
+    "engagement": "53 likes, 19 bookmarks, 6947 views",
+    "score": 72
+  },
+  {
+    "type": "revenue_report",
+    "what": "Private Venture подключил Stripe к TrustMRR: $33k MRR, $42k revenue за 30 дней, $1.4M total, +6% за 30 дней, 1.1k active subs.",
+    "why_us": "Верифицированный верхний хвост indie/bootstrapped, не самоотчёт. Ориентир для того, какой масштаб ещё достижим без раунда.",
+    "revenue": "$33k MRR, $1.4M total, 1100 subs",
+    "source_link": "https://x.com/trust_mrr/status/2103964217833603561",
+    "source_platform": "x",
+    "engagement": "TrustMRR account post, Stripe-verified listing",
+    "score": 70
+  },
+  {
+    "type": "demand_gap",
+    "what": "Topaz Video ушёл в подписку: Personal $59/мес ($708/год) без локального рендера Starlight Mini (нужны кредиты), Studio $69/мес. Lifetime нет. Отзывы октября 2026: качество отличное, цена — money grab для не-студий.",
+    "why_us": "Повторяющаяся жалоба на переход с lifetime на дорогую подписку в creative-tools. Окно для более дешёвого локального upscale для YouTube/VHS.",
+    "revenue": "инкамбент $59–69/mo; пользователи ищут замену",
+    "source_link": "https://www.trustpilot.com/review/www.topazlabs.com/product/topaz-video-annual-69e0f9af8a6edb3a89003a1f",
+    "source_platform": "trustpilot",
+    "engagement": "несколько verified-отзывов 2026 про цену и отсутствие lifetime",
+    "score": 71
+  },
+  {
+    "type": "automation",
+    "what": "Codos позиционируется как виртуальный Chief AI Officer по подписке: интервью команды, находит узкие места, собирает и деплоит автоматизацию. Кейс: клиент освободил 21% FTE за 6 месяцев (sales, QA, ops, support).",
+    "why_us": "245 лайков и 90 букмарков на месседж «консалтинг за $2M vs подписка, которая сама чинит». Спрос на outcome-based automation, не на ещё один chatbot.",
+    "revenue": "subscription (цена не названа); кейс 21% FTE capacity",
+    "source_link": "https://x.com/thetripathi58/status/2102091008599269831",
+    "source_platform": "x",
+    "engagement": "245 likes, 90 bookmarks, 115k views",
+    "score": 73
+  },
+  {
+    "type": "defi_yield",
+    "what": "Noon Capital: sUSN 7.50% APY при TVL $38.91M. На этой неделе стали main strategy partner cBTC Earn Vault на Citrea — доход на BTC без продажи + CTR incentives через Merkl.",
+    "why_us": "Конкретный APY и TVL, не анонс «1000% APR». Паттерн BTC-yield без продажи повторяется у нескольких протоколов.",
+    "revenue": "7.50% APY, TVL $38.91M",
+    "source_link": "https://x.com/noon_capital/status/2106092543330918822",
+    "source_platform": "x",
+    "engagement": "10 likes on yield post; quoted by Citrea (29 likes)",
+    "score": 62
+  },
+  {
+    "type": "demand_gap",
+    "what": "G2-отзывы на ClickUp: в workspace все должны быть на одном плане, хотя Business нужен только части ролей. Notion: AI и advanced фичи заперты в дорогих планах, workspace раздувается.",
+    "why_us": "Повторяющаяся seat-tax боль в PM-стеке. Окно для per-role pricing или лёгкого заменителя без принудительного апгрейда всех сидений.",
+    "revenue": "инкамбент — полная стоимость ClickUp/Notion seat",
+    "source_link": "https://www.g2.com/software/workflow-management",
+    "source_platform": "g2",
+    "engagement": "повторяющиеся dislike-блоки в отзывах ClickUp и Notion",
+    "score": 63
+  }
+]

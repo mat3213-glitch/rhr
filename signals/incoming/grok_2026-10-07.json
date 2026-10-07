@@ -1,0 +1,122 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "Harvest (Bending Spoons) поднял счета на тайм-трекинг/инвойсы в 5–15× за 30 дней: UK-консалтинг $130→$2110/мес, US $2800→$23000/год, Trustpilot $437→$2335/мес и +871% ($12→$116.50/seat). Flex-биллинг непредсказуем, legacy-планы сняты.",
+    "why_us": "Массовый churn агентств и фриланс-команд с конкретным чеком. Окно для flat-rate альтернативы time+invoice+QuickBooks/Xero с импортом истории Harvest и публичной ценой без usage-сюрпризов.",
+    "revenue": "Willingness: команды платили $80–$400/мес и готовы уйти; конкуренты (Avaza, TimeCamp) уже ловят миграцию",
+    "source_link": "https://www.trustpilot.com/review/www.harvestapp.com",
+    "source_platform": "trustpilot",
+    "engagement": "Серия 1-star отзывов 30 Sep–14 Sep 2026; BBC: 1500% hike",
+    "score": 88
+  },
+  {
+    "type": "revenue_report",
+    "what": "AgentOS (Panche Isajeski) — Merchant of Record для SaaS: карты, подписки, VAT/sales tax в 190+ странах. Запуск август 2026, через 2 месяца $9.5k MRR, 400+ фаундеров, 1400+ live payments, $50k processed за первые 3 недели. Цель $25k MRR к концу 2026.",
+    "why_us": "Подтверждённый платёжеспособный спрос фаундеров вне US/EU на MoR, когда Stripe/Paddle не пускают. Боль первичного автора — невозможность принимать подписки с Балкан.",
+    "revenue": "$9.5k MRR за 2 месяца",
+    "source_link": "https://www.indiehackers.com/post/tech/starting-from-scratch-and-hitting-9-5k-mrr-in-two-months-j5pMaED5FEbKw8qmeyj9",
+    "source_platform": "other",
+    "engagement": "Indie Hackers post 6 Oct 2026",
+    "score": 84
+  },
+  {
+    "type": "demand_gap",
+    "what": "Involuntary churn: ~9% MRR в месяц — failed cards. Stripe Smart Retries возвращают ~51%, retries + 3–4 email sequence ~70%. На $10k MRR sequence стоит ~$171/мес (~$2k/год), на $50k — >$10k/год. Annual invoices восстанавливаются хуже (23% vs 53% monthly).",
+    "why_us": "Повторяемая дыра у любого Stripe-SaaS. Микро-продукт: dunning-последовательность поверх Smart Retries с прозрачным ROI-калькулятором.",
+    "revenue": "~$171/mo left on table at $10k MRR; ~$2k/year budget for the tool",
+    "source_link": "https://www.indiehackers.com/post/i-modeled-what-failed-cards-cost-a-small-saas-at-ten-mrr-levels-the-gap-between-stripe-retries-and-retries-plus-a-sequence-was-bigger-t-4ee530ae4a",
+    "source_platform": "other",
+    "engagement": "Indie Hackers 4 Oct 2026, таблица по 10 уровням MRR",
+    "score": 78
+  },
+  {
+    "type": "demand_gap",
+    "what": "Запрос на замену GitHub Actions: быстрый agentic CI, который «давит» Actions и стоит в 10 раз дешевле. Автор прямо пишет, что заплатит много.",
+    "why_us": "CI-счета — регулярная боль у команд на Actions. Платёжеспособная формулировка, не абстрактное «хочу».",
+    "revenue": "explicit willingness to pay «heavy»; target 10x cheaper than Actions",
+    "source_link": "https://x.com/VadimStrizheus/status/2104628186180882552",
+    "source_platform": "x",
+    "engagement": "54 likes, 13 bookmarks, 34 replies, 28 Sep 2026",
+    "score": 70
+  },
+  {
+    "type": "revenue_report",
+    "what": "Ian Nuttall (SEO с 2005, AI coding): для осмысленного MRR в 2026 реально продаются social scheduler, local-only speech-to-text, automated SEO bot, AEO monitoring, hard-paywall iOS apps.",
+    "why_us": "Короткий список категорий, которые уже монетизируются, от человека с длинным треком. AEO-мониторинг и local STT — всё ещё тонкий рынок относительно scheduler.",
+    "revenue": "«meaningful MRR» categories, no single number",
+    "source_link": "https://x.com/iannuttall/status/2100244493840584865",
+    "source_platform": "x",
+    "engagement": "271 likes, 195 bookmarks, 56 replies, 16 Sep 2026",
+    "score": 74
+  },
+  {
+    "type": "revenue_report",
+    "what": "Bazzly (Filip Panoski): 7 лет и 5+ мёртвых продуктов при $0 MRR, затем $15k MRR. Канал роста — Reddit autopilot для клиентов. Позиционирует failure как данные о том, за что платят.",
+    "why_us": "Повтор сигнала: Reddit-distribution для SaaS доводится до $15k MRR, но 99% bootstrap-запусков не доходят. Продукт вокруг «клиенты с Reddit» уже продаётся.",
+    "revenue": "$15k MRR",
+    "source_link": "https://x.com/FilipPanoski/status/2107471097515868562",
+    "source_platform": "x",
+    "engagement": "76 likes, 44 replies, 6 Oct 2026",
+    "score": 72
+  },
+  {
+    "type": "demand_gap",
+    "what": "AI app-builder anything.com жжёт кредиты: простой таск съел ~23 000 credits и не закрыл задачу. Ревьюер сравнивает с Emergent, Base44, Rork и называет платформу money trap. Отдельный отзыв — nearly lost €1,350.",
+    "why_us": "Ценовой шок usage-based AI coding. Спрос на предсказуемый flat/cap биллинг и на билдеры, которые не списывают кредиты за «thinking».",
+    "revenue": "€1,350 почти потеряны на одной сессии; 23k credits на базовый запрос",
+    "source_link": "https://www.trustpilot.com/review/anything.com",
+    "source_platform": "trustpilot",
+    "engagement": "1-star reviews Apr–Sep 2026, credit-drain thread",
+    "score": 67
+  },
+  {
+    "type": "demand_gap",
+    "what": "Соло S-corp: дыра между $500 за рандомный импорт выгрузок и $15k за бизнес/фин-советника. Готов платить $2k/год за AI-native сервис, который снимает ментальную нагрузку по учёту и налогам.",
+    "why_us": "Явный ценовой якорь $2k/year на AI bookkeeping/tax для соло-фаундеров. Не chatbot, а сервис с результатом.",
+    "revenue": "$2k/year willingness to pay",
+    "source_link": "https://x.com/TheConnMan/status/2104269037446574310",
+    "source_platform": "x",
+    "engagement": "21 likes, 4 replies, 27 Sep 2026",
+    "score": 66
+  },
+  {
+    "type": "demand_gap",
+    "what": "G2-ревьюеры Mixpanel: free tier щедрый, но Growth plan агрессивно дорожает после 1M events — «pricing spikes as soon as you cross that threshold». Contentsquare отдельно называют дорогим и тяжёлым.",
+    "why_us": "Повторяемая жалоба product-analytics: cliff pricing. Ниша для event-аналитики с потолком цены для SaaS до ~10k MAU.",
+    "revenue": "paid plans from $299/mo (Heap) / custom; pain is the cliff past 1M events",
+    "source_link": "https://learn.g2.com/best-free-product-analytics-software",
+    "source_platform": "g2",
+    "engagement": "G2 dislike quotes, article 3 Aug 2026",
+    "score": 63
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "ReachleeHQ (Tushar Kapil) пересёк $1500 MRR 6 Oct (с $1300 1 Oct и $1400 3 Oct). Следующий шаг — MCP для продукта.",
+    "why_us": "Свежий микро-SaaS с ежедневными цифрами и явным AI/MCP-слоем. Показывает, что обёртка+дистрибуция ещё доходит до $1.5k за дни роста.",
+    "revenue": "$1500 MRR",
+    "source_link": "https://x.com/TusharKapil003/status/2107323004514689531",
+    "source_platform": "x",
+    "engagement": "102 likes, 41 replies, 6 Oct 2026",
+    "score": 68
+  },
+  {
+    "type": "defi_yield",
+    "what": "Pyth Network: ARR ~$6.1M → $11.5M за Q3 (июнь–сентябрь), +87%. $10M ARR пересекли в августе. Terminal 129,265 MAU (+44.1% MoM). Почти половина новой выручки сентября — self-serve.",
+    "why_us": "Не фарм-APY, а реальный data-layer revenue в crypto: self-serve infra растёт быстрее медианного B2B SaaS (22%/год). Сигнал, что oracle/price API продаётся как SaaS.",
+    "revenue": "$11.5M ARR, +87% in Q3",
+    "source_link": "https://x.com/N0name_Trader/status/2107465842011046072",
+    "source_platform": "x",
+    "engagement": "50 likes on recap; source Pyth post 151 likes, 6 Oct 2026",
+    "score": 71
+  },
+  {
+    "type": "demand_gap",
+    "what": "IBM Cloudability (G2): пользователям не хватает LLM-слоя, который уже есть у CloudZero и AWS Cost Analyzer Intelligence. Платформа чистая, но без natural-language разбора облачных счетов.",
+    "why_us": "FinOps-покупатели уже платят enterprise и явно просят AI-объяснение spend. Узкий wrapper над cost data, а не ещё один дашборд.",
+    "revenue": "enterprise cloud-cost tool, ROI cited ~14 months",
+    "source_link": "https://www.g2.com/products/ibm-cloudability/reviews",
+    "source_platform": "g2",
+    "engagement": "102–215 reviews, 4.2/5, dislike quote on missing LLM, page updated 28 Sep 2026",
+    "score": 62
+  }
+]

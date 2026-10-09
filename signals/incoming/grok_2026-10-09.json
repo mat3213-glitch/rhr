@@ -1,0 +1,82 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "Запрос на Manychat-alternative: цены названы absurd, автор готов быть первым клиентом у того, кто сделает то же чуть дешевле. Instagram/DM-автоматизация для креаторов и коучей.",
+    "why_us": "Прямая формулировка willingness-to-pay и 205 закладок. Ниша DM-автоматизации с простым flat-прайсом вместо ступенчатых contact-tiers.",
+    "revenue": "явный «I'd be your first customer»; Manychat Pro обычно $15–$65+/mo и растёт с контактами",
+    "source_link": "https://x.com/brycent/status/2095912380815323334",
+    "source_platform": "x",
+    "engagement": "236 likes, 205 bookmarks, 101 replies, 4 Sep 2026",
+    "score": 74
+  },
+  {
+    "type": "demand_gap",
+    "what": "Нет единого места, где видно каждый AI/app с доступом к email, calendar, SMS. Права размазаны по десяткам консолей и становятся хуже.",
+    "why_us": "Одна фраза = продукт: inventory OAuth/API-доступов для фаундеров и малых команд. Покупатель — тот, кто уже подключил десяток AI-инструментов.",
+    "revenue": "B2B security/ops, рациональный чек $10–$29/mo на соло или seat-план для команды",
+    "source_link": "https://x.com/shikhars_/status/2102975814476427578",
+    "source_platform": "x",
+    "engagement": "27 likes, 14 bookmarks, 8 replies, 24 Sep 2026",
+    "score": 64
+  },
+  {
+    "type": "revenue_report",
+    "what": "ReachleeHQ (Tushar Kapil) с $1500 MRR 6 Oct → $1600 8 Oct → $1700 MRR 9 Oct (2 продажи top tier за ночь). Цель $10k MRR, следующий шаг — MCP.",
+    "why_us": "Свежее продолжение уже отслеженного микро-SaaS: +$200 за 3 дня и явный AI/MCP-слой. Подтверждает, что outreach-обёртка ещё двигает чек.",
+    "revenue": "$1,700 MRR",
+    "source_link": "https://x.com/TusharKapil003/status/2108404425320788017",
+    "source_platform": "x",
+    "engagement": "100 likes, 49 replies, 9 Oct 2026",
+    "score": 76
+  },
+  {
+    "type": "revenue_report",
+    "what": "jack friks: SaaS пересёк $45k MRR, первый «праздничный» шип — dark mode. Имя продукта в посте не названо.",
+    "why_us": "Крупный bootstrap-чек с высоким вовлечением. Сигнал, что одиночный микро-продукт ещё доходит до mid-five-figures MRR в 2026.",
+    "revenue": "$45k MRR",
+    "source_link": "https://x.com/jackfriks/status/2105316426294726831",
+    "source_platform": "x",
+    "engagement": "198 likes, 47 replies, 30 Sep 2026",
+    "score": 73
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "Jon Yongfook (Bannerbear, $81k MRR): новый SaaS redacted.to — free tools для data redaction — вышел на MRR за 3 дня после лонча. Сумма в карточке поста скрыта.",
+    "why_us": "Повторный паттерн: утилита вокруг приватности/редакции данных от фаундера с доказанным дистрибушеном. Быстрый первый чек важнее точной суммы.",
+    "revenue": "MRR за 3 дня (сумма скрыта); родительский Bannerbear $81k MRR",
+    "source_link": "https://x.com/yongfook/status/2105212854605606932",
+    "source_platform": "x",
+    "engagement": "127 likes, 34 replies, 30 Sep 2026",
+    "score": 70
+  },
+  {
+    "type": "demand_gap",
+    "what": "HubSpot CRM на Capterra: 35% негативных из 884 ревью — цена скачет, одна нужная фича сидит в Pro. Владелец строительной фирмы 22 Sep 2026: «We can’t afford it anymore», уходит на платформу с гибким прайсом.",
+    "why_us": "Повторяемая дыра не «ещё один CRM», а узкий стек для trades/construction с предсказуемой ценой без feature-cliff.",
+    "revenue": "HubSpot от $20/user/mo; SME уже платили и уходят из-за Pro-tier",
+    "source_link": "https://www.capterra.com/p/152373/HubSpot-CRM/",
+    "source_platform": "capterra",
+    "engagement": "884 reviews, 35% negative on pricing; review 22 Sep 2026",
+    "score": 68
+  },
+  {
+    "type": "demand_gap",
+    "what": "G2, monday.com: пользователи просят прямой доступ к файлам внутри monday, а не ссылку во внешнее облако. Отдельно — слабая кастомная синхронизация с нишевыми PM-тулами и резкий прыжок цены на premium, если нужны 1–2 фичи.",
+    "why_us": "Конкретный missing feature у платящих команд: native files + дешёвый аддон вместо всего premium-tier.",
+    "revenue": "monday платны уже оплачены; боль — доплата за один шаг фичей",
+    "source_link": "https://www.g2.com/software/business-collaboration",
+    "source_platform": "g2",
+    "engagement": "G2 dislike quotes, page updated 6 Oct 2026",
+    "score": 62
+  },
+  {
+    "type": "automation",
+    "what": "Postraid (Nick): $301 MRR на день 10, 9 платящих (2 Growth + 7 Starter). Клиент попросил фичу, её сразу сшипили, другой апгрейдился со Starter на Growth. Продукт — контент-генерация для маркетинга, лонч на Product Hunt в тот же день.",
+    "why_us": "Живой пример, что узкий AI-контент-бот доходит до первых $300 за 10 дней, если фича сразу конвертится в апгрейд.",
+    "revenue": "$301 MRR, 9 paying, day 10",
+    "source_link": "https://x.com/Nick_333ch/status/2101948117734105468",
+    "source_platform": "x",
+    "engagement": "тред 21 Sep 2026, цифры в посте; родительский пост в треде marclou",
+    "score": 66
+  }
+]

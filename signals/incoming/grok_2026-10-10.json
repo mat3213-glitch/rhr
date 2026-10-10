@@ -1,0 +1,62 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "Massive unpredictable price increases (5x-10x, e.g. $69 to $821/mo or $180 to $2145/mo) for Harvest time-tracking after Bending Spoons acquisition. Users report 30-day notices, locked features, usage-based Flex plans that grow with activity. Long-time customers (8-15 years) seeking flat-priced, predictable alternatives with better support.",
+    "why_us": "Clear willingness to pay for stable pricing and features already in use. High switching intent from agencies/freelancers. Multiple verified 1-star Trustpilot reviews in Aug-Sep 2026 show recurring pain.",
+    "revenue": "Existing market: time tracking SaaS, competitors like Clockify/Toggl at $4-18/user/mo",
+    "source_link": "https://www.trustpilot.com/review/www.harvestapp.com",
+    "source_platform": "trustpilot",
+    "engagement": "Multiple recent 1-star reviews detailing exact price jumps (e.g. 1091% increase)",
+    "score": 85
+  },
+  {
+    "type": "revenue_report",
+    "what": "Reachlee (Instagram automation SaaS for creators/SMBs: auto DMs from comments, lead capture) crossed $1500 MRR (from ~$1400 previous day). Verified on TrustMRR ~$1661 MRR, 185 active subs. Founder launching MCP soon.",
+    "why_us": "Validated AI/automation wrapper in Instagram engagement space. Fast growth (last 6 weeks strong). Official API use, flat pricing, clear pain solved (manual reply to viral posts).",
+    "revenue": "$1.5k-$1.7k MRR",
+    "source_link": "https://x.com/TusharKapil003/status/2107323004514689531",
+    "source_platform": "x",
+    "engagement": "102 likes, 42 replies",
+    "score": 78
+  },
+  {
+    "type": "demand_gap",
+    "what": "Demand for a real AI Chief of Staff: proactive agent with full access to computer/phone/apps that acts like the user, not just inbox summarizer. Builds on existing Claude/ChatGPT. Multiple founders building personal versions; Startmate/YC-style requests highlight it as top AI startup idea.",
+    "why_us": "High-value for solo founders/execs (replaces $150-250k human CoS at $20-100/mo). Recurring mentions in 2026 content and building stories. Monetizable via tools/wrappers on top of existing LLMs.",
+    "revenue": "Potential $20-100/mo per user; human equivalent $200k+/yr",
+    "source_link": "https://www.startmate.com/writing/the-ai-startups-someone-should-build",
+    "source_platform": "other",
+    "engagement": "Article published Aug 2026, ongoing discussions",
+    "score": 75
+  },
+  {
+    "type": "revenue_report",
+    "what": "Indie hacker built handful of B2C micro-SaaS projects, used SEO pipeline for blog posts, reached $1k MRR total. Passive after initial setup, occasional bug fixes. Diversified portfolio approach.",
+    "why_us": "Proof of SEO-driven micro-SaaS growth without heavy maintenance. Concrete milestone with public sharing.",
+    "revenue": "$1k MRR",
+    "source_link": "https://x.com/maks6361/status/2108470939855818787",
+    "source_platform": "x",
+    "engagement": "693 likes, 89 replies, 710 bookmarks",
+    "score": 70
+  },
+  {
+    "type": "demand_gap",
+    "what": "Users of Warp.dev (AI terminal/coding tool) complain of extreme costs (e.g. $250 for 2-hour run), value issues, pricing traps after 'Build Plan' changes, and scam-like usage limits. Seeking better/cheaper AI coding assistants.",
+    "why_us": "Pain in AI developer tools pricing. Fresh 1-star reviews (Sep 2026) indicate willingness to switch.",
+    "revenue": "AI coding tools market, high willingness to pay but sensitivity to token costs",
+    "source_link": "https://www.trustpilot.com/review/warp.dev",
+    "source_platform": "trustpilot",
+    "engagement": "Recent 1-star reviews calling it 'worst AI in terms of value', 'waste of money'",
+    "score": 68
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "AppBird AI (AI-powered market intelligence for apps/games: discover releases, competitor tracking, publisher connections) showing ~$17k last 30 days, $24k+ MRR, $139k all-time on TrustMRR. Verified Stripe.",
+    "why_us": "Successful AI wrapper in app intelligence niche. Concrete revenue proof for similar market research tools.",
+    "revenue": "~$25k MRR",
+    "source_link": "https://trustmrr.com/startup/appbird",
+    "source_platform": "other",
+    "engagement": "Verified revenue data, ranked on TrustMRR",
+    "score": 72
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "Users want a proper app/player for music purchased on Bandcamp so they can listen seamlessly without falling back to Spotify/YouTube or limited local file apps. DTC model fails on everyday playback UX.",
+    "why_us": "High engagement (369+ likes on wish, 490 on original complaint) shows clear demand for better local/owned music consumption tools; niche but passionate users.",
+    "revenue": "Potential subscription or freemium for offline/local music library manager",
+    "source_link": "https://x.com/BigDaddyCh0p/status/2109026640219226554",
+    "source_platform": "x",
+    "engagement": "369 likes (quote), original post 490 likes",
+    "score": 82
+  },
+  {
+    "type": "revenue_report",
+    "what": "Indie app developer hit $600 MRR on a new app that is now on autopilot (no changes for over a month), only weekly + annual subscriptions, still growing. Part of larger portfolio strategy.",
+    "why_us": "Concrete numbers + 347 likes; shows replicable micro-app model with low maintenance after launch. High payment willingness via subscriptions.",
+    "revenue": "$600/mo MRR and growing",
+    "source_link": "https://x.com/adamlyttleapps/status/2106914748029895158",
+    "source_platform": "x",
+    "engagement": "347 likes",
+    "score": 85
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "Homy.app (Mac file organizer / digital home) launched: 2.6k visitors, 83 licenses sold, $786 revenue in first 24 hours. Extending limited slots.",
+    "why_us": "Fast validation of AI-adjacent productivity tool with real revenue on day 1; TrustMRR proof mentioned. Shows demand for clean, cute local-first organizers.",
+    "revenue": "$786 in 24h (~$9-29/license)",
+    "source_link": "https://x.com/hii_mohit/status/2109165594998439993",
+    "source_platform": "x",
+    "engagement": "153 likes",
+    "score": 78
+  },
+  {
+    "type": "demand_gap",
+    "what": "If software lacks an easy text box for feature requests that appear quickly, users will just get Claude to replace the product entirely. Frustration with slow/no feedback loops.",
+    "why_us": "613 likes on clear statement of switching to AI agents for missing features. Strong signal that tools without rapid AI-assisted customization or feedback will lose users.",
+    "revenue": "N/A (pain point for existing SaaS; opportunity for AI integration layers)",
+    "source_link": "https://x.com/robertskmiles/status/2073225686404489382",
+    "source_platform": "x",
+    "engagement": "613 likes",
+    "score": 88
+  },
+  {
+    "type": "demand_gap",
+    "what": "Lovable.dev (AI app builder) 1-star reviews: credits burned on repeated AI errors, failed publishes, almost zero real support (only AI bot), projects lost, waste of money.",
+    "why_us": "Repeated complaints about reliability, cost opacity, and support in popular AI wrapper category. Opportunity for more transparent/reliable AI coding tools or credit management.",
+    "revenue": "Users paying $25-86+ and feeling scammed",
+    "source_link": "https://www.trustpilot.com/review/lovable.dev?stars=1",
+    "source_platform": "trustpilot",
+    "engagement": "Multiple recent 1-star reviews",
+    "score": 75
+  },
+  {
+    "type": "automation",
+    "what": "Curated list of 23 free open-source GitHub tools/repos for memecoin traders (wallet trackers, rug checkers, AI agents, backtesters) instead of paid bots. High bookmark engagement.",
+    "why_us": "273 likes + 466 bookmarks shows demand for free/open alternatives to expensive trading bots; opportunity for better packaged automation or freemium tools.",
+    "revenue": "Paid bots exist; free alternatives popular",
+    "source_link": "https://x.com/zettelkastten/status/2109016596861575451",
+    "source_platform": "x",
+    "engagement": "273 likes, 466 bookmarks",
+    "score": 72
+  },
+  {
+    "type": "demand_gap",
+    "what": "Notion Trustpilot complaints: misleading free tier then sudden charges/extra credits for AI, hidden fees, difficult account management, support issues.",
+    "why_us": "Subscription fatigue + opaque AI credit pricing is a recurring pain across productivity tools. Clear willingness to switch if better pricing/transparency.",
+    "revenue": "Users paying €200/mo then needing more credits",
+    "source_link": "https://www.trustpilot.com/review/notion.so",
+    "source_platform": "trustpilot",
+    "engagement": "Recent 1-2 star reviews highlighting monetization",
+    "score": 70
+  }
+]

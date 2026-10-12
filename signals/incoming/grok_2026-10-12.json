@@ -1,0 +1,52 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "Users frustrated with bloated SaaS tools that offer 50 features but miss the 2 specific ones needed or lock them behind enterprise plans. Prefer personal/vibe-coded tools for data ownership and exact fit. Example: Tony Dinh post about needing 6 features not in the 50 or locked.",
+    "why_us": "High engagement signal (126 likes) on X about preference for personal software over enterprise SaaS, especially with AI making vibe-coding viable. Opportunity for lightweight personal tools, templates, or platforms enabling quick custom builds.",
+    "revenue": "Potential for $5-20/mo personal tools or one-time templates",
+    "source_link": "https://x.com/tdinh_me/status/2109482649853317583",
+    "source_platform": "x",
+    "engagement": "126 likes, 79 replies, 23 bookmarks",
+    "score": 85
+  },
+  {
+    "type": "demand_gap",
+    "what": "Time tracking SaaS Harvest facing massive backlash for sudden 5x-10x price increases (e.g., $12/user to $116, $69 to $821/mo) with short notice, feature locking, after years of use. Many long-term customers terminating.",
+    "why_us": "Recurring recent complaints on Trustpilot show strong pain with overpricing and lack of transparency in established tools. Clear gap for affordable, stable-priced time tracking/invoicing alternatives with better value.",
+    "revenue": "Existing customers paying thousands/year previously; alternatives could capture at lower MRR",
+    "source_link": "https://www.trustpilot.com/review/www.harvestapp.com",
+    "source_platform": "trustpilot",
+    "engagement": "Multiple recent 1-star reviews detailing 5x-10x hikes",
+    "score": 78
+  },
+  {
+    "type": "demand_gap",
+    "what": "AI no-code/app builders like Lovable criticized as insanely expensive, unreliable for even basic tasks (e.g., connecting profile pics), waste credits on failed attempts, not suitable for enterprise-grade apps. Users wasting $500+ with no results.",
+    "why_us": "Specific pain in AI wrapper/app builder space: high cost, low reliability, credit burn. Opportunity for more transparent, effective AI coding tools or hybrid solutions.",
+    "revenue": "Users spending hundreds on credits; better tools could charge less for better outcomes",
+    "source_link": "https://www.trustpilot.com/reviews/68f8e7252adb7b5efdc7a06f",
+    "source_platform": "trustpilot",
+    "engagement": "Detailed 1-star review with specific failure examples",
+    "score": 72
+  },
+  {
+    "type": "demand_gap",
+    "what": "Subscription fatigue and preference for personal software: top AI users still pay for simple apps like Todoist ($7/mo) because vibe-coding + team sync not worth the effort. Discussion on when to build vs buy.",
+    "why_us": "Engagement on X (363+ likes) highlights friction in self-building vs paying for polished SaaS. Signals demand for ultra-simple, low-friction personal tools or better self-host/vibe options.",
+    "revenue": "People paying $7-20/mo for simple tools; gap for even simpler or owned alternatives",
+    "source_link": "https://x.com/eptwts/status/2109569244979449975",
+    "source_platform": "x",
+    "engagement": "363 likes, 74 replies",
+    "score": 80
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "Personal apps built with ChatGPT/Claude and shared like Google Docs (Charming). Shift from wishing for apps to building them in minutes for group chats/families.",
+    "why_us": "Recent high-visibility posts about AI enabling personal micro-apps. Opportunity in tools that make this seamless, monetizable, or collaborative.",
+    "revenue": "Early stage, free tier mentioned; potential for paid features",
+    "source_link": "https://x.com/mrmagan_/status/2107842621687390208",
+    "source_platform": "x",
+    "engagement": "386 likes on quoted post",
+    "score": 68
+  }
+]

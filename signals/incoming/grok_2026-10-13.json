@@ -1,0 +1,82 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "SaaS tools have 50 features but users need only ~6, some missing or locked behind Enterprise; people prefer vibe-coding personal tools in 1 day instead of scouting alternatives and data lock-in.",
+    "why_us": "Signals growing rejection of bloated multi-feature SaaS; opportunity for ultra-focused, personalizable AI-native tools or wrappers that avoid subscription fatigue.",
+    "revenue": "N/A (demand signal)",
+    "source_link": "https://x.com/tdinh_me/status/2109482649853317583",
+    "source_platform": "x",
+    "engagement": "148 likes, 106 replies",
+    "score": 75
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "OpenClaw wrappers hitting $6K-$33K MRR quickly; one from $0 to $27.9K MRR in 14 days via ads/SEO; trend like 2023 GPT wrappers but larger, with boilerplate tools emerging.",
+    "why_us": "High-velocity AI micro-SaaS wave; proven monetization of specialized wrappers on new AI platforms.",
+    "revenue": "$6k-$33k/mo",
+    "source_link": "https://x.com/marclou/status/2025904482991874408",
+    "source_platform": "x",
+    "engagement": "333 likes, 68 replies (Marc Lou post); related high engagement",
+    "score": 85
+  },
+  {
+    "type": "revenue_report",
+    "what": "LLM Gateway (open-source API gateway for LLMs) from zero to $470K all-time revenue / $8.4K MRR in 12 months, 714 paying customers, 34M+ requests.",
+    "why_us": "Infrastructure layer for AI is monetizable even as open-source; verified via TrustMRR/Stripe.",
+    "revenue": "$8.4k MRR, $470k all-time",
+    "source_link": "https://x.com/smakosh/article/2065105200960991515",
+    "source_platform": "x",
+    "engagement": "Article with verified numbers",
+    "score": 80
+  },
+  {
+    "type": "demand_gap",
+    "what": "Intercom $132/seat/mo + $0.99/AI response, Pipedrive up to $79/user; total $60-100k/yr for generic tools that don't know the business. Founder built custom CRM/support in 15 days, joining trend of replacing SaaS (Klarna example: $40M savings).",
+    "why_us": "Clear willingness to pay for custom AI-powered tools that integrate domain knowledge; subscription fatigue + poor fit.",
+    "revenue": "N/A (pain + build example)",
+    "source_link": "https://x.com/devneeddev/status/2026527641969230275",
+    "source_platform": "x",
+    "engagement": "High implied interest from detailed post",
+    "score": 78
+  },
+  {
+    "type": "demand_gap",
+    "what": "Widespread complaints on AI tools (Sider, UseAI, Lisa AI etc.): misleading trials, hidden recurring charges, unclear limits, poor support, subscription fatigue. G2 notes pricing as top complaint (20% of reviews) even among satisfied users.",
+    "why_us": "Opportunity for transparent, usage-based or one-time AI tools with clear pricing and better cancel flows.",
+    "revenue": "N/A",
+    "source_link": "https://www.trustpilot.com/review/use.ai",
+    "source_platform": "trustpilot",
+    "engagement": "Multiple 1-star reviews on hidden charges",
+    "score": 70
+  },
+  {
+    "type": "revenue_report",
+    "what": "Indie SaaS Reachlee crossed $1.8K MRR (from $1.2K-$1.5K updates); Evergreen AI surpassed 1K MRR. Steady public updates from solo founders.",
+    "why_us": "Micro-SaaS still viable; MCP integrations and AI features driving growth.",
+    "revenue": "$1.8k MRR (Reachlee), $1k MRR (Evergreen)",
+    "source_link": "https://x.com/TusharKapil003/status/2109566021640339730",
+    "source_platform": "x",
+    "engagement": "95-119 likes on recent updates",
+    "score": 65
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "TikTok API wrapper / app removing reposts reached $100k MRR in 10 months; niches still lucrative.",
+    "why_us": "Simple API wrappers in specific platforms can scale to high revenue.",
+    "revenue": "$100k MRR",
+    "source_link": "https://x.com/tadasgedgaudas/status/2108276721401168159",
+    "source_platform": "x",
+    "engagement": "Quoted post with discussion",
+    "score": 72
+  },
+  {
+    "type": "demand_gap",
+    "what": "People note that vibe-coding allows replacing many SaaS (screenshot services, uptime, moderation etc.) previously paid for; levelsio and others report cutting costs by building custom.",
+    "why_us": "Acceleration of 'software by you' trend; market for lightweight AI-assisted personal tools or marketplaces of them.",
+    "revenue": "N/A",
+    "source_link": "https://x.com/levelsio/status/2051755279117676776",
+    "source_platform": "x",
+    "engagement": "907 likes",
+    "score": 68
+  }
+]

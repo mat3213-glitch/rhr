@@ -1,0 +1,62 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "AI tools that forget context every session force users to re-explain preferences and workflows repeatedly (top complaint in analysis of 500 Reddit AI tool posts: 34% about memory, 19% about re-explaining context).",
+    "why_us": "Persistent memory / personal AI context layer is a clear unmet demand; people quantify time waste (91 hours/year). High willingness to pay for agents that remember across sessions.",
+    "revenue": "",
+    "source_link": "https://www.indiehackers.com/post/i-analyzed-500-reddit-complaints-about-ai-tools-the-1-frustration-isnt-hallucination-0066da0b1c",
+    "source_platform": "forum",
+    "engagement": "Indie Hackers post with analysis of 500 complaints",
+    "score": 82
+  },
+  {
+    "type": "demand_gap",
+    "what": "Rescue service for vibe-coded / AI-generated apps that ship broken: exposed keys, security holes, unmaintainable code, failed payments. Users spend thousands on platforms like Base44 ($3k wasted) and Atoms then abandon projects.",
+    "why_us": "Non-technical founders hit a wall after MVP generation. Explicit gap for human review, security fixes, and production hardening. Recurring pain with real money already spent.",
+    "revenue": "Rescue projects $3k-15k per engagement",
+    "source_link": "https://www.trustpilot.com/review/anything.com",
+    "source_platform": "trustpilot",
+    "engagement": "Multiple 1-star reviews detailing $1k+ losses and unusable output",
+    "score": 85
+  },
+  {
+    "type": "revenue_report",
+    "what": "Indie SaaS Reachlee crossed $1,800 MRR (from ~$1,500 a few days earlier), MCP integration live. Consistent public updates showing growth.",
+    "why_us": "Validates demand for AI-powered tools with clear distribution; solo/small-team trajectory to $10k MRR target.",
+    "revenue": "$1,800/mo",
+    "source_link": "https://x.com/TusharKapil003/status/2109493822438998250",
+    "source_platform": "x",
+    "engagement": "96 likes, 44 replies on latest update",
+    "score": 72
+  },
+  {
+    "type": "demand_gap",
+    "what": "Subscription that lets users trial SaaS products locked behind 'Contact Sales' for sales demos and competitive analysis.",
+    "why_us": "Sales teams and builders want hands-on access without gatekeeping; useful for product research and agent-driven demos.",
+    "revenue": "",
+    "source_link": "https://x.com/raunakdoesdev/status/2109401264648011817",
+    "source_platform": "x",
+    "engagement": "10 likes, 5 replies (niche but specific payment intent)",
+    "score": 65
+  },
+  {
+    "type": "demand_gap",
+    "what": "Mobile-first field inspection / construction app with photo+GPS tagging and simple forms. Desktop platforms dominate; field workers stuck with paper or poor mobile experiences. Analysis of 39k complaints highlights this as high-severity gap.",
+    "why_us": "Boring industry with real workflow pain, low competition on the narrow use-case, willingness to pay $29/user/month from subcontractors.",
+    "revenue": "~ $29/user/mo potential",
+    "source_link": "https://www.indiehackers.com/post/i-analyzed-39-000-software-complaints-the-best-micro-saas-gaps-are-all-in-boring-industries-801c41685b",
+    "source_platform": "forum",
+    "engagement": "Detailed analysis post of 39k reviews",
+    "score": 78
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "Always-on AI ad creative team: monitors Meta/TikTok ads, detects dying winners, generates and tests variations overnight, scales winners. Inspired by Higgsfield + Creatify ($9M ARR).",
+    "why_us": "Clear monetization path ($99-249/mo tiers), distribution via ad library outreach. Addresses creative fatigue pain.",
+    "revenue": "Potential $99-249/mo; comparable tools hit multi-M ARR",
+    "source_link": "https://x.com/shiri_shh/status/2105075747362853006",
+    "source_platform": "x",
+    "engagement": "15 likes, detailed build outline with cost estimates",
+    "score": 70
+  }
+]

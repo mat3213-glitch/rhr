@@ -1,0 +1,72 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "Кредитная карта или апп, позволяющая отменять любые подписки (Netflix, SaaS и т.д.) прямо из приложения без навигации по сайтам сервисов.",
+    "why_us": "Высокая вовлеченность (577 лайков), реальная боль с subscription fatigue; повторяется в отзывах G2/Trustpilot и статьях о tool tax у инди-хакеров ($500+/mo на неиспользуемые тулы).",
+    "revenue": "Потенциал $10-20/mo или % от экономии на подписках",
+    "source_link": "https://x.com/lessin/status/2089376498180555074",
+    "source_platform": "x",
+    "engagement": "577 likes, 13 reposts",
+    "score": 82
+  },
+  {
+    "type": "revenue_report",
+    "what": "iOS-приложение на пути к $40k в этом месяце полностью органически; Android пока не дает значимого ревенью.",
+    "why_us": "Конкретные цифры органического роста micro-SaaS/аппа, показывает возможность без рекламы.",
+    "revenue": "$40k/mo ожидаемый",
+    "source_link": "https://x.com/nicholascalez/status/2110366410711216633",
+    "source_platform": "x",
+    "engagement": "58 likes",
+    "score": 68
+  },
+  {
+    "type": "demand_gap",
+    "what": "Инструмент для автоматической обработки PDF-инвойсов: извлечение лайн-айтемов, категоризация по налоговым кодам и пуш в Xero/QuickBooks.",
+    "why_us": "Явная готовность платить $29/mo, реальная ежемесячная боль инди/малого бизнеса; легко автоматизировать с LLM.",
+    "revenue": "$29/mo",
+    "source_link": "https://dev.to/the_nortern_dev/the-i-would-pay-50month-to-never-do-this-again-list-3kfb",
+    "source_platform": "forum",
+    "engagement": "Статья с конкретным WTP",
+    "score": 72
+  },
+  {
+    "type": "defi_yield",
+    "what": "~20% APY на Loopscale + Onre (RWA yield) более года, плюс 5-фигурный доход с yield и потенциал аирдропа.",
+    "why_us": "Долгосрочная стратегия с реальными цифрами, не только хайп; показывает устойчивые возможности в DeFi.",
+    "revenue": "~20% APY, 5 фигур с yield",
+    "source_link": "https://x.com/FabianoSolana/status/2110384964709519716",
+    "source_platform": "x",
+    "engagement": "188 likes",
+    "score": 78
+  },
+  {
+    "type": "revenue_report",
+    "what": "Microagi (robotics data research startup) достиг $100M ARR за 6 месяцев.",
+    "why_us": "Показывает сдвиг AI-рынка к data ownership как моат; высокая скорость роста.",
+    "revenue": "$100M ARR за 6 мес",
+    "source_link": "https://x.com/stacy_muur/status/2110756593830953326",
+    "source_platform": "x",
+    "engagement": "94 likes",
+    "score": 75
+  },
+  {
+    "type": "demand_gap",
+    "what": "Дешевые/узкие альтернативы дорогим SaaS (project management, SEO, и т.д.) из-за subscription fatigue и tool tax ~$500-800/mo у инди.",
+    "why_us": "Повторяющаяся жалоба в статьях и отзывах G2/Capterra/Trustpilot на цену и блоутед тулы; люди строят свои с помощью AI.",
+    "revenue": "Потенциал экономия $500+/mo на пользователя",
+    "source_link": "https://deelo.ai/blog/saas-tool-tax-indie-hackers",
+    "source_platform": "forum",
+    "engagement": "Детальный разбор с цифрами",
+    "score": 70
+  },
+  {
+    "type": "automation",
+    "what": "Список открытых GitHub-репозиториев для memecoin трейдинг-ботов (отслеживание кошельков, проверка коинов, AI-агенты) вместо платных сервисов.",
+    "why_us": "Высокая вовлеченность, показывает спрос на автоматизацию в крипто-трейдинге; возможность для микро-сервисов на базе этих тулов.",
+    "revenue": "Альтернатива платным ботам",
+    "source_link": "https://x.com/zettelkastten/status/2109016596861575451",
+    "source_platform": "x",
+    "engagement": "412 likes, 751 bookmarks",
+    "score": 65
+  }
+]

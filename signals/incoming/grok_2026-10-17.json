@@ -1,0 +1,52 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "People with specific needs only require a fraction of features in bloated SaaS and prefer to vibe-code personal tools that own their data rather than lock into vendors. Recurring anti-cloud, offline-first, privacy-focused demand (~7% of 'wish there was an app' requests).",
+    "why_us": "High engagement signal of subscription fatigue and preference for simple, local, personal software over multi-feature cloud platforms. Strong willingness-to-pay in adjacent niches like finance/education.",
+    "revenue": "N/A (demand signal); potential $10-50/mo personal tools or open-source + premium",
+    "source_link": "https://x.com/tdinh_me/status/2109482649853317583",
+    "source_platform": "x",
+    "engagement": "151 likes, 112 replies, 28 bookmarks",
+    "score": 85
+  },
+  {
+    "type": "demand_gap",
+    "what": "Analysis of 9300+ 'I wish there was an app for this' posts shows anti-cloud/privacy/offline-first as significant trend, productivity highest volume but finance highest pay intent, education/self-improvement high willingness to pay.",
+    "why_us": "Aggregated real demand data with specific niches having 'I will pay' language; long angry posts are free product specs.",
+    "revenue": "N/A; high-intent niches exist",
+    "source_link": "https://x.com/om_patel5/status/2010166793487163890",
+    "source_platform": "x",
+    "engagement": "210 likes, 20 replies, 307 bookmarks",
+    "score": 80
+  },
+  {
+    "type": "revenue_report",
+    "what": "Solo founder building AgentaOS with 0 employees and 10 AI hires reached $10k MRR.",
+    "why_us": "Concrete recent example of AI-augmented solo SaaS hitting meaningful revenue; shows barrier to entry is low ($200 Claude plan mentioned elsewhere).",
+    "revenue": "$10k MRR",
+    "source_link": "https://x.com/PIsajeski/status/2111407401249452152",
+    "source_platform": "x",
+    "engagement": "95 likes, 77 replies",
+    "score": 75
+  },
+  {
+    "type": "demand_gap",
+    "what": "Widespread complaints about SaaS pricing: too expensive (Pocket FM ~$400/book, DoFasting $80/3mo), coin systems on top of subscriptions (Liftapp.ai), subscription fatigue (Splice), hidden fees/trickery (MuseScore, Rocket Money bill negotiation), price hikes forcing switches (PRTG to Zabbix).",
+    "why_us": "Recurring pain of overpricing, poor transparency, and value mismatch in paid tools; opportunity for cheaper, transparent, narrower alternatives.",
+    "revenue": "N/A; users explicitly calling out waste of money and seeking cheaper options",
+    "source_link": "https://www.trustpilot.com/reviews/6ab938fea8f536d4c1e6ad06",
+    "source_platform": "trustpilot",
+    "engagement": "Multiple 1-star reviews across products",
+    "score": 70
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "Barrier to entry for challenging established SaaS is now ~$200/mo Claude Max plan; cracked founder can build MVP-level competitor in months.",
+    "why_us": "Signals rapid AI-enabled micro-SaaS creation; revenue potential in niches with existing paid demand but poor UX/pricing.",
+    "revenue": "Potential $1k-$10k MRR range for successful wrappers (median indie ~$145-500)",
+    "source_link": "https://x.com/SaidAitmbarek/status/2111382938197663947",
+    "source_platform": "x",
+    "engagement": "16 likes",
+    "score": 65
+  }
+]

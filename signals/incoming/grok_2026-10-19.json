@@ -1,0 +1,82 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "Dating app specifically for people who like fat guys / body-positive niche dating matching",
+    "why_us": "High engagement (4957 likes) shows strong demand for specialized dating filters beyond mainstream apps like Tinder/Grindr that lack body type preferences or face stigma",
+    "revenue": "Potential $10-20/mo subscription in underserved niche",
+    "source_link": "https://x.com/lunarbovines/status/2111589661365899274",
+    "source_platform": "x",
+    "engagement": "4957 likes, 274 reposts, 132 replies",
+    "score": 85
+  },
+  {
+    "type": "demand_gap",
+    "what": "Succinct / concise mode for AI assistants in cars (e.g., Tesla + Grok) that skips verbose responses and just navigates",
+    "why_us": "929 likes on willingness to pay extra $10/mo; drivers want fast, non-chatty AI for navigation without interruptions",
+    "revenue": "$10/mo add-on or feature upsell",
+    "source_link": "https://x.com/DevinOlsenn/status/2107198149949620630",
+    "source_platform": "x",
+    "engagement": "929 likes, 33 reposts, 113 replies",
+    "score": 78
+  },
+  {
+    "type": "demand_gap",
+    "what": "Amazon MCP (Model Context Protocol) server for seamless AI agent integration with Amazon shopping/orders",
+    "why_us": "Explicit willingness to pay $100/month; growing agent ecosystem needs e-commerce tools",
+    "revenue": "$100/mo per user",
+    "source_link": "https://x.com/ryanvogel/status/2105721291127075204",
+    "source_platform": "x",
+    "engagement": "108 likes, 22 replies",
+    "score": 72
+  },
+  {
+    "type": "demand_gap",
+    "what": "Flat subscription ($50/mo) for unlimited access to paywalled content sites (e.g., webcomics, novels, serials) instead of per-chapter purchases",
+    "why_us": "Users hate microtransactions; 134 likes on begging for all-access model common in fan content",
+    "revenue": "$50/mo subscription",
+    "source_link": "https://x.com/lavamoone/status/2106521549662552419",
+    "source_platform": "x",
+    "engagement": "134 likes",
+    "score": 70
+  },
+  {
+    "type": "demand_gap",
+    "what": "Mobile notifications / push app for ArtFight attacks and activity so artists don't have to refresh website constantly",
+    "why_us": "6455 likes; community tool for large annual art exchange event with poor mobile experience",
+    "revenue": "Freemium or $5-10 one-time / seasonal",
+    "source_link": "https://x.com/fullmoonfig/status/2072442801854328949",
+    "source_platform": "x",
+    "engagement": "6455 likes, 583 reposts",
+    "score": 75
+  },
+  {
+    "type": "revenue_report",
+    "what": "HeyReach crossed $19M ARR (bootstrapped LinkedIn outbound SaaS), back to hypergrowth adding $1.5M+ MRR/month, DFY services $50K MRR in first month",
+    "why_us": "Real verified high growth numbers, founder candid about challenges; validates LinkedIn tools market",
+    "revenue": "$19M ARR, +$1.5M MRR/mo recently",
+    "source_link": "https://x.com/nikolak47/status/2110823465616113946",
+    "source_platform": "x",
+    "engagement": "158 likes, 42 replies",
+    "score": 82
+  },
+  {
+    "type": "revenue_report",
+    "what": "Indie SaaS (Reachlee / similar) crossed $1900 MRR, MCP live, slow but steady with feature ships",
+    "why_us": "Typical micro-SaaS trajectory with public updates and engagement",
+    "revenue": "$1.9K MRR",
+    "source_link": "https://x.com/TusharKapil003/status/2111709640014934245",
+    "source_platform": "x",
+    "engagement": "~90 likes on related posts",
+    "score": 65
+  },
+  {
+    "type": "demand_gap",
+    "what": "GOATED motion design inspiration gallery / page curated from quality sources, not mixed with AI slop on Instagram/Twitter",
+    "why_us": "Explicit $100/mo willingness to pay from professional; quality curation gap in design resources",
+    "revenue": "$100/mo",
+    "source_link": "https://x.com/tomjullienvfx/status/2112181978321817752",
+    "source_platform": "x",
+    "engagement": "0 likes (fresh post)",
+    "score": 62
+  }
+]

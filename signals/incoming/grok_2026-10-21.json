@@ -1,0 +1,82 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "Кредитная карта или банковское приложение, позволяющее отменять любые подписки напрямую из приложения, без необходимости заходить на сайты сервисов.",
+    "why_us": "Высокая вовлечённость (577 лайков), явная готовность платить много, повторяющаяся боль управления подписками. Комментарии указывают на существующие частичные решения вроде Privacy.com и Mercury.",
+    "revenue": "N/A",
+    "source_link": "https://x.com/lessin/status/2089376498180555074",
+    "source_platform": "x",
+    "engagement": "577 likes, 64 replies",
+    "score": 88
+  },
+  {
+    "type": "demand_gap",
+    "what": "В Discord отсутствует общая вкладка уведомлений: приложение пищит, но не показывает источник уведомления.",
+    "why_us": "518 лайков на жалобу, частая проблема UX в популярном приложении, потенциал для лучшего клиента или альтернативы.",
+    "revenue": "N/A",
+    "source_link": "https://x.com/EckhartsLadder/status/2112341220655767765",
+    "source_platform": "x",
+    "engagement": "518 likes",
+    "score": 78
+  },
+  {
+    "type": "revenue_report",
+    "what": "SaaS Reachlee пересёк $1900 MRR, запущен MCP, слоу-рост, но добавляются фичи.",
+    "why_us": "Конкретные цифры микро-SaaS, публичные обновления роста.",
+    "revenue": "$1900/mo",
+    "source_link": "https://x.com/TusharKapil003/status/2111683359932039338",
+    "source_platform": "x",
+    "engagement": "90 likes",
+    "score": 72
+  },
+  {
+    "type": "revenue_report",
+    "what": "DataFast от Marc Lou достиг $30k MRR (с $1k за 3 месяца). MailCheap растёт быстрее.",
+    "why_us": "Верифицированные высокие цифры от известного инди-хакера, паттерн роста.",
+    "revenue": "$30000/mo",
+    "source_link": "https://x.com/marclou/status/2112753553488085182",
+    "source_platform": "x",
+    "engagement": "104 likes",
+    "score": 80
+  },
+  {
+    "type": "defi_yield",
+    "what": "Yield loop на Unichain: weETH как коллатерал на Euler, леверидж до 14x, до 19.96% ROE. Автоматизированный луп.",
+    "why_us": "Конкретная стратегия с цифрами APY/ROE, ликвидность ~$868k, свежий пост.",
+    "revenue": "19.96% ROE",
+    "source_link": "https://x.com/defi_mago/status/2112823528865345710",
+    "source_platform": "x",
+    "engagement": "28 likes",
+    "score": 68
+  },
+  {
+    "type": "demand_gap",
+    "what": "Инструмент для отслеживания репутации web3-проектов: обещания vs реализация, средства сообщества vs возврат, утилита токена.",
+    "why_us": "Явная готовность платить много денег, пробел с повторяющимися ошибками инвесторов в crypto.",
+    "revenue": "N/A",
+    "source_link": "https://x.com/tylerdurdeth/status/2103089837800562861",
+    "source_platform": "x",
+    "engagement": "30 likes",
+    "score": 65
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "Данные по AI wrappers: медианный MRR ~$159 для зарабатывающих, топ ниши вроде cold email assistants с медианой $468. Примеры выше $10k: Chatbase ~$864k, Draft AI ~$24k.",
+    "why_us": "Реальные агрегированные цифры по доходам AI-обёрток, показывают жизнеспособность категории.",
+    "revenue": "$159 median MRR, up to $864k",
+    "source_link": "https://bigideasdb.com/ai-wrapper-ideas",
+    "source_platform": "other",
+    "engagement": "Research page",
+    "score": 70
+  },
+  {
+    "type": "demand_gap",
+    "what": "Жалобы на Atlassian/Loom: неожиданные повышения цен после поглощения, плохой саппорт, автоматические подписки.",
+    "why_us": "Множество 1-звёздочных отзывов на Trustpilot, ясная боль по ценам и сервису после аквизиции.",
+    "revenue": "N/A",
+    "source_link": "https://www.trustpilot.com/review/atlassian.com",
+    "source_platform": "trustpilot",
+    "engagement": "Multiple 1-star reviews on pricing",
+    "score": 67
+  }
+]

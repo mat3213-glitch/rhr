@@ -1,0 +1,92 @@
+[
+  {
+    "type": "revenue_report",
+    "what": "Indie hacker Filip Panoski: 7 years of building, years 1-5 $0, year 6 $150, year 7 $15k MRR. Shares Reddit promotion strategies, tool for Reddit customer acquisition.",
+    "why_us": "Long-term persistence signal with concrete growth curve. Reddit distribution as key lever for micro-SaaS. High repeatability for niche tools targeting communities.",
+    "revenue": "$15k MRR",
+    "source_link": "https://x.com/FilipPanoski/status/2113269229289943326",
+    "source_platform": "x",
+    "engagement": "15 likes, 6 replies, 132 views (fresh post)",
+    "score": 72
+  },
+  {
+    "type": "revenue_report",
+    "what": "Suhas quit SWE job, built Cubix design app, hit $275 MRR after 5 months. First meaningful revenue feels better than salary.",
+    "why_us": "Early validation milestone for solo founder. Design/app tool with public building. Shows path from 0 to paid users in months.",
+    "revenue": "$275 MRR",
+    "source_link": "https://x.com/zuess05/status/2112893478271402470",
+    "source_platform": "x",
+    "engagement": "163 likes, 75 replies, 12 bookmarks",
+    "score": 78
+  },
+  {
+    "type": "revenue_report",
+    "what": "Mohit Vaswani crossed $1k revenue on tryhomy.app (48h old at listing), listed for $10k on TrustMRR for reach. Indie hacker with 3x exits.",
+    "why_us": "Rapid revenue + marketplace listing tactic. Shows how small early traction + public listing drives visibility in indie space.",
+    "revenue": "$1k+ (recent)",
+    "source_link": "https://x.com/hii_mohit/status/2109509617407676497",
+    "source_platform": "x",
+    "engagement": "208 likes, 47 replies",
+    "score": 75
+  },
+  {
+    "type": "revenue_report",
+    "what": "MonAI expense tracking app (voice input, Apple Pay): solo German dev ground to $300 MRR for 1.5 years, then one influencer partnership 10x'd to ~$8k in a month, now $35k/mo. Only 3 videos/month.",
+    "why_us": "Influencer partnership as explosive growth lever after slow grind. Minimal stack (<$1k/mo costs). High margins, lifestyle match for content creators.",
+    "revenue": "$35,000/mo",
+    "source_link": "https://x.com/starter_story/status/2110433078393090259",
+    "source_platform": "x",
+    "engagement": "High (Starter Story audience, detailed playbook)",
+    "score": 88
+  },
+  {
+    "type": "demand_gap",
+    "what": "Widespread SaaS subscription fatigue and price complaints: Semrush expensive for SMBs/freelancers (540+ G2 mentions of high pricing, extra seats costly), Xero price creep + missing advanced features, Loom/Atlassian 20x price hikes post-acquisition (Trustpilot 1-star floods), AI tools (Runway, Lovable, Artlist) overpriced with poor output/no refunds. Demand for cheaper, simpler, open-source or usage-based alternatives.",
+    "why_us": "Recurring high-volume pain across G2/Capterra/Trustpilot. Clear switching signals for lightweight, affordable, or self-hosted replacements. High willingness to switch on price + missing features.",
+    "revenue": "N/A (strong demand for alternatives)",
+    "source_link": "https://www.g2.com/products/semrush/reviews?qs=pros-and-cons",
+    "source_platform": "g2",
+    "engagement": "Hundreds of review mentions of 'expensive'/'overpriced' across tools",
+    "score": 85
+  },
+  {
+    "type": "demand_gap",
+    "what": "Strong ongoing demand for open-source / self-hosted alternatives to paid SaaS (Notion, Slack, Zoom, Vercel, etc.). Directories like OpenAlternative, awesome-oss-alternatives get high engagement. Anti-cloud / privacy / offline-first trend from analysis of 9k+ 'I wish there was an app' posts.",
+    "why_us": "Validated by high-engagement posts and directories. Subscription fatigue drives self-hosting interest. Repeatable opportunity in niche vertical OSS wrappers or directories.",
+    "revenue": "N/A",
+    "source_link": "https://x.com/fireship_dev/status/1828485695029260356",
+    "source_platform": "x",
+    "engagement": "12k+ likes, 16k bookmarks historically; recent directories trending",
+    "score": 80
+  },
+  {
+    "type": "defi_yield",
+    "what": "Stablecoin lending yields Oct 2026: Morpho USDC on Ethereum ~5-9% APY (30d avg higher), Polygon Morpho ~9.4%, Euler/Aave lower ~3-5%. Average across tracked pools ~3.5%. Higher on specialized pools but with risk variance.",
+    "why_us": "Real-time yield data for strategies. Gap between T-bills and DeFi, opportunities in higher-utilization Morpho pools. Useful for yield aggregation or risk-scored dashboards.",
+    "revenue": "5-9% APY on USDC (variable)",
+    "source_link": "https://defistar.io/",
+    "source_platform": "other",
+    "engagement": "Live data site, daily updates",
+    "score": 70
+  },
+  {
+    "type": "automation",
+    "what": "Telegram bots (esp. trading/signal): Maestro ~$1.33M 30d revenue, Trojan ~$878k. Subscription examples: crypto signals bots at $25-49/mo reaching $4.5k+ MRR after free trial conversion (15-30%). Stars monetization with low commission.",
+    "why_us": "Proven high-revenue category. Recurring via Stars/subscriptions. Low barrier for niche bots (trading, communities, utilities). Clear monetization paths documented.",
+    "revenue": "$4.5k+ MRR examples, millions for top trading bots",
+    "source_link": "https://stealwhatworks.com/blogs/news/telegram-bots-over-10k-month-now",
+    "source_platform": "other",
+    "engagement": "Detailed revenue breakdowns, case studies",
+    "score": 82
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "Pattern of killing pure AI SaaS after weeks at $0 revenue, then shipping simpler non-AI or focused tools (e.g. $49 one-time Meta ads audit) that generate faster sales. AI wrappers need proven demand before scale.",
+    "why_us": "Common indie failure mode. Highlights importance of boring/specific problems over generic AI. Faster path to revenue via focused MVPs.",
+    "revenue": "$0 on AI then positive on simpler tool",
+    "source_link": "https://x.com/DavidAgentic/status/2113262427576152312",
+    "source_platform": "x",
+    "engagement": "Low but repeated pattern in replies/posts",
+    "score": 65
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "type": "revenue_report",
+    "what": "GojiberryAI crossed $300k MRR, growing 30% MoM, aiming for $6M ARR by year end. AI tool for finding and booking meetings.",
+    "why_us": "High-engagement proof of AI-powered outbound/sales SaaS scaling rapidly with clear metrics.",
+    "revenue": "$300k MRR",
+    "source_link": "https://x.com/romanbuildsaas/status/2076649841757765713",
+    "source_platform": "x",
+    "engagement": "629 likes, 97 replies, 839 bookmarks",
+    "score": 85
+  },
+  {
+    "type": "revenue_report",
+    "what": "Founder hit first ever $10k MRR with a SaaS product after a long journey.",
+    "why_us": "Massive social proof (thousands of likes) on reaching a key milestone; useful for understanding conversion and growth patterns.",
+    "revenue": "$10k MRR",
+    "source_link": "https://x.com/FilipPanoski/status/2098049121617694994",
+    "source_platform": "x",
+    "engagement": "2365 likes, 519 replies, 235 bookmarks",
+    "score": 90
+  },
+  {
+    "type": "revenue_report",
+    "what": "Ritmo (Tinder for sports partners: Pilates, tennis, running) went from $800 to $2618 MRR in 2 weeks after launching first app one month prior. Founder doesn't know how to code.",
+    "why_us": "Rapid early traction on a vertical marketplace/mobile app; strong signal of willingness to pay in activity-matching niche.",
+    "revenue": "$2618 MRR (from $800)",
+    "source_link": "https://x.com/adeluxui/status/2110489885450678492",
+    "source_platform": "x",
+    "engagement": "506 likes, 114 replies, 338 bookmarks",
+    "score": 82
+  },
+  {
+    "type": "revenue_report",
+    "what": "Postiz (agentic social media scheduler) at $275k MRR with 8052 customers and 1433 active trials.",
+    "why_us": "Large-scale revenue in social media automation tools; shows demand for AI-assisted content scheduling.",
+    "revenue": "$275k MRR",
+    "source_link": "https://x.com/wickedguro/status/2110743239624200233",
+    "source_platform": "x",
+    "engagement": "606 likes, 107 replies, 283 bookmarks",
+    "score": 80
+  },
+  {
+    "type": "revenue_report",
+    "what": "Trendtrack hit $900k MRR ($10.8M ARR) by keeping core data free and charging for competitor analysis; 18.3% MoM growth.",
+    "why_us": "Counter-intuitive freemium + high-touch playbook that scaled analytics SaaS to near seven-figure MRR.",
+    "revenue": "$900k MRR",
+    "source_link": "https://www.arr.club/signal/trendtrack-hit-108m-arr-900k-mrr",
+    "source_platform": "other",
+    "engagement": "High discussion in founder circles",
+    "score": 78
+  },
+  {
+    "type": "demand_gap",
+    "what": "Analysis of 9300+ 'I wish there was an app for this' posts: strong demand for offline-first/privacy tools (7%), high willingness-to-pay in Finance and Education. Productivity most crowded but Finance most profitable.",
+    "why_us": "Validated demand gaps with pay signals; points to finance tools and anti-subscription fatigue products.",
+    "revenue": "Finance niche has highest pay signals",
+    "source_link": "https://www.reddit.com/r/SaaS/comments/1q5lfur/i_analyzed_9300_i_wish_there_was_an_app_for_this/",
+    "source_platform": "other",
+    "engagement": "234 points, high upvotes",
+    "score": 75
+  },
+  {
+    "type": "demand_gap",
+    "what": "Analysis of 136k+ user complaints (Trustpilot, G2, Shopify, Reddit): main anger is pricing trust issues — hidden fees, sudden price jumps (e.g. Intercom $119→$854, Harvest overcharges). 51% of apps have recent ratings >1 star below lifetime average.",
+    "why_us": "Clear pain around transparent/fair pricing; opportunity for tools with predictable billing or SaaS spend management.",
+    "revenue": "Users already paying but revolting against opaque pricing",
+    "source_link": "https://www.indiehackers.com/post/i-analyzed-136-000-user-complaints-to-find-saas-pain-points-heres-what-i-found-and-why-i-think-pricing-trust-is-dead-3c48e2ff7a",
+    "source_platform": "other",
+    "engagement": "Active Indie Hackers discussion",
+    "score": 72
+  },
+  {
+    "type": "demand_gap",
+    "what": "G2 reviews repeatedly flag tools as 'too expensive' with limited features or hidden costs (e.g. MerchantWords, Semrush, Luigi's Box, Wishpond). Users wish for more customization, better mobile, or lower entry pricing for SMBs.",
+    "why_us": "Recurring complaint pattern on pricing and missing features across multiple SaaS categories; opportunity for focused, affordable alternatives.",
+    "revenue": "Users already paying premium prices",
+    "source_link": "https://www.g2.com/products/merchantwords/reviews",
+    "source_platform": "g2",
+    "engagement": "Multiple 1-5 star reviews citing price",
+    "score": 65
+  },
+  {
+    "type": "revenue_report",
+    "what": "Solo founder crossed $2000 MRR with Reachlee (SaaS), 20% of the way to $10k goal. Consistent weekly updates.",
+    "why_us": "Transparent micro-SaaS growth trajectory with real numbers.",
+    "revenue": "$2000 MRR",
+    "source_link": "https://x.com/TusharKapil003/status/2113128188864008462",
+    "source_platform": "x",
+    "engagement": "71 likes, 38 replies",
+    "score": 68
+  }
+]

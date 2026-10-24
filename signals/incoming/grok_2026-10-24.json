@@ -1,0 +1,72 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "Dating app specifically for people who like fat guys (body-positive / niche preference matching)",
+    "why_us": "High engagement (4987 likes) shows strong unmet demand for body-type specific dating; existing apps fail this segment",
+    "revenue": "Potential $10-30/mo subscription niche dating",
+    "source_link": "https://x.com/lunarbovines/status/2111589661365899274",
+    "source_platform": "x",
+    "engagement": "4987 likes, 276 reposts, 135 replies",
+    "score": 85
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "OpenClaw wrappers (AI agent wrappers) reaching $6K-$33K MRR rapidly via ads/SEO",
+    "why_us": "Proves niche AI agent wrappers monetize fast; speed + distribution wins over pure wrappers",
+    "revenue": "$6K-$33K MRR, one hit $33K with <3% churn",
+    "source_link": "https://x.com/marclou/status/2025904482991874408",
+    "source_platform": "x",
+    "engagement": "333 likes on milestone post",
+    "score": 88
+  },
+  {
+    "type": "revenue_report",
+    "what": "Postiz (OpenClaw-native social scheduler) hit $300k MRR / aiming $20M ARR",
+    "why_us": "Shows agent-native tools can explode after OpenClaw integration; distribution via agents",
+    "revenue": "$300k MRR, ~$5k/day new + 1664 weekly trials",
+    "source_link": "https://x.com/wickedguro/status/2112974270942818801",
+    "source_platform": "x",
+    "engagement": "585 likes",
+    "score": 90
+  },
+  {
+    "type": "revenue_report",
+    "what": "Indie founder hit $1.5k MRR (from AppSumo + core), another $3k MRR with trial conversions",
+    "why_us": "Concrete small-scale revenue proofs from solo builders; AppSumo doesn't kill core",
+    "revenue": "$1.5k MRR and $3k MRR",
+    "source_link": "https://x.com/tarasshyn/status/2113915013476036817",
+    "source_platform": "x",
+    "engagement": "23-60 likes",
+    "score": 65
+  },
+  {
+    "type": "demand_gap",
+    "what": "Age verification / filter on X/Twitter to hide minors' opinions; user would pay for it",
+    "why_us": "763 likes on 'I'd pay for it' — clear willingness to pay for content filtering",
+    "revenue": "Potential premium filter subscription",
+    "source_link": "https://x.com/zutoyaa/status/2106812896865133027",
+    "source_platform": "x",
+    "engagement": "763 likes",
+    "score": 78
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "AI app builders (Lovable, Atoms) get 1-star Trustpilot reviews for burning credits, delivering broken code, no refunds",
+    "why_us": "Repeated pain: credit burn, unusable output, poor support — opportunity for reliable AI coding tools or credit-refund systems",
+    "revenue": "Users wasting $100-500+",
+    "source_link": "https://www.trustpilot.com/reviews/68f8e7252adb7b5efdc7a06f",
+    "source_platform": "trustpilot",
+    "engagement": "Multiple 1-star reviews",
+    "score": 72
+  },
+  {
+    "type": "demand_gap",
+    "what": "Better pricing transparency and credit systems in Notion / AI tools (hidden costs, unexpected charges)",
+    "why_us": "Recurring complaints on Trustpilot about overpricing and monetization tactics",
+    "revenue": "High willingness to switch on pricing pain",
+    "source_link": "https://www.trustpilot.com/review/notion.so",
+    "source_platform": "trustpilot",
+    "engagement": "Multiple recent negative reviews",
+    "score": 68
+  }
+]

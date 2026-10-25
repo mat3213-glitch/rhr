@@ -1,0 +1,102 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "Shazam-like app for movies: identify film title from a scene screenshot",
+    "why_us": "Concrete visual identification pain with repeated mentions; AI vision makes it buildable now",
+    "revenue": "potential $5-15/mo freemium",
+    "source_link": "https://x.com/Replay_remix/status/2114322677905133635",
+    "source_platform": "x",
+    "engagement": "46 likes, 27 reposts",
+    "score": 68
+  },
+  {
+    "type": "demand_gap",
+    "what": "Dating app specifically for people who prefer fat partners / body-positive dating",
+    "why_us": "High emotional pain + massive engagement signals real unmet niche demand",
+    "revenue": "subscription model similar to niche dating apps",
+    "source_link": "https://x.com/lunarbovines/status/2111589661365899274",
+    "source_platform": "x",
+    "engagement": "4987 likes, 686 bookmarks",
+    "score": 85
+  },
+  {
+    "type": "demand_gap",
+    "what": "Offline-first / local-only / privacy-focused alternatives to popular cloud productivity tools",
+    "why_us": "Subscription fatigue + data ownership trend; 7% of 'wish there was' requests target this",
+    "revenue": "one-time purchase or low sub",
+    "source_link": "https://medium.com/write-a-catalyst/i-analyzed-9-300-i-wish-there-was-an-app-for-this-posts-here-is-what-people-actually-want-6a447bbabcd3",
+    "source_platform": "other",
+    "engagement": "analysis of 9300+ posts",
+    "score": 78
+  },
+  {
+    "type": "revenue_report",
+    "what": "MailCheap newsletter platform: $860 MRR in 9 days after launch, vibe-coded with Claude as Beehiiv alternative",
+    "why_us": "Price hikes on Beehiiv driving switches; AI enables rapid competitive build",
+    "revenue": "$860 MRR",
+    "source_link": "https://shippedandpaid.com/cases/mailcheap-newsletter-platform-860-mrr-claude/",
+    "source_platform": "other",
+    "engagement": "verified via TrustMRR",
+    "score": 82
+  },
+  {
+    "type": "revenue_report",
+    "what": "Indie mobile app hit $9k/month revenue (organic) with Sober Tracker",
+    "why_us": "Real organic growth numbers from solo/indie dev",
+    "revenue": "$9k/mo",
+    "source_link": "https://x.com/TerekhinIvan/status/2113980774693167353",
+    "source_platform": "x",
+    "engagement": "212 likes",
+    "score": 75
+  },
+  {
+    "type": "revenue_report",
+    "what": "mywa.net WhatsApp business tool: ~$183 MRR in 21 days, 31% signup-to-paid, international customers",
+    "why_us": "Fast validation of WhatsApp automation niche",
+    "revenue": "$183 MRR",
+    "source_link": "https://x.com/heyshrutix/status/2114270281082827182",
+    "source_platform": "x",
+    "engagement": "20 likes",
+    "score": 70
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "AI inference costs still ~10x too expensive for pervasive business use (Amazon CEO)",
+    "why_us": "Opportunity for cheaper inference layers, local models, or cost-optimized wrappers",
+    "revenue": "cost-saving tools",
+    "source_link": "https://x.com/AIStockSavvy/status/2113702775573942519",
+    "source_platform": "x",
+    "engagement": "73 likes",
+    "score": 65
+  },
+  {
+    "type": "demand_gap",
+    "what": "Wave Accounting (waveapps.com) has severe customer service and payment issues; users warning others",
+    "why_us": "Repeated 1-star complaints on Trustpilot about support and money handling create switch opportunity",
+    "revenue": "accounting SaaS alternatives",
+    "source_link": "https://www.trustpilot.com/review/waveapps.com",
+    "source_platform": "trustpilot",
+    "engagement": "multiple recent 1-star reviews",
+    "score": 72
+  },
+  {
+    "type": "demand_gap",
+    "what": "NHS App criticized as useless, dangerous for prescriptions, waste of taxpayer money",
+    "why_us": "Public service tool with high frustration; private better alternatives possible",
+    "revenue": "health management apps",
+    "source_link": "https://www.trustpilot.com/review/www.nhsapp.service.nhs.uk",
+    "source_platform": "trustpilot",
+    "engagement": "multiple recent complaints",
+    "score": 67
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "Atoms AI app builder produced completely broken codebases; users demanding refunds after $100 spend",
+    "why_us": "Quality gap in AI coding tools; opportunity for more reliable or hybrid approaches",
+    "revenue": "better AI builders",
+    "source_link": "https://www.trustpilot.com/reviews/6a16f5f52b70fd8ddcf3044c",
+    "source_platform": "trustpilot",
+    "engagement": "1-star detailed technical complaint",
+    "score": 66
+  }
+]

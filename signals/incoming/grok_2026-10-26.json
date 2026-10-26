@@ -1,0 +1,72 @@
+[
+  {
+    "type": "ai_wrapper",
+    "what": "Marc Lou vibe-coded MailCheap, an open-source newsletter platform with Claude Opus, priced per emails sent (cheaper than Beehiiv), with MCP/agentic features. Hit ~$860-1320 MRR in 9-10 days with 30-40 subscriptions, Stripe-verified via TrustMRR. Open-sourced after user requests.",
+    "why_us": "Strong validation of AI-assisted rapid SaaS building for paid products in a competitive category (newsletters). Combines open-source, low cost, agent-ready (MCP), and fast revenue. Prior audience helped, but demonstrates speed of AI coding + distribution.",
+    "revenue": "$1,320 MRR (TrustMRR verified, ~10 days post-launch)",
+    "source_link": "https://x.com/marclou/status/2114292638325379507",
+    "source_platform": "x",
+    "engagement": "732 likes on 4-figure MRR announcement",
+    "score": 92
+  },
+  {
+    "type": "revenue_report",
+    "what": "SleepSense (sleep tracker app) reportedly hit 200K downloads and $80K MRR in 89 days, driven primarily by AI-generated UGC videos (AI doctor clips and screen recordings with voiceovers highlighting snoring/farts).",
+    "why_us": "High-revenue example of AI video marketing scaling a consumer app in the sleep/wellness niche. Shows low-cost AI content ($2-6/video) outperforming traditional UGC for acquisition.",
+    "revenue": "$80K MRR in 89 days",
+    "source_link": "https://x.com/jammer3k/status/2112563248767930502",
+    "source_platform": "x",
+    "engagement": "39 likes, high bookmarks (45)",
+    "score": 78
+  },
+  {
+    "type": "demand_gap",
+    "what": "Discord users frustrated by lack of a general notifications tab: app beeps frequently with no indication of which server/channel the notification is from. 'Why is there no general notifications tab?'",
+    "why_us": "High-engagement (500+ likes) UX pain in a massively popular app. Opportunity for better client, extension, or alternative with superior notification management.",
+    "revenue": null,
+    "source_link": "https://x.com/EckhartsLadder/status/2112341220655767765",
+    "source_platform": "x",
+    "engagement": "524 likes",
+    "score": 68
+  },
+  {
+    "type": "demand_gap",
+    "what": "Users request a 'Shazam for movies': take a photo of a scene and identify the movie title. Specific feature request with engagement.",
+    "why_us": "Clear, concrete product idea for visual search/identification tool. AI vision makes this buildable now; demand from casual users.",
+    "revenue": null,
+    "source_link": "https://x.com/Replay_remix/status/2114322677905133635",
+    "source_platform": "x",
+    "engagement": "84 likes (near threshold)",
+    "score": 62
+  },
+  {
+    "type": "revenue_report",
+    "what": "Boring/simple directory sites generating solid revenue: examples include OpenAlternative at $6,500 MRR, and mentions of plain directory sites doing $6,500/mo while pure AI automation did only $75. Low-barrier SEO + listings model.",
+    "why_us": "Repeatable micro-SaaS model (directories) that works with minimal features, validated by multiple indie reports. Easy to niche down with AI for content/SEO.",
+    "revenue": "$6,500 MRR (OpenAlternative example)",
+    "source_link": "https://www.indiehackers.com/post/how-i-turned-my-copycats-into-customers-from-open-source-directory-to-5k-month-boilerplate-ce615af4f6",
+    "source_platform": "forum",
+    "engagement": "High community interest in directory models",
+    "score": 75
+  },
+  {
+    "type": "demand_gap",
+    "what": "High engagement request for a dating app specifically for people who like fat guys. 'i wish there was a dating app for people who like fat guys im so tired'",
+    "why_us": "Massive engagement (nearly 5k likes) on a niche dating vertical. Indicates underserved preference segment in dating apps; potential for specialized matching.",
+    "revenue": null,
+    "source_link": "https://x.com/lunarbovines/status/2111589661365899274",
+    "source_platform": "x",
+    "engagement": "4981 likes, 271k views",
+    "score": 70
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "Small AI-powered tools and wrappers showing revenue: e.g., PDF tools at $2.1k MRR, volume boosters at $345 MRR with 80% growth, and various indie SaaS hitting $500-$2k MRR quickly.",
+    "why_us": "Micro-SaaS and single-feature AI tools continue to monetize in 2026 despite oversupply narratives. Focus on specific pain points (PDF, audio) works.",
+    "revenue": "$2.1k MRR (PDF example), $345 MRR (volume tool)",
+    "source_link": "https://x.com/dustADD/status/2114536416269213884",
+    "source_platform": "x",
+    "engagement": "Summary of multiple TrustMRR verified apps",
+    "score": 65
+  }
+]

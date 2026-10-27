@@ -1,0 +1,82 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "App that identifies movies from a photo of a scene (Shazam for movies). User wishes for tool to upload scene image and get title.",
+    "why_us": "Specific visual search demand with 89 likes on recent post; potential for AI image recognition micro-SaaS or app.",
+    "revenue": null,
+    "source_link": "https://x.com/Replay_remix/status/2114322677905133635",
+    "source_platform": "x",
+    "engagement": "89 likes, 44 reposts",
+    "score": 72
+  },
+  {
+    "type": "revenue_report",
+    "what": "Trendtrack hit $900K MRR by focusing on free users first, adding onboarding friction for personalization, and manual analysis before automation.",
+    "why_us": "High-revenue counter-intuitive growth tactics from real founder; 495 likes validate interest in proven strategies.",
+    "revenue": "$900K MRR",
+    "source_link": "https://x.com/Quentin_Rnv/status/2112595398535557513",
+    "source_platform": "x",
+    "engagement": "495 likes, 17 reposts, 697 bookmarks",
+    "score": 85
+  },
+  {
+    "type": "demand_gap",
+    "what": "Universal AirDrop equivalent for cross-platform file sharing without keeping apps open on both sides.",
+    "why_us": "Recurring friction in mobile file transfer; 61 likes on fresh post shows demand for better cross-OS solution.",
+    "revenue": null,
+    "source_link": "https://x.com/nitzukai/status/2114888575674421663",
+    "source_platform": "x",
+    "engagement": "61 likes",
+    "score": 68
+  },
+  {
+    "type": "demand_gap",
+    "what": "Video editing software that predicts final output file size before long renders based on resolution, bitrate etc.",
+    "why_us": "Clear pain in workflow for video creators; basic math feature missing, potential for specialized tool or plugin.",
+    "revenue": null,
+    "source_link": "https://x.com/MatthewRegula/status/2115082161619710285",
+    "source_platform": "x",
+    "engagement": "1 like (very fresh, today)",
+    "score": 65
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "Base44 AI coding agent criticized for high credit burn, forced upgrades to $400/mo plans, regressions and poor reliability.",
+    "why_us": "Users seeking more transparent, predictable AI dev tools; opportunity for better-priced or more reliable wrappers.",
+    "revenue": null,
+    "source_link": "https://www.trustpilot.com/reviews/6ac5b4845064f2896a587bb1",
+    "source_platform": "trustpilot",
+    "engagement": "1-star detailed complaint, recent",
+    "score": 70
+  },
+  {
+    "type": "demand_gap",
+    "what": "Tool for automatic generation of App Store screenshots in multiple languages; iOS developer would pay for it. Search volume ~2.8K/mo.",
+    "why_us": "Validated willingness to pay + SEO demand data; low competition opportunity for localized marketing assets.",
+    "revenue": null,
+    "source_link": "https://x.com/aiRobertDaily/status/2114925454486577427",
+    "source_platform": "x",
+    "engagement": "229 likes, 364 bookmarks",
+    "score": 78
+  },
+  {
+    "type": "revenue_report",
+    "what": "Indie SaaS founders reporting early wins: $300 MRR (first in bloodline), $500 MRR after months at $40, $2K MRR.",
+    "why_us": "Real early-stage numbers show viable micro-SaaS paths; community engagement around building in public.",
+    "revenue": "$300-$2K MRR",
+    "source_link": "https://x.com/charles_lukes/status/2114723937879810553",
+    "source_platform": "x",
+    "engagement": "Multiple posts 27-71 likes",
+    "score": 62
+  },
+  {
+    "type": "demand_gap",
+    "what": "Better Discord notification management: general notifications tab so users know source of beeps; app frequently criticized.",
+    "why_us": "High-engagement complaint (524 likes) on popular tool; opportunity for better UX layer or alternative.",
+    "revenue": null,
+    "source_link": "https://x.com/EckhartsLadder/status/2112341220655767765",
+    "source_platform": "x",
+    "engagement": "524 likes",
+    "score": 75
+  }
+]

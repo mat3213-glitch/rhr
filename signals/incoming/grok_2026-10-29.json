@@ -1,0 +1,82 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "Personal context layer / user-owned memory for AI agents and products so preferences, history, relationships aren't re-explained to every new AI tool",
+    "why_us": "Explicit request from founder/investor with 66 likes, 32 bookmarks; repeated theme in AI agent discussions (Karpathy, Mem0, GBrain, etc.). High willingness as AI adoption grows.",
+    "revenue": "Potential $10-49/mo B2C or higher B2B SaaS",
+    "source_link": "https://x.com/tejeshwi_sharma/status/2115639221474226629",
+    "source_platform": "x",
+    "engagement": "66 likes, 25 replies, 32 bookmarks, 6414 views",
+    "score": 78
+  },
+  {
+    "type": "demand_gap",
+    "what": "Better notification system in Discord – general notifications tab instead of opaque beeps with no source indication",
+    "why_us": "523 likes on direct complaint about one of the most popular apps; classic UX friction that power users hate.",
+    "revenue": "N/A (feature gap or competing client)",
+    "source_link": "https://x.com/EckhartsLadder/status/2112341220655767765",
+    "source_platform": "x",
+    "engagement": "523 likes, 15 replies, 9181 views",
+    "score": 88
+  },
+  {
+    "type": "demand_gap",
+    "what": "Shazam-like app for movies: upload a photo of a scene and get the title",
+    "why_us": "Clear, specific request with 89 likes; visual search is solvable with current AI and has consumer appeal.",
+    "revenue": "Freemium or $5-10/mo",
+    "source_link": "https://x.com/Replay_remix/status/2114322677905133635",
+    "source_platform": "x",
+    "engagement": "89 likes, 13 replies, 4151 views",
+    "score": 72
+  },
+  {
+    "type": "demand_gap",
+    "what": "Universal cross-platform AirDrop equivalent for seamless file sharing between any devices/OS",
+    "why_us": "123 likes on simple pain; AirDrop is Apple-only and people want equivalent everywhere.",
+    "revenue": "Free or freemium with premium features",
+    "source_link": "https://x.com/nitzukai/status/2114888575674421663",
+    "source_platform": "x",
+    "engagement": "123 likes, 4 replies, 4338 views",
+    "score": 74
+  },
+  {
+    "type": "revenue_report",
+    "what": "Analysis of 85 AI-built apps: founders with prior audience median $40k/mo vs $2k without; verified numbers much lower than self-reported",
+    "why_us": "Concrete data on what actually drives revenue in AI wrappers/micro-SaaS; highlights distribution over pure product.",
+    "revenue": "$40k/mo median with audience; $2k without; verified median ~$2.3k",
+    "source_link": "https://www.indiehackers.com/post/i-went-through-85-ai-built-apps-that-share-revenue-founders-with-an-audience-reported-40k-mo-without-one-2k-67d054025c",
+    "source_platform": "other",
+    "engagement": "High discussion on Indie Hackers",
+    "score": 82
+  },
+  {
+    "type": "automation",
+    "what": "Telegram trading bots generating massive protocol revenue (GMGN ~$41M/30d, Maestro $1.33M, Trojan $878k, etc.)",
+    "why_us": "Proven high-revenue automation category in crypto; shows bots can reach $10k-$millions MRR-equivalent.",
+    "revenue": "$10.5k to $41M / 30 days for top bots",
+    "source_link": "https://stealwhatworks.com/blogs/news/telegram-bots-over-10k-month-now",
+    "source_platform": "other",
+    "engagement": "Detailed ranking and analysis",
+    "score": 90
+  },
+  {
+    "type": "demand_gap",
+    "what": "Rotating accountability / body-doubling system for ADHD where novelty is the active ingredient (rotating voices or people)",
+    "why_us": "3225 upvotes + 340 comments on r/adhdwomen; high-signal niche with willingness to pay for executive function tools.",
+    "revenue": "Freemium + premium multi-person features",
+    "source_link": "https://engaggit.com/blog/app-ideas-2026-10-12",
+    "source_platform": "forum",
+    "engagement": "3225 upvotes, 340 comments on original thread",
+    "score": 85
+  },
+  {
+    "type": "demand_gap",
+    "what": "Notion and similar tools criticized for aggressive/subscription fatigue pricing, hard cancellation, unexpected charges on Trustpilot",
+    "why_us": "Poor Trustpilot rating driven by monetization complaints; classic demand for simpler or more transparent alternatives.",
+    "revenue": "N/A (competitive gap)",
+    "source_link": "https://www.trustpilot.com/review/notion.so",
+    "source_platform": "trustpilot",
+    "engagement": "Poor rating, many 1-star reviews on pricing/cancellation",
+    "score": 65
+  }
+]

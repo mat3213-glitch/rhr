@@ -1,0 +1,82 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "Инструмент для обнаружения, ротации и мониторинга всех AI API ключей компании (как кредитные карты для compute), с алертами на аномальный spend. Предложено $99/мес.",
+    "why_us": "Высокий энгейджмент (763 лайка), конкретная цена, связано с реальным хаком Railway по AI keys. Агенты растут — каждый стартап нуждается вчера.",
+    "revenue": "$99/mo",
+    "source_link": "https://x.com/gregisenberg/status/2113044829957459984",
+    "source_platform": "x",
+    "engagement": "763 likes, 52 reposts, 208 replies",
+    "score": 88
+  },
+  {
+    "type": "revenue_report",
+    "what": "Reception.sh — нативный in-app чат для мобильных приложений (поддержка, ревью, upsell, снижение churn). Достиг $700 MRR за 1 неделю после запуска.",
+    "why_us": "Быстрая валидация микро-SaaS для app founders. Высокий энгейджмент на анонсе, публичные цифры на TrustMRR.",
+    "revenue": "$700/mo",
+    "source_link": "https://x.com/andilosing/status/2114684782646821037",
+    "source_platform": "x",
+    "engagement": "339 likes, 108 replies",
+    "score": 90
+  },
+  {
+    "type": "demand_gap",
+    "what": "Consumer context layer: пользовательский владение преференциями, историей, вкусами, отношениями — чтобы шарить с любым AI-агентом/продуктом, а не повторять каждый раз.",
+    "why_us": "Энтерпрайз получает такое, физлица — нет. Данные разбросаны по приложениям. Свежий сигнал.",
+    "revenue": "",
+    "source_link": "https://x.com/tejeshwi_sharma/status/2115639221474226629",
+    "source_platform": "x",
+    "engagement": "79 likes, 27 replies",
+    "score": 75
+  },
+  {
+    "type": "demand_gap",
+    "what": "Универсальный кросс-платформенный AirDrop (бесшовный шаринг файлов между любыми устройствами без открытых приложений).",
+    "why_us": "Частая боль при передаче файлов между iOS/Android/Windows. 123 лайка.",
+    "revenue": "",
+    "source_link": "https://x.com/nitzukai/status/2114888575674421663",
+    "source_platform": "x",
+    "engagement": "123 likes",
+    "score": 70
+  },
+  {
+    "type": "demand_gap",
+    "what": "Shazam для фильмов: загрузить скрин сцены и получить название фильма.",
+    "why_us": "Конкретный use-case, люди сталкиваются с этим. 89 лайков.",
+    "revenue": "",
+    "source_link": "https://x.com/Replay_remix/status/2114322677905133635",
+    "source_platform": "x",
+    "engagement": "89 likes",
+    "score": 68
+  },
+  {
+    "type": "demand_gap",
+    "what": "Дорогие AI-инструменты (Warp.dev агенты ~$250 за 2 часа, ElevenLabs для высокого volume, Gamma презентации) — люди жалуются на Trustpilot/G2 и ищут дешевле/лучше альтернативы. Subscription fatigue.",
+    "why_us": "Повторяющиеся жалобы на цену и качество AI-wrappers. Возможность для более эффективных/прозрачных решений.",
+    "revenue": "",
+    "source_link": "https://www.trustpilot.com/review/warp.dev",
+    "source_platform": "trustpilot",
+    "engagement": "Много 1-star отзывов про цену",
+    "score": 67
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "Solo founder сделал $2M MRR за 10 месяцев с приложением 'TikTok but for scrolling the Bible'. Простой onboarding, $4.99/mo или $29.99/year.",
+    "why_us": "Экстремальный пример вирального контента + AI/автоматизация в нише. Высокий энгейджмент.",
+    "revenue": "$2M MRR",
+    "source_link": "https://x.com/jacobrodri_/status/2115415059732353361",
+    "source_platform": "x",
+    "engagement": "243 likes на посте про onboarding",
+    "score": 82
+  },
+  {
+    "type": "demand_gap",
+    "what": "HissingKitty: индекс ненависти к софту + реальные счета команд вместо list prices. Ранжирование альтернатив и возможность build vs rent.",
+    "why_us": "Люди устали от дорогого SaaS, AI делает build дешевле. Свежий продукт на PH.",
+    "revenue": "",
+    "source_link": "https://www.producthunt.com/products/hissingkitty",
+    "source_platform": "producthunt",
+    "engagement": "На Product Hunt",
+    "score": 65
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "User-owned personal context layer for consumers: preferences, history, relationships and taste owned by the individual and open to any AI agent/product, instead of being re-explained to every new AI tool. Enterprises have this; individuals do not.",
+    "why_us": "High-signal demand as AI agents proliferate. Privacy-preserving personal data ownership is a recurring pain (anti-cloud/offline trends). Clear willingness from builders and users.",
+    "revenue": "Potential high ARPU SaaS or protocol for AI personalization layer",
+    "source_link": "https://x.com/tejeshwi_sharma/status/2115639221474226629",
+    "source_platform": "x",
+    "engagement": "79 likes, 42 bookmarks, 27 replies",
+    "score": 78
+  },
+  {
+    "type": "demand_gap",
+    "what": "Universal cross-platform AirDrop-like file/photo sharing that works seamlessly between all devices/OS without keeping apps open on both sides.",
+    "why_us": "Persistent friction in everyday file transfer. High engagement indicates broad annoyance. Opportunity for simple, reliable local/network tool.",
+    "revenue": "Freemium or one-time utility app",
+    "source_link": "https://x.com/nitzukai/status/2114888575674421663",
+    "source_platform": "x",
+    "engagement": "123 likes",
+    "score": 72
+  },
+  {
+    "type": "revenue_report",
+    "what": "Marc Lou reported $107,142 revenue in October 2026 across 16 indie products (TrustMRR $42.5k, DataFast $31k, Ship or Die $19k, etc.), 0 employees, 90% margins.",
+    "why_us": "Concrete proof of multi-product indie SaaS portfolio viability with AI-assisted building. High visibility in builder community.",
+    "revenue": "$107k in October, ~$40-50k+ MRR run-rate across portfolio",
+    "source_link": "https://x.com/marclou/status/2116522609508851778",
+    "source_platform": "x",
+    "engagement": "109+ likes on announcement thread",
+    "score": 85
+  },
+  {
+    "type": "revenue_report",
+    "what": "Jacky Chou crossed $100k MRR purely from software products (not courses/communities/services), stealth mode, enabled by AI.",
+    "why_us": "Demonstrates pure software revenue scale for solo/small operators using modern AI tooling.",
+    "revenue": "$100k+ MRR",
+    "source_link": "https://x.com/indexsy/status/2116313005055177201",
+    "source_platform": "x",
+    "engagement": "149 likes, 68 bookmarks",
+    "score": 82
+  },
+  {
+    "type": "automation",
+    "what": "Nectarlink: all-in-one open-source alternative to KDE Connect / Phone Link / LocalSend for cross-device features. Grew to 4,000+ users and ~450 GitHub stars shortly after public launch; built to solve personal multi-app juggling pain.",
+    "why_us": "Classic 'built for myself, others want it' micro-tool with rapid organic growth. Shows demand for unified local connectivity utilities.",
+    "revenue": "Open source with potential commercial/self-hosted tiers",
+    "source_link": "https://x.com/thtbee_/status/2116198744144441537",
+    "source_platform": "x",
+    "engagement": "83 likes",
+    "score": 68
+  },
+  {
+    "type": "demand_gap",
+    "what": "Persistent demand for offline-first, privacy-focused, local-only tools (anti-subscription/cloud fatigue). From large HN analysis of 12k+ 'I wish' posts: people still asking for tools that were launched years ago but remain incomplete or too cloud/subscription-heavy.",
+    "why_us": "High-volume recurring signal across years. 7%+ of requests specifically privacy/offline. Strong monetization potential via one-time or local licenses.",
+    "revenue": "One-time purchase or local SaaS",
+    "source_link": "https://vuink.com/post/stillunbuilt-d-dshiptiffin-d-dapp",
+    "source_platform": "other",
+    "engagement": "Aggregated from 63k+ HN comments, published 2026-10-31",
+    "score": 75
+  },
+  {
+    "type": "demand_gap",
+    "what": "Better SaaS spend management and visibility: tools to combat SaaS sprawl, overlapping subscriptions, unpredictable costs, and poor attribution of spend. Multiple G2/Capterra signals of expensive, incomplete existing solutions.",
+    "why_us": "Businesses overspend on software; high willingness to pay for clarity and savings. Recurring enterprise/SMB pain.",
+    "revenue": "$X/mo per company for spend optimization",
+    "source_link": "https://track.g2.com/resources/best-productiv-alternatives",
+    "source_platform": "g2",
+    "engagement": "Multiple review mentions of expense and missing features",
+    "score": 65
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "Website-to-native-app conversion tool (web to APK/iOS). High search volume (~9.9k/mo for related terms), low competition, solves SMB pain of lacking resources for mobile apps.",
+    "why_us": "Validated demand via search data. AI makes conversion feasible. Clear path to $5-15k MRR micro-SaaS.",
+    "revenue": "Potential $5k-15k MRR",
+    "source_link": "https://microsaashq.com/saas-ideas/website-to-app-940",
+    "source_platform": "other",
+    "engagement": "Search volume data, idea published 2026-10-31",
+    "score": 70
+  },
+  {
+    "type": "automation",
+    "what": "AI agent security layer (e.g. Wormhole-style): pre-signature checks for recipient/amount/chain vs quote, hidden instruction detection, spending limits, kill switch for agents handling real money. Hosted checks at $0.003 with buyback mechanics.",
+    "why_us": "As AI agents start trading/moving funds, security gaps are critical. Early product signals with usage and integrations.",
+    "revenue": "Usage-based API revenue + token mechanics",
+    "source_link": "https://x.com/heat/status/2116519027287728369",
+    "source_platform": "x",
+    "engagement": "33 likes on detailed post",
+    "score": 62
+  }
+]

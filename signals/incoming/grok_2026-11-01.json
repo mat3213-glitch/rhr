@@ -1,0 +1,82 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "Seamless universal AirDrop-like cross-platform file sharing without needing apps open on both sides or accounts",
+    "why_us": "High engagement (122 likes) on recent X post; recurring complaint across mixed device ecosystems despite existing tools like LocalSend/PairDrop; opportunity for better UX/seamless discovery",
+    "revenue": "Potential $5-15/mo or freemium with pro features",
+    "source_link": "https://x.com/nitzukai/status/2114888575674421663",
+    "source_platform": "x",
+    "engagement": "122 likes, 4 replies",
+    "score": 78
+  },
+  {
+    "type": "demand_gap",
+    "what": "Shazam-like app to identify movies/TV from a screenshot or short clip of a scene",
+    "why_us": "89 likes on X wish post; apps like Voola/Trace exist but demand persists for better accuracy on social clips, muted video, or partial scenes; visual fingerprinting is feasible with modern AI",
+    "revenue": "Freemium $5-10/mo or one-time unlock",
+    "source_link": "https://x.com/Replay_remix/status/2114322677905133635",
+    "source_platform": "x",
+    "engagement": "89 likes, 13 replies",
+    "score": 72
+  },
+  {
+    "type": "demand_gap",
+    "what": "User-owned personal context layer (preferences, history, relationships, taste) portable across AI agents and apps",
+    "why_us": "79 likes + 42 bookmarks; enterprises have context layers but consumers do not; recurring AI privacy/data ownership theme; high willingness to pay for control",
+    "revenue": "$10-20/mo subscription or one-time data vault",
+    "source_link": "https://x.com/tejeshwi_sharma/status/2115639221474226629",
+    "source_platform": "x",
+    "engagement": "79 likes, 42 bookmarks, 27 replies",
+    "score": 75
+  },
+  {
+    "type": "revenue_report",
+    "what": "Indie hacker Marc Lou reported $107,142 revenue in October 2026 across 16 streams (TrustMRR $42k, DataFast $31k, etc.) with 90% margins, 0 employees",
+    "why_us": "Extremely high engagement (1700+ likes); concrete multi-product numbers validate micro-SaaS portfolio approach and public revenue sharing as marketing",
+    "revenue": "$107k in October, ~$42k MRR on main product",
+    "source_link": "https://x.com/marclou/status/2115995256781197686",
+    "source_platform": "x",
+    "engagement": "1701 likes, 649 bookmarks",
+    "score": 92
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "Analysis of TrustMRR showing tiny niche apps (email for Mac $14k/30d, AI skills library $10k, form builder $1k+) making real verified money; Claude Code used to reverse-engineer winners and generate steal sheets",
+    "why_us": "482 likes + 1200 bookmarks; demonstrates AI agents can surface validated micro-SaaS ideas from public revenue data; opportunity in niche vertical tools",
+    "revenue": "Multiple examples $1k-$14k in 30 days",
+    "source_link": "https://x.com/Argona0x/status/2116628779057754513",
+    "source_platform": "x",
+    "engagement": "482 likes, 1200 bookmarks",
+    "score": 88
+  },
+  {
+    "type": "demand_gap",
+    "what": "100 tools Hacker News has repeatedly asked for since 2008 (still unbuilt or poorly solved); top categories include privacy-focused offline tools, better HN frontends, family media management",
+    "why_us": "Recent aggregation of 63k+ comments shows persistent demand even after launches; high signal for long-term unsolved problems",
+    "revenue": "Varies; many willing to pay/donate",
+    "source_link": "https://vuink.com/post/stillunbuilt-d-dshiptiffin-d-dapp",
+    "source_platform": "forum",
+    "engagement": "Published Oct 31 2026, based on years of HN data",
+    "score": 80
+  },
+  {
+    "type": "demand_gap",
+    "what": "Automatic screen activity monitoring that generates itemized invoices for freelancers without manual time entry",
+    "why_us": "Mentioned in active Reddit threads on r/microsaas and r/SaaS as a daily pain people would pay $5-10/mo to solve; high willingness to pay for time-saving automation",
+    "revenue": "$5-15/mo",
+    "source_link": "https://www.reddit.com/r/microsaas/comments/1xf616g/what_is_a_daily_annoyance_or_tedious_task_youd/",
+    "source_platform": "other",
+    "engagement": "Active discussion thread",
+    "score": 68
+  },
+  {
+    "type": "demand_gap",
+    "what": "Transparent SaaS pricing and easier cancellation; widespread complaints about hidden costs, unexpected charges, and difficult cancel flows (Notion, Gamma, others on Trustpilot/G2)",
+    "why_us": "Consistent across review sites; subscription fatigue is measurable (Capterra data); opportunity for tools that audit subscriptions or provide true transparent alternatives",
+    "revenue": "Potential for SaaS spend management or better-priced alternatives",
+    "source_link": "https://www.trustpilot.com/review/notion.so",
+    "source_platform": "trustpilot",
+    "engagement": "Multiple recent 1-star reviews citing pricing and cancellation",
+    "score": 65
+  }
+]

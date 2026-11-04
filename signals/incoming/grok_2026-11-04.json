@@ -1,0 +1,92 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "Sales tools someone should build: Rotten Tomatoes for sales advice (guru scored on actual quota), Carfax for job offers (how many reps held seat + hit rate), Zillow for territories, TurboTax for commission, Find My for ghosted prospects, Rocket Money for unused sales stack.",
+    "why_us": "High-engagement list of concrete, monetizable gaps in B2B sales stack. Sales pros already pay heavily for tools; these are verification/transparency layers on top of existing spend.",
+    "revenue": "Potential $20-50/mo per user or team seats; high willingness from sales orgs.",
+    "source_link": "https://x.com/TechSalesGuy/status/2117264969444290889",
+    "source_platform": "x",
+    "engagement": "113 likes, 59 bookmarks, 27 replies, 9k views",
+    "score": 88
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "twinhoods: AI website that translates cities into ones you already know (e.g. Seattle via Istanbul neighborhoods). Launched after 10-year personal pain. Users vote cities to add.",
+    "why_us": "Classic 'I wish there was an app' turned into shipped AI product with strong launch traction. Shows demand for hyper-personalized, culturally fluent tools.",
+    "revenue": "Early launch, not disclosed yet; viral potential from travel/expat audience.",
+    "source_link": "https://x.com/kerem_ozcan/status/2117245480761520178",
+    "source_platform": "x",
+    "engagement": "368 likes, 320 bookmarks, 79k views",
+    "score": 82
+  },
+  {
+    "type": "revenue_report",
+    "what": "GodsView AI crossed $6,000 MRR. 69k+ registered users, 20k email subs, first iOS app launched. Built from idea in a few months by solo/small team.",
+    "why_us": "Concrete micro-SaaS AI revenue proof. Clear path from idea → users → MRR without massive funding.",
+    "revenue": "$6k MRR (and climbing toward $10k)",
+    "source_link": "https://x.com/jijojohnz/status/2117801747225661873",
+    "source_platform": "x",
+    "engagement": "27 likes (early), strong build-in-public signal",
+    "score": 75
+  },
+  {
+    "type": "revenue_report",
+    "what": "beehiiv crossed $3m MRR. $0→$1M in 36 months, $1M→$2M in 16, $2M→$3M in 9 months. Now adding ~$100k MRR every 2.5 weeks. Owned audiences as the engine.",
+    "why_us": "Elite growth case for creator/newsletter infrastructure. Shows acceleration when distribution is owned vs algorithmic.",
+    "revenue": "$3m MRR (~$36m ARR run-rate)",
+    "source_link": "https://x.com/denk_tweets/status/2117649391729414175",
+    "source_platform": "x",
+    "engagement": "245 likes, 79 bookmarks, 63 replies",
+    "score": 90
+  },
+  {
+    "type": "demand_gap",
+    "what": "Context layer for consumers: personal preferences, history, relationships and taste owned by the user and open to any AI agent/product. Enterprises are getting this; individuals are not. Currently re-explained to every new AI tool.",
+    "why_us": "Privacy + personalization gap. High long-term value as AI agents proliferate. Users would pay for control of their own context.",
+    "revenue": "Subscription or one-time personal data vault; B2C + API to agents.",
+    "source_link": "https://x.com/tejeshwi_sharma/status/2115639221474226629",
+    "source_platform": "x",
+    "engagement": "79 likes, 42 bookmarks",
+    "score": 72
+  },
+  {
+    "type": "demand_gap",
+    "what": "AI presentation tools (Gamma and similar) heavily criticized: expensive ($12-90/mo), AI doesn't follow instructions, exports overflow/break, every deck looks the same, recommends Canva instead. Users call it waste of money.",
+    "why_us": "Clear pain in AI design/presentation space. Opportunity for cheaper, more controllable, or specialized (academic/professional) alternatives.",
+    "revenue": "Users already paying $12-90/mo and churning; room for better value tool.",
+    "source_link": "https://www.trustpilot.com/review/gamma.app",
+    "source_platform": "trustpilot",
+    "engagement": "Multiple recent 1-star reviews (Aug-Sep 2026)",
+    "score": 68
+  },
+  {
+    "type": "demand_gap",
+    "what": "Atlassian after acquiring Loom: price jumps (e.g. ~$11→$18/mo or forced multi-seat), features/AI users don't want, difficult cancellation. Long-time loyal customers feel betrayed.",
+    "why_us": "Classic acquisition price-hike + feature bloat. Opportunity for simpler, fair-priced video messaging or screen recording tools.",
+    "revenue": "Users paying and looking for alternatives after sudden increases.",
+    "source_link": "https://www.trustpilot.com/review/atlassian.com",
+    "source_platform": "trustpilot",
+    "engagement": "Recent negative reviews on Loom pricing post-acquisition",
+    "score": 65
+  },
+  {
+    "type": "defi_yield",
+    "what": "GRVT High Yield Earn live for whitelisted users: up to 11% target diversified yield across TradFi & crypto, daily payouts, full self-custody. Base 3.5% APY automatic, higher on top. One balance for yield + trading.",
+    "why_us": "Concrete high-yield product with transparent base rate. Attracts capital looking for better than pure stables while keeping self-custody.",
+    "revenue": "Up to 11% target APY (base 3.5%)",
+    "source_link": "https://x.com/grvt_io/status/2117240310015381606",
+    "source_platform": "x",
+    "engagement": "302 likes on announcement, strong discussion",
+    "score": 78
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "Overnight AI agent experiment: scanned X/Reddit for freelancer pain (chasing unpaid invoices), built $9/mo tool, launched before morning. Result: 187 signups, 22 paying, $198 revenue, $8.40 spend.",
+    "why_us": "Proof of ultra-fast validation loop: pain → AI build → launch → first revenue in <12 hours. Template for micro-SaaS.",
+    "revenue": "$198 in first hours at $9/mo; 22 paying users",
+    "source_link": "https://x.com/0xAIlabs/status/2117747857432224160",
+    "source_platform": "x",
+    "engagement": "22 likes + quoted high-engagement post",
+    "score": 70
+  }
+]

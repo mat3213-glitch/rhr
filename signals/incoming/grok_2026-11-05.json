@@ -1,0 +1,82 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "Sales tools someone should build: Rotten Tomatoes for sales advice (guru quota scores), Carfax for job offers (how many reps held seat/hit quota), Zillow for territories, TurboTax for commission calc, Find My for ghosted prospects, Rocket Money for unused sales stack.",
+    "why_us": "High-engagement list of concrete B2B sales pain points from sales pros; clear willingness to pay for transparency and automation in quota, commissions, and tools.",
+    "revenue": "Potential high-ticket B2B SaaS (sales tools often $50-200/user/mo)",
+    "source_link": "https://x.com/TechSalesGuy/status/2117264969444290889",
+    "source_platform": "x",
+    "engagement": "114 likes, 59 bookmarks, 26 replies",
+    "score": 92
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "Postiz: open-source agentic social media scheduler (plans, writes, posts). Verified $352k MRR from 10,300 paying subs (~$34 avg).",
+    "why_us": "Proven massive revenue from AI + open-source distribution model in social automation; shows path for wrappers that convert self-hosters to cloud.",
+    "revenue": "$352,000 MRR",
+    "source_link": "https://theaireceipts.com/ai-apps-making-50k-mrr/",
+    "source_platform": "other",
+    "engagement": "Verified Stripe via TrustMRR, updated Nov 2026",
+    "score": 95
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "GoMotion AI: paste script → finished long-form YouTube documentary (voiceover, footage, captions, graphics). Verified ~$73k MRR from 1,600 subs.",
+    "why_us": "High-revenue niche AI content pipeline for faceless YouTube channels; long-form pays better than short-form.",
+    "revenue": "$73,000 MRR",
+    "source_link": "https://theaireceipts.com/ai-apps-making-50k-mrr/",
+    "source_platform": "other",
+    "engagement": "Verified Nov 5 2026",
+    "score": 90
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "PropGPT: AI sports-betting analysis app, $9.99/week. Verified $105k MRR from 2,600 subs.",
+    "why_us": "High-frequency pricing model in passionate niche works; mobile AI wrapper with proven traction.",
+    "revenue": "$105,000 MRR",
+    "source_link": "https://theaireceipts.com/ai-apps-making-50k-mrr/",
+    "source_platform": "other",
+    "engagement": "Verified Nov 4 2026",
+    "score": 88
+  },
+  {
+    "type": "demand_gap",
+    "what": "Twinhoods launch: AI that translates cities into familiar ones (e.g. Seattle via Istanbul). Built because 'I wish there was an app for that'.",
+    "why_us": "Validated demand for AI-powered personal analogy/translation tools; 370 likes on launch post shows interest.",
+    "revenue": "Early launch, unknown yet",
+    "source_link": "https://x.com/kerem_ozcan/status/2117245480761520178",
+    "source_platform": "x",
+    "engagement": "370 likes, 318 bookmarks",
+    "score": 75
+  },
+  {
+    "type": "demand_gap",
+    "what": "Context layer for consumers: own preferences, history, relationships, taste across apps; let user own it and open to any AI agent. Enterprises have it, individuals don't.",
+    "why_us": "Clear privacy/ownership demand gap for personal AI memory/context; aligns with anti-cloud and user-owned data trends.",
+    "revenue": "Potential freemium or subscription personal data product",
+    "source_link": "https://x.com/tejeshwi_sharma/status/2115639221474226629",
+    "source_platform": "x",
+    "engagement": "79 likes, 42 bookmarks",
+    "score": 68
+  },
+  {
+    "type": "demand_gap",
+    "what": "Harvest time-tracking: multiple Trustpilot reviews of extreme price hikes (5x to 10x+, e.g. $6k/yr to $30k, $25/mo to $160, $69 to $821/mo) after acquisition, with short notice. Users seeking alternatives.",
+    "why_us": "Strong payment signal of price sensitivity and churn risk; opportunity for cheaper, stable alternatives in time-tracking/productivity.",
+    "revenue": "Existing market with high willingness to pay but resistance to hikes",
+    "source_link": "https://jp.trustpilot.com/review/www.harvestapp.com",
+    "source_platform": "trustpilot",
+    "engagement": "Multiple detailed 1-star style complaints 2026",
+    "score": 82
+  },
+  {
+    "type": "revenue_report",
+    "what": "Verified AI businesses list: median ~$66k MRR among $50k+ ones (Postiz, Rezi $241k, Cometly $197k, AEO Engine $180k, etc.). Many AI wrappers/content tools.",
+    "why_us": "Aggregate proof of high-revenue AI micro-SaaS and wrappers in 2026; concrete numbers from Stripe-verified sources.",
+    "revenue": "$50k+ MRR median $66k",
+    "source_link": "https://theaireceipts.com/ai-apps-making-50k-mrr/",
+    "source_platform": "other",
+    "engagement": "Updated Nov 5 2026, 16 businesses",
+    "score": 85
+  }
+]

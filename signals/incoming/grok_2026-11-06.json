@@ -1,0 +1,62 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "Sales tools someone should build: Rotten Tomatoes-style scoring for sales advice/gurus based on actual quota, Carfax for job offers (how many reps held seat and hit quota), Zillow for territories (value of account list), TurboTax for commission calculations, Find My for ghosted prospects, Rocket Money for unused sales stack tools.",
+    "why_us": "High engagement post (114 likes, 59 bookmarks) with concrete, monetizable ideas targeting sales professionals' pains in advice, hiring, territories, and tool waste.",
+    "revenue": "N/A (demand signal)",
+    "source_link": "https://x.com/TechSalesGuy/status/2117264969444290889",
+    "source_platform": "x",
+    "engagement": "114 likes, 26 replies, 59 bookmarks",
+    "score": 78
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "Launch of twinhoods: AI website that translates unfamiliar cities into familiar ones (e.g., Seattle neighborhoods to Istanbul equivalents). Built from a 10-year-old 'I wish there was an app' idea using AI.",
+    "why_us": "Strong validation of personal pain turned into product with high engagement (370 likes, 317 bookmarks). Demonstrates AI enabling quick micro-SaaS from long-held wishes.",
+    "revenue": "N/A (just launched)",
+    "source_link": "https://x.com/kerem_ozcan/status/2117245480761520178",
+    "source_platform": "x",
+    "engagement": "370 likes, 29 reposts, 317 bookmarks",
+    "score": 82
+  },
+  {
+    "type": "demand_gap",
+    "what": "Simple invoice nudge tool for small businesses/owner-managed firms: when a job is marked done, automatically nudge the owner until the invoice is sent. No full accounting suite needed.",
+    "why_us": "Explicit high willingness to pay (\u00a3500/month), clear cash-flow pain from delayed invoicing in finished jobs. Highly specific and buildable.",
+    "revenue": "\u00a3500/mo willingness",
+    "source_link": "https://x.com/RichHunterrice/status/2118617646816002476",
+    "source_platform": "x",
+    "engagement": "Low likes but high intent (posted today)",
+    "score": 72
+  },
+  {
+    "type": "revenue_report",
+    "what": "ClimbX (X growth tool for founders): product generates ~$1k MRR, but founder makes ~$5k/mo using it personally for sponsored content and X payouts. 40% monthly churn. Signups doubled after rebuild but growth stalled. Goal of $5k MRR by EOY unlikely.",
+    "why_us": "Honest public numbers on prosumer SaaS challenges, high churn reasons (time investment, ICP doesn't like paying), and alternative personal monetization.",
+    "revenue": "$1k MRR product + $5k personal usage",
+    "source_link": "https://x.com/DanielSmidstrup/status/2118600383517860132",
+    "source_platform": "x",
+    "engagement": "54 likes, 58 replies",
+    "score": 68
+  },
+  {
+    "type": "demand_gap",
+    "what": "Todoist task management: pricing becomes steep for larger teams; free plan limited to 5 active projects; basic features like reminders and calendar view paywalled. Users seeking alternatives due to cost and restrictions.",
+    "why_us": "Recurring complaints on G2 about cost for teams and artificial limits pushing upgrades, indicating opportunity for more flexible or cheaper task tools.",
+    "revenue": "N/A",
+    "source_link": "https://www.g2.com/products/todoist/reviews?qs=pros-and-cons",
+    "source_platform": "g2",
+    "engagement": "Multiple review mentions of expense and limitations",
+    "score": 64
+  },
+  {
+    "type": "demand_gap",
+    "what": "Warp.dev AI coding tool: users report extreme costs (e.g., $250 for 2-hour run), poor value, and recent pricing changes (Build Plan) making it unusable or a 'waste of money'. High 1-star complaints on Trustpilot.",
+    "why_us": "Clear pain in expensive AI developer tools with low perceived value, suggesting demand for more transparent or affordable AI coding assistants.",
+    "revenue": "N/A",
+    "source_link": "https://nl.trustpilot.com/review/warp.dev",
+    "source_platform": "trustpilot",
+    "engagement": "Multiple 1-star reviews citing cost and value",
+    "score": 70
+  }
+]

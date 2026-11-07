@@ -1,0 +1,92 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "Shared calendar for parents splitting weekends/custody. From analysis of 10k 'I wish there was an app' posts on Reddit/X: 214 people asked, 38 said they'd pay. Avoids robot-sounding tools; focuses on real co-parenting logistics.",
+    "why_us": "High willingness to pay (38 explicit), repeated demand over 30 days, family/parenting niche with clear pain (coordination without conflict). Easy MVP with calendar sync + notifications.",
+    "revenue": "Potential $5-15/mo per user; 38 ready-to-pay signals from one scan",
+    "source_link": "https://x.com/0xTeddet/status/2118335473969987889",
+    "source_platform": "x",
+    "engagement": "49 likes, 4 replies",
+    "score": 85
+  },
+  {
+    "type": "demand_gap",
+    "what": "Invoice reminders for freelancers that don't sound robotic. 171 asked, 44 would pay. Human-tone AI or templates for chasing payments without awkwardness.",
+    "why_us": "Strong pay signals (44), freelancers are price-sensitive but hate bad UX on existing tools like FreshBooks. Recurring pain.",
+    "revenue": "$10-20/mo SaaS",
+    "source_link": "https://x.com/0xTeddet/status/2118335473969987889",
+    "source_platform": "x",
+    "engagement": "49 likes",
+    "score": 82
+  },
+  {
+    "type": "demand_gap",
+    "what": "Menu scanner that flags allergens in any language. 96 asked, 21 would pay. Camera + AI OCR for restaurant menus, multi-lang allergen detection.",
+    "why_us": "Travel/health niche, clear safety pain, willingness to pay indicated. Mobile-first AI wrapper potential.",
+    "revenue": "$5-10/mo or one-time",
+    "source_link": "https://x.com/0xTeddet/status/2118335473969987889",
+    "source_platform": "x",
+    "engagement": "49 likes",
+    "score": 75
+  },
+  {
+    "type": "demand_gap",
+    "what": "Sales tools someone should build: Rotten Tomatoes for sales advice (guru scoring by quota), Carfax for job offers (how many reps held seat/hit quota), Zillow for territories, TurboTax for commissions, Find My for ghosted prospects, Rocket Money for unused sales stack.",
+    "why_us": "114 likes from sales pro, concrete list of high-pain B2B tools. Sales teams pay well for efficiency.",
+    "revenue": "$20-100/mo per seat",
+    "source_link": "https://x.com/TechSalesGuy/status/2117264969444290889",
+    "source_platform": "x",
+    "engagement": "114 likes, 26 replies, 59 bookmarks",
+    "score": 78
+  },
+  {
+    "type": "demand_gap",
+    "what": "Way to mark replies as AI slop on X to improve experience. YC partner Aaron Epstein post.",
+    "why_us": "217 likes from influential user, clear platform pain. Could be feature or third-party tool/extension.",
+    "revenue": "Potential freemium or X API based",
+    "source_link": "https://x.com/aaron_epstein/status/2118891636696772827",
+    "source_platform": "x",
+    "engagement": "217 likes, 45 replies",
+    "score": 70
+  },
+  {
+    "type": "revenue_report",
+    "what": "reception.sh (AI receptionist?) crossed $700 MRR exactly one week after launch.",
+    "why_us": "Fast traction example for AI micro-SaaS. 340 likes shows community interest in rapid revenue.",
+    "revenue": "$700 MRR in 7 days",
+    "source_link": "https://x.com/andilosing/status/2114684782646821037",
+    "source_platform": "x",
+    "engagement": "340 likes, 110 replies, 167 bookmarks",
+    "score": 80
+  },
+  {
+    "type": "revenue_report",
+    "what": "beehiiv crossed $3m MRR. $0-1M in 36 months, $1-2M in 16, $2-3M in 9 months. Now adding $100k MRR every ~2.5 weeks. Owned audiences key as social/search weakened by AI.",
+    "why_us": "Large-scale newsletter/SaaS success story with acceleration data. Lessons on distribution flywheel.",
+    "revenue": "$3M MRR",
+    "source_link": "https://x.com/denk_tweets/status/2117649391729414175",
+    "source_platform": "x",
+    "engagement": "661 likes, 116 replies",
+    "score": 72
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "AI analysis of 10k 'I wish there was an app' posts filtered to 3 viable paid ideas (calendar, invoices, allergens). Grok bot used to kill weak ideas.",
+    "why_us": "Meta: method for finding demand gaps via AI scraping. Directly shows viable micro-SaaS from public complaints.",
+    "revenue": "N/A (idea filter), but derived products potential $5-20/mo",
+    "source_link": "https://x.com/0xTeddet/status/2118335473969987889",
+    "source_platform": "x",
+    "engagement": "49 likes",
+    "score": 68
+  },
+  {
+    "type": "demand_gap",
+    "what": "AI app builders like anything.com have severe generation failures, credit depletion without transparency, broken migrations. Multiple 1-star Trustpilot reviews about wasted money and unreliable output.",
+    "why_us": "Users seeking reliable AI builders; pain with existing no-code/AI tools. Opportunity for better reliability, credit transparency, or specialized wrappers.",
+    "revenue": "Competitors charge, users lose $100s-1000s on failures",
+    "source_link": "https://www.trustpilot.com/review/anything.com",
+    "source_platform": "trustpilot",
+    "engagement": "Multiple low-star reviews (1-star mentions of waste of money)",
+    "score": 65
+  }
+]

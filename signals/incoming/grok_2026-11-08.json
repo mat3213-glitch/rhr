@@ -1,0 +1,82 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "Navigation app with 'longer but less stressful' route option for anxious drivers. User: 'I wish there was a navigation app with an option like \u201clonger route, but less brutal on the nervous system of an anxious driver.\u201d'",
+    "why_us": "High engagement (156 likes) on a specific, underserved pain in navigation apps (Google Maps, Waze ignore anxiety/stress factors). Recurring theme of mental health in travel.",
+    "revenue": "Potential $5-15/mo premium or freemium with anxiety filters",
+    "source_link": "https://x.com/amelia_tweetz/status/2119274812665401531",
+    "source_platform": "x",
+    "engagement": "156 likes, 9 replies, 3542 views",
+    "score": 88
+  },
+  {
+    "type": "demand_gap",
+    "what": "City 'translator' app that maps unfamiliar cities to ones you know (e.g., Seattle neighborhoods to Istanbul equivalents). Founder launched twinhoods after thinking 'I wish there was an app for that!'",
+    "why_us": "371 likes on launch post, personal story of demand gap solved with AI. Validates idea for travel/relocation tools.",
+    "revenue": "Launched as free site, potential for freemium or ads",
+    "source_link": "https://x.com/kerem_ozcan/status/2117245480761520178",
+    "source_platform": "x",
+    "engagement": "371 likes, 16 replies, 81k views",
+    "score": 85
+  },
+  {
+    "type": "revenue_report",
+    "what": "Postiz (open-source social media scheduler) hit ~$352k verified MRR (10.3k subs at $34 avg). Grew from <$25k to $372k MRR in 2026.",
+    "why_us": "Verified Stripe data via TrustMRR. Shows strong demand for AI-powered social tools in competitive space.",
+    "revenue": "$352,000/mo",
+    "source_link": "https://theaireceipts.com/ai-apps-making-50k-mrr/",
+    "source_platform": "other",
+    "engagement": "Verified data, high visibility in AI revenue leaderboards",
+    "score": 92
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "Analysis of 9,300+ Reddit 'I wish there was an app for this' posts: 7% demand offline-first/privacy tools, top categories productivity (1,231), mobile apps dominate (61%). Subscription fatigue noted.",
+    "why_us": "741 votes on original Reddit post. Clear demand gaps in offline, local-only productivity tools. High repeatability.",
+    "revenue": "N/A (meta-analysis for idea generation)",
+    "source_link": "https://medium.com/write-a-catalyst/i-analyzed-9-300-i-wish-there-was-an-app-for-this-posts-here-is-what-people-actually-want-6a447bbabcd3",
+    "source_platform": "other",
+    "engagement": "High (741 votes on related Reddit)",
+    "score": 80
+  },
+  {
+    "type": "demand_gap",
+    "what": "Complaints about Lovable AI app builder: credits burning too fast, prices increased covertly (from ~$30/day to $200+), support issues. Users spent thousands with poor results.",
+    "why_us": "Multiple 1-star Trustpilot reviews on pricing and reliability of AI coding tools. Opportunity for better-priced, more predictable AI builders.",
+    "revenue": "Users paying high amounts already",
+    "source_link": "https://www.trustpilot.com/review/lovable.dev?stars=1",
+    "source_platform": "trustpilot",
+    "engagement": "Multiple detailed negative reviews, overall rating mixed but strong pain signals",
+    "score": 75
+  },
+  {
+    "type": "defi_yield",
+    "what": "DefiLlama launched side-by-side yield pool comparison tool with unique metrics (exit status, top holder concentration). 104 likes on announcement.",
+    "why_us": "Addresses pain of comparing DeFi yields across protocols. High engagement from DeFi community.",
+    "revenue": "N/A (tool feature), but signals demand for better analytics",
+    "source_link": "https://x.com/DefiLlama/status/2118003901383516594",
+    "source_platform": "x",
+    "engagement": "104 likes, 21 replies",
+    "score": 70
+  },
+  {
+    "type": "revenue_report",
+    "what": "Small AI-built SaaS examples: Glossa $14k MRR, AI Designer $8k MRR, 1ClickWebsite.ai $15k in 30 days, GETebook.ai $35k in 30 days. Median ~$5k among reported.",
+    "why_us": "Real verified/self-reported revenue from micro-SaaS built with AI. Proves viability of simple tools.",
+    "revenue": "$5k-$35k/mo range",
+    "source_link": "https://shippedandpaid.com/categories/saas-tools/",
+    "source_platform": "other",
+    "engagement": "Compiled verified cases",
+    "score": 78
+  },
+  {
+    "type": "demand_gap",
+    "what": "Sports team filter: 'I wish there was a way to block literally everyone on this app who does not support your sports team' (X platform pain).",
+    "why_us": "81 likes on X. Common social media complaint about mixed feeds; opportunity for niche sports social or better filters.",
+    "revenue": "Potential premium filters",
+    "source_link": "https://x.com/bluebelgeorgia/status/2119295026547089859",
+    "source_platform": "x",
+    "engagement": "81 likes, 5 replies",
+    "score": 65
+  }
+]

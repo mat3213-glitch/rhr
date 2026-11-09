@@ -1,0 +1,112 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "Автоматическое извлечение данных из invoice PDF (line items, VAT, категории) в Xero/Quickbooks. Люди тратят часы на ручной ввод.",
+    "why_us": "Повторяющаяся боль с явной готовностью платить $29/mo. Существующие решения есть, но жалобы на точность и простоту продолжаются.",
+    "revenue": "$29/mo",
+    "source_link": "https://dev.to/the_nortern_dev/the-i-would-pay-50month-to-never-do-this-again-list-3kfb",
+    "source_platform": "forum",
+    "engagement": "DEV Community post",
+    "score": 78
+  },
+  {
+    "type": "demand_gap",
+    "what": "Heartbeat монитор для database backups: не просто ping, а проверка размера/чексуммы дампа, алерт при падении >50%.",
+    "why_us": "Тревога о тихих фейлах бэкапов. Готовность платить $19/mo за peace of mind.",
+    "revenue": "$19/mo",
+    "source_link": "https://dev.to/the_nortern_dev/the-i-would-pay-50month-to-never-do-this-again-list-3kfb",
+    "source_platform": "forum",
+    "engagement": "DEV Community post",
+    "score": 72
+  },
+  {
+    "type": "demand_gap",
+    "what": "Notion на Trustpilot: жалобы на заблокированные фичи, неожиданные списания, дорогой AI, сложная отмена. Люди ищут альтернативы.",
+    "why_us": "Много 1-star отзывов о монетизации и прозрачности. Высокий спрос на простые/честные альтернативы.",
+    "revenue": "",
+    "source_link": "https://www.trustpilot.com/review/notion.so",
+    "source_platform": "trustpilot",
+    "engagement": "438 reviews, Poor rating, multiple 1-star on pricing/AI",
+    "score": 75
+  },
+  {
+    "type": "demand_gap",
+    "what": "Less Annoying CRM: пользователи любят простоту и цену $15/user, но жалуются на отсутствие advanced reporting, automation, интеграций при росте.",
+    "why_us": "Классический gap: простой дешевый CRM vs потребность в росте без перехода на Salesforce. Модульный подход может сработать.",
+    "revenue": "",
+    "source_link": "https://www.g2.com/products/less-annoying-crm/reviews?qs=pros-and-cons",
+    "source_platform": "g2",
+    "engagement": "Multiple mentions of missing features (14+ on reporting/automation)",
+    "score": 70
+  },
+  {
+    "type": "demand_gap",
+    "what": "Slack стареет, люди ищут современные альтернативы. Также запросы на Notion alternative проще Obsidian.",
+    "why_us": "Свежие посты на X о стареющих инструментах коллаборации.",
+    "revenue": "",
+    "source_link": "https://x.com/DavideBenvegnu/status/2119719558080766375",
+    "source_platform": "x",
+    "engagement": "Recent post asking for modern Slack alternative",
+    "score": 62
+  },
+  {
+    "type": "revenue_report",
+    "what": "beehiiv пересек $3M MRR. Ускорение: 36м до $1M, 16м до $2M, 9м до $3M. +$100k MRR каждые ~2.5 недели.",
+    "why_us": "Реальный пример роста newsletter SaaS на owned audiences в эру AI/search decline.",
+    "revenue": "$3M MRR",
+    "source_link": "https://x.com/denk_tweets/status/2117649391729414175",
+    "source_platform": "x",
+    "engagement": "660 likes, 26 reposts, 117 replies",
+    "score": 85
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "your-echoes.com (AI video gifts from phone photos): $10,172 net в октябре (+26%), $3,714 operating profit (36.5% margin). AI video gen 37% расходов.",
+    "why_us": "Реальные цифры AI wrapper с маржой. Показывает возможность при правильном распределении и снижении inference costs.",
+    "revenue": "$10k net/mo, 36% margin",
+    "source_link": "https://x.com/sagiegr/status/2119725589808468328",
+    "source_platform": "x",
+    "engagement": "Recent build-in-public with detailed P&L",
+    "score": 80
+  },
+  {
+    "type": "revenue_report",
+    "what": "Reachlee SaaS пересек $1,900 MRR. Медленный рост, MCP уже живой.",
+    "why_us": "Типичный indie SaaS update с конкретикой.",
+    "revenue": "$1.9k MRR",
+    "source_link": "https://x.com/TusharKapil003/status/2111683359932039338",
+    "source_platform": "x",
+    "engagement": "90 likes",
+    "score": 68
+  },
+  {
+    "type": "revenue_report",
+    "what": "TrustMRR: за год 4M visitors, 208 startups acquired, $427k revenue (90% margin). Несколько multi-million offers отклонены.",
+    "why_us": "Пример успешного verified revenue database / marketplace.",
+    "revenue": "$427k total, ~$35k+/mo",
+    "source_link": "https://x.com/marclou/status/2116155913904259373",
+    "source_platform": "x",
+    "engagement": "769 likes, 10 reposts",
+    "score": 82
+  },
+  {
+    "type": "demand_gap",
+    "what": "Блоатед SaaS: люди жалуются, что платят фикс за 10 фич, используют 1-2. Предпочтение usage-based или простые vibe-coded решения.",
+    "why_us": "Повторяющийся сигнал о смене поведения: отмена дорогих all-in-one в пользу модульных/дешевых замен.",
+    "revenue": "",
+    "source_link": "https://x.com/chillseoguy/status/2118023606647320983",
+    "source_platform": "x",
+    "engagement": "Recent posts on tool bloat and pricing",
+    "score": 68
+  },
+  {
+    "type": "revenue_report",
+    "what": "AppBird AI: $20k MRR, $26k 30d revenue, $135k total, 53 active subs (growth -48% 30d).",
+    "why_us": "Пример AI продукта с верифицированным revenue на TrustMRR.",
+    "revenue": "$20k MRR",
+    "source_link": "https://x.com/trust_mrr/status/2105670461657145553",
+    "source_platform": "x",
+    "engagement": "TrustMRR post",
+    "score": 65
+  }
+]

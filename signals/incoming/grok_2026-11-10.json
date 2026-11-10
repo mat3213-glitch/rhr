@@ -1,0 +1,62 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "Navigation app with option for longer but less stressful/calmer routes for anxious drivers (avoid highways, complex intersections, etc.)",
+    "why_us": "High emotional pain for large group of anxious/nervous drivers; clear feature request with massive engagement indicating real demand",
+    "revenue": "Potential $5-15/mo subscription or freemium with premium calm routes",
+    "source_link": "https://x.com/amelia_tweetz/status/2119274812665401531",
+    "source_platform": "x",
+    "engagement": "7384 likes, 202 reposts, 94 replies",
+    "score": 92
+  },
+  {
+    "type": "demand_gap",
+    "what": "Paid search engine with clean results like old Google, no ads or tracking, ideally cheaper plan without AI features",
+    "why_us": "Persistent demand over years on HN; 83% of asks indicate willingness to pay; privacy and ad-fatigue signal",
+    "revenue": "$5-20/mo or lifetime",
+    "source_link": "https://stillunbuilt.shiptiffin.app/i/paid-search-without-ads/",
+    "source_platform": "hn",
+    "engagement": "24 asks across 10 years, 6 in 2024-26, 83% would pay",
+    "score": 85
+  },
+  {
+    "type": "demand_gap",
+    "what": "Paid Windows edition with no ads, telemetry, bundled apps, forced updates or Microsoft account — just the core OS",
+    "why_us": "Long-running complaint; high willingness to pay (61%); people want ownership and less bloat",
+    "revenue": "One-time purchase or subscription $10-30/mo equivalent",
+    "source_link": "https://stillunbuilt.shiptiffin.app/i/windows-without-the-junk/",
+    "source_platform": "hn",
+    "engagement": "23 asks, 10 of 19 years, 11 in 2024-26, 61% would pay",
+    "score": 82
+  },
+  {
+    "type": "revenue_report",
+    "what": "beehiiv crossed $3M MRR; first $1M took 36 months, second 16, third 9 months; now adding ~$100k MRR every 2.5 weeks. Owned audiences, ad network, recommendations flywheel.",
+    "why_us": "Clear proof of accelerating SaaS growth in creator/newsletter tools; distribution + monetization model that works while pure traffic channels weaken",
+    "revenue": "$3M MRR (~$36M ARR), accelerating",
+    "source_link": "https://x.com/denk_tweets/status/2117649391729414175",
+    "source_platform": "x",
+    "engagement": "660 likes, 26 reposts, 117 replies",
+    "score": 88
+  },
+  {
+    "type": "demand_gap",
+    "what": "Medical escort / responsible adult service for people without local family who need someone to drive them home after procedures (clinics cancel if alone/Uber)",
+    "why_us": "Extremely specific, high-stakes recurring pain; large thread (2483 upvotes, 1518 comments) shows systemic gap",
+    "revenue": "$50-150 per escort job, potential marketplace model",
+    "source_link": "https://engaggit.com/blog/app-ideas-2026-10-09",
+    "source_platform": "reddit",
+    "engagement": "2483 upvotes, 1518 comments on r/NoStupidQuestions",
+    "score": 78
+  },
+  {
+    "type": "demand_gap",
+    "what": "Private/local-first memory/knowledge base that captures notes, bookmarks, pages, emails, files and resurfaces by context (anti-cloud, ownership)",
+    "why_us": "Part of broader anti-cloud / subscription fatigue trend; 53% want local/private; repeated asks over years",
+    "revenue": "One-time or $10/mo local app",
+    "source_link": "https://stillunbuilt.shiptiffin.app/i/a-private-memory-for-everything/",
+    "source_platform": "hn",
+    "engagement": "19 asks, 9 years, 5 in 2024-26, 37% would pay, 53% local",
+    "score": 75
+  }
+]

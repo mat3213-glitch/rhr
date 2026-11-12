@@ -1,0 +1,72 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "Navigation app with 'anxious driver mode': longer routes that avoid difficult merges, left turns across traffic, high-stress driving situations.",
+    "why_us": "Viral demand signal (7k+ likes) for accessibility/mental-health aware routing. Clear willingness to trade time for lower stress. Existing apps (Google/Apple Maps) lack this.",
+    "revenue": "Potential $5-15/mo premium or freemium with paid calm-routes feature",
+    "source_link": "https://x.com/amelia_tweetz/status/2119274812665401531",
+    "source_platform": "x",
+    "engagement": "7386 likes, 203 reposts, 94 replies, 131k views",
+    "score": 92
+  },
+  {
+    "type": "demand_gap",
+    "what": "Mute button / content filter for news feeds (HN, etc.): hide topics, paywalled links, AI slop, clickbait by keyword/domain/plain language rules.",
+    "why_us": "#1 most recurring request on HN over 18 years (45 asks). Many partial builds exist but people keep asking — finishing/distribution gap. High willingness for better control.",
+    "revenue": "Freemium or $5-10/mo for power users / power filter rules",
+    "source_link": "https://stillunbuilt.shiptiffin.app/i/a-mute-button-for-news-feeds/",
+    "source_platform": "other",
+    "engagement": "45 HN asks across 13 years, ongoing 2024-26",
+    "score": 85
+  },
+  {
+    "type": "demand_gap",
+    "what": "Paid browser / Firefox fork with no ads, telemetry, Pocket, sponsored content, or forced AI, and stable UI.",
+    "why_us": "Top-3 HN request with 68% willingness to pay. Privacy + ownership demand. Existing forks incomplete.",
+    "revenue": "One-time purchase or $5-10/mo donation/subscription model",
+    "source_link": "https://stillunbuilt.shiptiffin.app/i/a-browser-you-can-pay-for/",
+    "source_platform": "other",
+    "engagement": "31 asks, 68% would pay",
+    "score": 80
+  },
+  {
+    "type": "revenue_report",
+    "what": "Postiz (open-source agentic social media scheduler) hit ~$372k-$400k MRR in Nov 2026, up from <$25k earlier in the year. Solo founder, open-source + hosted model.",
+    "why_us": "Proof of massive growth in AI-agent friendly tools. Open-source distribution + agent usage (e.g. OpenClaw) drove virality. Shows high ARPU volume SaaS possible without VC.",
+    "revenue": "$372k-$400k MRR, ~$4M+ ARR, 10k+ subscriptions",
+    "source_link": "https://www.indiehackers.com/post/tech/postizs-mrr-went-from-under-25k-to-372k-this-year-nevo-david-s-chart-shows-KzadHXZPGdA4fGxZZl5A",
+    "source_platform": "other",
+    "engagement": "Founder posts with hundreds of likes; verified via TrustMRR/Stripe",
+    "score": 88
+  },
+  {
+    "type": "demand_gap",
+    "what": "Private / local-first 'memory for everything': notes, bookmarks, pages, emails, files with context-aware resurfacing. Anti-cloud preference.",
+    "why_us": "Recurring HN request (19 asks). 53% want local/private. Aligns with broader Reddit analysis of 7% explicit offline/privacy requests and subscription fatigue.",
+    "revenue": "One-time or $10-20/mo local-first app (higher willingness than pure free tools)",
+    "source_link": "https://stillunbuilt.shiptiffin.app/i/a-private-memory-for-everything/",
+    "source_platform": "other",
+    "engagement": "19 asks over 9 years, 5 since 2024",
+    "score": 78
+  },
+  {
+    "type": "demand_gap",
+    "what": "Massive price-hike backlash on Harvest (time-tracking SaaS): customers reporting 5x-10x increases ($25→$160/mo, $6k→$30k/year) with short notice after acquisition.",
+    "why_us": "Clear pain with existing paid users. Opportunity for fair-priced, transparent alternative or migration tool. High willingness to switch among long-term customers.",
+    "revenue": "Capture churned users at 30-50% of old pricing; potential $10-50k/mo niche",
+    "source_link": "https://jp.trustpilot.com/review/www.harvestapp.com",
+    "source_platform": "trustpilot",
+    "engagement": "Multiple detailed 1-star style complaints, high emotion",
+    "score": 75
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "Analysis of 9,300+ Reddit 'I wish there was an app' posts: top volume in productivity, highest willingness-to-pay in education/self-improvement; strong anti-cloud / offline-first signal (~7%).",
+    "why_us": "Data-backed demand map. Education shows strongest paid intent. Opportunity for privacy-first local tools or education micro-SaaS.",
+    "revenue": "Median AI-built SaaS in category ~$5k/mo (from related reports); education niches higher",
+    "source_link": "https://medium.com/write-a-catalyst/i-analyzed-9-300-i-wish-there-was-an-app-for-this-posts-here-is-what-people-actually-want-6a447bbabcd3",
+    "source_platform": "other",
+    "engagement": "Article + related X analysis with 200+ likes",
+    "score": 72
+  }
+]

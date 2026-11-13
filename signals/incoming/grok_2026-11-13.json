@@ -1,0 +1,102 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "Навигационное приложение с опцией «более длинный маршрут, но меньше стресса для тревожного водителя» (less brutal on the nervous system). Люди с тревогой за рулём хотят избегать сложных перекрёстков, сужений и агрессивного трафика.",
+    "why_us": "Высокий engagement (7.3k лайков), чёткая боль у большой аудитории водителей с тревогой. Можно сделать как фичу/расширение для Google Maps/Waze или отдельное приложение. Повторяемая проблема в комментариях.",
+    "revenue": "Потенциал $5-20/mo подписка или freemium с премиум-роутами",
+    "source_link": "https://x.com/amelia_tweetz/status/2119274812665401531",
+    "source_platform": "x",
+    "engagement": "7380 likes, 203 reposts, 94 replies",
+    "score": 92
+  },
+  {
+    "type": "revenue_report",
+    "what": "beehiiv пересёк $3M MRR. Рост ускоряется: $0→$1M за 36 мес, $1M→$2M за 16 мес, $2M→$3M за 9 мес. Сейчас +$100k MRR каждые ~2.5 недели.",
+    "why_us": "Верифицированный крупный ревенью newsletter/контент-платформы. Показывает, что нишевые SaaS для создателей могут масштабироваться быстро даже на конкурентном рынке.",
+    "revenue": "$3M MRR",
+    "source_link": "https://x.com/denk_tweets/status/2117649391729414175",
+    "source_platform": "x",
+    "engagement": "662 likes, 26 reposts, 117 replies",
+    "score": 88
+  },
+  {
+    "type": "revenue_report",
+    "what": "TrustMRR от Marc Lou: за год — 4M visitors, 208 приобретений стартапов, $427k revenue (90% margin). Первая 7-figure acquisition ($1M). Сейчас ~$43k/m у самого TrustMRR.",
+    "why_us": "Маркетплейс верифицированных ревенью стартапов с сильным network effect. Полезно для идей вокруг продажи/покупки micro-SaaS.",
+    "revenue": "$427k total, ~$35-43k/m current",
+    "source_link": "https://x.com/marclou/status/2116155913904259373",
+    "source_platform": "x",
+    "engagement": "767 likes, 10 reposts, 159 replies",
+    "score": 85
+  },
+  {
+    "type": "revenue_report",
+    "what": "Новое приложение (job swipe/apply) достигло $1100 MRR за короткий срок после $30/mo. Рост ~10x за месяц, органически.",
+    "why_us": "Пример быстрого выхода на первый тысячный MRR на нишевом AI/job matching продукте.",
+    "revenue": "$1.1k MRR",
+    "source_link": "https://x.com/jacob_jacquet/status/2117242370123071906",
+    "source_platform": "x",
+    "engagement": "29 likes, 35 replies",
+    "score": 72
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "Локальный директорий с 30k визитов/мес и $1000 MRR. Построен на SEO + local businesses, без инвесторов и сотрудников. Автор делится free guide.",
+    "why_us": "Классический пример микро-SaaS/директории с монетизацией через локальный спрос. Легко реплицировать в других нишах.",
+    "revenue": "$1k MRR",
+    "source_link": "https://x.com/2whazzuup/status/2121037044868882769",
+    "source_platform": "x",
+    "engagement": "55 likes, 10 replies, 68 bookmarks",
+    "score": 78
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "AI-сервис по конвертации статичных товарных фото в 5-секундные микро-видео (блеск, пар, ветер, вращение) для Etsy/Shopify продавцов. Автор утверждает, что похожий сервис достиг $5k MRR за 2 месяца.",
+    "why_us": "Очень узкий вертикальный AI-враппер с высокой маржой. Продавцы готовы платить $19-29/mo вместо дорогих съёмок.",
+    "revenue": "$5k MRR (упомянутый аналог)",
+    "source_link": "https://x.com/Alinsees/status/2120832451362603012",
+    "source_platform": "x",
+    "engagement": "59 likes, 14 replies, 88 bookmarks",
+    "score": 80
+  },
+  {
+    "type": "demand_gap",
+    "what": "Жалобы на Notion: неожиданные платежи, сложная отмена, дорогие AI-кредиты, блокировка функций. Trustpilot рейтинг Poor (2.2/5).",
+    "why_us": "Массовая боль с ценами и монетизацией популярного продукта. Возможность для более честного/ простого альтернативного workspace или инструмента миграции.",
+    "revenue": "Конкуренты берут $10-30/mo",
+    "source_link": "https://www.trustpilot.com/review/notion.so",
+    "source_platform": "trustpilot",
+    "engagement": "442 reviews, Poor rating",
+    "score": 75
+  },
+  {
+    "type": "demand_gap",
+    "what": "Atlassian/Loom: после покупки резкий рост цен (1 seat → 14 seats), сложная отмена, плохая поддержка. Trustpilot 1.2/5.",
+    "why_us": "Классическая боль acquisition → price gouge. Сигнал для более честных альтернатив video messaging/коллаборации.",
+    "revenue": "Высокий willingness to pay за альтернативу",
+    "source_link": "https://www.trustpilot.com/review/atlassian.com",
+    "source_platform": "trustpilot",
+    "engagement": "196 reviews, Bad rating",
+    "score": 70
+  },
+  {
+    "type": "revenue_report",
+    "what": "Несколько indie SaaS пересекли $1.9k–$2.2k MRR (например Reachlee). Другие: $2500 MRR на новом приложении через automated slideshows, $1200 MRR.",
+    "why_us": "Повторяющиеся сигналы, что соло-фаундеры регулярно достигают $1-3k MRR на нишевых инструментах.",
+    "revenue": "$1.9k–$2.5k MRR",
+    "source_link": "https://x.com/TusharKapil003/status/2120846998735831135",
+    "source_platform": "x",
+    "engagement": "135 likes, 50 replies",
+    "score": 68
+  },
+  {
+    "type": "automation",
+    "what": "Люди активно ищут и делятся способами находить идеи через Reddit-complaints («I wish there was», «I'd pay»). Посты с инструкциями набирают 50+ лайков.",
+    "why_us": "Подтверждает востребованность в инструментах поиска болей (именно то, что делает RHR). Можно продавать автоматизированный скаутинг.",
+    "revenue": "Потенциал как платный tool для founders",
+    "source_link": "https://x.com/luffytarobaby/status/2120932341694570741",
+    "source_platform": "x",
+    "engagement": "56 likes, 156 bookmarks",
+    "score": 65
+  }
+]

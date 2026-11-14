@@ -1,0 +1,82 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "Навигационное приложение с опцией «более длинный маршрут, но менее стрессовый для водителя с тревожностью». Люди хотят спокойные маршруты вместо самых быстрых.",
+    "why_us": "Очень высокий engagement (7.3k лайков). Боль реальная и повторяемая — вождение с тревогой. Уже есть нишевые решения (NavBuddy, Pleasant Routes), но спрос огромный — возможно сделать лучше или для Android/других рынков.",
+    "revenue": "Потенциал $5-20/mo подписка или freemium с IAP",
+    "source_link": "https://x.com/amelia_tweetz/status/2119274812665401531",
+    "source_platform": "x",
+    "engagement": "7379 likes, 203 reposts, 93 replies, 131k views",
+    "score": 88
+  },
+  {
+    "type": "demand_gap",
+    "what": "Приложение, которое конвертирует ресеты/usage из Codex (или других AI код-агентов) в ресеты Claude. Проблема лимитов между разными AI-инструментами.",
+    "why_us": "184 лайка на конкретную техническую боль AI-разработчиков. Микро-SaaS для power-users с высокой платёжеспособностью.",
+    "revenue": "Потенциал $10-30/mo для девов",
+    "source_link": "https://x.com/argofowl/status/2121001097225752656",
+    "source_platform": "x",
+    "engagement": "184 likes, 25 replies",
+    "score": 75
+  },
+  {
+    "type": "demand_gap",
+    "what": "Perplexity AI: пользователи жалуются, что платные тарифы слишком дорогие, кредиты не оправдывают цену, и слабые интеграции с внешними инструментами.",
+    "why_us": "Многочисленные упоминания на G2 (28+ про цену, лимиты интеграций). Классический demand gap для более дешёвого или лучше интегрированного AI-search инструмента.",
+    "revenue": "Альтернатива с ценой $10-15/mo вместо $20+",
+    "source_link": "https://www.g2.com/products/perplexity/reviews?qs=pros-and-cons",
+    "source_platform": "g2",
+    "engagement": "28+ mentions of expensive plans, limited integrations",
+    "score": 72
+  },
+  {
+    "type": "demand_gap",
+    "what": "Контроль TV-доступа в Google Family Link. Люди хотят управлять телевизором так же, как другими устройствами, и ищут альтернативы для parental controls.",
+    "why_us": "Конкретная боль родителей в 2026 году. Высокая платёжеспособность сегмента.",
+    "revenue": "Потенциал $5-10/mo для семейного приложения",
+    "source_link": "https://x.com/bmlong137/status/2121600461119623511",
+    "source_platform": "x",
+    "engagement": "Низкий, но свежий и конкретный",
+    "score": 62
+  },
+  {
+    "type": "revenue_report",
+    "what": "ScreenSmooth.com — Screen Recorder с Auto Zoom. All-time revenue $1,570 на день 209. Автор делится публично цифрами и процессом роста.",
+    "why_us": "Реальные цифры микро-SaaS. Показывает, что даже нишевый инструмент для видео может приносить деньги без огромных вложений.",
+    "revenue": "$1,570 all-time (~$1.5k), цель $10k",
+    "source_link": "https://x.com/Sayyidalijufri/status/2121601369899479478",
+    "source_platform": "x",
+    "engagement": "2 likes на свежем посте, но серия build-in-public",
+    "score": 68
+  },
+  {
+    "type": "demand_gap",
+    "what": "Доступный/локальный DeepSeek-подобный языковой модель. Пользователи Qwen/DeepSeek не могут позволить себе запуск огромных моделей.",
+    "why_us": "58 сигналов на GapMine, corroborated. Очень горячая тема локальных/дешёвых LLM.",
+    "revenue": "Потенциал высокий — подписки или self-hosted tools",
+    "source_link": "https://gapmine.com/blog/state-of-tech-gaps-2026",
+    "source_platform": "other",
+    "engagement": "58 signals, corroborated",
+    "score": 78
+  },
+  {
+    "type": "demand_gap",
+    "what": "Мониторинг стоимости GitHub Actions. Пользователи теряют бюджет из-за тихих скачков цен.",
+    "why_us": "Свежий сигнал на GapMine (на 13 ноября). Конкретная боль разработчиков с деньгами.",
+    "revenue": "Потенциал $10-50/mo для технических команд",
+    "source_link": "https://gapmine.com/blog/state-of-tech-gaps-2026",
+    "source_platform": "other",
+    "engagement": "2 signals, early but fresh",
+    "score": 65
+  },
+  {
+    "type": "demand_gap",
+    "what": "Harvest (time tracking): массовые жалобы на резкое повышение цен в 5-10 раз для долгосрочных клиентов на Trustpilot.",
+    "why_us": "Классический сигнал на «too expensive» и потребность в дешёвых/честных альтернативах для time tracking. Много 1-star отзывов.",
+    "revenue": "Альтернатива с ценой $5-15/user/mo",
+    "source_link": "https://www.trustpilot.com/review/www.harvestapp.com",
+    "source_platform": "trustpilot",
+    "engagement": "Многочисленные 1-star жалобы на рост цен",
+    "score": 70
+  }
+]

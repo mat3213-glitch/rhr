@@ -1,0 +1,72 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "Aggregated list of 100 tools Hacker News has repeatedly asked for over 18 years (2008-2026), including a mute button for news feeds (hide topics/AI-slop), Windows without junk/telemetry, paid ad-free browser/email/search, open-source Cursor alternative, local email/chat archives. 81 of 100 already launched on Show HN but still requested; strong preference for local/private over AI.",
+    "why_us": "High-volume validated demand from technical audience with willingness to pay for ownership/privacy; many unfinished or incomplete existing solutions. CSV data available for deeper analysis.",
+    "revenue": "",
+    "source_link": "https://stillunbuilt.shiptiffin.app/",
+    "source_platform": "other",
+    "engagement": "12,441 software requests analyzed; top items 10-45 asks across years; recent 2024-26 activity on several",
+    "score": 88
+  },
+  {
+    "type": "demand_gap",
+    "what": "Developer/tech tools market gaps: Track GitHub Actions Costs (silent budget spikes), Agent Safety Feature (manual approval too costly), WordPress to AI Code Converter, Cloudflare Tunnel Encryption, Chat History continuity across AI tools. 833 gaps tracked from 4,371 signals.",
+    "why_us": "Corroborated multi-platform signals (Reddit/HN/PH/GitHub); specific pain points with evidence levels (validated/corroborated). Opportunity for micro-tools solving concrete builder problems.",
+    "revenue": "",
+    "source_link": "https://gapmine.com/blog/state-of-tech-gaps-2026",
+    "source_platform": "other",
+    "engagement": "58 signals on top gap; multiple corroborated clusters",
+    "score": 82
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "Solo founder building three AI API wrappers (PromptShield for rate limiting/caching, ModelRouter for auto model selection, OutputGuard for content filtering) reaching $4,200 MRR after 9 months. Infrastructure focus over feature wrappers; high margins after price increase.",
+    "why_us": "Clear numbers on what works: reliability/cost savings for API users, not another chat UI. Pricing lesson (raise prices, drop low-intent users). Distribution via HN/Dev.to/Reddit.",
+    "revenue": "$4200/mo",
+    "source_link": "https://dev.to/hopkins_jesse_cdb68cfa22c/how-i-make-4200month-with-ai-api-wrappers-complete-breakdown-no-bs-149p",
+    "source_platform": "other",
+    "engagement": "Detailed public breakdown with costs and customer count",
+    "score": 78
+  },
+  {
+    "type": "revenue_report",
+    "what": "Postiz (open-source agentic social media scheduler) hit ~$372k-$400k+ MRR in Nov 2026, up from <$25k in Jan 2026. Adding $5-8k MRR/day at times. Verified via TrustMRR/Stripe. Solo founder, open source + API for agents.",
+    "why_us": "Exceptional growth in competitive category via agentic use cases, content, and distribution. Demonstrates open-source + paid SaaS hybrid working at scale. Multiple public charts and announcements.",
+    "revenue": "$372k-$400k+/mo",
+    "source_link": "https://www.indiehackers.com/post/tech/postizs-mrr-went-from-under-25k-to-372k-this-year-nevo-david-s-chart-shows-KzadHXZPGdA4fGxZZl5A",
+    "source_platform": "other",
+    "engagement": "Multiple high-engagement X posts (hundreds of likes); TrustMRR verification",
+    "score": 90
+  },
+  {
+    "type": "revenue_report",
+    "what": "GTM SaaS founder reports hitting $6k MRR with plan to reach $10k by EOY via organic content, cold email, and ad optimization. Building in public.",
+    "why_us": "Concrete near-term milestone with transparent tactics; signals ongoing demand for GTM tools among early SaaS founders.",
+    "revenue": "$6k/mo",
+    "source_link": "https://x.com/timscheuer/status/2121252044195393953",
+    "source_platform": "x",
+    "engagement": "128 likes, 93 replies, 23 bookmarks",
+    "score": 72
+  },
+  {
+    "type": "demand_gap",
+    "what": "Analysis of thousands of 'I wish there was an app' posts: productivity highest volume but education/self-improvement highest willingness to pay; ~7% want offline-first/privacy tools; finance punches above weight on paid intent; ADHD and developer communities produce detailed specs.",
+    "why_us": "Data-driven prioritization of niches by payment intent rather than volume. Highlights anti-subscription/privacy demand.",
+    "revenue": "",
+    "source_link": "https://x.com/om_patel5/status/2010166793487163890",
+    "source_platform": "x",
+    "engagement": "211 likes, 307 bookmarks, 20 replies",
+    "score": 80
+  },
+  {
+    "type": "demand_gap",
+    "what": "Users repeatedly request a calendar/tool that handles family logistics (e.g. carpool scheduling via group chat nagging) and more AI extensions for repetitive tasks/automation (buy tickets, order food, fill forms).",
+    "why_us": "Everyday consumer/personal automation gaps; low competition for simple, focused tools. Aligns with agent/automation category.",
+    "revenue": "",
+    "source_link": "https://x.com/gizmobuild/status/2120518509847363784",
+    "source_platform": "x",
+    "engagement": "Low individual but recurring theme across posts",
+    "score": 65
+  }
+]

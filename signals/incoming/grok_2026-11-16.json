@@ -1,0 +1,102 @@
+[
+  {
+    "type": "revenue_report",
+    "what": "Marc Lou analyzed 10,646 startups on TrustMRR: 5,845 made $0 in last 30 days, 3,744 under $1k, only 24 made $100k+. Highlights distribution problem over building.",
+    "why_us": "Shows extreme concentration of revenue; most micro-SaaS fail on distribution. Validates need for validated demand signals before building.",
+    "revenue": "Distribution of MRR across 10k+ startups (top 24 >$100k/30d)",
+    "source_link": "https://x.com/marclou/status/2121974507544183216",
+    "source_platform": "x",
+    "engagement": "571 likes, 219 replies",
+    "score": 85
+  },
+  {
+    "type": "revenue_report",
+    "what": "beehiiv crossed $3m MRR. Growth: $0→$1M in 36 months, $1M→$2M in 16, $2M→$3M in 9 months. Now adding ~$100k MRR every 2.5 weeks.",
+    "why_us": "Clear acceleration in newsletter/email SaaS. Proven demand for creator tools with strong retention and growth.",
+    "revenue": "$3m MRR",
+    "source_link": "https://x.com/denk_tweets/status/2117649391729414175",
+    "source_platform": "x",
+    "engagement": "663 likes, 117 replies",
+    "score": 90
+  },
+  {
+    "type": "revenue_report",
+    "what": "Smooth AI crossed $300k+ ARR in 8 months. 17k+ users, 1,700 paying, 65% MRR growth last 2 months, ~80% organic. Focus on real-time AI for meetings.",
+    "why_us": "Strong organic growth in AI meeting assistant space. Shows willingness to pay for performance enhancement tools.",
+    "revenue": "$300k+ ARR (~$25k MRR)",
+    "source_link": "https://x.com/blakebha/status/2120066022808175009",
+    "source_platform": "x",
+    "engagement": "13 likes (quoted thread)",
+    "score": 72
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "Analysis of 481 AI agent startups on TrustMRR: 14 made >$10k in last 30 days (84% of all revenue). Top: Postiz $407k, AiSDR $177k, etc. Many $0.",
+    "why_us": "Concrete numbers on which AI agent products actually monetize. Copyable patterns for agentic SaaS.",
+    "revenue": "Top 14: $942k combined last 30d",
+    "source_link": "https://x.com/alphabatcher/status/2119418851653816596",
+    "source_platform": "x",
+    "engagement": "High (thread with details)",
+    "score": 88
+  },
+  {
+    "type": "revenue_report",
+    "what": "FootballGPT (one-person): $4,778/mo, 505 active subs on TrustMRR. Niche: soccer coaches, weekly drills/session plans. $2.99/wk.",
+    "why_us": "Classic micro-SaaS success: single niche, simple recurring job, low price, verified revenue.",
+    "revenue": "$4,778/mo",
+    "source_link": "https://x.com/folabolarinwa/status/2122329295611695471",
+    "source_platform": "x",
+    "engagement": "Low likes but verified data",
+    "score": 70
+  },
+  {
+    "type": "demand_gap",
+    "what": "G2 reviews: Canva users frustrated that essential features (background remover, magic resize, elements) locked behind expensive Pro. Premium too costly for casual users.",
+    "why_us": "Repeated complaint about feature gating and price. Opportunity for more affordable/open alternatives or freemium with better free tier.",
+    "revenue": "N/A (pain signal)",
+    "source_link": "https://www.g2.com/products/canva/reviews?qs=pros-and-cons",
+    "source_platform": "g2",
+    "engagement": "Hundreds of mentions of limited features / too expensive",
+    "score": 78
+  },
+  {
+    "type": "demand_gap",
+    "what": "Notion G2: steep learning curve, slow performance on large pages/databases, confusing interface, search issues. Users want better folders/sidebar and offline/mobile.",
+    "why_us": "High volume of complaints on UX and performance. Room for simpler, faster alternatives focused on specific use cases.",
+    "revenue": "N/A",
+    "source_link": "https://www.g2.com/products/notion/reviews?qs=pros-and-cons",
+    "source_platform": "g2",
+    "engagement": "800+ mentions learning curve, 600+ performance",
+    "score": 75
+  },
+  {
+    "type": "demand_gap",
+    "what": "Slack G2: per-user pricing becomes very expensive as teams scale; free tier limited history. Users seek cheaper or more flexible alternatives.",
+    "why_us": "Classic enterprise SaaS pricing pain. Open-source (Mattermost) and self-hosted options popular as response.",
+    "revenue": "N/A",
+    "source_link": "https://www.g2.com/compare/notion-vs-slack",
+    "source_platform": "g2",
+    "engagement": "Pricing concerns frequently mentioned",
+    "score": 68
+  },
+  {
+    "type": "defi_yield",
+    "what": "YO Ecosystem Vault: $3.12M deposits, USDC lending ~9% APY, loopers up to 47% ROE with leverage on Morpho. Growing after market dip.",
+    "why_us": "Solid real-world yield numbers with TVL and utilization data. Attractive for stablecoin strategies.",
+    "revenue": "~9% APY (USDC), up to 47% leveraged",
+    "source_link": "https://x.com/yield/status/2121257711241199818",
+    "source_platform": "x",
+    "engagement": "11 likes",
+    "score": 65
+  },
+  {
+    "type": "demand_gap",
+    "what": "High-engagement post listing free open-source alternatives to expensive SaaS (Notion→Appflowy, Slack→Mattermost, etc.). 12k+ likes shows widespread desire for cheaper/self-hosted options.",
+    "why_us": "Massive signal that users actively seek alternatives to paid tools due to cost. Opportunity in better OSS packaging or hybrid models.",
+    "revenue": "N/A",
+    "source_link": "https://x.com/fireship_dev/status/1828485695029260356",
+    "source_platform": "x",
+    "engagement": "12,380 likes, 1,654 reposts",
+    "score": 82
+  }
+]

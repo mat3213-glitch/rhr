@@ -1,0 +1,62 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "Navigation app with 'anxious driver' mode: longer routes avoiding difficult merges, left turns on busy roads, high-stress driving. Strong replies requesting 'no difficult merges', 'scenic with zero left turns'.",
+    "why_us": "High engagement (7375 likes) shows clear willingness for a feature that existing apps like Google Maps/Waze lack; potential freemium or subscription for anxiety-reducing routing.",
+    "revenue": "Potential $5-15/mo premium tier",
+    "source_link": "https://x.com/amelia_tweetz/status/2119274812665401531",
+    "source_platform": "x",
+    "engagement": "7375 likes, 203 reposts, 93 replies, 131k views",
+    "score": 92
+  },
+  {
+    "type": "revenue_report",
+    "what": "PlugKit (AI social media tool for Claude/ChatGPT) hit $7,262 MRR in 71 days after September launch, 150 active subscriptions. Documenting daily path to $100k MRR with ads and organic.",
+    "why_us": "Verified growth numbers on TrustMRR, shows AI wrapper success with clear distribution (Meta ads + ChatGPT), low churn signals.",
+    "revenue": "$7,262 MRR",
+    "source_link": "https://x.com/AntoineBlanco99/status/2122604898650894785",
+    "source_platform": "x",
+    "engagement": "52 likes, 41 replies",
+    "score": 78
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "Analysis of 481 AI agent startups on TrustMRR: top 14 made $10k+ last 30 days (84% of all revenue), including Postiz ($407k), AiSDR ($177k). Most make $0.",
+    "why_us": "Concrete verified revenue data showing winners in AI agents category; highlights distribution and product-market fit over pure wrapper.",
+    "revenue": "Top: $407k/mo range",
+    "source_link": "https://x.com/alphabatcher/status/2119418851653816596",
+    "source_platform": "x",
+    "engagement": "High views on thread",
+    "score": 75
+  },
+  {
+    "type": "demand_gap",
+    "what": "Accounting firm client portals: users complain about high cost (e.g. Financial Cents too expensive for small firms, annual-only billing), poor UX/glitches in Client Hub, missing monthly plans, weak integrations (Excel/Sage).",
+    "why_us": "Recurring complaints across Capterra/G2 on pricing and usability for small accounting practices; opportunity for affordable, simple portal with monthly billing and better integrations.",
+    "revenue": "Potential $15-49/user/mo competitor",
+    "source_link": "https://www.capterra.com/p/186837/Financial-Cents/reviews/",
+    "source_platform": "capterra",
+    "engagement": "Multiple verified reviews citing cost and missing features",
+    "score": 72
+  },
+  {
+    "type": "revenue_report",
+    "what": "Headroom AI Editor joined TrustMRR with $984 MRR, 270 active subs, +32% growth in 30 days, total $3.3k revenue.",
+    "why_us": "Fresh verified micro-SaaS numbers in AI editor space; shows early traction possible.",
+    "revenue": "$984 MRR",
+    "source_link": "https://x.com/trust_mrr/status/2122219506500292686",
+    "source_platform": "x",
+    "engagement": "0 likes but verified data",
+    "score": 65
+  },
+  {
+    "type": "demand_gap",
+    "what": "People reverse-engineering unbuilt ideas from HN 'I wish there was', Stack Exchange unanswered tools, GitHub won't-fix feature requests. Channel collecting them for open-source.",
+    "why_us": "Direct signal of unmet demand collected systematically; source of validated product ideas.",
+    "revenue": "N/A (idea source)",
+    "source_link": "https://x.com/shouvik_palit/status/2122672069347569791",
+    "source_platform": "x",
+    "engagement": "Low likes but methodological value",
+    "score": 62
+  }
+]

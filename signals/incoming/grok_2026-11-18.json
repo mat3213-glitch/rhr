@@ -1,0 +1,82 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "ActiveCampaign users report sharp price increases (up to 4x), AI-only support that fails, and surprise bill hikes without notice. Many SMBs stuck due to migration costs.",
+    "why_us": "High willingness to switch for transparent, human-support, simpler email+CRM with fair pricing. Classic overpriced incumbent pain.",
+    "revenue": "Implied high LTV; users already paying hundreds/month and complaining",
+    "source_link": "https://www.trustpilot.com/review/activecampaign.com",
+    "source_platform": "trustpilot",
+    "engagement": "147+ recent reviews, multiple 1-star calling it 'sh*****' and 'too expensive'",
+    "score": 88
+  },
+  {
+    "type": "demand_gap",
+    "what": "HubSpot repeatedly called overpriced, overcomplicated, and aggressive upsell for SMBs. Users report contact overcharging bugs and unresponsive support during critical campaigns.",
+    "why_us": "Massive market of SMBs looking for simpler CRM/email that doesn't milk them. Proven switching intent.",
+    "revenue": "Users paying thousands and still unhappy",
+    "source_link": "https://www.trustpilot.com/review/hubspot.com?stars=1",
+    "source_platform": "trustpilot",
+    "engagement": "Dozens of 1-star reviews Nov 2026, 'waste of money', 'complete waste'",
+    "score": 85
+  },
+  {
+    "type": "demand_gap",
+    "what": "Apollo.io G2 reviews: steep learning curve, expensive credits/subscriptions that scale poorly, AI features degrading UX, slow performance on large lists.",
+    "why_us": "Sales intelligence tool with clear product-market pain on pricing and usability. Opportunity for focused, cheaper alternative.",
+    "revenue": "High ARPU category",
+    "source_link": "https://www.g2.com/products/apollo-io/reviews?qs=pros-and-cons",
+    "source_platform": "g2",
+    "engagement": "91 mentions learning curve, 76 mentions high costs",
+    "score": 82
+  },
+  {
+    "type": "revenue_report",
+    "what": "Dictation app (usevoicy.com) stuck at ~$12.5k MRR. Single acquisition channel (SEO), 200+ competitors, 7% churn. Founder planning conversion optimization and feature cleanup before new channels.",
+    "why_us": "Real revenue numbers + concrete bottlenecks in a crowded AI tool category. Shows what works and where it plateaus.",
+    "revenue": "$12.5k MRR",
+    "source_link": "https://x.com/BuildingWaves/status/2122991333644374204",
+    "source_platform": "x",
+    "engagement": "41 likes, 25 replies on update post",
+    "score": 78
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "First iOS app launched: 106 users and 11 free trials in 3 days, $0 MRR so far. Organic via X/Reddit/FB groups + AI UGC. Paywall timing is key feedback.",
+    "why_us": "Fresh micro-SaaS launch data showing organic growth speed and early conversion challenges.",
+    "revenue": "$0 MRR (early)",
+    "source_link": "https://x.com/khalil__ghalem/status/2123019386722115865",
+    "source_platform": "x",
+    "engagement": "43 likes, 26 replies",
+    "score": 70
+  },
+  {
+    "type": "demand_gap",
+    "what": "HN 'Still Unbuilt' analysis of 12k+ requests: strong demand for privacy/local tools, mute button for news feeds, paid Windows without junk/telemetry, ad-free browser/search/email. 27% of recent asks are better versions of existing software.",
+    "why_us": "Long-term, high-signal demand for ownership and less bloat/AI slop. Multiple years of repeated asks.",
+    "revenue": "High 'would pay' percentages (60-80% in top categories)",
+    "source_link": "https://stillunbuilt.shiptiffin.app/",
+    "source_platform": "hn",
+    "engagement": "Aggregated from 63k comments, top items 30-45 asks across years",
+    "score": 90
+  },
+  {
+    "type": "revenue_report",
+    "what": "Founder shared how first LinkedIn post about $1.5k MRR Reddit tool led to $500k investment. Building in public with real numbers works.",
+    "why_us": "Proof of distribution leverage from transparent revenue sharing.",
+    "revenue": "$1.5k MRR → $500k raise",
+    "source_link": "https://x.com/nickvelkovski/status/2123000913728258296",
+    "source_platform": "x",
+    "engagement": "31 likes, 22 replies",
+    "score": 75
+  },
+  {
+    "type": "demand_gap",
+    "what": "Salesforce Trustpilot: expensive, poor account management, overcharging, bad support. Multiple 'worst financial mistake' and 'complete waste' reviews from startups and SMBs.",
+    "why_us": "Enterprise giant with clear SMB dissatisfaction. Opportunity in simpler sales tools.",
+    "revenue": "Users on high contracts unhappy",
+    "source_link": "https://www.trustpilot.com/review/salesforce.com",
+    "source_platform": "trustpilot",
+    "engagement": "Recent 1-star cluster Nov 2026",
+    "score": 80
+  }
+]

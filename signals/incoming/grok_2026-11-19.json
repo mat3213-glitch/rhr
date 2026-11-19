@@ -1,0 +1,72 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "App that converts Codex (OpenAI) usage/reset limits into Claude resets or vice versa, to manage AI coding tool quotas",
+    "why_us": "High engagement (185 likes) from AI developers frustrated with rate limits across models; recurring pain in coding workflows",
+    "revenue": "Potential $10-29/mo micro-SaaS",
+    "source_link": "https://x.com/argofowl/status/2121001097225752656",
+    "source_platform": "x",
+    "engagement": "185 likes, 25 replies, 6101 views",
+    "score": 78
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "GetEbook.ai - AI tool that generates full ebooks/coloring books from idea in minutes, vibe-coded with Claude Code + Lovable",
+    "why_us": "Proven revenue model: $130k+ in 4 months from 1700+ paying users via Meta ads, $29/mo subs + credits; simple wrapper replacing manual workflow",
+    "revenue": "$11-12k MRR / $130k total in 4 months (Stripe-verified)",
+    "source_link": "https://x.com/starter_story/status/2121015332060135563",
+    "source_platform": "x",
+    "engagement": "64 likes on announcement post",
+    "score": 92
+  },
+  {
+    "type": "revenue_report",
+    "what": "Postiz open-source social media scheduler reached $400k+ MRR ($4.8M ARR) in ~1 year, solo founder, AI/agent endpoints",
+    "why_us": "Exceptional growth from $14k to $400k MRR, open-source distribution, low costs; validates agentic social tools",
+    "revenue": "$400,000+ MRR / $4.8M ARR",
+    "source_link": "https://www.arr.club/signal/postiz-passed-400k-mrr-growing-28x-in-a-year",
+    "source_platform": "other",
+    "engagement": "High visibility in indie/SaaS circles",
+    "score": 88
+  },
+  {
+    "type": "demand_gap",
+    "what": "Better subscription management or one-time purchase alternatives due to subscription fatigue (47% canceled a sub in 2026, avg 19 subs, too many/expensive)",
+    "why_us": "Widespread complaints on Capterra, Trustpilot, WSJ; people actively seeking tools to audit/cancel and prefer usage or one-time pricing for AI/SaaS",
+    "revenue": "High willingness to pay for cancellation/audit tools or cheaper alternatives",
+    "source_link": "https://valueaddvc.com/blog/subscription-fatigue-is-real-how-consumer-apps-are-rethinking-monetization-in-2026",
+    "source_platform": "other",
+    "engagement": "Multiple high-traffic articles, surveys of 10k+ users",
+    "score": 75
+  },
+  {
+    "type": "demand_gap",
+    "what": "AI video/image tools (Runway, Magnific, Meshy) too expensive, credits deplete fast, wish for free retries, transparent pricing, or local alternatives",
+    "why_us": "Repeated 1-star/cons on G2: wasted credits, high costs, poor results; opportunity for cheaper, more predictable AI gen tools",
+    "revenue": "Existing tools charge $10-100+/mo with high churn on value",
+    "source_link": "https://www.g2.com/products/runway-2022-01-04/reviews?qs=pros-and-cons",
+    "source_platform": "g2",
+    "engagement": "Multiple reviews citing expensive/waste",
+    "score": 70
+  },
+  {
+    "type": "revenue_report",
+    "what": "SalesRobot LinkedIn automation SaaS crossed $1.2M revenue (bootstrapped, India-based, ~$1M ARR) over 6 years",
+    "why_us": "Real numbers from founder post: outbound + SEO + content growth, pricing experiments worked; validates niche automation",
+    "revenue": "$1.2M total revenue, ~$1M ARR",
+    "source_link": "https://x.com/saguppa/status/2123302757562294383",
+    "source_platform": "x",
+    "engagement": "27 likes, detailed breakdown",
+    "score": 82
+  },
+  {
+    "type": "demand_gap",
+    "what": "Seamless self-custody crypto wallet experience inside popular apps (like Toss for USDT), specifically for Kaspa/L1 with dollars",
+    "why_us": "140 likes on 'someone should build that experience'; pain of new app friction for non-crypto users",
+    "revenue": "Potential high-volume consumer or DeFi integration",
+    "source_link": "https://x.com/EthanAnvel/status/2122743066889277577",
+    "source_platform": "x",
+    "engagement": "140 likes, 2790 views",
+    "score": 65
+  }
+]

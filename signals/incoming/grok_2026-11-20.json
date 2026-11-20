@@ -1,0 +1,82 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "Navigation app with 'longer but less stressful' route option for anxious drivers (avoid difficult merges, left turns onto busy roads, complex junctions)",
+    "why_us": "High viral engagement (7.3k+ likes, 90+ replies) with specific feature requests confirming demand; existing apps like NavBuddy cover some anxiety coaching but gap remains in pure route preference for low-stress paths. Clear consumer willingness.",
+    "revenue": "Potential $5-15/mo premium for calm routes / coaching",
+    "source_link": "https://x.com/amelia_tweetz/status/2119274812665401531",
+    "source_platform": "x",
+    "engagement": "7369 likes, 202 reposts, 93 replies, 131k views",
+    "score": 92
+  },
+  {
+    "type": "demand_gap",
+    "what": "App that auto-subscribes/monitors usage and cancels unused subscriptions, then one-tap resubscribes, showing money saved",
+    "why_us": "Classic high-engagement pain (1.5k+ likes) on subscription waste; recurring demand for SaaS spend control and auto-cancellation tools that actually work without friction.",
+    "revenue": "$10/mo as stated by OP",
+    "source_link": "https://x.com/Suhail/status/1299357019384680448",
+    "source_platform": "x",
+    "engagement": "1586 likes, 84 reposts, 120 replies",
+    "score": 78
+  },
+  {
+    "type": "demand_gap",
+    "what": "Better AI presentation/deck generator that produces professional, non-generic slides without overflow/errors (alternative to Gamma)",
+    "why_us": "Multiple 1-star Trustpilot reviews calling Gamma 'waste of money', 'absolute worst', AI fails simple instructions, recommends Canva instead. Clear quality/price pain for AI slide tools.",
+    "revenue": "Current Gamma ~$12/mo; opportunity for higher quality at similar or premium",
+    "source_link": "https://www.trustpilot.com/review/gamma.app",
+    "source_platform": "trustpilot",
+    "engagement": "Many 1-star reviews (125 total, rated Bad)",
+    "score": 75
+  },
+  {
+    "type": "demand_gap",
+    "what": "AI tool that takes home repair description (water pressure, windows, etc.), finds contractors by price/reputation, validates quotes, and schedules",
+    "why_us": "Specific consumer pain for coordinating home services; AI can automate matching and verification. Repeated 'someone should build' type signal.",
+    "revenue": "Commission or $5-20/job or subscription for homeowners",
+    "source_link": "https://x.com/iuliatech/status/2041822921467797643",
+    "source_platform": "x",
+    "engagement": "Thread with 104 likes on original ask, specific reply idea",
+    "score": 68
+  },
+  {
+    "type": "revenue_report",
+    "what": "Solo founder hit $4k MRR with 230 paying users after 6 months of slow growth",
+    "why_us": "Concrete micro-SaaS milestone with user count and timeline; validates building in public + iteration.",
+    "revenue": "$4k MRR, 230 users",
+    "source_link": "https://x.com/poysa213/status/2123769749415112876",
+    "source_platform": "x",
+    "engagement": "5 likes (early)",
+    "score": 70
+  },
+  {
+    "type": "revenue_report",
+    "what": "Newsletter tool crossed $3k MRR after tightening quality filters to protect deliverability",
+    "why_us": "Shows importance of deliverability/reputation for email tools; AI checks on imports/content.",
+    "revenue": "$3k MRR",
+    "source_link": "https://x.com/marclou/status/2123318597523292161",
+    "source_platform": "x",
+    "engagement": "358 likes, 146 replies",
+    "score": 82
+  },
+  {
+    "type": "revenue_report",
+    "what": "CallCloud at $32k MRR, $280k total revenue, +60% growth, 171 active subs",
+    "why_us": "Verified high MRR micro-SaaS in call/cloud space; TrustMRR listing.",
+    "revenue": "$32k MRR",
+    "source_link": "https://x.com/trust_mrr/status/2123544486286590363",
+    "source_platform": "x",
+    "engagement": "TrustMRR post",
+    "score": 80
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "City 'translator' site that maps unfamiliar cities to ones you know (e.g. Seattle via Istanbul neighborhoods) using AI",
+    "why_us": "Built from personal 'I wish there was' note; shows AI enabling quick validation of niche comparison tools.",
+    "revenue": "Early launch, not specified",
+    "source_link": "https://x.com/kerem_ozcan/status/2117245480761520178",
+    "source_platform": "x",
+    "engagement": "392 likes, 315 bookmarks",
+    "score": 65
+  }
+]

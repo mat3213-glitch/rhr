@@ -1,0 +1,102 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "Sandboxing and permission controls for AI coding agents. Developers want hard limits on files agents can read/modify, shell commands needing approval, and stopping points. Visual interface for configuring permissions before task runs.",
+    "why_us": "High signal from aggregated HN comments (11 distinct requests). AI coding agents are exploding; safety/permissions is a clear unmet need for teams.",
+    "revenue": "Potential high-ticket B2B SaaS for dev teams",
+    "source_link": "https://dev.to/hnidearadar/i-had-ai-read-4400-hacker-news-posts-these-are-the-10-tools-people-most-want-built-15h4",
+    "source_platform": "hn",
+    "engagement": "11 people asked across HN threads; recent Nov 2026 analysis of 4400 posts",
+    "score": 85
+  },
+  {
+    "type": "demand_gap",
+    "what": "Self-custody wallet experience for Kaspa ($KAS) similar to Toss app: send USDT to contacts inside an existing popular app (30M users), no new app download, no extra fees. Kaspa has dollars on L1.",
+    "why_us": "153 likes on X. Clear product gap for crypto adoption beyond crypto-native users. Mass market entry point.",
+    "revenue": "Potential fintech/crypto onboarding tool",
+    "source_link": "https://x.com/EthanAnvel/status/2122743066889277577",
+    "source_platform": "x",
+    "engagement": "153 likes, 31 reposts, 3083 views",
+    "score": 78
+  },
+  {
+    "type": "demand_gap",
+    "what": "Power-user tools for Hacker News: dark mode, custom CSS, follow users, reply notifications, collapsing comments, filtering low-quality posts, better Who's Hiring view. HN itself won't build them.",
+    "why_us": "11 distinct requests in recent HN analysis. Niche but highly engaged audience of builders/founders willing to pay for productivity.",
+    "revenue": "Freemium or one-time browser extension / power tools",
+    "source_link": "https://dev.to/hnidearadar/i-had-ai-read-4400-hacker-news-posts-these-are-the-10-tools-people-most-want-built-15h4",
+    "source_platform": "hn",
+    "engagement": "11 people asked",
+    "score": 72
+  },
+  {
+    "type": "revenue_report",
+    "what": "Clean, AI-powered sales intelligence startup in YC Fall 2026 batch, crossed $500K ARR 10 months after founding. Clients closing six-figure deals.",
+    "why_us": "Concrete verified ARR milestone for AI sales tool. Shows rapid path in B2B AI.",
+    "revenue": "$500K ARR",
+    "source_link": "https://www.arr.club/signal/clean-crossed-500k-arr-in-yc-fall-2026-batch",
+    "source_platform": "other",
+    "engagement": "Verified signal on ARR Club",
+    "score": 80
+  },
+  {
+    "type": "revenue_report",
+    "what": "beehiiv hit $36M ARR ($3M MRR) with accelerating growth. Took 36 months to $1M MRR, then faster. Newsletter platform with growth/monetization features.",
+    "why_us": "Large-scale revenue proof in creator economy. Acceleration pattern useful for similar tools.",
+    "revenue": "$3M MRR / $36M ARR",
+    "source_link": "https://www.arr.club/signal/beehiiv-hit-36m-arr-as-mrr-growth-accelerated-to-3m",
+    "source_platform": "other",
+    "engagement": "Verified ARR Club signal",
+    "score": 75
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "Multiple AI wrappers clearing significant revenue: Chatbase ~$864K MRR, Draft AI ~$24.5K MRR, Sleek ~$23K, Backlinker AI ~$22.5K, fastwrite.io ~$15K, Taja AI ~$15K. Some with low subscriber counts at high price.",
+    "why_us": "Real payment-verified numbers showing wrappers can scale. B2B high-price vs consumer volume models.",
+    "revenue": "$10K-$864K MRR various",
+    "source_link": "https://stealwhatworks.com/blogs/news/ai-wrappers-over-10k-month-now",
+    "source_platform": "other",
+    "engagement": "Aggregated from verified data",
+    "score": 82
+  },
+  {
+    "type": "defi_yield",
+    "what": "High yields on Base: USDC 40 Acres strategy at 27.34% 24h APY (30d avg 31.56%), WETH looping ~9%, others 4-5%+. Ranked among tracked strategies with real TVL.",
+    "why_us": "Current concrete APY numbers on Base. Opportunity for yield tools, aggregators, or risk-managed products.",
+    "revenue": "27%+ APY on Base USDC strategies",
+    "source_link": "https://harvest.finance/base",
+    "source_platform": "other",
+    "engagement": "Live ranking updated Nov 21 2026",
+    "score": 70
+  },
+  {
+    "type": "demand_gap",
+    "what": "Subscription fatigue and high costs: Adobe Photoshop too expensive (wish for one-time purchase), Magnific/Freepik premium limits expensive, Similarweb high pricing for small teams, general 44% consumers tired of subscriptions (Capterra). Notion AI credit extortion complaints on Trustpilot.",
+    "why_us": "Repeated across G2/Capterra/Trustpilot. Clear demand for cheaper, one-time, or better-value alternatives, especially AI features with transparent pricing.",
+    "revenue": "Alternative tools can capture churned users",
+    "source_link": "https://www.g2.com/products/adobe-photoshop/reviews?qs=pros-and-cons",
+    "source_platform": "g2",
+    "engagement": "Multiple review mentions of 'too expensive', 'wish for one-time'",
+    "score": 68
+  },
+  {
+    "type": "demand_gap",
+    "what": "768 distinct unbuilt opportunities in Developer and Tech Tools tracked by GapMine from 4555 signals. Top: Cloudflare Tunnel Encryption, WordPress to AI Code Converter, Obsidian Vault Publisher, Mac Trackpad Visualizer, etc.",
+    "why_us": "Aggregated real builder signals with evidence levels (validated/corroborated). Direct product ideas from demand.",
+    "revenue": "Niche developer tools with proven askers",
+    "source_link": "https://gapmine.com/blog/state-of-tech-gaps-2026",
+    "source_platform": "other",
+    "engagement": "768 gaps, 99 validated",
+    "score": 74
+  },
+  {
+    "type": "automation",
+    "what": "Telegram bots monetization models in 2026: Stars payments (~$0.013/Star), ad revenue share 50%, force subscribe, subscriptions. Examples of signal bots at $4.5K MRR.",
+    "why_us": "Clear paths to monetize bots with paying users. Low barrier, real numbers from builders.",
+    "revenue": "$500-$15K+/mo depending on model",
+    "source_link": "https://mgram.biz/en/blog/how-to-monetize-telegram-bot",
+    "source_platform": "other",
+    "engagement": "Detailed models and rate tables",
+    "score": 65
+  }
+]

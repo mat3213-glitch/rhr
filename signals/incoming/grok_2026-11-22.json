@@ -1,0 +1,102 @@
+[
+  {
+    "type": "revenue_report",
+    "what": "Postiz, open-source social media scheduler, hit $453k MRR (verified Nov 22 2026) with ~13,300 subscribers, solo founder Nevo David, 28x growth in a year from $14k, no outside funding, AI-agent endpoints.",
+    "why_us": "Proves open-source + machine-first APIs can drive massive solo SaaS revenue; model for distribution via GitHub stars and AI agents.",
+    "revenue": "$453k/mo",
+    "source_link": "https://theaireceipts.com/case-studies/postiz/",
+    "source_platform": "other",
+    "engagement": "Verified Stripe via TrustMRR, top AI SaaS leaderboard",
+    "score": 95
+  },
+  {
+    "type": "revenue_report",
+    "what": "Bazzly.ai (Reddit customer acquisition on autopilot) reached ~$42k MRR; founder Filip Panoski grew from $19 MRR to $40k, detailed growth stages, bootstrapped.",
+    "why_us": "Shows high-value Reddit-sourced lead gen automation; concrete path from $0 to $40k MRR with specific timelines.",
+    "revenue": "$42k/mo",
+    "source_link": "https://mrrbench.com/",
+    "source_platform": "other",
+    "engagement": "Founder posts on X, verified on MRR Bench / TrustMRR",
+    "score": 88
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "MailCheap newsletter platform vibe-coded with Claude Opus by Marc Lou: $860 MRR from 30 subs in 9 days after launch, open-source, priced by emails sent.",
+    "why_us": "Extreme speed of AI-assisted building to revenue; validates micro-SaaS wrappers around existing infra (SES).",
+    "revenue": "$860/mo",
+    "source_link": "https://shippedandpaid.com/cases/mailcheap-newsletter-platform-860-mrr-claude/",
+    "source_platform": "other",
+    "engagement": "X launch by @marclou, TrustMRR verified",
+    "score": 78
+  },
+  {
+    "type": "demand_gap",
+    "what": "Analysis of 9,300+ 'I wish there was an app' posts: ~7% (640+) request offline-first/privacy tools due to subscription fatigue; education & self-improvement highest willingness to pay; ADHD niche high-signal detailed requests; finance punches above weight in paid intent.",
+    "why_us": "Quantified demand for local/no-cloud tools and high-intent niches; ready product specs from long posts.",
+    "revenue": "",
+    "source_link": "https://medium.com/write-a-catalyst/i-analyzed-9-300-i-wish-there-was-an-app-for-this-posts-here-is-what-people-actually-want-6a447bbabcd3",
+    "source_platform": "other",
+    "engagement": "820+ upvotes on related Reddit analysis",
+    "score": 82
+  },
+  {
+    "type": "demand_gap",
+    "what": "ElevenLabs voice generation: 171 G2 mentions of high cost especially for multiple datasets/fine-tuning; users want better pricing or one-time options; similar complaints on Vizard, Perplexity paid plans, Adobe Photoshop (wish for one-time purchase).",
+    "why_us": "Clear pain on AI voice/video pricing and subscription model; opportunity for cheaper local or pay-per-use alternatives.",
+    "revenue": "",
+    "source_link": "https://www.g2.com/products/elevenlabsio/reviews?qs=pros-and-cons",
+    "source_platform": "g2",
+    "engagement": "171 mentions of expensive, high review volume",
+    "score": 75
+  },
+  {
+    "type": "demand_gap",
+    "what": "GapMine tracks 768 unbuilt opportunities in Developer and Tech Tools (as of Nov 21 2026) from real builder conversations on Reddit/HN/PH/GitHub; top ones include Cloudflare Tunnel Encryption, WordPress to AI Code Converter, Obsidian Vault Publisher.",
+    "why_us": "Aggregated validated gaps with evidence levels; ready targets for developer tools.",
+    "revenue": "",
+    "source_link": "https://gapmine.com/blog/state-of-tech-gaps-2026",
+    "source_platform": "other",
+    "engagement": "4,555 signals from 1,338 sources",
+    "score": 72
+  },
+  {
+    "type": "revenue_report",
+    "what": "Daniel Miessler launched ~40 products/sites in 18 months, ~$15k MRR with no advertising; focuses on Vector (enterprise AI OS) and LifeOS.",
+    "why_us": "Demonstrates portfolio approach of many small ships compounding to solid MRR without ads.",
+    "revenue": "$15k/mo",
+    "source_link": "https://x.com/DanielMiessler/status/2124283043536076824",
+    "source_platform": "x",
+    "engagement": "85 likes, 40 bookmarks",
+    "score": 70
+  },
+  {
+    "type": "automation",
+    "what": "AI Telegram chatbot idea combining ChatGPT + DALL-E + Whisper access; estimated potential $10k-30k MRR, low competition, 12k monthly searches for related keywords.",
+    "why_us": "Monetizable via subscription or freemium on popular messaging platform; fits AI wrapper + automation category.",
+    "revenue": "$10-30k/mo potential",
+    "source_link": "https://microsaashq.com/saas-ideas/telegram-chatbot-938",
+    "source_platform": "other",
+    "engagement": "Search volume data, idea ranking",
+    "score": 65
+  },
+  {
+    "type": "demand_gap",
+    "what": "Everyday unsolved problems from 2026 lists: warranty/receipt keeper from photo, fair shared subscription splitter, parent care coordinator for elderly, family recipe archive, home repair history tracker.",
+    "why_us": "Concrete, low-competition consumer ideas with clear first versions; recurring demand in households.",
+    "revenue": "",
+    "source_link": "https://www.greta.sh/blog/app-ideas-that-dont-exist",
+    "source_platform": "other",
+    "engagement": "Recent founder guide with validation steps",
+    "score": 68
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "Multiple AI SaaS on TrustMRR / The AI Receipts leaderboard (Nov 2026): median $22.3k MRR among 73 verified; top include Rezi $233k, AEO Engine $197k; many built fast with AI coding tools.",
+    "why_us": "Benchmark for what good AI micro/mid-SaaS looks like; shows viability of wrappers and agents.",
+    "revenue": "median $22.3k/mo",
+    "source_link": "https://theaireceipts.com/leaderboard/",
+    "source_platform": "other",
+    "engagement": "Payment-verified, updated Nov 22",
+    "score": 80
+  }
+]

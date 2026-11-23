@@ -1,0 +1,72 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "Приложение для вывода distress-сообщений/вентинга без необходимости быть услышанным (ментальное здоровье, анонимный вент)",
+    "why_us": "Чёткая боль с вовлечённостью ~100 лайков за день, люди хотят эмоциональный выход без социального давления ответа. Высокая регулярность подобных запросов на анонимный вент.",
+    "revenue": "Потенциал $5-15/mo подписка или freemium с премиум фичами",
+    "source_link": "https://x.com/kichwa_mbaaya/status/2124747784850997454",
+    "source_platform": "x",
+    "engagement": "96 likes, 66 reposts, 23 replies",
+    "score": 72
+  },
+  {
+    "type": "revenue_report",
+    "what": "Postiz — open-source социальный шедулер на AI-агентах, solo-founder, без фандинга",
+    "why_us": "Верифицированный высокий MRR ($458k) у open-source AI SaaS для маркетинга. Показывает силу агентных интерфейсов вместо классических дашбордов. Рост 28x за год.",
+    "revenue": "$458,000 MRR (~$5.5M ARR), 13.5k paying subs, ~$34 ARPU",
+    "source_link": "https://theaireceipts.com/ai-apps-making-50k-mrr/",
+    "source_platform": "other",
+    "engagement": "Verified via TrustMRR, updated Nov 23 2026",
+    "score": 88
+  },
+  {
+    "type": "revenue_report",
+    "what": "Searchable — AI search-visibility платформа (отслеживание и управление тем, что говорят AI о бренде)",
+    "why_us": "Быстрый рост до $6M ARR за 10 месяцев в нише AI-visibility. Показывает спрос на инструменты контроля AI-ответов и цитирований.",
+    "revenue": "$6M ARR in 10 months (from launch Jan 2026)",
+    "source_link": "https://www.arr.club/signal/searchable-hit-6m-arr-in-10-months",
+    "source_platform": "other",
+    "engagement": "Reported milestone, verified signal",
+    "score": 82
+  },
+  {
+    "type": "demand_gap",
+    "what": "Единый поиск и контекстный ассистент по всем инструментам (Gmail, Slack, Notion, Linear, GitHub, Drive и т.д.) — ответы на вопросы типа 'кто такой Peter' или 'почему мы сделали этот workaround'",
+    "why_us": "Явная готовность платить $50/mo, частая боль фрагментации знаний в современных командах. Высокая платёжеспособность B2B.",
+    "revenue": "$50/mo готовность платить (потенциал выше для тимов)",
+    "source_link": "https://x.com/mmartin_joo/status/1956695201704984918",
+    "source_platform": "x",
+    "engagement": "Пост с явным спросом и ценой",
+    "score": 75
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "Сервис починки и фикса AI-сгенерированных (vibe-coded) приложений: фиксированная цена, сеньор-инженер + объяснение что пошло не так",
+    "why_us": "Растущая боль: люди собирают приложения на AI, но при поломках не могут их починить. Агентства берут дорого и долго. Оценка рынка ~60k соло-фаундеров.",
+    "revenue": "$200+ за тикет, средний чек ~$1200/год на фаундера, TAM ~$72M",
+    "source_link": "https://x.com/sklyarov/status/2119801893883203622",
+    "source_platform": "x",
+    "engagement": "Детальное описание боли и MVP",
+    "score": 78
+  },
+  {
+    "type": "demand_gap",
+    "what": "SaaS management / борьба с app sprawl: избыточные инструменты, дублирующие функции, высокие затраты на неиспользуемые лицензии (особенно SMB и retail)",
+    "why_us": "Capterra/G2 данные: 55% retail SMB страдают от app sprawl, переплачивают за избыточное ПО, малый бизнес боится стоимости. Повторяющаяся боль в обзорах и исследованиях.",
+    "revenue": "Потенциал $100-500+/mo для компаний среднего размера",
+    "source_link": "https://www.capterra.com/resources/retail-app-sprawl/",
+    "source_platform": "capterra",
+    "engagement": "Исследование Capterra 2023+, многочисленные обзоры на G2/Capterra про стоимость и сложность",
+    "score": 70
+  },
+  {
+    "type": "demand_gap",
+    "what": "Лучшая альтернатива Microsoft Teams: производительность, синхронизация, мессенджинг, простота использования (жалобы на 'worst software', медленность, плохие уведомления)",
+    "why_us": "Тысячи негативных отзывов на Trustpilot (rating Bad), повторяющиеся жалобы на UX/производительность. Высокий спрос на более лёгкие коллаборационные инструменты.",
+    "revenue": "Потенциал enterprise/SMB подписки",
+    "source_link": "https://www.trustpilot.com/review/teams.microsoft.com",
+    "source_platform": "trustpilot",
+    "engagement": "475 reviews, rating Bad, много 1-star отзывов",
+    "score": 68
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "type": "demand_gap",
+    "what": "App that converts Codex (OpenAI) usage resets into Claude (Anthropic) resets so users can continue working without waiting",
+    "why_us": "High engagement (184 likes) on a specific developer pain point around AI coding tool quotas. Concrete, technical demand from builders.",
+    "revenue": "Potential $10-30/mo subscription for power users",
+    "source_link": "https://x.com/argofowl/status/2121001097225752656",
+    "source_platform": "x",
+    "engagement": "184 likes, 24 replies",
+    "score": 78
+  },
+  {
+    "type": "demand_gap",
+    "what": "Niche AI directories: curated, constantly updated use-case directories for specific AI tools (e.g. Claude Skills by industry, Muse use cases, agent connectors)",
+    "why_us": "228 likes on a detailed business model post. Addresses the 'what do I do with this AI tool' problem after launch. Monetizable via newsletter, affiliates, sponsorships.",
+    "revenue": "Newsletter + affiliates, potential $5-20k/mo at scale",
+    "source_link": "https://x.com/coreyganim/status/2111125165731930542",
+    "source_platform": "x",
+    "engagement": "228 likes, 502 bookmarks",
+    "score": 82
+  },
+  {
+    "type": "demand_gap",
+    "what": "'Chill Guy AI' app that handles dating logistics, reminders, gifts, and bookings based on partner preferences",
+    "why_us": "90 likes, explicit 'I know a lot of people who would pay for this'. Clear subscription + affiliate model for relationship tools.",
+    "revenue": "Subscriptions + affiliate cuts",
+    "source_link": "https://x.com/lottsnomad/status/1993349795109355738",
+    "source_platform": "x",
+    "engagement": "90 likes, 127 bookmarks",
+    "score": 70
+  },
+  {
+    "type": "revenue_report",
+    "what": "Wireflow AI joined TrustMRR with $4.8k MRR, +71% growth, 94 active subs, $43k total revenue",
+    "why_us": "Verified revenue numbers on a micro-SaaS. Shows what small AI/flow tools can achieve.",
+    "revenue": "$4.8k MRR",
+    "source_link": "https://x.com/trust_mrr/status/2125363978432041067",
+    "source_platform": "x",
+    "engagement": "Low likes but verified data",
+    "score": 65
+  },
+  {
+    "type": "revenue_report",
+    "what": "Indie founder (jackfriks) reported crossing $69k MRR during Black Friday week",
+    "why_us": "Strong real revenue signal from a solo/small team builder. Demonstrates high-end micro-SaaS potential.",
+    "revenue": "$69k MRR",
+    "source_link": "https://x.com/jackfriks/status/2125587682013093902",
+    "source_platform": "x",
+    "engagement": "34 likes, 23 replies",
+    "score": 72
+  },
+  {
+    "type": "demand_gap",
+    "what": "Configurable DM filters on X/Twitter (min account age, followers, past interactions) — user would pay $20/mo",
+    "why_us": "Explicit willingness to pay from a notable account. Common platform pain.",
+    "revenue": "$20/mo stated",
+    "source_link": "https://x.com/dwr/status/1689288533280788480",
+    "source_platform": "x",
+    "engagement": "150 likes",
+    "score": 68
+  },
+  {
+    "type": "demand_gap",
+    "what": "Better grocery list / shopping apps (AnyList criticized as too much manual work for pricing and recipes)",
+    "why_us": "Detailed 1-star style complaint on Trustpilot about friction in a popular category. Opportunity for smarter AI-assisted shopping lists.",
+    "revenue": "Freemium / premium features",
+    "source_link": "https://www.trustpilot.com/reviews/69f383bc0a674708343f8f7f",
+    "source_platform": "trustpilot",
+    "engagement": "1-star review, detailed pain",
+    "score": 62
+  }
+]

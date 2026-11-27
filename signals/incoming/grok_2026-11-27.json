@@ -1,0 +1,72 @@
+[
+  {
+    "type": "revenue_report",
+    "what": "Verified AI SaaS revenue leaderboard: Postiz at $479k MRR (14k subs), Rezi $230k, AEO Engine $193k, Cometly $191k, AiSDR $172k as of Nov 27 2026. Median ~$70k among $50k+ tier. Data from TrustMRR payment verification.",
+    "why_us": "Concrete proof of what AI SaaS categories scale (social scheduling agents, resume tools, ad attribution, sales SDR). Shows high ARPU B2B models work.",
+    "revenue": "$479k MRR (Postiz), $230k (Rezi), etc.",
+    "source_link": "https://theaireceipts.com/ai-apps-making-50k-mrr/",
+    "source_platform": "other",
+    "engagement": "Live updated leaderboard, thousands of data points",
+    "score": 92
+  },
+  {
+    "type": "demand_gap",
+    "what": "Gamma.app (AI presentation tool) has terrible Trustpilot ratings (~1.6/5 from 125+ reviews). Users complain AI doesn't follow instructions, presentations overflow, all look the same, $12-90/mo too expensive, locks access after cancel, recommends Canva instead. Multiple 1-star 'waste of money' reviews.",
+    "why_us": "Clear pain in AI presentation tools: unreliable generation, poor control, high price for low quality. Opportunity for better controllable, template-aware, or outcome-focused alternative.",
+    "revenue": "",
+    "source_link": "https://www.trustpilot.com/review/gamma.app",
+    "source_platform": "trustpilot",
+    "engagement": "125+ reviews, majority negative on quality and price",
+    "score": 85
+  },
+  {
+    "type": "demand_gap",
+    "what": "ElevenLabs voice generation widely complained as too expensive on G2 (171+ mentions of high cost for multiple datasets/fine-tuning). Users want cheaper bulk generation and better voice options/testing.",
+    "why_us": "High willingness to pay for quality TTS but price sensitivity for volume. Gap for cheaper high-quality voice AI or better pricing tiers.",
+    "revenue": "",
+    "source_link": "https://www.g2.com/products/elevenlabsio/reviews?qs=pros-and-cons",
+    "source_platform": "g2",
+    "engagement": "171 mentions of cost being high",
+    "score": 78
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "AI wrappers with verified revenue: Chatbase ~$864k MRR historically, Draft AI ~$24.5k, Sleek ~$23k, Backlinker AI ~$22.5k, fastwrite.io ~$15k, Taja AI ~$15k, MagicSlides ~$12k. Median AI wrapper earner ~$190 MRR across 1350+ products.",
+    "why_us": "Shows thin wrappers can make real money when they add workflow/outcome, especially B2B high ARPU. Data from TrustMRR and public reports.",
+    "revenue": "$10k-$864k MRR for top ones, median $190",
+    "source_link": "https://stealwhatworks.com/blogs/news/ai-wrappers-over-10k-month-now",
+    "source_platform": "other",
+    "engagement": "Aggregated verified revenue data",
+    "score": 88
+  },
+  {
+    "type": "demand_gap",
+    "what": "Subscription fatigue: Capterra survey shows 44% of consumers tired of subscriptions, 42% canceled in last 90 days mainly because too expensive or not worth the cost. 38% would cancel if price increases.",
+    "why_us": "Broad pain around SaaS pricing and value. Supports micro-SaaS with clear ROI, one-time, or usage-based models.",
+    "revenue": "",
+    "source_link": "https://www.capterra.com/resources/subscription-fatigue/",
+    "source_platform": "capterra",
+    "engagement": "Survey of consumers, high cancellation rates",
+    "score": 72
+  },
+  {
+    "type": "demand_gap",
+    "what": "X post: 'Chat-to-app, no subscription — that's the part I'd pay for.' Indicates demand for one-time or pay-per-use app builders instead of subscription AI tools.",
+    "why_us": "Direct willingness to pay for non-subscription AI app generation. Aligns with subscription fatigue.",
+    "revenue": "",
+    "source_link": "https://x.com/BlakeXu_/status/2126246276614569993",
+    "source_platform": "x",
+    "engagement": "Low likes but explicit 'I'd pay'",
+    "score": 65
+  },
+  {
+    "type": "ai_wrapper",
+    "what": "Searchable (AI search visibility / AEO platform) hit $6M ARR in 10 months (Jan-Nov 2026). Helps brands control what AI systems say about them.",
+    "why_us": "Rapid growth in AI visibility category. Shows demand for tools that manage brand presence in AI answers.",
+    "revenue": "$6M ARR in 10 months",
+    "source_link": "https://www.arr.club/signal/searchable-hit-6m-arr-in-10-months",
+    "source_platform": "other",
+    "engagement": "Public ARR milestone report",
+    "score": 80
+  }
+]
